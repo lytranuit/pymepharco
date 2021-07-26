@@ -8,6 +8,9 @@
 <div class="row clearfix">
     <div class="col-12">
         <section class="card card-fluid">
+            <h5 class="card-header drag-handle">
+                <a class="btn btn-success btn-sm" href="<?= base_url("admin/product/add") ?>">Thêm</a>
+            </h5>
             <div class="card-body">
                 <table id="quanlytin" class="table table-striped table-bordered table-hover" cellspacing="0" width="100%">
                     <thead>
@@ -17,7 +20,7 @@
                             <th>Mã</th>
                             <th>Tên</th>
                             <th>Giá</th>
-                            <th>Hiển thị</th>
+                            <th>Ngày đăng</th>
                             <th>Hành động</th>
                         </tr>
                     </thead>
@@ -59,14 +62,15 @@
                     "data": "image"
                 }, {
                     "data": "code"
-                }, {
+                },{
                     "data": "name_vi"
                 },
                 {
                     "data": "price"
                 },
+                
                 {
-                    "data": "active"
+                    "data": "date"
                 },
                 {
                     "data": "action"

@@ -8,13 +8,13 @@ use phpDocumentor\Reflection\Types\Null_;
 
 class ProductModel extends Model
 {
-    protected $table      = 'product';
+    protected $table      = 'pet_product';
     protected $primaryKey = 'id';
 
     protected $returnType     = 'App\Entities\Product';
     protected $useSoftDeletes = false;
 
-    protected $allowedFields = ['is_pet', 'region', 'origin_country_id', 'preservation_id', 'sort'];
+    protected $allowedFields = ['name_vi', 'name_en', 'name_jp', 'description_vi', 'description_en', 'description_jp', 'detail_vi', 'detail_en', 'detail_jp', 'image_url', 'date', 'active', 'order'];
 
 
     public function relation(&$data, $relation = array())
@@ -43,16 +43,7 @@ class ProductModel extends Model
                 $builder = $this->db->table('pet_product_category')->join("pet_category", "pet_product_category.cateogry_id = pet_category.id");
                 $row_a->tags = $builder->where('product_id', $product_id)->orderBy("order", "ASC")->get()->getResult();
             }
-            if (in_array("units", $relation)) {
-                $product_id = $row_a->id;
-                $builder = $this->db->table('tbl_unit');
-                $row_a->units = $builder->where('product_id', $product_id)->get()->getResult();
-            }
-            if (in_array("pet", $relation)) {
-                $product_code = $row_a->code;
-                $builder = $this->db->table('pet_product');
-                $row_a->pet = $builder->where('code', $product_code)->get()->getFirstRow();
-            }
+            
         } else {
             if (in_array("image_other", $relation)) {
                 $product_id = $row_a['id'];
@@ -64,32 +55,9 @@ class ProductModel extends Model
                 $builder = $this->db->table('pet_product_category')->join("pet_category", "pet_product_category.cateogry_id = pet_category.id");
                 $row_a['tags'] = $builder->where('product_id', $product_id)->orderBy("order", "ASC")->get()->getResult("array");
             }
-            if (in_array("units", $relation)) {
-                $product_id = $row_a['id'];
-                $builder = $this->db->table('tbl_unit');
-                $row_a['units'] = $builder->where('product_id', $product_id)->get()->getResult("array");
-            }
-            if (in_array("pet", $relation)) {
-                $product_code = $row_a['code'];
-                $builder = $this->db->table('pet_product');
-                $row_a['pet'] = $builder->where('code', $product_code)->get()->getFirstRow("array");
-            }
+        
         }
         return $row_a;
-    }
-    function get_max_order()
-    {
-        $result = $this->db->table('product')->select('MAX(sort) as max', false)->get()->getFirstRow();
-        // print_r($result);
-        // die();
-        if (empty($result)) {
-            $data = 1;
-        } else {
-            $data = (int) $result->max + 1;
-        }
-        // print_r($data);
-        // die();
-        return $data;
     }
     public function get_product_related($id, $categories)
     {

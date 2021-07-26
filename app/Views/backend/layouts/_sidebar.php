@@ -32,24 +32,11 @@
     <div class="scrollbar-sidebar">
         <div class="app-sidebar__inner">
             <ul class="vertical-nav-menu">
-                <li class="app-sidebar__heading">Tổng quan</li>
-                <li>
-                    <a href="<?= base_url() ?>/admin/" class="">
-                        <i class="metismenu-icon far fa-chart-bar"></i>
-                        Biểu đồ
-                    </a>
-                </li>
-                <li class="app-sidebar__heading">Slider & banner</li>
+                <li class="app-sidebar__heading">Slider</li>
                 <li>
                     <a href="<?= base_url() ?>/admin/slider/" class="">
                         <i class="metismenu-icon fas fa-image"></i>
                         Quản lý slider
-                    </a>
-                </li>
-                <li>
-                    <a href="<?= base_url() ?>/admin/banner/" class="">
-                        <i class="metismenu-icon fas fa-images"></i>
-                        Quản lý banner
                     </a>
                 </li>
                 <li class="app-sidebar__heading">Tin tức</li>
@@ -74,12 +61,6 @@
                     </a>
                 </li>
                 <li>
-                    <a href="<?= base_url() ?>/admin/productprice/" class="">
-                        <i class="metismenu-icon fas fa-ad"></i>
-                        Giá khuyến mãi
-                    </a>
-                </li>
-                <li>
                     <a href="<?= base_url() ?>/admin/category/" class="">
                         <i class="metismenu-icon fab fa-cuttlefish"></i>
                         Danh mục
@@ -89,7 +70,7 @@
                 <li class="app-sidebar__heading">Menu</li>
                 <li>
                     <a href="<?= base_url() ?>/admin/menu" class="">
-                        <i class="metismenu-icon fas fa-wrench"></i>
+                        <i class="metismenu-icon fas fa-bars"></i>
                         Menu
                     </a>
                 </li>
@@ -98,19 +79,6 @@
                     <a href="<?= base_url() ?>/admin/settings" class="">
                         <i class="metismenu-icon fas fa-wrench"></i>
                         Cài đặt chung
-                    </a>
-                </li>
-
-                <li>
-                    <a href="<?= base_url() ?>/admin/fee" class="">
-                        <i class="metismenu-icon fas fa-truck"></i>
-                        Phí giao hàng
-                    </a>
-                </li>
-                <li>
-                    <a href="<?= base_url() ?>/admin/settings/sendemail" class="">
-                        <i class="metismenu-icon fas fa-envelope"></i>
-                        Gửi mail
                     </a>
                 </li>
                 <li>
