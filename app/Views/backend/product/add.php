@@ -221,10 +221,10 @@
             id: 'multi'
         }).on("done", function(event, ...data) {
             for (let i = 0; i < data.length; i++) {
-                let row = data[i];
-                row['image'] = '<img src="' + row['image'] + '" width="200"/>';
-
-                row['action'] = '<a href="#" class="btn btn-danger btn-sm image_remove" data-id="' + row['image_id'] + '"><i class="far fa-trash-alt"></i></a>';
+                row = [];
+                row['image'] = '<img src="' + data[i] + '" width="200"/>';
+                row['src'] = data[i];
+                row['action'] = '<a href="#" class="btn btn-danger btn-sm image_remove"><i class="far fa-trash-alt"></i></a>';
 
                 $('#quanlyimage').dataTable().fnAddData(row);
             }
@@ -234,18 +234,6 @@
             let parent = $(this).parents("tr").get(0);
             $('#quanlyimage').dataTable().fnDeleteRow($('#quanlyimage').dataTable().fnGetPosition(parent));
         })
-        //$('.edit').froalaEditor({
-        //    heightMin: 200,
-        //    heightMax: 500, // Set the image upload URL.
-        //    imageUploadURL: '<?= base_url() ?>admin/uploadimage',
-        //    // Set request type.
-        //    imageUploadMethod: 'POST',
-        //    // Set max image size to 5MB.
-        //    imageMaxSize: 5 * 1024 * 1024,
-        //    // Allow to upload PNG and JPG.
-        //    imageAllowedTypes: ['jpeg', 'jpg', 'png', 'gif'],
-        //    htmlRemoveTags: [],
-        //});
         $.validator.setDefaults({
             debug: true,
             success: "valid"
@@ -266,7 +254,7 @@
                 // return;
                 append = "";
                 for (let i = 0; i < data_image.length; i++) {
-                    let id = data_image[i].image_id;
+                    let id = data_image[i].src;
                     append += "<input type='hidden' name='image_other[]' value='" + id + "' />";
                 }
                 $(form).append(append);

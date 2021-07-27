@@ -28,6 +28,6 @@ class ProductCategoryModel extends Model
 
         $builder = $this->db->table('pet_product_category');
         $builder->select('*,pet_product_category.id as pc_id');
-        return $builder->where(array('category_id' => $id))->orderby('pet_product_category.order', "ASC")->join('product', 'product.id = pet_product_category.product_id')->get()->getResult();
+        return $builder->where(array('category_id' => $id))->orderby('pet_product_category.order', "ASC")->join('pet_product', 'pet_product.id = pet_product_category.product_id')->get()->getResult();
     }
 }

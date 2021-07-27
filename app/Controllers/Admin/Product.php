@@ -49,7 +49,7 @@ class Product extends BaseController
                 foreach ($data['image_other'] as $row) {
                     $array = array(
                         'product_id' => $id,
-                        'image_id' => $row
+                        'image_url' => $row
                     );
                     $Product_image_model->insert($array);
                 }
@@ -113,7 +113,7 @@ class Product extends BaseController
                 foreach ($data['image_other'] as $row) {
                     $array = array(
                         'product_id' => $id,
-                        'image_id' => $row
+                        'image_url' => $row
                     );
                     $Product_image_model->insert($array);
                 }
@@ -128,7 +128,7 @@ class Product extends BaseController
             $category_model = model("CategoryModel");
             $Product_category_model = model("ProductCategoryModel");
             $tin = $Product_model->where(array('id' => $id))->asObject()->first();
-            $Product_model->relation($tin, array('image', 'image_other'));
+            $Product_model->relation($tin, array('image_other'));
             /*category*/
             $category = $Product_category_model->where(array('product_id' => $id))->findAll();
             //print_r($category);
@@ -148,8 +148,7 @@ class Product extends BaseController
             //load_editor($this->data);
             //            load_chossen($this->data);
 
-            $this->data['category'] = $category_model->where("is_menu", 0)->findAll();
-            $this->data['menu'] = $category_model->where("is_menu", 1)->findAll();
+            $this->data['category'] = $category_model->findAll();
             return view($this->data['content'], $this->data);
         }
     }

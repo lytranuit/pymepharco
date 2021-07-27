@@ -60,7 +60,7 @@ class Category extends BaseController
             // echo "<pre>";
             // print_r($this->data['products']);
             // die();
-            $this->data['products_add'] = $product_model->where(array("status" => 1, 'is_foodzone' => 1))->asObject()->findAll();
+            $this->data['products_add'] = $product_model->asObject()->findAll();
 
 
 

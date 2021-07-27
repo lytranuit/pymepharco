@@ -171,25 +171,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="form-group row">
-                                <div class="col-12 pt-1">
-                                    <div class="card">
-                                        <div class="card-header">
-                                            Menu
-                                        </div>
-                                        <div class="card-body">
-                                            <?php foreach ($menu as $row) : ?>
-                                                <div class="col-12">
-                                                    <div class="custom-checkbox custom-control">
-                                                        <input name="category_list[]" type="checkbox" id="eCheckbox<?= $row->id ?>" class="custom-control-input" value="<?= $row->id ?>">
-                                                        <label class="custom-control-label" for="eCheckbox<?= $row->id ?>"><?= $row->name_vi ?></label>
-                                                    </div>
-                                                </div>
-                                            <?php endforeach ?>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+
                         </div>
                         <div class="col-md-12">
 
@@ -221,6 +203,7 @@
 <script src="<?= base_url("assets/lib/image_feature/jquery.image.js") ?>"></script>
 
 <!--<script src="https://cdn.ckeditor.com/ckeditor5/12.3.1/classic/ckeditor.js"></script>-->
+<script src="<?= base_url("assets/lib/ckfinder/ckfinder.js") ?>"></script>
 <script src="<?= base_url("assets/lib/ckeditor/ckeditor.js") ?>"></script>
 <script type='text/javascript'>
     var tin = <?= json_encode($tin) ?>;
@@ -236,10 +219,10 @@
             id: 'multi'
         }).on("done", function(event, ...data) {
             for (let i = 0; i < data.length; i++) {
-                let row = data[i];
-                row['image'] = '<img src="' + row['image'] + '" width="200"/>';
-
-                row['action'] = '<a href="#" class="btn btn-danger btn-sm image_remove" data-id="' + row['image_id'] + '"><i class="far fa-trash-alt"></i></a>';
+                row = [];
+                row['image'] = '<img src="' + data[i] + '" width="200"/>';
+                row['src'] = data[i];
+                row['action'] = '<a href="#" class="btn btn-danger btn-sm image_remove"><i class="far fa-trash-alt"></i></a>';
 
                 $('#quanlyimage').dataTable().fnAddData(row);
             }
@@ -261,10 +244,10 @@
         if (tin.image_other) {
             for (let i = 0; i < tin.image_other.length; i++) {
                 let row = tin.image_other[i];
-                let src = row['type'] == 2 ? row['src'] : path + row['src'];
+                let src = row['image_url'];
                 row['image'] = '<img src="' + src + '" width="200"/>';
-                row['image_id'] = row['id'];
-                row['action'] = '<a href="#" class="btn btn-danger btn-sm image_remove" data-id="' + row['id'] + '"><i class="far fa-trash-alt"></i></a>';
+                row['src'] = src;
+                row['action'] = '<a href="#" class="btn btn-danger btn-sm image_remove"><i class="far fa-trash-alt"></i></a>';
 
                 $('#quanlyimage').dataTable().fnAddData(row);
             }
@@ -279,8 +262,8 @@
             success: "valid"
         });
 
-        if (tin.image) {
-            $(".image_ft").imageFeature("set_image", tin.image);
+        if (tin.image_url) {
+            $(".image_ft").imageFeature("set_image", tin.image_url);
         }
         $("#form-dang-tin").validate({
             highlight: function(input) {
@@ -298,7 +281,7 @@
                 // return;
                 append = "";
                 for (let i = 0; i < data_image.length; i++) {
-                    let id = data_image[i].image_id;
+                    let id = data_image[i].src;
                     append += "<input type='hidden' name='image_other[]' value='" + id + "' />";
                 }
                 $(form).append(append);
