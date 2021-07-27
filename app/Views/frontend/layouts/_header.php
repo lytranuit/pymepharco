@@ -1,68 +1,120 @@
-<header id="header" class="header has-transparent has-sticky sticky-jump transparent">
+<header id="header" class="header transparent has-transparent has-sticky sticky-jump">
+
     <div class="header-wrapper">
-        <div id="masthead" class="header-main toggle-nav-dark">
-            <div class="header-inner flex-row container logo-left medium-logo-center" role="navigation">
+
+        <!-- <div id="top-bar" class="header-top hide-for-sticky nav-dark">
+            <div class="flex-row container">
+                <div class="flex-col hide-for-medium flex-left">
+                    <ul class="nav nav-left medium-nav-center nav-small  nav-divided">
+                        <li class="html custom html_topbar_left">
+                            <p class="mona-html showroom">319 C16 Lý Thường Kiệt, P.15, Q.11, Tp.HCM</p>
+                        </li>
+                        <li class="header-divider"></li>
+                        <li class="html custom html_topbar_right">
+                            <p class="mona-html hotline"><a href="tel:0769220162">076 922 0162</a></p>
+                        </li>
+                        <li class="header-divider"></li>
+                        <li class="html custom html_top_right_text">
+                            <p class="mona-html time">08.00 am - 05.00 pm</p>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="flex-col hide-for-medium flex-center">
+                    <ul class="nav nav-center nav-small  nav-divided">
+                    </ul>
+                </div>
+
+                <div class="flex-col hide-for-medium flex-right">
+                    <ul class="nav top-bar-nav nav-right nav-small  nav-divided">
+                        <li class="html header-social-icons ml-0">
+                            <div class="social-icons follow-icons"><a href="http://url/" target="_blank" data-label="Facebook" rel="noopener noreferrer nofollow" class="icon plain facebook tooltip tooltipstered"><i class="icon-facebook"></i></a><a href="http://url/" target="_blank" rel="noopener noreferrer nofollow" data-label="Instagram" class="icon plain  instagram tooltip tooltipstered"><i class="icon-instagram"></i></a><a href="http://url/" target="_blank" data-label="Twitter" rel="noopener noreferrer nofollow" class="icon plain  twitter tooltip tooltipstered"><i class="icon-twitter"></i></a></div>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="flex-col show-for-medium flex-grow">
+                    <ul class="nav nav-center nav-small mobile-nav  nav-divided">
+                        <li class="html custom html_topbar_left">
+                            <p class="mona-html showroom">319 C16 Lý Thường Kiệt, P.15, Q.11, Tp.HCM</p>
+                        </li>
+                        <li class="html custom html_topbar_right">
+                            <p class="mona-html hotline"><a href="tel:0769220162">076 922 0162</a></p>
+                        </li>
+                        <li class="html custom html_top_right_text">
+                            <p class="mona-html time">08.00 am - 05.00 pm</p>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div> -->
+        <!-- #header-top -->
+        <div id="masthead" class="header-main show-logo-center has-sticky-logo nav-dark toggle-nav-dark">
+            <div class="header-inner flex-row container logo-center medium-logo-center" role="navigation">
 
                 <!-- Logo -->
                 <div id="logo" class="flex-col logo">
                     <!-- Header logo -->
                     <a href="<?= base_url() ?>" title="Pymepharco" rel="home">
-                        <img width="200" height="50" src="<?= base_url("assets/images/logo.png") ?>" class="header_logo header-logo" alt="Pymepharco">
-                        <img width="200" height="50" src="<?= base_url("assets/images/logo.png") ?>" class="header-logo-dark" alt="Pymepharco"></a>
+                        <img width="200" height="100" src="<?= base_url("assets/images/logo.png") ?>" class="header-logo-sticky" alt="Pymepharco">
+                        <img width="200" height="100" src="<?= base_url("assets/images/logo.png") ?>" class="header_logo header-logo" alt="Pymepharco">
+                        <img width="200" height="100" src="<?= base_url("assets/images/logo.png") ?>" class="header-logo-dark" alt="Pymepharco"></a>
                 </div>
 
                 <!-- Mobile Left Elements -->
                 <div class="flex-col show-for-medium flex-left">
                     <ul class="mobile-nav nav nav-left ">
                         <li class="nav-icon has-icon">
-                            <a href="<?= base_url() ?>#" data-open="#main-menu" data-pos="left" data-bg="main-menu-overlay" data-color="" class="is-small" aria-label="Menu" aria-controls="main-menu" aria-expanded="false">
-
-                                <i class="icon-menu"></i>
+                            <a href="http://mauweb.monamedia.net/Pymepharco/#" data-open="#main-menu" data-pos="center" data-bg="main-menu-overlay" data-color="" class="is-small" aria-controls="main-menu" aria-expanded="false">
+                                <i class="fas fa-bars"></i>
                             </a>
                         </li>
                     </ul>
                 </div>
 
                 <!-- Left Elements -->
-                <div class="flex-col hide-for-medium flex-left
-            flex-grow">
+                <div class="flex-col hide-for-medium flex-left">
                     <ul class="header-nav header-nav-main nav nav-left  nav-uppercase">
+                        <li id="menu-item-24" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-16 current_page_item active  menu-item-24">
+                            <a href="http://mauweb.monamedia.net/Pymepharco/" class="nav-top-link">Trang chủ</a>
+                        </li>
+                        <li id="menu-item-22" class="menu-item menu-item-type-post_type menu-item-object-page  menu-item-22"><a href="http://mauweb.monamedia.net/Pymepharco/gioi-thieu/" class="nav-top-link">Giới thiệu</a></li>
+                        <li id="menu-item-777" class="menu-item menu-item-type-post_type menu-item-object-page  menu-item-777">
+                            <a href="http://mauweb.monamedia.net/Pymepharco/dich-vu/" class="nav-top-link">Dịch vụ</a>
+                        </li>
                     </ul>
                 </div>
 
                 <!-- Right Elements -->
                 <div class="flex-col hide-for-medium flex-right">
                     <ul class="header-nav header-nav-main nav nav-right  nav-uppercase">
-                        <li id="menu-item-24" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-16 current_page_item active  menu-item-24">
-                            <a href="<?= base_url() ?>" class="nav-top-link">Trang chủ</a>
+                        <li id="menu-item-856" class="menu-item menu-item-type-post_type menu-item-object-page  menu-item-856">
+                            <a href="http://mauweb.monamedia.net/Pymepharco/du-an/" class="nav-top-link">Dự án</a>
                         </li>
-                        <li id="menu-item-22" class="menu-item menu-item-type-post_type menu-item-object-page  menu-item-22"><a href="<?= base_url() ?>gioi-thieu/" class="nav-top-link">Giới thiệu</a></li>
-                        <li id="menu-item-711" class="menu-item menu-item-type-post_type menu-item-object-page  menu-item-711"><a href="<?= base_url() ?>chuyen-nganh/" class="nav-top-link">Chuyên ngành</a></li>
-                        <li id="menu-item-25" class="menu-item menu-item-type-taxonomy menu-item-object-category  menu-item-25"><a href="<?= base_url() ?>category/tin-tuc/" class="nav-top-link">Tin tức</a></li>
-                        <li id="menu-item-23" class="menu-item menu-item-type-post_type menu-item-object-page  menu-item-23"><a href="<?= base_url() ?>lien-he/" class="nav-top-link">Liên
-                                hệ</a></li>
+                        <li id="menu-item-485" class="menu-item menu-item-type-taxonomy menu-item-object-category  menu-item-485"><a href="http://mauweb.monamedia.net/Pymepharco/category/tin-tuc/" class="nav-top-link">Tin tức</a></li>
+                        <li id="menu-item-486" class="menu-item menu-item-type-post_type menu-item-object-page  menu-item-486">
+                            <a href="http://mauweb.monamedia.net/Pymepharco/lien-he/" class="nav-top-link">Liên hệ</a>
+                        </li>
                         <li class="header-search header-search-dropdown has-icon has-dropdown menu-item-has-children">
-                            <a href="<?= base_url() ?>#" aria-label="Tìm kiếm" class="is-small"><i class="fas fa-search"></i></a>
+                            <a href="http://mauweb.monamedia.net/Pymepharco/#" class="is-small"><i class="fas fa-search"></i></a>
                             <ul class="nav-dropdown nav-dropdown-simple">
                                 <li class="header-search-form search-form html relative has-icon">
                                     <div class="header-search-form-wrapper">
                                         <div class="searchform-wrapper ux-search-box relative is-normal">
-                                            <form role="search" method="get" class="searchform" action="<?= base_url() ?>">
+                                            <form role="search" method="get" class="searchform" action="http://mauweb.monamedia.net/Pymepharco/">
                                                 <div class="flex-row relative">
                                                     <div class="flex-col flex-grow">
-                                                        <label class="screen-reader-text" for="woocommerce-product-search-field-0">Tìm
-                                                            kiếm:</label>
-                                                        <input type="search" id="woocommerce-product-search-field-0" class="search-field mb-0" placeholder="Tìm kiếm…" value="" name="s" autocomplete="off">
+                                                        <input type="search" class="search-field mb-0" name="s" value="" placeholder="Tìm kiếm…" autocomplete="off">
                                                         <input type="hidden" name="post_type" value="product">
                                                     </div><!-- .flex-col -->
                                                     <div class="flex-col">
-                                                        <button type="submit" value="Tìm kiếm" class="ux-search-submit submit-button secondary button icon mb-0">
-                                                            <i class="fas fa-search"></i> </button>
+                                                        <button type="submit" class="ux-search-submit submit-button secondary button icon mb-0">
+                                                            <i class="fas fa-search"></i></button>
                                                     </div><!-- .flex-col -->
                                                 </div><!-- .flex-row -->
                                                 <div class="live-search-results text-left z-top">
-                                                    <div class="autocomplete-suggestions" style="position: absolute; display: none; max-height: 300px; z-index: 9999;">
-                                                    </div>
+                                                    <div class="autocomplete-suggestions" style="position: absolute; display: none; max-height: 300px; z-index: 9999;"></div>
                                                 </div>
                                             </form>
                                         </div>
@@ -76,6 +128,32 @@
                 <!-- Mobile Right Elements -->
                 <div class="flex-col show-for-medium flex-right">
                     <ul class="mobile-nav nav nav-right ">
+                        <li class="header-search header-search-dropdown has-icon has-dropdown menu-item-has-children">
+                            <a href="http://mauweb.monamedia.net/Pymepharco/#" class="is-small"><i class="fas fa-search"></i></a>
+                            <ul class="nav-dropdown nav-dropdown-simple">
+                                <li class="header-search-form search-form html relative has-icon">
+                                    <div class="header-search-form-wrapper">
+                                        <div class="searchform-wrapper ux-search-box relative is-normal">
+                                            <form role="search" method="get" class="searchform" action="http://mauweb.monamedia.net/Pymepharco/">
+                                                <div class="flex-row relative">
+                                                    <div class="flex-col flex-grow">
+                                                        <input type="search" class="search-field mb-0" name="s" value="" placeholder="Tìm kiếm…" autocomplete="off">
+                                                        <input type="hidden" name="post_type" value="product">
+                                                    </div><!-- .flex-col -->
+                                                    <div class="flex-col">
+                                                        <button type="submit" class="ux-search-submit submit-button secondary button icon mb-0">
+                                                            <i class="fas fa-search"></i></button>
+                                                    </div><!-- .flex-col -->
+                                                </div><!-- .flex-row -->
+                                                <div class="live-search-results text-left z-top">
+                                                    <div class="autocomplete-suggestions" style="position: absolute; display: none; max-height: 300px; z-index: 9999;"></div>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul><!-- .nav-dropdown -->
+                        </li>
                     </ul>
                 </div>
 
@@ -91,4 +169,5 @@
             <div class="header-bg-color fill"></div>
         </div><!-- .header-bg-container -->
     </div><!-- header-wrapper-->
+
 </header>

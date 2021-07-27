@@ -12,7 +12,7 @@ class SliderModel extends Model
     protected $returnType     = 'App\Entities\Slider';
     protected $useSoftDeletes = true;
 
-    protected $allowedFields = ['order', 'text', 'url', 'image_url'];
+    protected $allowedFields = ['order', 'text', 'text_2', 'text_3', 'url', 'image_url'];
 
 
     //protected $useTimestamps = false;
