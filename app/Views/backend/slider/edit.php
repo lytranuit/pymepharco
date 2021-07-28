@@ -21,27 +21,15 @@
                                 </div>
                             </div>
                             <div class="form-group row">
-                                <b class="col-12 col-lg-2 col-form-label">Text:</b>
-                                <div class="col-12 col-lg-4 pt-1">
-                                    <input class="form-control form-control-sm" type='text' name="text" />
-                                </div>
-                            </div>
-                            <div class="form-group row">
-                                <b class="col-12 col-lg-2 col-form-label">Text 2:</b>
-                                <div class="col-12 col-lg-4 pt-1">
-                                    <input class="form-control form-control-sm" type='text' name="text_2" />
-                                </div>
-                            </div>
-                            <div class="form-group row">
-                                <b class="col-12 col-lg-2 col-form-label">Text 3:</b>
-                                <div class="col-12 col-lg-4 pt-1">
-                                    <input class="form-control form-control-sm" type='text' name="text_3" />
-                                </div>
-                            </div>
-                            <div class="form-group row">
                                 <b class="col-12 col-lg-2 col-form-label">Liên kết</b>
                                 <div class="col-12 col-lg-4 pt-1">
                                     <input class="form-control form-control-sm" type='text' name="url" />
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <b class="col-12 col-lg-2 col-form-label">Text:</b>
+                                <div class="col-12 col-lg-12 pt-1">
+                                    <textarea class="edit" type='text' name="text"></textarea>
                                 </div>
                             </div>
                         </div>
@@ -67,9 +55,14 @@
 <script src="<?= base_url("assets/lib/ckfinder/ckfinder.js") ?>"></script>
 <script src="<?= base_url("assets/lib/mustache/mustache.min.js") ?>"></script>
 <script src="<?= base_url("assets/lib/image_feature/jquery.image.js") ?>"></script>
+<script src="<?= base_url("assets/lib/ckeditor/ckeditor.js") ?>"></script>
 <script type='text/javascript'>
     var tin = <?= json_encode($tin) ?>;
     fillForm($("#form-dang-tin"), tin);
+    var allEditors = document.querySelectorAll('.edit');
+    for (var i = 0; i < allEditors.length; ++i) {
+        CKEDITOR.replace(allEditors[i]);
+    }
     $(document).ready(function() {
         $(".image_ft").imageFeature();
 

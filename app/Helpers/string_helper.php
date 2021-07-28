@@ -23,6 +23,30 @@ if (!function_exists('str_slug')) {
     }
 }
 
+
+if (!function_exists('date_TV')) {
+    /**
+     * Convert string to friendly file name.
+     *
+     * @param string $string
+     * @return mixed
+     */
+    function date_TV(string $format, $time)
+    {
+        date_default_timezone_set('Asia/Ho_Chi_Minh');
+        $timeEng = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+        $timeVie = ['Chủ Nhật', 'Thứ Hai', 'Thứ Ba', 'Thứ Tư', 'Thứ Năm', 'Thứ Sáu', 'Thứ Bảy', 'Một', 'Hai', 'Ba', 'Tư', 'Năm', 'Sáu', 'Bảy', 'Tám', 'Chín', 'Mười', 'Mười Một', 'Mười Hai'];
+
+        $time = date($format, $time);
+
+        $time = str_replace($timeEng, $timeVie, $time);
+
+        return $time;
+        /**
+         * 09h52, Thứ Bảy ngày 28 tháng Mười năm 2017
+         */
+    }
+}
 if (!function_exists('str_snake')) {
     /**
      * Convert string to friendly file name.

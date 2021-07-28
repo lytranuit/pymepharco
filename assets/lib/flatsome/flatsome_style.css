@@ -9,8 +9,6 @@ Version: 3.0
 /*************** ADD CUSTOM CSS HERE.   ***************/
 
 /*---------global-----------*/
-html{overflow-x:hidden}
-body{overflow-x:hidden}
 /*---căn đều sẳn phẩm---*/
 .has-shadow>.col>.col-inner {
     height: 100%;

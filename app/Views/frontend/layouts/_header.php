@@ -81,7 +81,7 @@
                         </li>
                         <li id="menu-item-22" class="menu-item menu-item-type-post_type menu-item-object-page  menu-item-22"><a href="http://mauweb.monamedia.net/Pymepharco/gioi-thieu/" class="nav-top-link">Giới thiệu</a></li>
                         <li id="menu-item-777" class="menu-item menu-item-type-post_type menu-item-object-page  menu-item-777">
-                            <a href="http://mauweb.monamedia.net/Pymepharco/dich-vu/" class="nav-top-link">Dịch vụ</a>
+                            <a href="http://mauweb.monamedia.net/Pymepharco/dich-vu/" class="nav-top-link">Quan hệ cổ đông</a>
                         </li>
                     </ul>
                 </div>
@@ -90,7 +90,7 @@
                 <div class="flex-col hide-for-medium flex-right">
                     <ul class="header-nav header-nav-main nav nav-right  nav-uppercase">
                         <li id="menu-item-856" class="menu-item menu-item-type-post_type menu-item-object-page  menu-item-856">
-                            <a href="http://mauweb.monamedia.net/Pymepharco/du-an/" class="nav-top-link">Dự án</a>
+                            <a href="http://mauweb.monamedia.net/Pymepharco/du-an/" class="nav-top-link">Tuyển dụng</a>
                         </li>
                         <li id="menu-item-485" class="menu-item menu-item-type-taxonomy menu-item-object-category  menu-item-485"><a href="http://mauweb.monamedia.net/Pymepharco/category/tin-tuc/" class="nav-top-link">Tin tức</a></li>
                         <li id="menu-item-486" class="menu-item menu-item-type-post_type menu-item-object-page  menu-item-486">

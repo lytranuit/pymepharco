@@ -22,27 +22,15 @@
                                 </div>
                             </div>
                             <div class="form-group row">
-                                <b class="col-12 col-lg-2 col-form-label">Text:</b>
-                                <div class="col-12 col-lg-4 pt-1">
-                                    <input class="form-control form-control-sm" type='text' name="text" />
-                                </div>
-                            </div>
-                            <div class="form-group row">
-                                <b class="col-12 col-lg-2 col-form-label">Text 2:</b>
-                                <div class="col-12 col-lg-4 pt-1">
-                                    <input class="form-control form-control-sm" type='text' name="text_2" />
-                                </div>
-                            </div>
-                            <div class="form-group row">
-                                <b class="col-12 col-lg-2 col-form-label">Text 3:</b>
-                                <div class="col-12 col-lg-4 pt-1">
-                                    <input class="form-control form-control-sm" type='text' name="text_3" />
-                                </div>
-                            </div>
-                            <div class="form-group row">
                                 <b class="col-12 col-lg-2 col-form-label">Liên kết</b>
                                 <div class="col-12 col-lg-4 pt-1">
                                     <input class="form-control form-control-sm" type='text' name="url" />
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <b class="col-12 col-lg-2 col-form-label">Text:</b>
+                                <div class="col-12 col-lg-12 pt-1">
+                                    <textarea class="edit" type='text' name="text"></textarea>
                                 </div>
                             </div>
                         </div>
@@ -70,21 +58,14 @@
 <script src="<?= base_url("assets/lib/mustache/mustache.min.js") ?>"></script>
 <script src="<?= base_url("assets/lib/image_feature/jquery.image.js") ?>"></script>
 
+<script src="<?= base_url("assets/lib/ckeditor/ckeditor.js") ?>"></script>
 <script type='text/javascript'>
+    var allEditors = document.querySelectorAll('.edit');
+    for (var i = 0; i < allEditors.length; ++i) {
+        CKEDITOR.replace(allEditors[i]);
+    }
     $(document).ready(function() {
         $(".image_ft").imageFeature();
-        //$('.edit').froalaEditor({
-        //    heightMin: 200,
-        //    heightMax: 500, // Set the image upload URL.
-        //    imageUploadURL: '<?= base_url() ?>admin/uploadimage',
-        //    // Set request type.
-        //    imageUploadMethod: 'POST',
-        //    // Set max image size to 5MB.
-        //    imageMaxSize: 5 * 1024 * 1024,
-        //    // Allow to upload PNG and JPG.
-        //    imageAllowedTypes: ['jpeg', 'jpg', 'png', 'gif'],
-        //    htmlRemoveTags: [],
-        //});
         $.validator.setDefaults({
             debug: true,
             success: "valid"

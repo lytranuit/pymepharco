@@ -897,9 +897,6 @@ body.boxed .is-sticky-section {
     -ms-flex-flow: row wrap;
     flex-flow: row wrap;
 }
-.row > div:not(.col):not([class^="col-"]) {
-    width: 100% !important;
-}
 .row.row-masonry,
 .row.row-grid {
     display: block;
@@ -3963,14 +3960,6 @@ img.mfp-img {
 }
 .row-slider:not(.flickity-enabled) {
     display: block !important;
-}
-.slider:not(.flickity-enabled) > * {
-    display: inline-block !important;
-    white-space: normal !important;
-    vertical-align: top;
-}
-.slider:not(.flickity-enabled) > a {
-    width: 100%;
 }
 .slider > div:not(.col),
 .slider > a,

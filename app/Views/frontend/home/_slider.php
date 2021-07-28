@@ -1,5 +1,5 @@
 <section id="slide">
-    <div class="slide-box flickity-slider slider">
+    <div class="slide-box slider">
         <?php foreach ($sliders as $row) : ?>
             <div class="banner has-hover has-slide-effect slide-zoom-in" id="banner-<?= $row->id ?>" style="height: 100vh;">
                 <div class="banner-inner fill">
@@ -14,18 +14,10 @@
 
                                     <div class="text-inner text-center">
 
-                                        <div class="tcbanner-text">
-                                            <?php if ($row->text != "") : ?>
-                                                <h3 class="animate animate__animated animate__fadeInDown"><?= $row->text ?></h3>
-                                                <h2 class="animate animate__animated animate__fadeInDown animate__delay-1s"><?= $row->text_2 ?></h2>
-                                                <h4 class="animate animate__animated animate__fadeInDown animate__delay-2s"><?= $row->text_3 ?></h4>
-                                            <?php else : ?>
-                                                <h2 class="animate animate__animated animate__fadeInDown"><?= $row->text_2 ?></h2>
-                                                <h4 class="animate animate__animated animate__fadeInDown animate__delay-1s"><?= $row->text_3 ?></h4>
-                                            <?php endif ?>
-
+                                        <div class="tcbanner-text animate animate__animated animate__fadeInDown ">
+                                            <?= $row->text ?>
                                         </div>
-                                        <button target="_self" class="mt-5 animate animate__animated animate__infinite animate__bounce animate__slow animate__delay-2s">
+                                        <button target="_self" class="mt-5 animate animate__animated animate__infinite animate__bounce animate__slow animate__delay-1s">
                                             <i class="fas fa-chevron-down" style="font-size: 30px;"></i>
                                         </button>
                                     </div>
@@ -33,7 +25,7 @@
                             </div>
                             <style scope="scope">
                                 #text-box-<?= $row->id ?> {
-                                    width: 80%;
+                                    width: 70%;
                                 }
                             </style>
                         </div><!-- text-box -->
