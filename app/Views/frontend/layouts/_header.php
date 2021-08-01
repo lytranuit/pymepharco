@@ -77,9 +77,9 @@
                 <div class="flex-col hide-for-medium flex-left">
                     <ul class="header-nav header-nav-main nav nav-left  nav-uppercase">
                         <li id="menu-item-24" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-16 current_page_item active  menu-item-24">
-                            <a href="http://mauweb.monamedia.net/Pymepharco/" class="nav-top-link">Trang chủ</a>
+                            <a href="<?= base_url() ?>" class="nav-top-link">Trang chủ</a>
                         </li>
-                        <li id="menu-item-22" class="menu-item menu-item-type-post_type menu-item-object-page  menu-item-22"><a href="http://mauweb.monamedia.net/Pymepharco/gioi-thieu/" class="nav-top-link">Giới thiệu</a></li>
+                        <li id="menu-item-22" class="menu-item menu-item-type-post_type menu-item-object-page  menu-item-22"><a href="<?= route_to("about") ?>" class="nav-top-link">Giới thiệu</a></li>
                         <li id="menu-item-777" class="menu-item menu-item-type-post_type menu-item-object-page  menu-item-777">
                             <a href="http://mauweb.monamedia.net/Pymepharco/dich-vu/" class="nav-top-link">Quan hệ cổ đông</a>
                         </li>
@@ -94,7 +94,7 @@
                         </li>
                         <li id="menu-item-485" class="menu-item menu-item-type-taxonomy menu-item-object-category  menu-item-485"><a href="http://mauweb.monamedia.net/Pymepharco/category/tin-tuc/" class="nav-top-link">Tin tức</a></li>
                         <li id="menu-item-486" class="menu-item menu-item-type-post_type menu-item-object-page  menu-item-486">
-                            <a href="http://mauweb.monamedia.net/Pymepharco/lien-he/" class="nav-top-link">Liên hệ</a>
+                            <a href="<?= route_to("contact") ?>" class="nav-top-link">Liên hệ</a>
                         </li>
                         <li class="header-search header-search-dropdown has-icon has-dropdown menu-item-has-children">
                             <a href="http://mauweb.monamedia.net/Pymepharco/#" class="is-small"><i class="fas fa-search"></i></a>
@@ -171,3 +171,68 @@
     </div><!-- header-wrapper-->
 
 </header>
+<div id="main-menu" class="mobile-sidebar no-scrollbar mfp-hide">
+    <div class="sidebar-menu no-scrollbar ">
+        <ul class="nav nav-sidebar  nav-vertical nav-uppercase">
+            <li class="header-search-form search-form html relative has-icon">
+                <div class="header-search-form-wrapper">
+                    <div class="searchform-wrapper ux-search-box relative form-flat is-normal">
+                        <form role="search" method="get" class="searchform" action="https://datbienphuyen.com.vn/">
+                            <div class="flex-row relative">
+                                <div class="flex-col flex-grow">
+                                    <input type="search" class="search-field mb-0" name="s" value="" placeholder="Bạn cần tìm gì?" autocomplete="off">
+                                    <input type="hidden" name="post_type" value="product">
+                                </div><!-- .flex-col -->
+                                <div class="flex-col">
+                                    <button type="submit" class="ux-search-submit submit-button secondary button icon mb-0">
+                                        <i class="icon-search"></i> </button>
+                                </div><!-- .flex-col -->
+                            </div><!-- .flex-row -->
+                            <div class="live-search-results text-left z-top">
+                                <div class="autocomplete-suggestions" style="position: absolute; display: none; max-height: 300px; z-index: 9999;"></div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </li>
+            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-714 current_page_item menu-item-805"><a href="https://datbienphuyen.com.vn/" class="nav-top-link">TRANG CHỦ</a></li>
+            <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-814 has-child" aria-expanded="false"><a href="https://datbienphuyen.com.vn/gioi-thieu/" class="nav-top-link">GIỚI THIỆU</a>
+                <button class="toggle"><i class="icon-angle-down"></i></button>
+                <ul class="children">
+                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-821"><a href="https://datbienphuyen.com.vn/gioi-thieu/#gioi-thieu">Tổng Quan</a></li>
+                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-815"><a href="https://datbienphuyen.com.vn/gioi-thieu#tam-nhin-chien-luoc">Tầm nhìn chiến lược</a></li>
+                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-822"><a href="https://datbienphuyen.com.vn/gioi-thieu/#so-do-to-chuc">Sơ đồ tổ chức</a></li>
+                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-823"><a href="https://datbienphuyen.com.vn/gioi-thieu/#doi-tac">Đối tác</a></li>
+                </ul>
+            </li>
+            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-245"><a href="https://datbienphuyen.com.vn/du-an/" class="nav-top-link">DỰ ÁN</a></li>
+            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-30"><a href="https://datbienphuyen.com.vn/tin-tuc/" class="nav-top-link">TIN TỨC</a></li>
+            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-663 has-child" aria-expanded="false"><a href="https://datbienphuyen.com.vn/thu-vien/" class="nav-top-link">THƯ VIỆN</a>
+                <button class="toggle"><i class="icon-angle-down"></i></button>
+                <ul class="children">
+                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-921"><a href="https://datbienphuyen.com.vn/thu-vien/hinh-anh/">Hình ảnh</a></li>
+                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-922"><a href="https://datbienphuyen.com.vn/thu-vien/video/">Video</a></li>
+                </ul>
+            </li>
+            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-585 has-child" aria-expanded="false"><a href="https://datbienphuyen.com.vn/tuyen-dung/tin-tuyen-dung/" class="nav-top-link">TUYỂN DỤNG</a>
+                <button class="toggle"><i class="icon-angle-down"></i></button>
+                <ul class="children">
+                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-589"><a href="https://datbienphuyen.com.vn/tuyen-dung/tin-tuyen-dung/">Tin tuyển dụng</a></li>
+                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-588"><a href="https://datbienphuyen.com.vn/tuyen-dung/chinh-sach-nhan-su/">Chính sách nhân sự</a></li>
+                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-587"><a href="https://datbienphuyen.com.vn/tuyen-dung/quy-trinh-tuyen-dung/">Quy trình tuyển dụng</a></li>
+                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-586"><a href="https://datbienphuyen.com.vn/tuyen-dung/dinh-huong-nghe-nghiep/">Định hướng nghề nghiệp</a></li>
+                </ul>
+            </li>
+            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-36"><a href="https://datbienphuyen.com.vn/lien-he/" class="nav-top-link">LIÊN HỆ</a></li>
+            <li class="html header-button-1">
+                <div class="header-button">
+                    <a href="tel:02576296999" class="button secondary is-large box-shadow-5-hover" style="border-radius:10px;">
+                        <span>Hotline: 0257.629.6999</span>
+                    </a>
+                </div>
+            </li>
+
+
+        </ul>
+    </div><!-- inner -->
+</div>

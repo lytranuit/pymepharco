@@ -113,7 +113,7 @@
                                         <a class="image-lightbox lightbox-gallery" href="./Cleanmate_files/image_04-1-480x693.jpg" title="">
                                             <div class="box has-hover gallery-box box-overlay dark box-text-center">
                                                 <div class="box-image">
-                                                    <img width="480" height="693" src="./Cleanmate_files/image_04-1-480x693.jpg" class="attachment-large size-large" alt="" ids="589,588,590" style="none" type="grid" grid="6" grid_height="450px" animate="bounceIn" image_size="original" srcset="http://mauweb.monamedia.net/cleanmate/wp-content/uploads/2019/11/image_04-1-480x693.jpg 480w, http://mauweb.monamedia.net/cleanmate/wp-content/uploads/2019/11/image_04-1-480x693-208x300.jpg 208w" sizes="(max-width: 480px) 100vw, 480px">
+                                                    <img width="480" height="693" src="./Cleanmate_files/image_04-1-480x693.jpg" class="attachment-large size-large" alt="" ids="589,588,590" style="none" type="grid" grid="6" grid_height="450px" animate="bounceIn" image_size="original" srcset="<?= base_url()?>/wp-content/uploads/2019/11/image_04-1-480x693.jpg 480w, <?= base_url()?>/wp-content/uploads/2019/11/image_04-1-480x693-208x300.jpg 208w" sizes="(max-width: 480px) 100vw, 480px">
                                                     <div class="overlay fill" style="background-color: rgba(0,0,0,.15)">
                                                     </div>
                                                 </div><!-- .image -->
@@ -129,7 +129,7 @@
                                         <a class="image-lightbox lightbox-gallery" href="./Cleanmate_files/image_03-4-1.jpg" title="">
                                             <div class="box has-hover gallery-box box-overlay dark box-text-center">
                                                 <div class="box-image">
-                                                    <img width="480" height="320" src="./Cleanmate_files/image_03-4-1.jpg" class="attachment-large size-large" alt="" ids="589,588,590" style="none" type="grid" grid="6" grid_height="450px" animate="bounceIn" image_size="original" srcset="http://mauweb.monamedia.net/cleanmate/wp-content/uploads/2019/11/image_03-4-1.jpg 480w, http://mauweb.monamedia.net/cleanmate/wp-content/uploads/2019/11/image_03-4-1-300x200.jpg 300w" sizes="(max-width: 480px) 100vw, 480px">
+                                                    <img width="480" height="320" src="./Cleanmate_files/image_03-4-1.jpg" class="attachment-large size-large" alt="" ids="589,588,590" style="none" type="grid" grid="6" grid_height="450px" animate="bounceIn" image_size="original" srcset="<?= base_url()?>/wp-content/uploads/2019/11/image_03-4-1.jpg 480w, <?= base_url()?>/wp-content/uploads/2019/11/image_03-4-1-300x200.jpg 300w" sizes="(max-width: 480px) 100vw, 480px">
                                                     <div class="overlay fill" style="background-color: rgba(0,0,0,.15)">
                                                     </div>
                                                 </div><!-- .image -->
@@ -145,7 +145,7 @@
                                         <a class="image-lightbox lightbox-gallery" href="./Cleanmate_files/image_10.jpg" title="">
                                             <div class="box has-hover gallery-box box-overlay dark box-text-center">
                                                 <div class="box-image">
-                                                    <img width="480" height="320" src="./Cleanmate_files/image_10.jpg" class="attachment-large size-large" alt="" ids="589,588,590" style="none" type="grid" grid="6" grid_height="450px" animate="bounceIn" image_size="original" srcset="http://mauweb.monamedia.net/cleanmate/wp-content/uploads/2019/11/image_10.jpg 480w, http://mauweb.monamedia.net/cleanmate/wp-content/uploads/2019/11/image_10-300x200.jpg 300w" sizes="(max-width: 480px) 100vw, 480px">
+                                                    <img width="480" height="320" src="./Cleanmate_files/image_10.jpg" class="attachment-large size-large" alt="" ids="589,588,590" style="none" type="grid" grid="6" grid_height="450px" animate="bounceIn" image_size="original" srcset="<?= base_url()?>/wp-content/uploads/2019/11/image_10.jpg 480w, <?= base_url()?>/wp-content/uploads/2019/11/image_10-300x200.jpg 300w" sizes="(max-width: 480px) 100vw, 480px">
                                                     <div class="overlay fill" style="background-color: rgba(0,0,0,.15)">
                                                     </div>
                                                 </div><!-- .image -->
@@ -172,7 +172,7 @@
                                     phòng, nội dung của nó vẫn không hề bị thay đổi. Nó đã được phổ biến trong những năm 1960 </h6>
                             </div>
                             <div class="gap-element clearfix" style="display:block; height:auto; padding-top:25px"></div>
-                            <a href="http://mauweb.monamedia.net/cleanmate/gioi-thieu/" target="_self" class="button primary lowercase btn-nut">
+                            <a href="<?= base_url()?>/gioi-thieu/" target="_self" class="button primary lowercase btn-nut">
                                 <span>Xem thêm</span>
                             </a>
 
@@ -265,7 +265,7 @@
                 }
 
                 #section_1938914310 .section-bg.bg-loaded {
-                    background-image: url(http://mauweb.monamedia.net/cleanmate/wp-content/uploads/2019/11/image_02-7.jpg);
+                    background-image: url(<?= base_url()?>/wp-content/uploads/2019/11/image_02-7.jpg);
                 }
             </style>
         </section>
@@ -364,7 +364,7 @@
                         <div class="col-inner">
                             <div class="img has-hover chose-img x md-x lg-x y md-y lg-y" id="image_1773961094">
                                 <div class="img-inner dark">
-                                    <img width="480" height="480" src="./Cleanmate_files/image_03-1-480x480.jpg" class="attachment-original size-original" alt="" srcset="http://mauweb.monamedia.net/cleanmate/wp-content/uploads/2019/11/image_03-1-480x480.jpg 480w, http://mauweb.monamedia.net/cleanmate/wp-content/uploads/2019/11/image_03-1-480x480-150x150.jpg 150w, http://mauweb.monamedia.net/cleanmate/wp-content/uploads/2019/11/image_03-1-480x480-300x300.jpg 300w, http://mauweb.monamedia.net/cleanmate/wp-content/uploads/2019/11/image_03-1-480x480-100x100.jpg 100w" sizes="(max-width: 480px) 100vw, 480px">
+                                    <img width="480" height="480" src="./Cleanmate_files/image_03-1-480x480.jpg" class="attachment-original size-original" alt="" srcset="<?= base_url()?>/wp-content/uploads/2019/11/image_03-1-480x480.jpg 480w, <?= base_url()?>/wp-content/uploads/2019/11/image_03-1-480x480-150x150.jpg 150w, <?= base_url()?>/wp-content/uploads/2019/11/image_03-1-480x480-300x300.jpg 300w, <?= base_url()?>/wp-content/uploads/2019/11/image_03-1-480x480-100x100.jpg 100w" sizes="(max-width: 480px) 100vw, 480px">
                                 </div>
 
                                 <style scope="scope">
@@ -453,7 +453,7 @@
                 <div class="row" id="row-635652646">
                     <div class="col small-12 large-12" data-animate="bounceInUp">
                         <div class="col-inner text-center">
-                            <a href="http://mauweb.monamedia.net/cleanmate/gioi-thieu/" target="_self" class="button primary lowercase btn-nut-1">
+                            <a href="<?= base_url()?>/gioi-thieu/" target="_self" class="button primary lowercase btn-nut-1">
                                 <span>Xem thêm</span>
                             </a>
 

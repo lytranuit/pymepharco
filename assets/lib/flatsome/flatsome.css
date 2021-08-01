@@ -1878,6 +1878,8 @@ li.hide-title > a {
 }
 .badge {
     display: table;
+    padding: initial;
+    font-size: initial;
     z-index: 20;
     pointer-events: none;
     height: 2.8em;
@@ -3240,6 +3242,7 @@ img[data-lazy-srcset]:not(.lazyloaded),
     padding-top: 100%;
     background-position: 50% 50%;
     background-size: cover;
+    border-bottom: 1px solid #f3f3f3;
 }
 .video-fit {
     padding-top: 56.5%;

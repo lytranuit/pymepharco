@@ -192,7 +192,7 @@
 
                                 <div class="lienhe-icon">
                                     <h3>319 16C LÝ THƯỜNG KIỆT</h3>
-                                    <p><a href="http://mauweb.monamedia.net/cleanmate/#">Phường 15, Quận 11, TP.HCM</a></p>
+                                    <p><a href="<?= base_url()?>/#">Phường 15, Quận 11, TP.HCM</a></p>
                                 </div>
                             </div>
                         </div><!-- .icon-box -->
@@ -385,7 +385,7 @@
                                                 <a class="image-lightbox lightbox-gallery" href="./Cleanmate_files/image_07.jpg" title="">
                                                     <div class="box has-hover gallery-box box-overlay dark">
                                                         <div class="box-image">
-                                                            <img width="300" height="200" src="./Cleanmate_files/image_07-300x200.jpg" class="attachment-medium size-medium" alt="" ids="562,576,577,578,579,580" col_spacing="xsmall" columns="2" columns__sm="2" columns__md="3" srcset="http://mauweb.monamedia.net/cleanmate/wp-content/uploads/2019/11/image_07-300x200.jpg 300w, http://mauweb.monamedia.net/cleanmate/wp-content/uploads/2019/11/image_07.jpg 480w" sizes="(max-width: 300px) 100vw, 300px">
+                                                            <img width="300" height="200" src="./Cleanmate_files/image_07-300x200.jpg" class="attachment-medium size-medium" alt="" ids="562,576,577,578,579,580" col_spacing="xsmall" columns="2" columns__sm="2" columns__md="3" srcset="<?= base_url()?>/wp-content/uploads/2019/11/image_07-300x200.jpg 300w, <?= base_url()?>/wp-content/uploads/2019/11/image_07.jpg 480w" sizes="(max-width: 300px) 100vw, 300px">
                                                             <div class="overlay fill" style="background-color: rgba(0,0,0,.15)">
                                                             </div>
                                                         </div><!-- .image -->
@@ -401,7 +401,7 @@
                                                 <a class="image-lightbox lightbox-gallery" href="./Cleanmate_files/image_08.jpg" title="">
                                                     <div class="box has-hover gallery-box box-overlay dark">
                                                         <div class="box-image">
-                                                            <img width="300" height="200" src="./Cleanmate_files/image_08-300x200.jpg" class="attachment-medium size-medium" alt="" ids="562,576,577,578,579,580" col_spacing="xsmall" columns="2" columns__sm="2" columns__md="3" srcset="http://mauweb.monamedia.net/cleanmate/wp-content/uploads/2019/11/image_08-300x200.jpg 300w, http://mauweb.monamedia.net/cleanmate/wp-content/uploads/2019/11/image_08.jpg 480w" sizes="(max-width: 300px) 100vw, 300px">
+                                                            <img width="300" height="200" src="./Cleanmate_files/image_08-300x200.jpg" class="attachment-medium size-medium" alt="" ids="562,576,577,578,579,580" col_spacing="xsmall" columns="2" columns__sm="2" columns__md="3" srcset="<?= base_url()?>/wp-content/uploads/2019/11/image_08-300x200.jpg 300w, <?= base_url()?>/wp-content/uploads/2019/11/image_08.jpg 480w" sizes="(max-width: 300px) 100vw, 300px">
                                                             <div class="overlay fill" style="background-color: rgba(0,0,0,.15)">
                                                             </div>
                                                         </div><!-- .image -->
@@ -417,7 +417,7 @@
                                                 <a class="image-lightbox lightbox-gallery" href="./Cleanmate_files/image_09.jpg" title="">
                                                     <div class="box has-hover gallery-box box-overlay dark">
                                                         <div class="box-image">
-                                                            <img width="300" height="200" src="./Cleanmate_files/image_09-300x200.jpg" class="attachment-medium size-medium" alt="" ids="562,576,577,578,579,580" col_spacing="xsmall" columns="2" columns__sm="2" columns__md="3" srcset="http://mauweb.monamedia.net/cleanmate/wp-content/uploads/2019/11/image_09-300x200.jpg 300w, http://mauweb.monamedia.net/cleanmate/wp-content/uploads/2019/11/image_09.jpg 480w" sizes="(max-width: 300px) 100vw, 300px">
+                                                            <img width="300" height="200" src="./Cleanmate_files/image_09-300x200.jpg" class="attachment-medium size-medium" alt="" ids="562,576,577,578,579,580" col_spacing="xsmall" columns="2" columns__sm="2" columns__md="3" srcset="<?= base_url()?>/wp-content/uploads/2019/11/image_09-300x200.jpg 300w, <?= base_url()?>/wp-content/uploads/2019/11/image_09.jpg 480w" sizes="(max-width: 300px) 100vw, 300px">
                                                             <div class="overlay fill" style="background-color: rgba(0,0,0,.15)">
                                                             </div>
                                                         </div><!-- .image -->
@@ -433,7 +433,7 @@
                                                 <a class="image-lightbox lightbox-gallery" href="./Cleanmate_files/image_06-1.jpg" title="">
                                                     <div class="box has-hover gallery-box box-overlay dark">
                                                         <div class="box-image">
-                                                            <img width="300" height="200" src="./Cleanmate_files/image_06-1-300x200.jpg" class="attachment-medium size-medium" alt="" ids="562,576,577,578,579,580" col_spacing="xsmall" columns="2" columns__sm="2" columns__md="3" srcset="http://mauweb.monamedia.net/cleanmate/wp-content/uploads/2019/11/image_06-1-300x200.jpg 300w, http://mauweb.monamedia.net/cleanmate/wp-content/uploads/2019/11/image_06-1.jpg 480w" sizes="(max-width: 300px) 100vw, 300px">
+                                                            <img width="300" height="200" src="./Cleanmate_files/image_06-1-300x200.jpg" class="attachment-medium size-medium" alt="" ids="562,576,577,578,579,580" col_spacing="xsmall" columns="2" columns__sm="2" columns__md="3" srcset="<?= base_url()?>/wp-content/uploads/2019/11/image_06-1-300x200.jpg 300w, <?= base_url()?>/wp-content/uploads/2019/11/image_06-1.jpg 480w" sizes="(max-width: 300px) 100vw, 300px">
                                                             <div class="overlay fill" style="background-color: rgba(0,0,0,.15)">
                                                             </div>
                                                         </div><!-- .image -->
@@ -449,7 +449,7 @@
                                                 <a class="image-lightbox lightbox-gallery" href="./Cleanmate_files/image_03-4.jpg" title="">
                                                     <div class="box has-hover gallery-box box-overlay dark">
                                                         <div class="box-image">
-                                                            <img width="300" height="200" src="./Cleanmate_files/image_03-4-300x200.jpg" class="attachment-medium size-medium" alt="" ids="562,576,577,578,579,580" col_spacing="xsmall" columns="2" columns__sm="2" columns__md="3" srcset="http://mauweb.monamedia.net/cleanmate/wp-content/uploads/2019/11/image_03-4-300x200.jpg 300w, http://mauweb.monamedia.net/cleanmate/wp-content/uploads/2019/11/image_03-4.jpg 480w" sizes="(max-width: 300px) 100vw, 300px">
+                                                            <img width="300" height="200" src="./Cleanmate_files/image_03-4-300x200.jpg" class="attachment-medium size-medium" alt="" ids="562,576,577,578,579,580" col_spacing="xsmall" columns="2" columns__sm="2" columns__md="3" srcset="<?= base_url()?>/wp-content/uploads/2019/11/image_03-4-300x200.jpg 300w, <?= base_url()?>/wp-content/uploads/2019/11/image_03-4.jpg 480w" sizes="(max-width: 300px) 100vw, 300px">
                                                             <div class="overlay fill" style="background-color: rgba(0,0,0,.15)">
                                                             </div>
                                                         </div><!-- .image -->
@@ -465,7 +465,7 @@
                                                 <a class="image-lightbox lightbox-gallery" href="./Cleanmate_files/image_02-2-480x320.jpg" title="">
                                                     <div class="box has-hover gallery-box box-overlay dark">
                                                         <div class="box-image">
-                                                            <img width="300" height="200" src="./Cleanmate_files/image_02-2-480x320-300x200.jpg" class="attachment-medium size-medium" alt="" ids="562,576,577,578,579,580" col_spacing="xsmall" columns="2" columns__sm="2" columns__md="3" srcset="http://mauweb.monamedia.net/cleanmate/wp-content/uploads/2019/11/image_02-2-480x320-300x200.jpg 300w, http://mauweb.monamedia.net/cleanmate/wp-content/uploads/2019/11/image_02-2-480x320.jpg 480w" sizes="(max-width: 300px) 100vw, 300px">
+                                                            <img width="300" height="200" src="./Cleanmate_files/image_02-2-480x320-300x200.jpg" class="attachment-medium size-medium" alt="" ids="562,576,577,578,579,580" col_spacing="xsmall" columns="2" columns__sm="2" columns__md="3" srcset="<?= base_url()?>/wp-content/uploads/2019/11/image_02-2-480x320-300x200.jpg 300w, <?= base_url()?>/wp-content/uploads/2019/11/image_02-2-480x320.jpg 480w" sizes="(max-width: 300px) 100vw, 300px">
                                                             <div class="overlay fill" style="background-color: rgba(0,0,0,.15)">
                                                             </div>
                                                         </div><!-- .image -->
@@ -501,6 +501,6 @@
         </style>
     </section>
 
-    <a href="http://mauweb.monamedia.net/cleanmate/#top" class="back-to-top button icon invert plain fixed bottom z-1 is-outline hide-for-medium circle" id="top-link"><i class="icon-angle-up"></i></a>
+    <a href="<?= base_url()?>/#top" class="back-to-top button icon invert plain fixed bottom z-1 is-outline hide-for-medium circle" id="top-link"><i class="icon-angle-up"></i></a>
 
 </footer><!-- .footer-wrapper -->

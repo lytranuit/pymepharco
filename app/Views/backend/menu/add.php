@@ -50,7 +50,8 @@
                                         <option value="3">Danh mục tin tức</option>
                                         <option value="4">Sản phẩm</option>
                                         <option value="5">Tin tức</option>
-                                        <option value="6">Khuyến mãi</option>
+                                        <option value="7">Giới thiệu</option>
+                                        <option value="8">Liên hệ</option>
                                     </select>
                                 </div>
 

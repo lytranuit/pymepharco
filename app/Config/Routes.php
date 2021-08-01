@@ -35,8 +35,8 @@ $routes->get('/', 'Home::index');
 //$routes->get('/lang/{locale}', 'Language::index');
 $routes->add('lang/(:any)', 'Language::index/$1');
 
-$routes->add('gioi-thieu', 'Home::about');
-$routes->add('lien-he', 'Home::contact');
+$routes->add('gioi-thieu', 'Home::about', ['as' => 'about']);
+$routes->add('lien-he', 'Home::contact', ['as' => 'contact']);
 $routes->add('thu-vien', 'Home::library');
 $routes->add('khuyen-mai.html', 'Product::promotion');
 

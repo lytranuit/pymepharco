@@ -157,7 +157,7 @@ class NewsModel extends Model
 
 
 
-        $builder = $this->db->table('pet_news')->join("pet_news_tag", "pet_news_tag.news_id = pet_news.id");
+        $builder = $this->db->table('pet_news')->join("pet_news_tag", "pet_news_tag.news_id = pet_news.id")->select("pet_news.*");
         $news = $builder->where("tag_id = $tag_id and deleted_at IS NULL")->orderBy("pet_news.date", "DESC")->limit($perPage, $offset)->get()->getResult();
 
 

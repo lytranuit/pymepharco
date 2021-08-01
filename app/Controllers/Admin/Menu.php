@@ -44,7 +44,7 @@ class Menu extends BaseController
             $product_model = model("ProductModel");
             $this->data['categories'] = $category_model->orderby('id', "DESC")->findAll();
             $this->data['tags'] = $tag_model->orderby('id', "DESC")->findAll();
-            $this->data['product'] = $product_model->where(array('status' => 1, 'is_pet' => 1))->orderby('id', "DESC")->findAll();
+            $this->data['product'] = $product_model->orderby('id', "DESC")->findAll();
 
             $this->data['news'] = $news_model->orderby('id', "DESC")->findAll();
             return view($this->data['content'], $this->data);
@@ -77,8 +77,8 @@ class Menu extends BaseController
             $this->data['categories'] = $category_model->orderby('id', "DESC")->findAll();
             $this->data['tags'] = $tag_model->orderby('id', "DESC")->findAll();
             $this->data['news'] = $news_model->orderby('id', "DESC")->findAll();
-            $this->data['product'] = $product_model->where(array('status' => 1, 'is_pet' => 1))->orderby('id', "DESC")->findAll();
- return view($this->data['content'], $this->data);
+            $this->data['product'] = $product_model->orderby('id', "DESC")->findAll();
+            return view($this->data['content'], $this->data);
         }
     }
 

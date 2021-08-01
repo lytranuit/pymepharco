@@ -21,7 +21,7 @@ class News extends BaseController
     public function view($id)
     {
         $news_model = model("NewsModel");
-        $this->data['info'] = $news_model->find($id);
+        $this->data['info'] = $news_model->asObject()->find($id);
         $news_model->relation($this->data['info'], array("image", 'tags'));
         $this->data['title'] =   $this->data['info']->{pick_language($this->data['info'], "title_")} . $this->data['title'];
 
@@ -34,8 +34,9 @@ class News extends BaseController
         // $this->data['news'] = $news_model->get_news_related($id, $tags);
 
         $this->data['news'] = $news_model->where("id <>", $id)->orderby("id", "DESC")->limit(10)->findAll();
+        $this->data['tag'] = isset($this->data['info']->tags[0]) ? $this->data['info']->tags[0]->{pick_language($this->data['info']->tags[0])} : "";
         // echo "<pre>";
-        // print_r($this->data['news']);
+        // print_r($this->data['tag']);
         // die();
         return view($this->data['content'], $this->data);
     }

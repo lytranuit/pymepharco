@@ -213,7 +213,8 @@ if (!function_exists('html_nestable')) {
                     } else {
                         $category_model = model("CategoryModel");
                         $obj = $category_model->where('id', $related_id)->asObject()->first();
-                        $sub_html = "<span class='text-success mr-1'>[Danh mục sản phẩm='" . $obj->name_vi . "']</span>";
+                        $name = isset($obj->name_vi) ? $obj->name_vi : "";
+                        $sub_html = "<span class='text-success mr-1'>[Danh mục sản phẩm='" . $name . "']</span>";
                     }
                 } elseif ($row['type'] == 3) {
                     $related_id = $row['related_id'];
@@ -222,7 +223,8 @@ if (!function_exists('html_nestable')) {
                     } else {
                         $tag_model = model("TagModel");
                         $obj = $tag_model->where('id', $related_id)->asObject()->first();
-                        $sub_html = "<span class='text-warning mr-1'>[Danh mục tin tức='" . $obj->name_vi . "']</span>";
+                        $name = isset($obj->name_vi) ? $obj->name_vi : "";
+                        $sub_html = "<span class='text-warning mr-1'>[Danh mục tin tức='" . $name  . "']</span>";
                     }
                 } elseif ($row['type'] == 4) {
                     $related_id = $row['related_id'];
@@ -231,7 +233,8 @@ if (!function_exists('html_nestable')) {
                     } else {
                         $product_model = model("ProductModel");
                         $obj = $product_model->where('id', $related_id)->asObject()->first();
-                        $sub_html = "<span class='text-primary mr-1'>[Sản phẩm='" . $obj->name_vi . "']</span>";
+                        $name = isset($obj->name_vi) ? $obj->name_vi : "";
+                        $sub_html = "<span class='text-primary mr-1'>[Sản phẩm='" . $name . "']</span>";
                     }
                 } elseif ($row['type'] == 5) {
                     $related_id = $row['related_id'];
@@ -240,10 +243,13 @@ if (!function_exists('html_nestable')) {
                     } else {
                         $news_model = model("NewsModel");
                         $obj = $news_model->where('id', $related_id)->asObject()->first();
-                        $sub_html = "<span class='text-primary mr-1'>[Tin tức='" . $obj->title_vi . "']</span>";
+                        $name = isset($obj->title_vi) ? $obj->title_vi : "";
+                        $sub_html = "<span class='text-primary mr-1'>[Tin tức='" . $name . "']</span>";
                     }
-                } elseif ($row['type'] == 6) {
-                    $sub_html = "<span class='text-danger mr-1'>[Khuyến mãi]</span>";
+                } elseif ($row['type'] == 7) {
+                    $sub_html = "<span class='text-danger mr-1'>[Giới thiệu]</span>";
+                } elseif ($row['type'] == 8) {
+                    $sub_html = "<span class='text-danger mr-1'>[Liên hệ]</span>";
                 }
             }
             $html .= '<li class="dd-item" id="menuItem_' . $row['id'] . '" data-id="' . $row['id'] . '">
