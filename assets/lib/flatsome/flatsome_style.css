@@ -770,6 +770,7 @@ h3.slider-text:before {
 /*----------------------giới-thiệu---*/
 .page-headerr {
     background: #fff !important;
+    padding-top: 80px;
 }
 .ul-colum li {
     margin-left: 0px !important;

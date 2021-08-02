@@ -3811,8 +3811,7 @@ img.mfp-img {
     padding-bottom: 15px;
 }
 .off-canvas .nav-vertical li li > a {
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding: 10px 40px;
 }
 .off-canvas .hide-for-off-canvas {
     display: none !important;
@@ -3848,16 +3847,27 @@ img.mfp-img {
     transform: translateX(270px);
 }
 .off-canvas-center .nav-vertical > li > a {
-    font-size: 1.5em;
+    font-size: 13px;
+    border-bottom: 1px solid #dedede;
 }
 .off-canvas-center .mfp-container {
     padding: 0;
 }
 .off-canvas-center .mfp-content {
     padding-top: 50px;
-    max-width: 700px;
     overflow-y: auto;
     overflow-x: hidden;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 260px;
+    background-color: rgba(255,255,255,0.95);
+    left: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+    -webkit-overflow-scrolling: touch;
+    transition: transform 0.2s;
+    box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 50%);
     -webkit-overflow-scrolling: touch;
 }
 .off-canvas-center .mfp-content .searchform {
@@ -3868,7 +3878,7 @@ img.mfp-img {
     opacity: 0.85;
 }
 .mfp-bg.off-canvas-center:not(.dark) {
-    background-color: #fff;
+    background-color: #5c5c5c;
     opacity: 0.95;
 }
 .off-canvas-center .nav-sidebar.nav-vertical > li {
@@ -8098,9 +8108,11 @@ html {
     content: "\f105";
 }
 .icon-angle-up:before {
+    font-family: "Font Awesome 5 Pro";
     content: "\f106";
 }
 .icon-angle-down:before {
+    font-family: "Font Awesome 5 Pro";
     content: "\f107";
 }
 .icon-twitter:before {

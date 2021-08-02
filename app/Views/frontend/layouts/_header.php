@@ -76,26 +76,94 @@
                 <!-- Left Elements -->
                 <div class="flex-col hide-for-medium flex-left">
                     <ul class="header-nav header-nav-main nav nav-left  nav-uppercase">
-                        <li id="menu-item-24" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-16 current_page_item active  menu-item-24">
-                            <a href="<?= base_url() ?>" class="nav-top-link">Trang chủ</a>
-                        </li>
-                        <li id="menu-item-22" class="menu-item menu-item-type-post_type menu-item-object-page  menu-item-22"><a href="<?= route_to("about") ?>" class="nav-top-link">Giới thiệu</a></li>
-                        <li id="menu-item-777" class="menu-item menu-item-type-post_type menu-item-object-page  menu-item-777">
-                            <a href="http://mauweb.monamedia.net/Pymepharco/dich-vu/" class="nav-top-link">Quan hệ cổ đông</a>
-                        </li>
+                        <?php for ($i = 0; $i < round(count($list_menu) / 2, 0); $i++) : ?>
+                            <?php $row = $list_menu[$i] ?>
+                            <li id="menu-item-22" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-22">
+                                <?php if ($row->type == 1) : ?>
+                                    <a href="<?= $row->link ?>" class="nav-top-link"><?= $row->{pick_language($row, 'name_')}  ?></a>
+                                <?php elseif ($row->type == 2) : ?>
+                                    <a href="<?= url_category_byid($row->related_id) ?>" class="nav-top-link"><?= $row->{pick_language($row, 'name_')}  ?></a>
+                                <?php elseif ($row->type == 3) : ?>
+                                    <a href="<?= url_tag_byid($row->related_id) ?>" class="nav-top-link"><?= $row->{pick_language($row, 'name_')}  ?></a>
+                                <?php elseif ($row->type == 4) : ?>
+                                    <a href="<?= url_product_byid($row->related_id) ?>" class="nav-top-link"><?= $row->{pick_language($row, 'name_')}  ?></a>
+                                <?php elseif ($row->type == 5) : ?>
+                                    <a href="<?= url_news_byid($row->related_id) ?>" class="nav-top-link"><?= $row->{pick_language($row, 'name_')}  ?></a>
+                                <?php elseif ($row->type == 7) : ?>
+                                    <a href="<?= route_to("about") ?>" class="nav-top-link"><?= $row->{pick_language($row, 'name_')}  ?></a>
+                                <?php elseif ($row->type == 8) : ?>
+                                    <a href="<?= route_to("contact") ?>" class="nav-top-link"><?= $row->{pick_language($row, 'name_')}  ?></a>
+                                <?php endif ?>
+                                <?php if (!empty($row->child)) : ?>
+                                    <ul class="nav-dropdown nav-dropdown-default">
+                                        <li id="menu-item-821" class="menu-item menu-item-type-custom menu-item-object-custom  menu-item-821">
+                                            <?php if ($row2->type == 1) : ?>
+                                                <a href="<?= $row2->link ?>" class="nav-top-link"><?= $row2->{pick_language($row2, 'name_')}  ?></a>
+                                            <?php elseif ($row2->type == 2) : ?>
+                                                <a href="<?= url_category_byid($row2->related_id) ?>" class="nav-top-link"><?= $row2->{pick_language($row2, 'name_')}  ?></a>
+                                            <?php elseif ($row2->type == 3) : ?>
+                                                <a href="<?= url_tag_byid($row2->related_id) ?>" class="nav-top-link"><?= $row2->{pick_language($row2, 'name_')}  ?></a>
+                                            <?php elseif ($row2->type == 4) : ?>
+                                                <a href="<?= url_product_byid($row2->related_id) ?>" class="nav-top-link"><?= $row2->{pick_language($row2, 'name_')}  ?></a>
+                                            <?php elseif ($row2->type == 5) : ?>
+                                                <a href="<?= url_news_byid($row2->related_id) ?>" class="nav-top-link"><?= $row2->{pick_language($row2, 'name_')}  ?></a>
+                                            <?php elseif ($row2->type == 7) : ?>
+                                                <a href="<?= route_to("about") ?>" class="nav-top-link"><?= $row2->{pick_language($row2, 'name_')}  ?></a>
+                                            <?php elseif ($row2->type == 8) : ?>
+                                                <a href="<?= route_to("contact") ?>" class="nav-top-link"><?= $row2->{pick_language($row2, 'name_')}  ?></a>
+                                            <?php endif ?>
+                                        </li>
+                                    </ul>
+                                <?php endif ?>
+                            </li>
+                        <?php endfor ?>
                     </ul>
                 </div>
 
                 <!-- Right Elements -->
                 <div class="flex-col hide-for-medium flex-right">
                     <ul class="header-nav header-nav-main nav nav-right  nav-uppercase">
-                        <li id="menu-item-856" class="menu-item menu-item-type-post_type menu-item-object-page  menu-item-856">
-                            <a href="http://mauweb.monamedia.net/Pymepharco/du-an/" class="nav-top-link">Tuyển dụng</a>
-                        </li>
-                        <li id="menu-item-485" class="menu-item menu-item-type-taxonomy menu-item-object-category  menu-item-485"><a href="http://mauweb.monamedia.net/Pymepharco/category/tin-tuc/" class="nav-top-link">Tin tức</a></li>
-                        <li id="menu-item-486" class="menu-item menu-item-type-post_type menu-item-object-page  menu-item-486">
-                            <a href="<?= route_to("contact") ?>" class="nav-top-link">Liên hệ</a>
-                        </li>
+                        <?php for ($i = round(count($list_menu) / 2, 0); $i < count($list_menu); $i++) : ?>
+                            <?php $row = $list_menu[$i] ?>
+                            <li id="menu-item-22" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-22">
+                                <?php if ($row->type == 1) : ?>
+                                    <a href="<?= $row->link ?>" class="nav-top-link"><?= $row->{pick_language($row, 'name_')}  ?></a>
+                                <?php elseif ($row->type == 2) : ?>
+                                    <a href="<?= url_category_byid($row->related_id) ?>" class="nav-top-link"><?= $row->{pick_language($row, 'name_')}  ?></a>
+                                <?php elseif ($row->type == 3) : ?>
+                                    <a href="<?= url_tag_byid($row->related_id) ?>" class="nav-top-link"><?= $row->{pick_language($row, 'name_')}  ?></a>
+                                <?php elseif ($row->type == 4) : ?>
+                                    <a href="<?= url_product_byid($row->related_id) ?>" class="nav-top-link"><?= $row->{pick_language($row, 'name_')}  ?></a>
+                                <?php elseif ($row->type == 5) : ?>
+                                    <a href="<?= url_news_byid($row->related_id) ?>" class="nav-top-link"><?= $row->{pick_language($row, 'name_')}  ?></a>
+                                <?php elseif ($row->type == 7) : ?>
+                                    <a href="<?= route_to("about") ?>" class="nav-top-link"><?= $row->{pick_language($row, 'name_')}  ?></a>
+                                <?php elseif ($row->type == 8) : ?>
+                                    <a href="<?= route_to("contact") ?>" class="nav-top-link"><?= $row->{pick_language($row, 'name_')}  ?></a>
+                                <?php endif ?>
+                                <?php if (!empty($row->child)) : ?>
+                                    <ul class="nav-dropdown nav-dropdown-default">
+                                        <li id="menu-item-821" class="menu-item menu-item-type-custom menu-item-object-custom  menu-item-821">
+                                            <?php if ($row2->type == 1) : ?>
+                                                <a href="<?= $row2->link ?>" class="nav-top-link"><?= $row2->{pick_language($row2, 'name_')}  ?></a>
+                                            <?php elseif ($row2->type == 2) : ?>
+                                                <a href="<?= url_category_byid($row2->related_id) ?>" class="nav-top-link"><?= $row2->{pick_language($row2, 'name_')}  ?></a>
+                                            <?php elseif ($row2->type == 3) : ?>
+                                                <a href="<?= url_tag_byid($row2->related_id) ?>" class="nav-top-link"><?= $row2->{pick_language($row2, 'name_')}  ?></a>
+                                            <?php elseif ($row2->type == 4) : ?>
+                                                <a href="<?= url_product_byid($row2->related_id) ?>" class="nav-top-link"><?= $row2->{pick_language($row2, 'name_')}  ?></a>
+                                            <?php elseif ($row2->type == 5) : ?>
+                                                <a href="<?= url_news_byid($row2->related_id) ?>" class="nav-top-link"><?= $row2->{pick_language($row2, 'name_')}  ?></a>
+                                            <?php elseif ($row2->type == 7) : ?>
+                                                <a href="<?= route_to("about") ?>" class="nav-top-link"><?= $row2->{pick_language($row2, 'name_')}  ?></a>
+                                            <?php elseif ($row2->type == 8) : ?>
+                                                <a href="<?= route_to("contact") ?>" class="nav-top-link"><?= $row2->{pick_language($row2, 'name_')}  ?></a>
+                                            <?php endif ?>
+                                        </li>
+                                    </ul>
+                                <?php endif ?>
+                            </li>
+                        <?php endfor ?>
                         <li class="header-search header-search-dropdown has-icon has-dropdown menu-item-has-children">
                             <a href="http://mauweb.monamedia.net/Pymepharco/#" class="is-small"><i class="fas fa-search"></i></a>
                             <ul class="nav-dropdown nav-dropdown-simple">
@@ -185,7 +253,7 @@
                                 </div><!-- .flex-col -->
                                 <div class="flex-col">
                                     <button type="submit" class="ux-search-submit submit-button secondary button icon mb-0">
-                                        <i class="icon-search"></i> </button>
+                                        <i class="fas fa-search"></i> </button>
                                 </div><!-- .flex-col -->
                             </div><!-- .flex-row -->
                             <div class="live-search-results text-left z-top">
@@ -195,43 +263,48 @@
                     </div>
                 </div>
             </li>
-            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-714 current_page_item menu-item-805"><a href="https://datbienphuyen.com.vn/" class="nav-top-link">TRANG CHỦ</a></li>
-            <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-814 has-child" aria-expanded="false"><a href="https://datbienphuyen.com.vn/gioi-thieu/" class="nav-top-link">GIỚI THIỆU</a>
-                <button class="toggle"><i class="icon-angle-down"></i></button>
-                <ul class="children">
-                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-821"><a href="https://datbienphuyen.com.vn/gioi-thieu/#gioi-thieu">Tổng Quan</a></li>
-                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-815"><a href="https://datbienphuyen.com.vn/gioi-thieu#tam-nhin-chien-luoc">Tầm nhìn chiến lược</a></li>
-                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-822"><a href="https://datbienphuyen.com.vn/gioi-thieu/#so-do-to-chuc">Sơ đồ tổ chức</a></li>
-                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-823"><a href="https://datbienphuyen.com.vn/gioi-thieu/#doi-tac">Đối tác</a></li>
-                </ul>
-            </li>
-            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-245"><a href="https://datbienphuyen.com.vn/du-an/" class="nav-top-link">DỰ ÁN</a></li>
-            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-30"><a href="https://datbienphuyen.com.vn/tin-tuc/" class="nav-top-link">TIN TỨC</a></li>
-            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-663 has-child" aria-expanded="false"><a href="https://datbienphuyen.com.vn/thu-vien/" class="nav-top-link">THƯ VIỆN</a>
-                <button class="toggle"><i class="icon-angle-down"></i></button>
-                <ul class="children">
-                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-921"><a href="https://datbienphuyen.com.vn/thu-vien/hinh-anh/">Hình ảnh</a></li>
-                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-922"><a href="https://datbienphuyen.com.vn/thu-vien/video/">Video</a></li>
-                </ul>
-            </li>
-            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-585 has-child" aria-expanded="false"><a href="https://datbienphuyen.com.vn/tuyen-dung/tin-tuyen-dung/" class="nav-top-link">TUYỂN DỤNG</a>
-                <button class="toggle"><i class="icon-angle-down"></i></button>
-                <ul class="children">
-                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-589"><a href="https://datbienphuyen.com.vn/tuyen-dung/tin-tuyen-dung/">Tin tuyển dụng</a></li>
-                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-588"><a href="https://datbienphuyen.com.vn/tuyen-dung/chinh-sach-nhan-su/">Chính sách nhân sự</a></li>
-                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-587"><a href="https://datbienphuyen.com.vn/tuyen-dung/quy-trinh-tuyen-dung/">Quy trình tuyển dụng</a></li>
-                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-586"><a href="https://datbienphuyen.com.vn/tuyen-dung/dinh-huong-nghe-nghiep/">Định hướng nghề nghiệp</a></li>
-                </ul>
-            </li>
-            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-36"><a href="https://datbienphuyen.com.vn/lien-he/" class="nav-top-link">LIÊN HỆ</a></li>
-            <li class="html header-button-1">
-                <div class="header-button">
-                    <a href="tel:02576296999" class="button secondary is-large box-shadow-5-hover" style="border-radius:10px;">
-                        <span>Hotline: 0257.629.6999</span>
-                    </a>
-                </div>
-            </li>
-
+            <?php foreach ($list_menu as $row) : ?>
+                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-714 current_page_item menu-item-805">
+                    <?php if ($row->type == 1) : ?>
+                        <a href="<?= $row->link ?>" class="nav-top-link"><?= $row->{pick_language($row, 'name_')}  ?></a>
+                    <?php elseif ($row->type == 2) : ?>
+                        <a href="<?= url_category_byid($row->related_id) ?>" class="nav-top-link"><?= $row->{pick_language($row, 'name_')}  ?></a>
+                    <?php elseif ($row->type == 3) : ?>
+                        <a href="<?= url_tag_byid($row->related_id) ?>" class="nav-top-link"><?= $row->{pick_language($row, 'name_')}  ?></a>
+                    <?php elseif ($row->type == 4) : ?>
+                        <a href="<?= url_product_byid($row->related_id) ?>" class="nav-top-link"><?= $row->{pick_language($row, 'name_')}  ?></a>
+                    <?php elseif ($row->type == 5) : ?>
+                        <a href="<?= url_news_byid($row->related_id) ?>" class="nav-top-link"><?= $row->{pick_language($row, 'name_')}  ?></a>
+                    <?php elseif ($row->type == 7) : ?>
+                        <a href="<?= route_to("about") ?>" class="nav-top-link"><?= $row->{pick_language($row, 'name_')}  ?></a>
+                    <?php elseif ($row->type == 8) : ?>
+                        <a href="<?= route_to("contact") ?>" class="nav-top-link"><?= $row->{pick_language($row, 'name_')}  ?></a>
+                    <?php endif ?>
+                    <?php if (!empty($row->child)) : ?>
+                        <ul class="children">
+                            <?php foreach ($row->child as $row2) : ?>
+                                <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-821">
+                                    <?php if ($row2->type == 1) : ?>
+                                        <a href="<?= $row2->link ?>" class="nav-top-link"><?= $row2->{pick_language($row2, 'name_')}  ?></a>
+                                    <?php elseif ($row2->type == 2) : ?>
+                                        <a href="<?= url_category_byid($row2->related_id) ?>" class="nav-top-link"><?= $row2->{pick_language($row2, 'name_')}  ?></a>
+                                    <?php elseif ($row2->type == 3) : ?>
+                                        <a href="<?= url_tag_byid($row2->related_id) ?>" class="nav-top-link"><?= $row2->{pick_language($row2, 'name_')}  ?></a>
+                                    <?php elseif ($row2->type == 4) : ?>
+                                        <a href="<?= url_product_byid($row2->related_id) ?>" class="nav-top-link"><?= $row2->{pick_language($row2, 'name_')}  ?></a>
+                                    <?php elseif ($row2->type == 5) : ?>
+                                        <a href="<?= url_news_byid($row2->related_id) ?>" class="nav-top-link"><?= $row2->{pick_language($row2, 'name_')}  ?></a>
+                                    <?php elseif ($row2->type == 7) : ?>
+                                        <a href="<?= route_to("about") ?>" class="nav-top-link"><?= $row2->{pick_language($row2, 'name_')}  ?></a>
+                                    <?php elseif ($row2->type == 8) : ?>
+                                        <a href="<?= route_to("contact") ?>" class="nav-top-link"><?= $row2->{pick_language($row2, 'name_')}  ?></a>
+                                    <?php endif ?>
+                                </li>
+                            <?php endforeach ?>
+                        </ul>
+                    <?php endif ?>
+                </li>
+            <?php endforeach ?>
 
         </ul>
     </div><!-- inner -->

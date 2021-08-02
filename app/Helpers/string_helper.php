@@ -376,6 +376,19 @@ if (!function_exists('url_product')) {
         return $url;
     }
 }
+if (!function_exists('url_product_byid')) {
+
+    function url_product_byid($id)
+    {
+        $url = base_url();
+        if ($id) {
+            $model = model("TagModel");
+            $object = $model->find($id);
+            $url = base_url("san-pham/c$object->id.html");
+        }
+        return $url;
+    }
+}
 
 if (!function_exists('url_page')) {
 
@@ -403,6 +416,20 @@ if (!function_exists('url_tag')) {
         return $url;
     }
 }
+
+if (!function_exists('url_tag_byid')) {
+
+    function url_tag_byid($id = NULL)
+    {
+        $url = base_url();
+        if ($id) {
+            $model = model("TagModel");
+            $object = $model->find($id);
+            $url = base_url("tin-tuc/c$object->id.html");
+        }
+        return $url;
+    }
+}
 if (!function_exists('url_news')) {
 
     function url_news($news)
@@ -414,16 +441,15 @@ if (!function_exists('url_news')) {
         return $url;
     }
 }
+if (!function_exists('url_news_byid')) {
 
-if (!function_exists('url_library')) {
-
-    function url_library($id)
+    function url_news_byid($id = NULL)
     {
         $url = base_url();
-        if ($id > 0) {
-            $library_model = model("LibraryModel");
-            $library = $library_model->find($id);
-            $url = base_url("thu-vien/" . ($library->slug != '' ? $library->slug : str_slug($library->title_vi)) . "-c$id.html");
+        if ($id) {
+            $model = model("ProductModel");
+            $object = $model->find($id);
+            $url = base_url("post/c$object->id.html");
         }
         return $url;
     }
@@ -436,6 +462,19 @@ if (!function_exists('url_category')) {
         $url = base_url();
         if ($category) {
             $url = base_url("danh-muc/c$category->id.html");
+        }
+        return $url;
+    }
+}
+if (!function_exists('url_category_byid')) {
+
+    function url_category_byid($id = NULL)
+    {
+        $url = base_url();
+        if ($id) {
+            $model = model("CategoryModel");
+            $object = $model->find($id);
+            $url = base_url("danh-muc/c$object->id.html");
         }
         return $url;
     }
