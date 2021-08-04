@@ -113,7 +113,7 @@
                                         <a class="image-lightbox lightbox-gallery" href="./Cleanmate_files/image_04-1-480x693.jpg" title="">
                                             <div class="box has-hover gallery-box box-overlay dark box-text-center">
                                                 <div class="box-image">
-                                                    <img width="480" height="693" src="./Cleanmate_files/image_04-1-480x693.jpg" class="attachment-large size-large" alt="" ids="589,588,590" style="none" type="grid" grid="6" grid_height="450px" animate="bounceIn" image_size="original" srcset="<?= base_url()?>/wp-content/uploads/2019/11/image_04-1-480x693.jpg 480w, <?= base_url()?>/wp-content/uploads/2019/11/image_04-1-480x693-208x300.jpg 208w" sizes="(max-width: 480px) 100vw, 480px">
+                                                    <img width="480" height="693" src="./Cleanmate_files/image_04-1-480x693.jpg" class="attachment-large size-large" alt="" ids="589,588,590" style="none" type="grid" grid="6" grid_height="450px" animate="bounceIn" image_size="original" srcset="<?= base_url() ?>/wp-content/uploads/2019/11/image_04-1-480x693.jpg 480w, <?= base_url() ?>/wp-content/uploads/2019/11/image_04-1-480x693-208x300.jpg 208w" sizes="(max-width: 480px) 100vw, 480px">
                                                     <div class="overlay fill" style="background-color: rgba(0,0,0,.15)">
                                                     </div>
                                                 </div><!-- .image -->
@@ -129,7 +129,7 @@
                                         <a class="image-lightbox lightbox-gallery" href="./Cleanmate_files/image_03-4-1.jpg" title="">
                                             <div class="box has-hover gallery-box box-overlay dark box-text-center">
                                                 <div class="box-image">
-                                                    <img width="480" height="320" src="./Cleanmate_files/image_03-4-1.jpg" class="attachment-large size-large" alt="" ids="589,588,590" style="none" type="grid" grid="6" grid_height="450px" animate="bounceIn" image_size="original" srcset="<?= base_url()?>/wp-content/uploads/2019/11/image_03-4-1.jpg 480w, <?= base_url()?>/wp-content/uploads/2019/11/image_03-4-1-300x200.jpg 300w" sizes="(max-width: 480px) 100vw, 480px">
+                                                    <img width="480" height="320" src="./Cleanmate_files/image_03-4-1.jpg" class="attachment-large size-large" alt="" ids="589,588,590" style="none" type="grid" grid="6" grid_height="450px" animate="bounceIn" image_size="original" srcset="<?= base_url() ?>/wp-content/uploads/2019/11/image_03-4-1.jpg 480w, <?= base_url() ?>/wp-content/uploads/2019/11/image_03-4-1-300x200.jpg 300w" sizes="(max-width: 480px) 100vw, 480px">
                                                     <div class="overlay fill" style="background-color: rgba(0,0,0,.15)">
                                                     </div>
                                                 </div><!-- .image -->
@@ -145,7 +145,7 @@
                                         <a class="image-lightbox lightbox-gallery" href="./Cleanmate_files/image_10.jpg" title="">
                                             <div class="box has-hover gallery-box box-overlay dark box-text-center">
                                                 <div class="box-image">
-                                                    <img width="480" height="320" src="./Cleanmate_files/image_10.jpg" class="attachment-large size-large" alt="" ids="589,588,590" style="none" type="grid" grid="6" grid_height="450px" animate="bounceIn" image_size="original" srcset="<?= base_url()?>/wp-content/uploads/2019/11/image_10.jpg 480w, <?= base_url()?>/wp-content/uploads/2019/11/image_10-300x200.jpg 300w" sizes="(max-width: 480px) 100vw, 480px">
+                                                    <img width="480" height="320" src="./Cleanmate_files/image_10.jpg" class="attachment-large size-large" alt="" ids="589,588,590" style="none" type="grid" grid="6" grid_height="450px" animate="bounceIn" image_size="original" srcset="<?= base_url() ?>/wp-content/uploads/2019/11/image_10.jpg 480w, <?= base_url() ?>/wp-content/uploads/2019/11/image_10-300x200.jpg 300w" sizes="(max-width: 480px) 100vw, 480px">
                                                     <div class="overlay fill" style="background-color: rgba(0,0,0,.15)">
                                                     </div>
                                                 </div><!-- .image -->
@@ -172,7 +172,7 @@
                                     phòng, nội dung của nó vẫn không hề bị thay đổi. Nó đã được phổ biến trong những năm 1960 </h6>
                             </div>
                             <div class="gap-element clearfix" style="display:block; height:auto; padding-top:25px"></div>
-                            <a href="<?= base_url()?>/gioi-thieu/" target="_self" class="button primary lowercase btn-nut">
+                            <a href="<?= base_url() ?>/gioi-thieu/" target="_self" class="button primary lowercase btn-nut">
                                 <span>Xem thêm</span>
                             </a>
 
@@ -265,7 +265,7 @@
                 }
 
                 #section_1938914310 .section-bg.bg-loaded {
-                    background-image: url(<?= base_url()?>/wp-content/uploads/2019/11/image_02-7.jpg);
+                    background-image: url(<?= base_url() ?>/wp-content/uploads/2019/11/image_02-7.jpg);
                 }
             </style>
         </section>
@@ -364,7 +364,7 @@
                         <div class="col-inner">
                             <div class="img has-hover chose-img x md-x lg-x y md-y lg-y" id="image_1773961094">
                                 <div class="img-inner dark">
-                                    <img width="480" height="480" src="./Cleanmate_files/image_03-1-480x480.jpg" class="attachment-original size-original" alt="" srcset="<?= base_url()?>/wp-content/uploads/2019/11/image_03-1-480x480.jpg 480w, <?= base_url()?>/wp-content/uploads/2019/11/image_03-1-480x480-150x150.jpg 150w, <?= base_url()?>/wp-content/uploads/2019/11/image_03-1-480x480-300x300.jpg 300w, <?= base_url()?>/wp-content/uploads/2019/11/image_03-1-480x480-100x100.jpg 100w" sizes="(max-width: 480px) 100vw, 480px">
+                                    <img width="480" height="480" src="./Cleanmate_files/image_03-1-480x480.jpg" class="attachment-original size-original" alt="" srcset="<?= base_url() ?>/wp-content/uploads/2019/11/image_03-1-480x480.jpg 480w, <?= base_url() ?>/wp-content/uploads/2019/11/image_03-1-480x480-150x150.jpg 150w, <?= base_url() ?>/wp-content/uploads/2019/11/image_03-1-480x480-300x300.jpg 300w, <?= base_url() ?>/wp-content/uploads/2019/11/image_03-1-480x480-100x100.jpg 100w" sizes="(max-width: 480px) 100vw, 480px">
                                 </div>
 
                                 <style scope="scope">
@@ -453,7 +453,7 @@
                 <div class="row" id="row-635652646">
                     <div class="col small-12 large-12" data-animate="bounceInUp">
                         <div class="col-inner text-center">
-                            <a href="<?= base_url()?>/gioi-thieu/" target="_self" class="button primary lowercase btn-nut-1">
+                            <a href="<?= base_url() ?>/gioi-thieu/" target="_self" class="button primary lowercase btn-nut-1">
                                 <span>Xem thêm</span>
                             </a>
 
@@ -491,6 +491,23 @@
                             </div>
                         </div>
                     </div>
+                    <div>
+                        <div class="row">
+                            <?php for ($i = 1; $i < 9; $i++) : ?>
+                                <div class="col-md-3 col-6 item-product item-product-grid-style1 text-center mb-5">
+                                    <div class="product-thumb">
+                                        <a href="https://macy.7uptheme.net/product/acetaminophen/" class="product-thumb-link zoom-thumb">
+                                            <img src="<?= base_url("assets/images/product/$i.jpg") ?>" class="img-fluid" alt="">
+                                        </a>
+                                        <div class="product-extra-link extra-link-hover1">
+                                            <a href="#">Tatanol</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            <?php endfor ?>
+
+                        </div>
+                    </div>
                 </div>
             </div><!-- .section-content -->
 
@@ -506,7 +523,7 @@
         <section id="section_89897571">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-4">
+                    <div class="col-md-3">
 
                         <h4 class="block-title td-block-title"><span class="td-pulldown-size">ĐIỂM TIN</span></h4>
                         <div id="td_uid_86_6100bdcc47f90" class="td_block_inner td-mc1-wrap">
@@ -600,7 +617,7 @@
 
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-3">
 
                         <h4 class="block-title td-block-title"><span class="td-pulldown-size">ĐIỂM TIN</span></h4>
                         <div id="td_uid_86_6100bdcc47f90" class="td_block_inner td-mc1-wrap">
@@ -694,7 +711,101 @@
 
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-3">
+
+                        <h4 class="block-title td-block-title"><span class="td-pulldown-size">ĐIỂM TIN</span></h4>
+                        <div id="td_uid_86_6100bdcc47f90" class="td_block_inner td-mc1-wrap">
+                            <div class="td_module_flex_1 td_module_wrap td-animation-stack">
+                                <div class="td-module-container td-category-pos-image">
+                                    <div class="td-image-container">
+                                        <a href="http://mauweb.monamedia.net/evavn/category/giai-tri/" class="td-post-category">Giải trí</a>
+                                        <div class="td-module-thumb">
+                                            <a href="http://mauweb.monamedia.net/evavn/minh-hang-va-nam-thu-doi-man-cong-chua-khieng-kieu-den-running-man-lam-gi/" rel="bookmark" class="td-image-wrap" title="Minh Hằng và Nam Thư đội mấn công chúa, khiêng kiệu đến Running Man làm gì?">
+                                                <span class="entry-thumb td-thumb-css" data-type="css_image" data-img-url="http://mauweb.monamedia.net/evavn/wp-content/uploads/2019/04/read-book-good-health.jpg" style="background-image: url(http://mauweb.monamedia.net/evavn/wp-content/uploads/2019/04/read-book-good-health.jpg)"></span>
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                    <div class="td-module-meta-info">
+
+                                        <h3 class="entry-title td-module-title"><a href="http://mauweb.monamedia.net/evavn/minh-hang-va-nam-thu-doi-man-cong-chua-khieng-kieu-den-running-man-lam-gi/" rel="bookmark" title="Minh Hằng và Nam Thư đội mấn công chúa, khiêng kiệu đến Running Man làm gì?">Minh Hằng và Nam Thư đội mấn công chúa, khiêng kiệu đến Running Man...</a></h3>
+
+                                        <div class="td-editor-date">
+
+                                            <span class="td-author-date">
+                                                <span class="td-post-date">
+                                                    <time class="entry-date td-module-date text-white" datetime="2019-04-10T06:55:04+00:00"><?= date_TV('d \t\h\á\n\g M , Y', time()) ?></time>
+                                                </span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="td_module_flex_4 td_module_wrap td-animation-stack">
+                                <div class="td-module-container row">
+                                    <div class="td-image-container col-3">
+                                        <div class="td-module-thumb"><a href="http://mauweb.monamedia.net/evavn/hack-mien-phi-11-banh-mcdonalds-thanh-nien-lai-gan-2-trieu-view-du-chi-500-nguoi-sub-kenh/" rel="bookmark" class="td-image-wrap" title="“Hack” miễn phí 11 bánh McDonald’s, thanh niên lãi gần 2 triệu view dù chỉ 500 người sub kênh"><span class="entry-thumb td-thumb-css" data-type="css_image" data-img-url="http://mauweb.monamedia.net/evavn/wp-content/uploads/2019/04/12-696x392.jpg" style="background-image: url(http://mauweb.monamedia.net/evavn/wp-content/uploads/2019/04/12-696x392.jpg)"></span></a></div>
+                                    </div>
+
+                                    <div class="td-module-meta-info col-9">
+
+                                        <h3 class="entry-title td-module-title"><a href="http://mauweb.monamedia.net/evavn/hack-mien-phi-11-banh-mcdonalds-thanh-nien-lai-gan-2-trieu-view-du-chi-500-nguoi-sub-kenh/" rel="bookmark" title="“Hack” miễn phí 11 bánh McDonald’s, thanh niên lãi gần 2 triệu view dù chỉ 500 người sub kênh">“Hack” miễn phí 11 bánh McDonald’s, thanh niên lãi gần 2 triệu view dù...</a></h3>
+
+                                        <div class="td-editor-date">
+                                            <span class="td-author-date">
+                                                <span class="td-post-date"><time class="entry-date text-muted small td-module-date" datetime="2019-04-11T06:54:48+00:00">11 Tháng Tư, 2019</time></span>
+                                            </span>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="td_module_flex_4 td_module_wrap td-animation-stack">
+                                <div class="td-module-container row">
+                                    <div class="td-image-container col-3">
+                                        <div class="td-module-thumb"><a href="http://mauweb.monamedia.net/evavn/tuong-ngon-an-nhung-ca-trieu-nguoi-tra-loi-sai-4-cau-do-nay-ban-co-dam-thu/" rel="bookmark" class="td-image-wrap" title="Tưởng “ngon ăn” nhưng cả triệu người trả lời sai 4 câu đố này, bạn có dám thử?"><span class="entry-thumb td-thumb-css" data-type="css_image" data-img-url="http://mauweb.monamedia.net/evavn/wp-content/uploads/2019/04/25.jpg" style="background-image: url(http://mauweb.monamedia.net/evavn/wp-content/uploads/2019/04/25.jpg)"></span></a></div>
+                                    </div>
+
+                                    <div class="td-module-meta-info col-9">
+
+                                        <h3 class="entry-title td-module-title"><a href="http://mauweb.monamedia.net/evavn/tuong-ngon-an-nhung-ca-trieu-nguoi-tra-loi-sai-4-cau-do-nay-ban-co-dam-thu/" rel="bookmark" title="Tưởng “ngon ăn” nhưng cả triệu người trả lời sai 4 câu đố này, bạn có dám thử?">Tưởng “ngon ăn” nhưng cả triệu người trả lời sai 4 câu đố này,...</a></h3>
+
+                                        <div class="td-editor-date">
+                                            <span class="td-author-date">
+                                                <span class="td-post-date"><time class="entry-date text-muted small td-module-date" datetime="2019-04-11T06:54:48+00:00">11 Tháng Tư, 2019</time></span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="td_module_flex_4 td_module_wrap td-animation-stack">
+                                <div class="td-module-container row">
+                                    <div class="td-image-container col-3">
+                                        <div class="td-module-thumb"><a href="http://mauweb.monamedia.net/evavn/apple-se-chuyen-sang-su-dung-man-hinh-mini-led-hoan-toan-moi-tren-ipad-va-mac-khong-chon-oled-vi-lo-ngai-burn-in/" rel="bookmark" class="td-image-wrap" title="Apple sẽ chuyển sang sử dụng màn hình mini-LED hoàn toàn mới trên iPad và Mac, không chọn OLED vì lo ngại burn-in"><span class="entry-thumb td-thumb-css" data-type="css_image" data-img-url="http://mauweb.monamedia.net/evavn/wp-content/uploads/2019/04/17.jpg" style="background-image: url(http://mauweb.monamedia.net/evavn/wp-content/uploads/2019/04/17.jpg)"></span></a></div>
+                                    </div>
+
+                                    <div class="td-module-meta-info col-9">
+
+                                        <h3 class="entry-title td-module-title"><a href="http://mauweb.monamedia.net/evavn/apple-se-chuyen-sang-su-dung-man-hinh-mini-led-hoan-toan-moi-tren-ipad-va-mac-khong-chon-oled-vi-lo-ngai-burn-in/" rel="bookmark" title="Apple sẽ chuyển sang sử dụng màn hình mini-LED hoàn toàn mới trên iPad và Mac, không chọn OLED vì lo ngại burn-in">Apple sẽ chuyển sang sử dụng màn hình mini-LED hoàn toàn mới trên iPad...</a></h3>
+
+                                        <div class="td-editor-date">
+                                            <span class="td-author-date">
+                                                <span class="td-post-date"><time class="entry-date text-muted small td-module-date" datetime="2019-04-11T06:54:48+00:00">11 Tháng Tư, 2019</time></span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-md-3">
 
                         <h4 class="block-title td-block-title"><span class="td-pulldown-size">ĐIỂM TIN</span></h4>
                         <div id="td_uid_86_6100bdcc47f90" class="td_block_inner td-mc1-wrap">
