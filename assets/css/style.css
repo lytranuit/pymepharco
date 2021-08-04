@@ -2,33 +2,6 @@
     --primary-color: #56b665;
 }
 
-.full-width .ubermenu-nav,
-.container,
-.row {
-    max-width: 1230px;
-}
-
-.row.row-collapse {
-    max-width: 1200px;
-}
-
-.row.row-small {
-    max-width: 1222.5px;
-}
-
-.row.row-large {
-    max-width: 1260px;
-}
-
-body.framed,
-body.framed header,
-body.framed .header-wrapper,
-body.boxed,
-body.boxed header,
-body.boxed .header-wrapper,
-body.boxed .is-sticky-section {
-    max-width: 1260px;
-}
 
 .header-main {
     height: 70px;

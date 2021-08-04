@@ -45,14 +45,10 @@
 
             <div class="row">
 
-                <div class="large-9 col">
-
-
-
-
+                <div class="large-9 col-md-9">
                     <div id="row-731259342" class="row has-shadow row-box-shadow-1 row-box-shadow-3-hover">
                         <?php foreach ($news as $row) : ?>
-                            <div class="col-md-4 post-item mb-2">
+                            <div class="col-md-4 col-6 post-item mb-2">
                                 <div class="col-inner">
                                     <a href="<?= url_news($row) ?>" class="plain">
                                         <div class="box box-text-bottom box-blog-post has-hover">
@@ -88,7 +84,7 @@
 
                 </div> <!-- .large-9 -->
 
-                <div class="post-sidebar large-3 col">
+                <div class="post-sidebar large-3 col-md-3">
                     <div id="secondary" class="widget-area " role="complementary">
                         <aside id="flatsome_recent_posts-4" class="widget flatsome_recent_posts"> <span class="widget-title "><span>Bài viết mới</span></span>
                             <div class="is-divider small"></div>

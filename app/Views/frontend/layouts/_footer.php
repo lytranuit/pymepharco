@@ -1,15 +1,6 @@
 <footer id="footer" class="footer-wrapper">
     <section class="section" id="section_1637962584">
-        <div class="bg section-bg fill bg-fill  bg-loaded">
-
-
-
-
-
-        </div><!-- .section-bg -->
-
-        <div class="section-content relative">
-
+        <div class="container">
             <div class="row align-equal" id="row-1526814430">
                 <div class="col medium-4 small-12 large-4" data-animate="fadeInLeft">
                     <div class="col-inner" style="padding:30px 0px 0px 0px;">
@@ -73,7 +64,7 @@
 
                                 <div class="lienhe-icon">
                                     <h3>Gọi ngay cho chúng tôi</h3>
-                                    <p><a href="tel:0769220162">076 922 0162</a></p>
+                                    <p><a href="tel:02573829165">(84-0257) 3829 165 – 3823 2282</a></p>
                                 </div>
                             </div>
                         </div><!-- .icon-box -->
@@ -191,8 +182,8 @@
                             <div class="icon-box-text last-reset">
 
                                 <div class="lienhe-icon">
-                                    <h3>319 16C LÝ THƯỜNG KIỆT</h3>
-                                    <p><a href="<?= base_url()?>/#">Phường 15, Quận 11, TP.HCM</a></p>
+                                    <h3>Địa chỉ</h3>
+                                    <p><a href="<?= base_url() ?>">166-170 Nguyễn Huệ,Tp.Tuy Hòa,Phú Yên</a></p>
                                 </div>
                             </div>
                         </div><!-- .icon-box -->
@@ -256,7 +247,7 @@
 
                                 <div class="lienhe-icon">
                                     <h3>Email</h3>
-                                    <p><a href="mailto:demonhunterg@gmail.com">demonhunterg@gmail.com</a></p>
+                                    <p><a href="mailto:hcns@pymepharco.com">hcns@pymepharco.com</a></p>
                                 </div>
                             </div>
                         </div><!-- .icon-box -->
@@ -283,22 +274,12 @@
 
 
     <section class="section sec-footer dark" id="section_329472539">
-        <div class="bg section-bg fill bg-fill  bg-loaded">
-
-
-
-
-
-        </div><!-- .section-bg -->
-
-        <div class="section-content relative">
-
-
+        <div class="container">
             <div class="gap-element clearfix" style="display:block; height:auto; padding-top:40px"></div>
 
             <div class="row" id="row-395962281">
 
-                <div class="col medium-6 small-12 large-6">
+                <div class="col medium-4 small-12 large-3">
                     <div class="col-inner">
 
                         <div class="row" id="row-991300449">
@@ -320,7 +301,39 @@
 
                     </div>
                 </div>
-                <div class="col medium-6 small-12 large-3">
+                <div class="col medium-3 small-12 large-3">
+                    <div class="col-inner">
+
+                        <div class="row" id="row-1518871998">
+
+                            <div class="col small-12 large-12">
+                                <div class="col-inner">
+
+                                    <h3 class="title-footer">Thông tin</h3>
+
+                                </div>
+                            </div>
+                            <div class="col small-12 large-12">
+                                <div class="col-inner">
+
+                                    <div class="ul-footer">
+                                        <ul>
+                                            <li><a href="http://mauweb.monamedia.net/cleanmate/dich-vu/">Tuyển dụng</a></li>
+                                            <li><a href="http://mauweb.monamedia.net/cleanmate/dich-vu/">Quan hệ cổ đông</a></li>
+                                            <li><a href="http://mauweb.monamedia.net/cleanmate/dich-vu/">Quan hệ quốc tế</a></li>
+                                            <li><a href="http://mauweb.monamedia.net/cleanmate/dich-vu/">Chính Sách Chất Lượng</a></li>
+                                            <li><a href="http://mauweb.monamedia.net/cleanmate/dich-vu/">Kênh phân phối</a></li>
+                                        </ul>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col medium-5 small-12 large-3">
                     <div class="col-inner">
 
                         <div class="row" id="row-2118378666">
@@ -338,19 +351,13 @@
                                     <div class="lienhe-footer">
                                         <ul>
                                             <li>
-                                                <p class="icon-ft1">319 C16 Lý Thường Kiệt, TP.HCM</p>
+                                                <p class="icon-ft1">166-170 Nguyễn Huệ,Tp.Tuy Hòa,Phú Yên</p>
                                             </li>
                                             <li>
-                                                <p class="icon-ft2"><a href="tel:0769220162">076 922 0162</a></p>
+                                                <p class="icon-ft2"><a href="tel:02573829165">(84-0257) 3829 165 – 3823 228</a></p>
                                             </li>
                                             <li>
-                                                <p class="icon-ft3"><a href="maito:demonhunterg@gmail.com">demonhunterg@gmail.com</a></p>
-                                            </li>
-                                            <li>
-                                                <p class="icon-ft4">Mon - Fri: 08.00 am - 05.00 pm</p>
-                                            </li>
-                                            <li>
-                                                <p class="icon-ft4">Saturday, Sunday: Closed</p>
+                                                <p class="icon-ft3"><a href="maito:hcns@pymepharco.com">hcns@pymepharco.com</a></p>
                                             </li>
                                         </ul>
                                     </div>
@@ -385,7 +392,7 @@
                                                 <a class="image-lightbox lightbox-gallery" href="./Cleanmate_files/image_07.jpg" title="">
                                                     <div class="box has-hover gallery-box box-overlay dark">
                                                         <div class="box-image">
-                                                            <img width="300" height="200" src="./Cleanmate_files/image_07-300x200.jpg" class="attachment-medium size-medium" alt="" ids="562,576,577,578,579,580" col_spacing="xsmall" columns="2" columns__sm="2" columns__md="3" srcset="<?= base_url()?>/wp-content/uploads/2019/11/image_07-300x200.jpg 300w, <?= base_url()?>/wp-content/uploads/2019/11/image_07.jpg 480w" sizes="(max-width: 300px) 100vw, 300px">
+                                                            <img width="300" height="200" src="./Cleanmate_files/image_07-300x200.jpg" class="attachment-medium size-medium" alt="" ids="562,576,577,578,579,580" col_spacing="xsmall" columns="2" columns__sm="2" columns__md="3" srcset="<?= base_url() ?>/wp-content/uploads/2019/11/image_07-300x200.jpg 300w, <?= base_url() ?>/wp-content/uploads/2019/11/image_07.jpg 480w" sizes="(max-width: 300px) 100vw, 300px">
                                                             <div class="overlay fill" style="background-color: rgba(0,0,0,.15)">
                                                             </div>
                                                         </div><!-- .image -->
@@ -401,7 +408,7 @@
                                                 <a class="image-lightbox lightbox-gallery" href="./Cleanmate_files/image_08.jpg" title="">
                                                     <div class="box has-hover gallery-box box-overlay dark">
                                                         <div class="box-image">
-                                                            <img width="300" height="200" src="./Cleanmate_files/image_08-300x200.jpg" class="attachment-medium size-medium" alt="" ids="562,576,577,578,579,580" col_spacing="xsmall" columns="2" columns__sm="2" columns__md="3" srcset="<?= base_url()?>/wp-content/uploads/2019/11/image_08-300x200.jpg 300w, <?= base_url()?>/wp-content/uploads/2019/11/image_08.jpg 480w" sizes="(max-width: 300px) 100vw, 300px">
+                                                            <img width="300" height="200" src="./Cleanmate_files/image_08-300x200.jpg" class="attachment-medium size-medium" alt="" ids="562,576,577,578,579,580" col_spacing="xsmall" columns="2" columns__sm="2" columns__md="3" srcset="<?= base_url() ?>/wp-content/uploads/2019/11/image_08-300x200.jpg 300w, <?= base_url() ?>/wp-content/uploads/2019/11/image_08.jpg 480w" sizes="(max-width: 300px) 100vw, 300px">
                                                             <div class="overlay fill" style="background-color: rgba(0,0,0,.15)">
                                                             </div>
                                                         </div><!-- .image -->
@@ -417,7 +424,7 @@
                                                 <a class="image-lightbox lightbox-gallery" href="./Cleanmate_files/image_09.jpg" title="">
                                                     <div class="box has-hover gallery-box box-overlay dark">
                                                         <div class="box-image">
-                                                            <img width="300" height="200" src="./Cleanmate_files/image_09-300x200.jpg" class="attachment-medium size-medium" alt="" ids="562,576,577,578,579,580" col_spacing="xsmall" columns="2" columns__sm="2" columns__md="3" srcset="<?= base_url()?>/wp-content/uploads/2019/11/image_09-300x200.jpg 300w, <?= base_url()?>/wp-content/uploads/2019/11/image_09.jpg 480w" sizes="(max-width: 300px) 100vw, 300px">
+                                                            <img width="300" height="200" src="./Cleanmate_files/image_09-300x200.jpg" class="attachment-medium size-medium" alt="" ids="562,576,577,578,579,580" col_spacing="xsmall" columns="2" columns__sm="2" columns__md="3" srcset="<?= base_url() ?>/wp-content/uploads/2019/11/image_09-300x200.jpg 300w, <?= base_url() ?>/wp-content/uploads/2019/11/image_09.jpg 480w" sizes="(max-width: 300px) 100vw, 300px">
                                                             <div class="overlay fill" style="background-color: rgba(0,0,0,.15)">
                                                             </div>
                                                         </div><!-- .image -->
@@ -433,7 +440,7 @@
                                                 <a class="image-lightbox lightbox-gallery" href="./Cleanmate_files/image_06-1.jpg" title="">
                                                     <div class="box has-hover gallery-box box-overlay dark">
                                                         <div class="box-image">
-                                                            <img width="300" height="200" src="./Cleanmate_files/image_06-1-300x200.jpg" class="attachment-medium size-medium" alt="" ids="562,576,577,578,579,580" col_spacing="xsmall" columns="2" columns__sm="2" columns__md="3" srcset="<?= base_url()?>/wp-content/uploads/2019/11/image_06-1-300x200.jpg 300w, <?= base_url()?>/wp-content/uploads/2019/11/image_06-1.jpg 480w" sizes="(max-width: 300px) 100vw, 300px">
+                                                            <img width="300" height="200" src="./Cleanmate_files/image_06-1-300x200.jpg" class="attachment-medium size-medium" alt="" ids="562,576,577,578,579,580" col_spacing="xsmall" columns="2" columns__sm="2" columns__md="3" srcset="<?= base_url() ?>/wp-content/uploads/2019/11/image_06-1-300x200.jpg 300w, <?= base_url() ?>/wp-content/uploads/2019/11/image_06-1.jpg 480w" sizes="(max-width: 300px) 100vw, 300px">
                                                             <div class="overlay fill" style="background-color: rgba(0,0,0,.15)">
                                                             </div>
                                                         </div><!-- .image -->
@@ -449,7 +456,7 @@
                                                 <a class="image-lightbox lightbox-gallery" href="./Cleanmate_files/image_03-4.jpg" title="">
                                                     <div class="box has-hover gallery-box box-overlay dark">
                                                         <div class="box-image">
-                                                            <img width="300" height="200" src="./Cleanmate_files/image_03-4-300x200.jpg" class="attachment-medium size-medium" alt="" ids="562,576,577,578,579,580" col_spacing="xsmall" columns="2" columns__sm="2" columns__md="3" srcset="<?= base_url()?>/wp-content/uploads/2019/11/image_03-4-300x200.jpg 300w, <?= base_url()?>/wp-content/uploads/2019/11/image_03-4.jpg 480w" sizes="(max-width: 300px) 100vw, 300px">
+                                                            <img width="300" height="200" src="./Cleanmate_files/image_03-4-300x200.jpg" class="attachment-medium size-medium" alt="" ids="562,576,577,578,579,580" col_spacing="xsmall" columns="2" columns__sm="2" columns__md="3" srcset="<?= base_url() ?>/wp-content/uploads/2019/11/image_03-4-300x200.jpg 300w, <?= base_url() ?>/wp-content/uploads/2019/11/image_03-4.jpg 480w" sizes="(max-width: 300px) 100vw, 300px">
                                                             <div class="overlay fill" style="background-color: rgba(0,0,0,.15)">
                                                             </div>
                                                         </div><!-- .image -->
@@ -465,7 +472,7 @@
                                                 <a class="image-lightbox lightbox-gallery" href="./Cleanmate_files/image_02-2-480x320.jpg" title="">
                                                     <div class="box has-hover gallery-box box-overlay dark">
                                                         <div class="box-image">
-                                                            <img width="300" height="200" src="./Cleanmate_files/image_02-2-480x320-300x200.jpg" class="attachment-medium size-medium" alt="" ids="562,576,577,578,579,580" col_spacing="xsmall" columns="2" columns__sm="2" columns__md="3" srcset="<?= base_url()?>/wp-content/uploads/2019/11/image_02-2-480x320-300x200.jpg 300w, <?= base_url()?>/wp-content/uploads/2019/11/image_02-2-480x320.jpg 480w" sizes="(max-width: 300px) 100vw, 300px">
+                                                            <img width="300" height="200" src="./Cleanmate_files/image_02-2-480x320-300x200.jpg" class="attachment-medium size-medium" alt="" ids="562,576,577,578,579,580" col_spacing="xsmall" columns="2" columns__sm="2" columns__md="3" srcset="<?= base_url() ?>/wp-content/uploads/2019/11/image_02-2-480x320-300x200.jpg 300w, <?= base_url() ?>/wp-content/uploads/2019/11/image_02-2-480x320.jpg 480w" sizes="(max-width: 300px) 100vw, 300px">
                                                             <div class="overlay fill" style="background-color: rgba(0,0,0,.15)">
                                                             </div>
                                                         </div><!-- .image -->
@@ -501,6 +508,6 @@
         </style>
     </section>
 
-    <a href="<?= base_url()?>/#top" class="back-to-top button icon invert plain fixed bottom z-1 is-outline hide-for-medium circle" id="top-link"><i class="icon-angle-up"></i></a>
+    <a href="<?= base_url() ?>/#top" class="back-to-top button icon invert plain fixed bottom z-1 is-outline hide-for-medium circle" id="top-link"><i class="icon-angle-up"></i></a>
 
 </footer><!-- .footer-wrapper -->

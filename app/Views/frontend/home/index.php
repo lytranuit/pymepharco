@@ -10,17 +10,9 @@
         <?= view_cell("\App\Libraries\HomeWidget::slider") ?>
 
         <section class="section" id="section_135314551">
-            <div class="bg section-bg fill bg-fill  bg-loaded">
 
+            <div class="container">
 
-
-
-
-            </div><!-- .section-bg -->
-
-            <div class="section-content relative">
-
-                <div class="gap-element clearfix" style="display:block; height:auto; padding-top:50px"></div>
                 <div class="row" id="row-2066432474">
                     <div class="col medium-6 small-12 large-6">
                         <div class="col-inner">
@@ -191,16 +183,14 @@
         </section>
 
         <section class="section has-parallax" id="section_1938914310">
-            <div class="bg section-bg fill bg-fill parallax-active" data-parallax-container=".section" data-parallax-background="" data-parallax="-10" style="height: 880px;">
+            <div class="bg section-bg fill bg-fill parallax-active bg-loaded" data-parallax-container=".section" data-parallax-background="" data-parallax="-10" style="height: 937px; transform: translate3d(0px, -328.11px, 0px); backface-visibility: hidden;">
 
 
                 <div class="section-bg-overlay absolute fill"></div>
 
 
-            </div><!-- .section-bg -->
-
-            <div class="section-content relative">
-
+            </div>
+            <div class="container">
                 <div class="row" id="row-274590902">
                     <div class="col col-coun medium-3 small-12 large-3">
                         <div class="col-inner dark">
@@ -271,15 +261,7 @@
         </section>
 
         <section class="section" id="section_416297056">
-            <div class="bg section-bg fill bg-fill  bg-loaded">
-
-
-
-
-
-            </div><!-- .section-bg -->
-
-            <div class="section-content relative">
+            <div class="container">
 
                 <div class="row" id="row-1043622308">
                     <div class="col small-12 large-12" data-animate="fadeInLeft">
@@ -472,15 +454,7 @@
             </style>
         </section>
         <section class="section" id="section_89897570">
-            <div class="bg section-bg fill bg-fill  bg-loaded">
-
-
-
-
-
-            </div><!-- .section-bg -->
-
-            <div class="section-content relative">
+            <div class="container">
                 <div class="row" id="row-214190187">
                     <div class="col small-12 large-12" data-animate="fadeInLeft" data-animated="true">
                         <div class="col-inner">

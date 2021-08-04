@@ -344,7 +344,7 @@ div#top-bar {
 }
 .mona-html:before {
     content: "";
-    font-family: FontAwesome;
+    font-family: "Font Awesome 5 Pro";
     font-size: 22px;
     display: inline-block;
     vertical-align: middle;
@@ -493,7 +493,7 @@ p.tab-text{
     position: absolute;
     top: -25px;
     content: '';
-    font-family: FontAwesome;
+    font-family: "Font Awesome 5 Pro";
     left: 50%;
     transform: translateX(-50%);
     font-size: 40px;
@@ -735,7 +735,7 @@ h3.slider-text:after {
 }
 h3.slider-text:before {
     content: "\f086 ";
-    font-family: Fontawesome;
+    font-family: "Font Awesome 5 Pro";
     font-size: 40px;
     color: #fff;
     display: block;
@@ -779,7 +779,7 @@ h3.slider-text:before {
     color: #303030;
 }
 .ul-colum li:before {
-    font-family: Fontawesome;
+    font-family: "Font Awesome 5 Pro";
     content: "\f05d";
     color:#56B665;
     padding-right: 5px;
@@ -813,7 +813,7 @@ h3.slider-text:before {
     border-radius: 50%;
     background: #F6F6F6;
     color: #56B665;
-    font-family: Fontawesome;
+    font-family: "Font Awesome 5 Pro";
     content:"\f09d";
 }
 .uu-icon2:before {
@@ -825,7 +825,7 @@ h3.slider-text:before {
     border-radius: 50%;
     background: #F6F6F6;
     color: #56B665;
-    font-family: Fontawesome;
+    font-family: "Font Awesome 5 Pro";
     content:"\f087 ";
 }
 .uu-icon3:before {
@@ -837,14 +837,14 @@ h3.slider-text:before {
     border-radius: 50%;
     background: #F6F6F6;
     color: #56B665;
-    font-family: Fontawesome;
+    font-family: "Font Awesome 5 Pro";
     content:"\f1b9";
 }
 .uu-icon1:after{
     position: absolute;
     top: 0;
     right: 0;
-    font-family: Fontawesome;
+    font-family: "Font Awesome 5 Pro";
     content: "\f05d";
     speak: none;
     vertical-align: middle;
@@ -861,7 +861,7 @@ h3.slider-text:before {
     position: absolute;
     top: 0;
     right: 0;
-    font-family: Fontawesome;
+    font-family: "Font Awesome 5 Pro";
     content: "\f05d";
     speak: none;
     vertical-align: middle;
@@ -878,7 +878,7 @@ h3.slider-text:before {
     position: absolute;
     top: 0;
     right: 0;
-    font-family: Fontawesome;
+    font-family: "Font Awesome 5 Pro";
     content: "\f05d";
     speak: none;
     vertical-align: middle;
@@ -923,7 +923,7 @@ h3.slider-text:before {
 }
 .slider-text span:before {
     content: "\f10d";
-    font-family: fontawesome;
+    font-family: "Font Awesome 5 Pro";
     color: #ddd;
     font-size: 50px;
 }
@@ -1088,7 +1088,7 @@ h3.gt-title {
     position: absolute;
     bottom: 0;
     content: '\f296';
-    font-family: FontAwesome;
+    font-family: "Font Awesome 5 Pro";
     left: 50%;
     transform: translateX(-50%);
     font-size: 23px;
@@ -1208,7 +1208,7 @@ h3.gt-title {
 }
 .mona-post .post-meta.is-small.op-8:before {
     content: "\f073";
-    font-family: FontAwesome;
+    font-family: "Font Awesome 5 Pro";
     margin-right: 10px;
     color: #e5c128;
 }
@@ -1229,7 +1229,7 @@ h3.gt-title {
 }
 .mona-post button.button.is-link.is-small.mb-0:after {
     content: "\f0da";
-    font-family: FontAwesome;
+    font-family: "Font Awesome 5 Pro";
     display: inline-block;
     vertical-align: baseline;
     margin-left: 5px;
@@ -1271,7 +1271,7 @@ h3.gt-title {
     margin-left: 0px !important;
 }
 .ul-footer li:before {
-    font-family: Fontawesome;
+    font-family: "Font Awesome 5 Pro";
     content: "\f105";
     color: #fff;
     font-size:16px ;
@@ -1283,28 +1283,28 @@ h3.gt-title {
     border-bottom: 1px solid #495052;
 }
 p.icon-ft1:before {
-    font-family: Fontawesome;
+    font-family: "Font Awesome 5 Pro";
     content: "\f041";
     color:#777;
     font-size: 22px;
     padding-right: 20px;
 }
 p.icon-ft2:before {
-    font-family: Fontawesome;
+    font-family: "Font Awesome 5 Pro";
     content: "\f10b";
     color:#777;
     font-size: 22px;
     padding-right: 23px;
 }
 p.icon-ft3:before {
-    font-family: Fontawesome;
-    content: "\f003";
+    font-family: "Font Awesome 5 Pro";
+    content: "\f0e0";
     color:#777;
     font-size: 22px;
     padding-right: 10px;
 }
 p.icon-ft4:before {
-    font-family: Fontawesome;
+    font-family: "Font Awesome 5 Pro";
     content: "\f017";
     color:#777;
     font-size: 22px;
@@ -1337,7 +1337,7 @@ p.icon-ft4:before {
 }
 .mona-sidebar-footer ul li a:before {
     content: "\f0da";
-    font-family: FontAwesome;
+    font-family: "Font Awesome 5 Pro";
     display: inline-block;
     vertical-align: baseline;
     margin: 0 15px 0 5px;
@@ -1349,7 +1349,7 @@ p.icon-ft4:before {
 }
 .mona-sidebar-footer ul li a:after {
     content: "\f0fb";
-    font-family: FontAwesome;
+    font-family: "Font Awesome 5 Pro";
     display: inline-block;
     vertical-align: baseline;
     margin: 0 5px 0 15px;
