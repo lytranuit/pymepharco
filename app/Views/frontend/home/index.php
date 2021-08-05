@@ -66,7 +66,7 @@
             </div>
             <div class="container">
                 <div class="row" id="row-274590902">
-                    <div class="col col-coun medium-3 small-12 large-3">
+                    <div class="col col-coun medium-3 small-12 large-3" data-animate="fadeInLeft">
                         <div class="col-inner dark">
                             <div class="coun-ter">
                                 <div class="counter">
@@ -78,7 +78,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col col-coun medium-3 small-12 large-3">
+                    <div class="col col-coun medium-3 small-12 large-3" data-animate="fadeInLeft">
                         <div class="col-inner dark">
                             <div class="coun-ter">
                                 <div class="counter">
@@ -90,7 +90,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col col-coun medium-3 small-12 large-3">
+                    <div class="col col-coun medium-3 small-12 large-3" data-animate="fadeInLeft">
                         <div class="col-inner dark">
                             <div class="coun-ter">
                                 <div class="counter">
@@ -102,7 +102,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col col-coun medium-3 small-12 large-3">
+                    <div class="col col-coun medium-3 small-12 large-3" data-animate="fadeInLeft">
                         <div class="col-inner dark">
                             <div class="coun-ter">
                                 <div class="counter">
@@ -129,7 +129,7 @@
                 }
 
                 #section_1938914310 .section-bg.bg-loaded {
-                    background-image: url(<?= base_url() ?>/wp-content/uploads/2019/11/image_02-7.jpg);
+                    background-image: url(<?= base_url("assets/images/KBCC6717.jpg") ?>);
                 }
             </style>
         </section>
