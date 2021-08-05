@@ -14,141 +14,11 @@
             <div class="container">
 
                 <div class="row" id="row-2066432474">
-                    <div class="col medium-6 small-12 large-6">
+                    <div class="col medium-6 small-12 large-6 align-self-center">
                         <div class="col-inner">
-                            <style scope="scope">
-                                #gallery-1067427207 .grid-col-1 {
-                                    height: 450px
-                                }
-
-                                #gallery-1067427207 .grid-col-1-2 {
-                                    height: 225px
-                                }
-
-                                #gallery-1067427207 .grid-col-1-3 {
-                                    height: 150px
-                                }
-
-                                #gallery-1067427207 .grid-col-2-3 {
-                                    height: 300px
-                                }
-
-                                #gallery-1067427207 .grid-col-1-4 {
-                                    height: 112.5px
-                                }
-
-                                #gallery-1067427207 .grid-col-3-4 {
-                                    height: 337.5px
-                                }
-
-
-                                /* Tablet */
-                                @media (max-width: 850px) {
-                                    #gallery-1067427207 .grid-col-1 {
-                                        height: 300px
-                                    }
-
-                                    #gallery-1067427207 .grid-col-1-2 {
-                                        height: 150px
-                                    }
-
-                                    #gallery-1067427207 .grid-col-1-3 {
-                                        height: 100px
-                                    }
-
-                                    #gallery-1067427207 .grid-col-2-3 {
-                                        height: 200px
-                                    }
-
-                                    #gallery-1067427207 .grid-col-1-4 {
-                                        height: 75px
-                                    }
-
-                                    #gallery-1067427207 .grid-col-3-4 {
-                                        height: 225px
-                                    }
-                                }
-
-                                /* Mobile */
-                                @media (max-width: 550px) {
-                                    #gallery-1067427207 .grid-col-1 {
-                                        height: 300px
-                                    }
-
-                                    #gallery-1067427207 .grid-col-1-2 {
-                                        height: 150px
-                                    }
-
-                                    #gallery-1067427207 .grid-col-1-3 {
-                                        height: 100px
-                                    }
-
-                                    #gallery-1067427207 .grid-col-2-3 {
-                                        height: 200px
-                                    }
-
-                                    #gallery-1067427207 .grid-col-1-4 {
-                                        height: 75px
-                                    }
-
-                                    #gallery-1067427207 .grid-col-3-4 {
-                                        height: 225px
-                                    }
-                                }
-                            </style>
-
-
-                            <div id="gallery-1067427207" class="row row-grid" data-packery-options="{&quot;itemSelector&quot;: &quot;.col&quot;, &quot;gutter&quot;: 0, &quot;presentageWidth&quot; : true}" style="position: relative; height: 450px;">
-
-                                <div class="gallery-col col grid-col grid-col-1 large-9 medium-12" data-animate="bounceIn" style="position: absolute; left: 0px; top: 0px;">
-                                    <div class="col-inner">
-                                        <a class="image-lightbox lightbox-gallery" href="./Cleanmate_files/image_04-1-480x693.jpg" title="">
-                                            <div class="box has-hover gallery-box box-overlay dark box-text-center">
-                                                <div class="box-image">
-                                                    <img width="480" height="693" src="./Cleanmate_files/image_04-1-480x693.jpg" class="attachment-large size-large" alt="" ids="589,588,590" style="none" type="grid" grid="6" grid_height="450px" animate="bounceIn" image_size="original" srcset="<?= base_url() ?>/wp-content/uploads/2019/11/image_04-1-480x693.jpg 480w, <?= base_url() ?>/wp-content/uploads/2019/11/image_04-1-480x693-208x300.jpg 208w" sizes="(max-width: 480px) 100vw, 480px">
-                                                    <div class="overlay fill" style="background-color: rgba(0,0,0,.15)">
-                                                    </div>
-                                                </div><!-- .image -->
-                                                <div class="box-text text-left dark">
-                                                    <p></p>
-                                                </div><!-- .text -->
-                                            </div><!-- .box -->
-                                        </a>
-                                    </div><!-- .col-inner -->
-                                </div><!-- .col -->
-                                <div class="gallery-col col grid-col grid-col-1-2 large-3 medium-6" data-animate="bounceIn" style="position: absolute; left: 461px; top: 0px;">
-                                    <div class="col-inner">
-                                        <a class="image-lightbox lightbox-gallery" href="./Cleanmate_files/image_03-4-1.jpg" title="">
-                                            <div class="box has-hover gallery-box box-overlay dark box-text-center">
-                                                <div class="box-image">
-                                                    <img width="480" height="320" src="./Cleanmate_files/image_03-4-1.jpg" class="attachment-large size-large" alt="" ids="589,588,590" style="none" type="grid" grid="6" grid_height="450px" animate="bounceIn" image_size="original" srcset="<?= base_url() ?>/wp-content/uploads/2019/11/image_03-4-1.jpg 480w, <?= base_url() ?>/wp-content/uploads/2019/11/image_03-4-1-300x200.jpg 300w" sizes="(max-width: 480px) 100vw, 480px">
-                                                    <div class="overlay fill" style="background-color: rgba(0,0,0,.15)">
-                                                    </div>
-                                                </div><!-- .image -->
-                                                <div class="box-text text-left dark">
-                                                    <p></p>
-                                                </div><!-- .text -->
-                                            </div><!-- .box -->
-                                        </a>
-                                    </div><!-- .col-inner -->
-                                </div><!-- .col -->
-                                <div class="gallery-col col grid-col grid-col-1-2 large-3 medium-6" data-animate="bounceIn" style="position: absolute; left: 461px; top: 225px;">
-                                    <div class="col-inner">
-                                        <a class="image-lightbox lightbox-gallery" href="./Cleanmate_files/image_10.jpg" title="">
-                                            <div class="box has-hover gallery-box box-overlay dark box-text-center">
-                                                <div class="box-image">
-                                                    <img width="480" height="320" src="./Cleanmate_files/image_10.jpg" class="attachment-large size-large" alt="" ids="589,588,590" style="none" type="grid" grid="6" grid_height="450px" animate="bounceIn" image_size="original" srcset="<?= base_url() ?>/wp-content/uploads/2019/11/image_10.jpg 480w, <?= base_url() ?>/wp-content/uploads/2019/11/image_10-300x200.jpg 300w" sizes="(max-width: 480px) 100vw, 480px">
-                                                    <div class="overlay fill" style="background-color: rgba(0,0,0,.15)">
-                                                    </div>
-                                                </div><!-- .image -->
-                                                <div class="box-text text-left dark">
-                                                    <p></p>
-                                                </div><!-- .text -->
-                                            </div><!-- .box -->
-                                        </a>
-                                    </div><!-- .col-inner -->
-                                </div><!-- .col -->
-                            </div>
+                            <video id="video1" style="width:100%;" controls="">
+                                <source src="<?= base_url("assets/images/about.mp4") ?>" type="video/mp4">
+                            </video>
                         </div>
                     </div>
                     <div class="col medium-6 small-12 large-6" data-animate="bounceIn">
@@ -156,12 +26,16 @@
                             <div class="title-all">
                                 <h2>Giới thiệu</h2>
                                 <div class="line-bottom"></div>
-                                <p>Lorem Ipsum chỉ đơn giản là một đoạn văn bản giả</p>
-                                <h6>Lorem Ipsum chỉ đơn giản là một đoạn văn bản giả, được dùng vào việc trình bày và dàn trang phục
-                                    vụ cho in ấn. Lorem Ipsum đã được sử dụng như một văn bản chuẩn cho ngành công nghiệp in ấn từ
-                                    những năm 1500, khi một họa sĩ vô danh ghép nhiều đoạn văn bản với nhau để tạo thành một bản mẫu
-                                    văn bản. Đoạn văn bản này không những đã tồn tại năm thế kỉ, mà khi được áp dụng vào tin học văn
-                                    phòng, nội dung của nó vẫn không hề bị thay đổi. Nó đã được phổ biến trong những năm 1960 </h6>
+                                <div class="content">
+                                    <div class="detail">
+                                        <p style="text-align: justify;">Thành lập 25-05-2011, GMPc tự hào là&nbsp;<span style="color:#d76423;"><strong>Nhà tư vấn tiên phong,</strong></span> sáng tạo nên mô hình&nbsp;<span style="color:#d76423;"><strong>Tư vấn toàn diện, trọn gói dự án Nhà máy GMP</strong></span> áp dụng trong&nbsp;các ngành&nbsp;sản xuất Dược, Mỹ phẩm, Thực phẩm Bảo vệ sức khỏe và&nbsp;Thuốc Thú y thủy sản.</p>
+
+                                        <p style="text-align: justify;">Chúng tôi cung cấp <span style="color:#d76423;"><strong>đầy&nbsp;đủ dịch vụ tư vấn cần thiết&nbsp;&nbsp;</strong></span>bao gồm: Tư vấn đầu tư, Thiết kế, Quản lý dự án, Giám sát thi công,&nbsp;Đào tạo, Hướng dẫn thực hành GMP một cách <span style="color:#d76423;"><strong>Sáng tạo và Chuyên nghiệp</strong></span>, giúp cho việc triển khai đầu tư xây dựng Nhà máy GMP <span style="text-align:justify;"><span style="color:#d76423;"><strong>chỉ cần một đầu mối tư vấn duy nhất,&nbsp;</strong></span></span>và do đó, việc thực hiện&nbsp;trở nên&nbsp;<span style="color:#d76423;"><strong>Đơn giản hóa – Tối ưu chi phí&nbsp;- Đảm bảo đạt Chứng nhận!</strong></span></p>
+
+                                        <p style="text-align: justify;">Trải qua 10&nbsp;năm xây dựng và phát triển, GMPc đã nhận được sự tin tưởng và tín nhiệm của <span style="color:#d76423;"><strong>hơn 190</strong></span> Chủ đầu tư Dự án nhà máy GMP,&nbsp;khẳng định <span style="color:#d76423;"><strong>vị thế số 1 trong lĩnh vực Tư vấn trọn gói Nhà máy GMP</strong></span> &nbsp;tại Việt Nam.</p>
+
+                                    </div>
+                                </div>
                             </div>
                             <div class="gap-element clearfix" style="display:block; height:auto; padding-top:25px"></div>
                             <a href="<?= base_url() ?>/gioi-thieu/" target="_self" class="button primary lowercase btn-nut">
@@ -346,7 +220,7 @@
                         <div class="col-inner">
                             <div class="img has-hover chose-img x md-x lg-x y md-y lg-y" id="image_1773961094">
                                 <div class="img-inner dark">
-                                    <img width="480" height="480" src="./Cleanmate_files/image_03-1-480x480.jpg" class="attachment-original size-original" alt="" srcset="<?= base_url() ?>/wp-content/uploads/2019/11/image_03-1-480x480.jpg 480w, <?= base_url() ?>/wp-content/uploads/2019/11/image_03-1-480x480-150x150.jpg 150w, <?= base_url() ?>/wp-content/uploads/2019/11/image_03-1-480x480-300x300.jpg 300w, <?= base_url() ?>/wp-content/uploads/2019/11/image_03-1-480x480-100x100.jpg 100w" sizes="(max-width: 480px) 100vw, 480px">
+                                    <img src="<?= base_url("assets/images/py.jpg") ?>" class="img-child attachment-original size-original" alt="">
                                 </div>
 
                                 <style scope="scope">
@@ -354,6 +228,7 @@
                                         width: 100%;
                                     }
                                 </style>
+
                             </div>
 
                         </div>
@@ -468,7 +343,7 @@
                     <div>
                         <div class="row">
                             <?php for ($i = 1; $i < 9; $i++) : ?>
-                                <div class="col-md-3 col-6 item-product item-product-grid-style1 text-center mb-5">
+                                <div class="col-md-3 col-6 item-product item-product-grid-style1 text-center mb-4" data-animate="fadeInDown">
                                     <div class="product-thumb">
                                         <a href="https://macy.7uptheme.net/product/acetaminophen/" class="product-thumb-link zoom-thumb">
                                             <img src="<?= base_url("assets/images/product/$i.jpg") ?>" class="img-fluid" alt="">
@@ -497,7 +372,7 @@
         <section id="section_89897571">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-3">
+                    <div class="col-md-3" data-animate="fadeInLeft">
 
                         <h4 class="block-title td-block-title"><span class="td-pulldown-size">ĐIỂM TIN</span></h4>
                         <div id="td_uid_86_6100bdcc47f90" class="td_block_inner td-mc1-wrap">
@@ -591,7 +466,7 @@
 
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-3" data-animate="fadeInLeft">
 
                         <h4 class="block-title td-block-title"><span class="td-pulldown-size">ĐIỂM TIN</span></h4>
                         <div id="td_uid_86_6100bdcc47f90" class="td_block_inner td-mc1-wrap">
@@ -685,7 +560,7 @@
 
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-3" data-animate="fadeInLeft">
 
                         <h4 class="block-title td-block-title"><span class="td-pulldown-size">ĐIỂM TIN</span></h4>
                         <div id="td_uid_86_6100bdcc47f90" class="td_block_inner td-mc1-wrap">
@@ -779,7 +654,7 @@
 
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-3" data-animate="fadeInLeft">
 
                         <h4 class="block-title td-block-title"><span class="td-pulldown-size">ĐIỂM TIN</span></h4>
                         <div id="td_uid_86_6100bdcc47f90" class="td_block_inner td-mc1-wrap">
@@ -910,6 +785,10 @@
 
 <?= $this->section("script") ?>
 <script>
+    var cw = jQuery('.img-child').width();
+    jQuery('.img-child').css({
+        'height': cw + 'px'
+    });
     jQuery('.slide-box').slick({
         dots: false,
         arrows: true,
