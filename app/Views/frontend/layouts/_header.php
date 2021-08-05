@@ -96,23 +96,25 @@
                                 <?php endif ?>
                                 <?php if (!empty($row->child)) : ?>
                                     <ul class="nav-dropdown nav-dropdown-default">
-                                        <li id="menu-item-821" class="menu-item menu-item-type-custom menu-item-object-custom  menu-item-821">
-                                            <?php if ($row2->type == 1) : ?>
-                                                <a href="<?= $row2->link ?>" class="nav-top-link"><?= $row2->{pick_language($row2, 'name_')}  ?></a>
-                                            <?php elseif ($row2->type == 2) : ?>
-                                                <a href="<?= url_category_byid($row2->related_id) ?>" class="nav-top-link"><?= $row2->{pick_language($row2, 'name_')}  ?></a>
-                                            <?php elseif ($row2->type == 3) : ?>
-                                                <a href="<?= url_tag_byid($row2->related_id) ?>" class="nav-top-link"><?= $row2->{pick_language($row2, 'name_')}  ?></a>
-                                            <?php elseif ($row2->type == 4) : ?>
-                                                <a href="<?= url_product_byid($row2->related_id) ?>" class="nav-top-link"><?= $row2->{pick_language($row2, 'name_')}  ?></a>
-                                            <?php elseif ($row2->type == 5) : ?>
-                                                <a href="<?= url_news_byid($row2->related_id) ?>" class="nav-top-link"><?= $row2->{pick_language($row2, 'name_')}  ?></a>
-                                            <?php elseif ($row2->type == 7) : ?>
-                                                <a href="<?= route_to("about") ?>" class="nav-top-link"><?= $row2->{pick_language($row2, 'name_')}  ?></a>
-                                            <?php elseif ($row2->type == 8) : ?>
-                                                <a href="<?= route_to("contact") ?>" class="nav-top-link"><?= $row2->{pick_language($row2, 'name_')}  ?></a>
-                                            <?php endif ?>
-                                        </li>
+                                        <?php foreach ($row->child as $row2) : ?>
+                                            <li id="menu-item-821" class="menu-item menu-item-type-custom menu-item-object-custom  menu-item-821">
+                                                <?php if ($row2->type == 1) : ?>
+                                                    <a href="<?= $row2->link ?>" class="nav-top-link"><?= $row2->{pick_language($row2, 'name_')}  ?></a>
+                                                <?php elseif ($row2->type == 2) : ?>
+                                                    <a href="<?= url_category_byid($row2->related_id) ?>" class="nav-top-link"><?= $row2->{pick_language($row2, 'name_')}  ?></a>
+                                                <?php elseif ($row2->type == 3) : ?>
+                                                    <a href="<?= url_tag_byid($row2->related_id) ?>" class="nav-top-link"><?= $row2->{pick_language($row2, 'name_')}  ?></a>
+                                                <?php elseif ($row2->type == 4) : ?>
+                                                    <a href="<?= url_product_byid($row2->related_id) ?>" class="nav-top-link"><?= $row2->{pick_language($row2, 'name_')}  ?></a>
+                                                <?php elseif ($row2->type == 5) : ?>
+                                                    <a href="<?= url_news_byid($row2->related_id) ?>" class="nav-top-link"><?= $row2->{pick_language($row2, 'name_')}  ?></a>
+                                                <?php elseif ($row2->type == 7) : ?>
+                                                    <a href="<?= route_to("about") ?>" class="nav-top-link"><?= $row2->{pick_language($row2, 'name_')}  ?></a>
+                                                <?php elseif ($row2->type == 8) : ?>
+                                                    <a href="<?= route_to("contact") ?>" class="nav-top-link"><?= $row2->{pick_language($row2, 'name_')}  ?></a>
+                                                <?php endif ?>
+                                            </li>
+                                        <?php endforeach ?>
                                     </ul>
                                 <?php endif ?>
                             </li>
@@ -143,23 +145,25 @@
                                 <?php endif ?>
                                 <?php if (!empty($row->child)) : ?>
                                     <ul class="nav-dropdown nav-dropdown-default">
-                                        <li id="menu-item-821" class="menu-item menu-item-type-custom menu-item-object-custom  menu-item-821">
-                                            <?php if ($row2->type == 1) : ?>
-                                                <a href="<?= $row2->link ?>" class="nav-top-link"><?= $row2->{pick_language($row2, 'name_')}  ?></a>
-                                            <?php elseif ($row2->type == 2) : ?>
-                                                <a href="<?= url_category_byid($row2->related_id) ?>" class="nav-top-link"><?= $row2->{pick_language($row2, 'name_')}  ?></a>
-                                            <?php elseif ($row2->type == 3) : ?>
-                                                <a href="<?= url_tag_byid($row2->related_id) ?>" class="nav-top-link"><?= $row2->{pick_language($row2, 'name_')}  ?></a>
-                                            <?php elseif ($row2->type == 4) : ?>
-                                                <a href="<?= url_product_byid($row2->related_id) ?>" class="nav-top-link"><?= $row2->{pick_language($row2, 'name_')}  ?></a>
-                                            <?php elseif ($row2->type == 5) : ?>
-                                                <a href="<?= url_news_byid($row2->related_id) ?>" class="nav-top-link"><?= $row2->{pick_language($row2, 'name_')}  ?></a>
-                                            <?php elseif ($row2->type == 7) : ?>
-                                                <a href="<?= route_to("about") ?>" class="nav-top-link"><?= $row2->{pick_language($row2, 'name_')}  ?></a>
-                                            <?php elseif ($row2->type == 8) : ?>
-                                                <a href="<?= route_to("contact") ?>" class="nav-top-link"><?= $row2->{pick_language($row2, 'name_')}  ?></a>
-                                            <?php endif ?>
-                                        </li>
+                                        <?php foreach ($row->child as $row2) : ?>
+                                            <li id="menu-item-821" class="menu-item menu-item-type-custom menu-item-object-custom  menu-item-821">
+                                                <?php if ($row2->type == 1) : ?>
+                                                    <a href="<?= $row2->link ?>" class="nav-top-link"><?= $row2->{pick_language($row2, 'name_')}  ?></a>
+                                                <?php elseif ($row2->type == 2) : ?>
+                                                    <a href="<?= url_category_byid($row2->related_id) ?>" class="nav-top-link"><?= $row2->{pick_language($row2, 'name_')}  ?></a>
+                                                <?php elseif ($row2->type == 3) : ?>
+                                                    <a href="<?= url_tag_byid($row2->related_id) ?>" class="nav-top-link"><?= $row2->{pick_language($row2, 'name_')}  ?></a>
+                                                <?php elseif ($row2->type == 4) : ?>
+                                                    <a href="<?= url_product_byid($row2->related_id) ?>" class="nav-top-link"><?= $row2->{pick_language($row2, 'name_')}  ?></a>
+                                                <?php elseif ($row2->type == 5) : ?>
+                                                    <a href="<?= url_news_byid($row2->related_id) ?>" class="nav-top-link"><?= $row2->{pick_language($row2, 'name_')}  ?></a>
+                                                <?php elseif ($row2->type == 7) : ?>
+                                                    <a href="<?= route_to("about") ?>" class="nav-top-link"><?= $row2->{pick_language($row2, 'name_')}  ?></a>
+                                                <?php elseif ($row2->type == 8) : ?>
+                                                    <a href="<?= route_to("contact") ?>" class="nav-top-link"><?= $row2->{pick_language($row2, 'name_')}  ?></a>
+                                                <?php endif ?>
+                                            </li>
+                                        <?php endforeach ?>
                                     </ul>
                                 <?php endif ?>
                             </li>

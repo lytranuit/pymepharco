@@ -468,7 +468,7 @@
                     <div>
                         <div class="row">
                             <?php for ($i = 1; $i < 9; $i++) : ?>
-                                <div class="col-md-3 col-6 item-product item-product-grid-style1 text-center mb-5">
+                                <div class="col-md-3 col-6 item-product item-product-grid-style1 text-center mb-4">
                                     <div class="product-thumb">
                                         <a href="https://macy.7uptheme.net/product/acetaminophen/" class="product-thumb-link zoom-thumb">
                                             <img src="<?= base_url("assets/images/product/$i.jpg") ?>" class="img-fluid" alt="">
