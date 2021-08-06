@@ -44,6 +44,17 @@ class HomeWidget
         // die();
         return view("frontend/home/_" . __FUNCTION__, $this->data);
     }
+    public function product()
+    {
+        //return 1;
+        $product_model = model("ProductModel");
+        $products = $product_model->orderBy('date', 'DESC')->limit(8)->asObject()->findAll();
+        $this->data['products'] = $products;
+        // echo "<pre>";
+        // print_r($list_category);
+        // die();
+        return view("frontend/home/_" . __FUNCTION__, $this->data);
+    }
     public function tag()
     {
         //return 1;

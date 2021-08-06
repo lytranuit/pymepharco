@@ -15,7 +15,7 @@
                 <div class="card-body">
                     <div class="row">
                         <div class="col-lg-8">
-                            <div class="form-group row">
+                            <!-- <div class="form-group row">
                                 <b class="col-12 col-lg-2 col-form-label">Mã:<i class="text-danger">*</i></b>
                                 <div class="col-12 col-lg-4 pt-1">
                                     <input class="form-control form-control-sm" type="text" name="code" required="" placeholder="Mã hàng" aria-required="true">
@@ -24,7 +24,7 @@
                                 <div class="col-12 col-lg-4 pt-1">
                                     <input class="form-control form-control-sm price" type="text" name="price" required="" placeholder="Giá bán" im-insert="true" aria-required="true">
                                 </div>
-                            </div>
+                            </div> -->
                             <ul class="nav nav-tabs">
                                 <li class="nav-item">
                                     <a class="nav-link active" data-toggle="tab" href="#menu0">Tiếng Việt</a>

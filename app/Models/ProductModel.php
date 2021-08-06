@@ -14,7 +14,7 @@ class ProductModel extends Model
     protected $returnType     = 'App\Entities\Product';
     protected $useSoftDeletes = false;
 
-    protected $allowedFields = ['name_vi', 'name_en', 'name_jp', 'description_vi', 'description_en', 'description_jp', 'detail_vi', 'detail_en', 'detail_jp', 'image_url', 'date', 'active', 'order'];
+    protected $allowedFields = ['slug', 'name_vi', 'name_en', 'name_jp', 'description_vi', 'description_en', 'description_jp', 'detail_vi', 'detail_en', 'detail_jp', 'image_url', 'date', 'active', 'order'];
 
 
     public function relation(&$data, $relation = array())
@@ -43,7 +43,6 @@ class ProductModel extends Model
                 $builder = $this->db->table('pet_product_category')->join("pet_category", "pet_product_category.cateogry_id = pet_category.id");
                 $row_a->tags = $builder->where('product_id', $product_id)->orderBy("order", "ASC")->get()->getResult();
             }
-            
         } else {
             if (in_array("image_other", $relation)) {
                 $product_id = $row_a['id'];
@@ -55,7 +54,6 @@ class ProductModel extends Model
                 $builder = $this->db->table('pet_product_category')->join("pet_category", "pet_product_category.cateogry_id = pet_category.id");
                 $row_a['tags'] = $builder->where('product_id', $product_id)->orderBy("order", "ASC")->get()->getResult("array");
             }
-        
         }
         return $row_a;
     }
