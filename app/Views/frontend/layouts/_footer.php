@@ -3,7 +3,7 @@
         <div class="container">
             <div class="row align-equal" id="row-1526814430">
                 <div class="col medium-4 small-12 large-4" data-animate="fadeInLeft">
-                    <div class="col-inner" style="padding:30px 0px 0px 0px;">
+                    <div class="col-inner">
 
                         <div class="icon-box featured-box icon-box-left text-left">
                             <div class="icon-box-img" style="width: 50px">
@@ -73,7 +73,7 @@
                     </div>
                 </div>
                 <div class="col medium-4 small-12 large-4" data-animate="fadeInLeft">
-                    <div class="col-inner" style="padding:30px 0px 0px 0px;">
+                    <div class="col-inner">
 
                         <div class="icon-box featured-box icon-box-left text-left">
                             <div class="icon-box-img" style="width: 50px">
@@ -192,7 +192,7 @@
                     </div>
                 </div>
                 <div class="col medium-4 small-12 large-4" data-animate="fadeInLeft">
-                    <div class="col-inner" style="padding:30px 0px 0px 0px;">
+                    <div class="col-inner">
 
                         <div class="icon-box featured-box icon-box-left text-left">
                             <div class="icon-box-img" style="width: 50px">
@@ -265,21 +265,19 @@
 
         <style scope="scope">
             #section_1637962584 {
-                padding-top: 0px;
-                padding-bottom: 0px;
+                padding-top: 30px;
+                padding-bottom: 30px;
                 background-color: rgb(39, 45, 46);
             }
         </style>
     </section>
 
 
-    <section class="section sec-footer dark" id="section_329472539">
+    <section class="section sec-footer dark " id="section_329472539">
         <div class="container">
-            <div class="gap-element clearfix" style="display:block; height:auto; padding-top:40px"></div>
-
             <div class="row" id="row-395962281">
 
-                <div class="col medium-4 small-12 large-3">
+                <div class="col-md-4 col-12">
                     <div class="col-inner">
 
                         <div class="row" id="row-991300449">
@@ -301,7 +299,7 @@
 
                     </div>
                 </div>
-                <div class="col medium-3 small-12 large-3">
+                <div class="col-md-2 col-12">
                     <div class="col-inner">
 
                         <div class="row" id="row-1518871998">
@@ -333,7 +331,7 @@
 
                     </div>
                 </div>
-                <div class="col medium-5 small-12 large-3">
+                <div class="col-md-3 col-12">
                     <div class="col-inner">
 
                         <div class="row" id="row-2118378666">
@@ -369,9 +367,8 @@
 
                     </div>
                 </div>
-                <div class="col medium-12 small-12 large-3">
+                <div class="col-md-3 col-12">
                     <div class="col-inner">
-
                         <div class="row" id="row-947971915">
 
                             <div class="col small-12 large-12">
@@ -384,15 +381,13 @@
                             <div class="col small-12 large-12">
                                 <div class="col-inner">
 
-
-
                                     <div class="row large-columns-2 medium-columns-3 small-columns-2 row-xsmall">
                                         <div class="gallery-col col">
                                             <div class="col-inner">
-                                                <a class="image-lightbox lightbox-gallery" href="./Cleanmate_files/image_07.jpg" title="">
+                                                <a class="image-lightbox lightbox-gallery" href="<?= base_url("assets/images/ab1.jpg") ?>" title="">
                                                     <div class="box has-hover gallery-box box-overlay dark">
                                                         <div class="box-image">
-                                                            <img width="300" height="200" src="./Cleanmate_files/image_07-300x200.jpg" class="attachment-medium size-medium" alt="" ids="562,576,577,578,579,580" col_spacing="xsmall" columns="2" columns__sm="2" columns__md="3" srcset="<?= base_url() ?>/wp-content/uploads/2019/11/image_07-300x200.jpg 300w, <?= base_url() ?>/wp-content/uploads/2019/11/image_07.jpg 480w" sizes="(max-width: 300px) 100vw, 300px">
+                                                            <img width="300" height="200" src="<?= base_url("assets/images/ab1.jpg") ?>" class="attachment-medium size-medium" alt="">
                                                             <div class="overlay fill" style="background-color: rgba(0,0,0,.15)">
                                                             </div>
                                                         </div><!-- .image -->
@@ -405,10 +400,10 @@
                                         </div><!-- .col -->
                                         <div class="gallery-col col">
                                             <div class="col-inner">
-                                                <a class="image-lightbox lightbox-gallery" href="./Cleanmate_files/image_08.jpg" title="">
+                                                <a class="image-lightbox lightbox-gallery" href="<?= base_url("assets/images/ab2.jpg") ?>" title="">
                                                     <div class="box has-hover gallery-box box-overlay dark">
                                                         <div class="box-image">
-                                                            <img width="300" height="200" src="./Cleanmate_files/image_08-300x200.jpg" class="attachment-medium size-medium" alt="" ids="562,576,577,578,579,580" col_spacing="xsmall" columns="2" columns__sm="2" columns__md="3" srcset="<?= base_url() ?>/wp-content/uploads/2019/11/image_08-300x200.jpg 300w, <?= base_url() ?>/wp-content/uploads/2019/11/image_08.jpg 480w" sizes="(max-width: 300px) 100vw, 300px">
+                                                            <img width="300" height="200" src="<?= base_url("assets/images/ab2.jpg") ?>" class="attachment-medium size-medium" alt="">
                                                             <div class="overlay fill" style="background-color: rgba(0,0,0,.15)">
                                                             </div>
                                                         </div><!-- .image -->
@@ -421,10 +416,10 @@
                                         </div><!-- .col -->
                                         <div class="gallery-col col">
                                             <div class="col-inner">
-                                                <a class="image-lightbox lightbox-gallery" href="./Cleanmate_files/image_09.jpg" title="">
+                                                <a class="image-lightbox lightbox-gallery" href="<?= base_url("assets/images/ab3.jpg") ?>" title="">
                                                     <div class="box has-hover gallery-box box-overlay dark">
                                                         <div class="box-image">
-                                                            <img width="300" height="200" src="./Cleanmate_files/image_09-300x200.jpg" class="attachment-medium size-medium" alt="" ids="562,576,577,578,579,580" col_spacing="xsmall" columns="2" columns__sm="2" columns__md="3" srcset="<?= base_url() ?>/wp-content/uploads/2019/11/image_09-300x200.jpg 300w, <?= base_url() ?>/wp-content/uploads/2019/11/image_09.jpg 480w" sizes="(max-width: 300px) 100vw, 300px">
+                                                            <img width="300" height="200" src="<?= base_url("assets/images/ab3.jpg") ?>" class="attachment-medium size-medium" alt="">
                                                             <div class="overlay fill" style="background-color: rgba(0,0,0,.15)">
                                                             </div>
                                                         </div><!-- .image -->
@@ -437,10 +432,10 @@
                                         </div><!-- .col -->
                                         <div class="gallery-col col">
                                             <div class="col-inner">
-                                                <a class="image-lightbox lightbox-gallery" href="./Cleanmate_files/image_06-1.jpg" title="">
+                                                <a class="image-lightbox lightbox-gallery" href="<?= base_url("assets/images/ab4.jpg") ?>" title="">
                                                     <div class="box has-hover gallery-box box-overlay dark">
                                                         <div class="box-image">
-                                                            <img width="300" height="200" src="./Cleanmate_files/image_06-1-300x200.jpg" class="attachment-medium size-medium" alt="" ids="562,576,577,578,579,580" col_spacing="xsmall" columns="2" columns__sm="2" columns__md="3" srcset="<?= base_url() ?>/wp-content/uploads/2019/11/image_06-1-300x200.jpg 300w, <?= base_url() ?>/wp-content/uploads/2019/11/image_06-1.jpg 480w" sizes="(max-width: 300px) 100vw, 300px">
+                                                            <img width="300" height="200" src="<?= base_url("assets/images/ab4.jpg") ?>" class="attachment-medium size-medium" alt="">
                                                             <div class="overlay fill" style="background-color: rgba(0,0,0,.15)">
                                                             </div>
                                                         </div><!-- .image -->
@@ -450,62 +445,29 @@
                                                     </div><!-- .box -->
                                                 </a>
                                             </div><!-- .col-inner -->
-                                        </div><!-- .col -->
-                                        <div class="gallery-col col">
-                                            <div class="col-inner">
-                                                <a class="image-lightbox lightbox-gallery" href="./Cleanmate_files/image_03-4.jpg" title="">
-                                                    <div class="box has-hover gallery-box box-overlay dark">
-                                                        <div class="box-image">
-                                                            <img width="300" height="200" src="./Cleanmate_files/image_03-4-300x200.jpg" class="attachment-medium size-medium" alt="" ids="562,576,577,578,579,580" col_spacing="xsmall" columns="2" columns__sm="2" columns__md="3" srcset="<?= base_url() ?>/wp-content/uploads/2019/11/image_03-4-300x200.jpg 300w, <?= base_url() ?>/wp-content/uploads/2019/11/image_03-4.jpg 480w" sizes="(max-width: 300px) 100vw, 300px">
-                                                            <div class="overlay fill" style="background-color: rgba(0,0,0,.15)">
-                                                            </div>
-                                                        </div><!-- .image -->
-                                                        <div class="box-text text-left">
-                                                            <p></p>
-                                                        </div><!-- .text -->
-                                                    </div><!-- .box -->
-                                                </a>
-                                            </div><!-- .col-inner -->
-                                        </div><!-- .col -->
-                                        <div class="gallery-col col">
-                                            <div class="col-inner">
-                                                <a class="image-lightbox lightbox-gallery" href="./Cleanmate_files/image_02-2-480x320.jpg" title="">
-                                                    <div class="box has-hover gallery-box box-overlay dark">
-                                                        <div class="box-image">
-                                                            <img width="300" height="200" src="./Cleanmate_files/image_02-2-480x320-300x200.jpg" class="attachment-medium size-medium" alt="" ids="562,576,577,578,579,580" col_spacing="xsmall" columns="2" columns__sm="2" columns__md="3" srcset="<?= base_url() ?>/wp-content/uploads/2019/11/image_02-2-480x320-300x200.jpg 300w, <?= base_url() ?>/wp-content/uploads/2019/11/image_02-2-480x320.jpg 480w" sizes="(max-width: 300px) 100vw, 300px">
-                                                            <div class="overlay fill" style="background-color: rgba(0,0,0,.15)">
-                                                            </div>
-                                                        </div><!-- .image -->
-                                                        <div class="box-text text-left">
-                                                            <p></p>
-                                                        </div><!-- .text -->
-                                                    </div><!-- .box -->
-                                                </a>
-                                            </div><!-- .col-inner -->
-                                        </div><!-- .col -->
+                                        </div>
+
+
                                     </div>
-
-
                                 </div>
+
                             </div>
 
                         </div>
-
                     </div>
+
                 </div>
 
-            </div>
-
-        </div><!-- .section-content -->
+            </div><!-- .section-content -->
 
 
-        <style scope="scope">
-            #section_329472539 {
-                padding-top: 30px;
-                padding-bottom: 30px;
-                background-color: rgb(52, 60, 62);
-            }
-        </style>
+            <style scope="scope">
+                #section_329472539 {
+                    padding-top: 30px;
+                    padding-bottom: 30px;
+                    background-color: rgb(52, 60, 62);
+                }
+            </style>
     </section>
 
     <a href="<?= base_url() ?>/#top" class="back-to-top button icon invert plain fixed bottom z-1 is-outline hide-for-medium circle" id="top-link"><i class="icon-angle-up"></i></a>

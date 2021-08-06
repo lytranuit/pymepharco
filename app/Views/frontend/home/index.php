@@ -26,6 +26,8 @@
                             <div class="title-all">
                                 <h2>Giới thiệu</h2>
                                 <div class="line-bottom"></div>
+
+                                <div class="gap-element clearfix" style="display:block; height:auto; padding-top:25px"></div>
                                 <div class="content">
                                     <div class="detail">
                                         <p style="text-align: justify;">Thành lập 25-05-2011, GMPc tự hào là&nbsp;<span style="color:#d76423;"><strong>Nhà tư vấn tiên phong,</strong></span> sáng tạo nên mô hình&nbsp;<span style="color:#d76423;"><strong>Tư vấn toàn diện, trọn gói dự án Nhà máy GMP</strong></span> áp dụng trong&nbsp;các ngành&nbsp;sản xuất Dược, Mỹ phẩm, Thực phẩm Bảo vệ sức khỏe và&nbsp;Thuốc Thú y thủy sản.</p>
@@ -37,7 +39,6 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="gap-element clearfix" style="display:block; height:auto; padding-top:25px"></div>
                             <a href="<?= base_url() ?>/gioi-thieu/" target="_self" class="button primary lowercase btn-nut">
                                 <span>Xem thêm</span>
                             </a>
@@ -336,7 +337,7 @@
                             <div class="title-all">
                                 <h2>Các sản phẩm tiêu biểu</h2>
                                 <div class="line-bottom"></div>
-                                <p></p>
+                                <div class="gap-element clearfix" style="display:block; height:auto; padding-top:25px"></div>
                             </div>
                         </div>
                     </div>
@@ -372,6 +373,66 @@
         <section id="section_89897571">
             <div class="container">
                 <div class="row">
+                    <div class="title-all">
+                        <h2>Tin mới</h2>
+                        <div class="line-bottom"></div>
+                        <div class="gap-element clearfix" style="display:block; height:auto; padding-top:25px"></div>
+                    </div>
+                    <div class="col-md-9">
+                        <div class="last-blog-item row">
+                            <div class="col-md-3 mb-2">
+                                <a href="https://www.pymepharco.com/pymepharco-30-nam-chang-duong-vuon-toi-uu-viet-ky-niem-30-nam-thanh-lap-khanh-thanh-nha-may-duoc-pham-hoang-van-thu/">
+                                    <img src="https://www.pymepharco.com/wp-content/uploads/2019/07/h2-1024x731.jpg" class="img-fluid">
+                                </a>
+                            </div>
+                            <div class="last-blog-item-content col-md-9">
+                                <h4><a href="https://www.pymepharco.com/pymepharco-30-nam-chang-duong-vuon-toi-uu-viet-ky-niem-30-nam-thanh-lap-khanh-thanh-nha-may-duoc-pham-hoang-van-thu/" title="PYMEPHARCO – 30 NĂM – CHẶNG ĐƯỜNG VƯƠN TỚI ƯU VIỆT KỶ NIỆM 30 NĂM THÀNH LẬP &amp; KHÁNH THÀNH NHÀ MÁY DƯỢC PHẨM PME II TẠI SỐ 189 HOÀNG VĂN THỤ">PYMEPHARCO – 30 NĂM – CHẶNG ĐƯỜNG VƯƠN TỚI ƯU VIỆT KỶ NIỆM 30 NĂM THÀNH LẬP &amp; KHÁNH THÀNH NHÀ MÁY DƯỢC PHẨM PME II TẠI SỐ 189 HOÀNG VĂN THỤ</a></h4>
+                                <div class="post-date-lfb text-muted mb-2">
+                                    13/07/2019 </div>
+                                <div class="last-blog-item-news">
+                                    <p>Ngày 12/7, hòa chung không khí sôi nổi nhân kỷ niệm 30 năm ngày tái lập tỉnh Phú Yên (1989-2019); Công ty cổ phần Pymepharco long trọng tổ chức Lễ kỷ niệm 30 năm thành lập Công ty cổ phần Pymepharco (1989 – 2019) và Lễ khánh thành Nhà máy Dược phẩm PME II tại […]</p>
+
+                                    <p>
+                                        <a href="https://www.pymepharco.com/pymepharco-30-nam-chang-duong-vuon-toi-uu-viet-ky-niem-30-nam-thanh-lap-khanh-thanh-nha-may-duoc-pham-hoang-van-thu/">Xem tiếp »</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <ul style="margin: 0px 10px;">
+                            <li>
+                                <h4><a href="https://www.pymepharco.com/thanks-2/" title="Pymepharco Chung Tay Phòng Chống Dịch Covid-19">Pymepharco Chung Tay Phòng Chống Dịch Covid-19</a></h4>
+                            </li>
+
+
+
+
+
+
+
+
+
+                            <li>
+                                <h4><a href="https://www.pymepharco.com/pymepharco-to-chuc-thanh-cong-dai-hoi-dong-co-dong-bat-thuong-nam-2018/" title="Pymepharco Tổ Chức Thành Công Đại Hội Đồng Cổ Đông Bất Thường Năm 2018">Pymepharco Tổ Chức Thành Công Đại Hội...</a></h4>
+                            </li>
+
+
+
+
+
+
+
+
+
+                            <li>
+                                <h4><a href="https://www.pymepharco.com/le-khoi-cong-xay-dung-nha-may-non-betalactam-theo-tieu-chuan-eu-gmp-pic-s-va-team-betalactam-sterile-pymepharco-da-hoan-thanh-xuat-sac-dot-thanh-tra-tieu-chuan-eu-gmp/" title="Lễ khởi công xây dựng Nhà máy Non-Betalactam theo tiêu chuẩn EU-GMP / PIC/s và Team Betalactam Sterile PYMEPHARCO đã hoàn thành xuất sắc đợt thanh tra tiêu chuẩn EU-GMP.">Lễ khởi công xây dựng Nhà máy...</a></h4>
+                            </li>
+
+
+
+                        </ul>
+                    </div>
                     <div class="col-md-3" data-animate="fadeInLeft">
 
                         <h4 class="block-title td-block-title"><span class="td-pulldown-size">ĐIỂM TIN</span></h4>
@@ -789,11 +850,19 @@
     jQuery('.img-child').css({
         'height': cw + 'px'
     });
+    jQuery(".next-to-about").click(function() {
+        jQuery('html, body').animate({
+            scrollTop: jQuery("#section_135314551").offset().top - 30
+        }, 0);
+    })
     jQuery('.slide-box').slick({
         dots: false,
         arrows: true,
         infinite: false,
         slidesToShow: 1,
+        speed: 1000,
+        fade: true,
+        cssEase: 'ease',
         prevArrow: '<div class="slick-prev"><i class="fa fa-angle-left" aria-hidden="true"></i></div>',
         nextArrow: '<div class="slick-next"><i class="fa fa-angle-right" aria-hidden="true"></i></div>',
         adaptiveHeight: true

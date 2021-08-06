@@ -210,7 +210,7 @@ object {
 .columns {
     position: relative;
     margin: 0;
-    padding: 0 15px 30px;
+    padding: 10px;
     width: 100%;
 }
 .col-fit {
@@ -265,9 +265,6 @@ object {
     .medium-col-first {
         -ms-flex-order: -1;
         order: -1;
-    }
-    .col {
-        padding-bottom: 30px;
     }
 }
 @media screen and (min-width: 850px) {
@@ -1871,8 +1868,15 @@ li.hide-title > a {
 .box-image img {
     max-width: 100%;
     width: 100%;
+    height: 100px;
     transform: translateZ(0);
     margin: 0 auto;
+}
+
+@media (max-width: 549px) {
+    .box-image img {
+        height: 150px;
+    }
 }
 .box-label {
     overflow: hidden;
@@ -2725,7 +2729,7 @@ input.wpcf7-not-valid,
 .links > li > a:before,
 i[class^="icon-"],
 i[class*=" icon-"] {
-    font-family: "fl-icons" !important;
+    font-family: "Font Awesome 5 Pro";
     speak: none !important;
     margin: 0;
     padding: 0;
@@ -4299,7 +4303,7 @@ ul.links li a {
     color: currentColor;
 }
 ul.links li:before {
-    font-family: "fl-icons";
+    font-family: "Font Awesome 5 Pro";
     display: inline-block;
     margin-right: 5px;
 }
@@ -4398,7 +4402,7 @@ ul li.bullet-star {
 ul li.bullet-checkmark:before,
 ul li.bullet-arrow:before,
 ul li.bullet-star:before {
-    font-family: "fl-icons";
+    font-family: "Font Awesome 5 Pro";
     left: 0;
     position: absolute;
     font-size: 16px;
@@ -6921,7 +6925,7 @@ ul.menu > li > span:first-child,
 }
 ul.menu > li:before,
 .widget > ul > li:before {
-    font-family: "fl-icons";
+    font-family: "Font Awesome 5 Pro";
     display: inline-block;
     opacity: 0.6;
     margin-right: 6px;
@@ -8123,7 +8127,7 @@ html {
     letter-spacing: 0;
     margin: 0.5em 0;
     width: 5.4em;
-    font-family: "fl-icons" !important;
+    font-family: "Font Awesome 5 Pro";
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
@@ -8143,7 +8147,7 @@ html {
     height: 10px;
     top: 0;
     left: 0;
-    font-family: "fl-icons" !important;
+    font-family: "Font Awesome 5 Pro";
     position: absolute;
     padding-top: 1.5em;
     font-weight: normal !important;
@@ -8176,7 +8180,7 @@ li.wc-layered-nav-rating .star-rating {
     display: inline-block;
     color: transparent !important;
     overflow: hidden;
-    font-family: "fl-icons";
+    font-family: "Font Awesome 5 Pro";
 }
 .stars a + a {
     margin-left: 0.3em;
