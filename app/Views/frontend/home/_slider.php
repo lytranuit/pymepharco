@@ -6,23 +6,21 @@
                     <div class="banner-bg fill">
                         <div class="bg fill bg-fill bg-loaded" style="background-image: url(<?= base_url($row->image_url) ?>);"></div>
                     </div><!-- bg-layers -->
-                    <div class="banner-layers container">
-                        <div id="text-box-<?= $row->id ?>" class="text-box banner-layer x50 md-x50 lg-x50 y50 md-y50 lg-y50 res-text">
-                            <div class="">
-                                <div class="text dark">
-                                    <div class="text-inner text-center">
-                                        <div class="tcbanner-text animate animate__animated animate__fadeInDown ">
-                                            <?= $row->text ?>
-                                        </div>
-                                    </div>
-                                </div><!-- text-box-inner -->
+                    <div class="banner-layers container d-flex align-items-center">
+                        <div class="col-md-5 animate animate__animated animate__fadeInDown">
+                            <div class="block-info-banner" style="background: rgba(230, 230, 230, 0.9);
+    padding: 20px 20px 30px 20px;
+    position: relative;font-size:small;white-space:initial">
+                                <?= $row->text ?>
+                                <a href="<?= $row->link ?>" class="view-banner" style="    background: #009a4e;
+    color: #fff;
+    padding: 10px 20px;
+    position: absolute;
+    display: inline-block;
+    bottom: -20px;
+    height: 40px;">XEM CHI TIẾT <i class="fas fa-chevron-right"></i></a>
                             </div>
-                            <style scope="scope">
-                                #text-box-<?= $row->id ?> {
-                                    width: 70%;
-                                }
-                            </style>
-                        </div><!-- text-box -->
+                        </div>
                     </div><!-- .banner-layers -->
                     <button target="_self" style="position: absolute;
     bottom: 20px;
@@ -30,6 +28,8 @@
     background: white;
     width: 60px;
     height: 60px;
+    padding:0;
+    margin:0;
     border-radius: 100%;" class="next-to-about animate animate__animated animate__bounce animate__slow animate__delay-1s">
                         <i class="fas fa-chevron-down animate animate__animated animate__infinite animate__bounce animate__slow" style="font-size: 30px;"></i>
                     </button>
