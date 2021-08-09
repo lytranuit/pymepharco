@@ -8,16 +8,14 @@ class SideBarWidget
     public function __construct()
     {
     }
-    public function product()
+    public function category()
     {
 
-        $product_model = model("ProductModel");
 
-        $products = $product_model->limit(8)->asObject()->findAll();
-        foreach ($products as &$product) {
-            $product_model->format_product($product);
-        }
-        $this->data['products'] = $products;
+        $tag_model = model("TagModel");
+
+        $categories = $tag_model->orderBy('date', 'DESC')->asObject()->findAll();
+        $this->data['categories'] = $categories;
         // echo "<pre>";
         // print_r($list_category);
         // die();
@@ -25,20 +23,11 @@ class SideBarWidget
     }
     public function hot_news()
     {
+        ///TIN MOI
 
-        $tag_model = model("TagModel");
         $news_model = model("NewsModel");
-        $this->data['info'] = $tag_model->where("id", 4)->asObject()->first();
-        $news_info = $news_model->get_news_by_tag(4, 4);
-        $this->data['info']->news = $news_info['news'];
-        // $tags = array_map(function ($item) {
-        //     return $item->tag_id;
-        // }, $this->data['info']->tags);
-        //echo "<pre>";
-        //print_r($this->data['info']->news);
-        //die();
-        // $this->data['news'] = $news_model->get_news_related($id, $tags);
-
+        $list_news = $news_model->orderBy('date', 'DESC')->asObject()->findAll(5);
+        $this->data['list_news'] = $list_news;
         return view("frontend/widget/sidebar/" . __FUNCTION__, $this->data);
     }
 }

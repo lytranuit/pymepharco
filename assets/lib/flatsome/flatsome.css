@@ -4188,14 +4188,6 @@ td {
 td {
     color: #666;
 }
-th:first-child,
-td:first-child {
-    padding-left: 0;
-}
-th:last-child,
-td:last-child {
-    padding-right: 0;
-}
 .dark th,
 .dark td {
     border-color: rgba(255, 255, 255, 0.08);

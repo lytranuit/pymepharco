@@ -67,11 +67,11 @@
             </div>
             <div class="container">
                 <div class="row" id="row-274590902">
-                    <div class="col col-coun medium-3 small-12 large-3" data-animate="fadeInLeft">
+                    <div class="col-md-3 mb-2" data-animate="fadeInLeft">
                         <div class="col-inner dark">
                             <div class="coun-ter">
                                 <div class="counter">
-                                    <h4>0</h4>
+                                    <h4 id="a_s">35</h4>
                                 </div>
                                 <div class="text-coun">
                                     <p>Sản phẩm</p>
@@ -79,11 +79,11 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col col-coun medium-3 small-12 large-3" data-animate="fadeInLeft">
+                    <div class="col-md-3 mb-2" data-animate="fadeInLeft">
                         <div class="col-inner dark">
                             <div class="coun-ter">
                                 <div class="counter">
-                                    <h4>0</h4>
+                                    <h4 id="a_n">1000</h4>
                                 </div>
                                 <div class="text-coun">
                                     <p>Nhân viên</p>
@@ -91,11 +91,11 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col col-coun medium-3 small-12 large-3" data-animate="fadeInLeft">
+                    <div class="col-md-3 mb-2" data-animate="fadeInLeft">
                         <div class="col-inner dark">
                             <div class="coun-ter">
                                 <div class="counter">
-                                    <h4>0</h4>
+                                    <h4 id="a_c">30</h4>
                                 </div>
                                 <div class="text-coun">
                                     <p>Chi nhánh</p>
@@ -103,11 +103,11 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col col-coun medium-3 small-12 large-3" data-animate="fadeInLeft">
+                    <div class="col-md-3 mb-2" data-animate="fadeInLeft">
                         <div class="col-inner dark">
                             <div class="coun-ter">
                                 <div class="counter">
-                                    <h4>0</h4>
+                                    <h4 id="a_nm">2</h4>
                                 </div>
                                 <div class="text-coun">
                                     <p>Nhà máy</p>
@@ -331,473 +331,7 @@
         </section>
 
         <?= view_cell("\App\Libraries\HomeWidget::product") ?>
-        <section id="section_89897571">
-            <div class="container">
-                <div class="row">
-                    <div class="title-all">
-                        <h2>Tin mới</h2>
-                        <div class="line-bottom"></div>
-                        <div class="gap-element clearfix" style="display:block; height:auto; padding-top:25px"></div>
-                    </div>
-                    <div class="col-md-9">
-                        <div class="last-blog-item row">
-                            <div class="col-md-3 mb-2">
-                                <a href="https://www.pymepharco.com/pymepharco-30-nam-chang-duong-vuon-toi-uu-viet-ky-niem-30-nam-thanh-lap-khanh-thanh-nha-may-duoc-pham-hoang-van-thu/">
-                                    <img src="https://www.pymepharco.com/wp-content/uploads/2019/07/h2-1024x731.jpg" class="img-fluid">
-                                </a>
-                            </div>
-                            <div class="last-blog-item-content col-md-9">
-                                <h4><a href="https://www.pymepharco.com/pymepharco-30-nam-chang-duong-vuon-toi-uu-viet-ky-niem-30-nam-thanh-lap-khanh-thanh-nha-may-duoc-pham-hoang-van-thu/" title="PYMEPHARCO – 30 NĂM – CHẶNG ĐƯỜNG VƯƠN TỚI ƯU VIỆT KỶ NIỆM 30 NĂM THÀNH LẬP &amp; KHÁNH THÀNH NHÀ MÁY DƯỢC PHẨM PME II TẠI SỐ 189 HOÀNG VĂN THỤ">PYMEPHARCO – 30 NĂM – CHẶNG ĐƯỜNG VƯƠN TỚI ƯU VIỆT KỶ NIỆM 30 NĂM THÀNH LẬP &amp; KHÁNH THÀNH NHÀ MÁY DƯỢC PHẨM PME II TẠI SỐ 189 HOÀNG VĂN THỤ</a></h4>
-                                <div class="post-date-lfb text-muted mb-2">
-                                    13/07/2019 </div>
-                                <div class="last-blog-item-news">
-                                    <p>Ngày 12/7, hòa chung không khí sôi nổi nhân kỷ niệm 30 năm ngày tái lập tỉnh Phú Yên (1989-2019); Công ty cổ phần Pymepharco long trọng tổ chức Lễ kỷ niệm 30 năm thành lập Công ty cổ phần Pymepharco (1989 – 2019) và Lễ khánh thành Nhà máy Dược phẩm PME II tại […]</p>
-
-                                    <p>
-                                        <a href="https://www.pymepharco.com/pymepharco-30-nam-chang-duong-vuon-toi-uu-viet-ky-niem-30-nam-thanh-lap-khanh-thanh-nha-may-duoc-pham-hoang-van-thu/">Xem tiếp »</a>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <ul style="margin: 0px 10px;">
-                            <li>
-                                <h4><a href="https://www.pymepharco.com/thanks-2/" title="Pymepharco Chung Tay Phòng Chống Dịch Covid-19">Pymepharco Chung Tay Phòng Chống Dịch Covid-19</a></h4>
-                            </li>
-
-
-
-
-
-
-
-
-
-                            <li>
-                                <h4><a href="https://www.pymepharco.com/pymepharco-to-chuc-thanh-cong-dai-hoi-dong-co-dong-bat-thuong-nam-2018/" title="Pymepharco Tổ Chức Thành Công Đại Hội Đồng Cổ Đông Bất Thường Năm 2018">Pymepharco Tổ Chức Thành Công Đại Hội...</a></h4>
-                            </li>
-
-
-
-
-
-
-
-
-
-                            <li>
-                                <h4><a href="https://www.pymepharco.com/le-khoi-cong-xay-dung-nha-may-non-betalactam-theo-tieu-chuan-eu-gmp-pic-s-va-team-betalactam-sterile-pymepharco-da-hoan-thanh-xuat-sac-dot-thanh-tra-tieu-chuan-eu-gmp/" title="Lễ khởi công xây dựng Nhà máy Non-Betalactam theo tiêu chuẩn EU-GMP / PIC/s và Team Betalactam Sterile PYMEPHARCO đã hoàn thành xuất sắc đợt thanh tra tiêu chuẩn EU-GMP.">Lễ khởi công xây dựng Nhà máy...</a></h4>
-                            </li>
-
-
-
-                        </ul>
-                    </div>
-                    <div class="col-md-3" data-animate="fadeInLeft">
-
-                        <h4 class="block-title td-block-title"><span class="td-pulldown-size">ĐIỂM TIN</span></h4>
-                        <div id="td_uid_86_6100bdcc47f90" class="td_block_inner td-mc1-wrap">
-                            <div class="td_module_flex_1 td_module_wrap td-animation-stack">
-                                <div class="td-module-container td-category-pos-image">
-                                    <div class="td-image-container">
-                                        <a href="http://mauweb.monamedia.net/evavn/category/giai-tri/" class="td-post-category">Giải trí</a>
-                                        <div class="td-module-thumb">
-                                            <a href="http://mauweb.monamedia.net/evavn/minh-hang-va-nam-thu-doi-man-cong-chua-khieng-kieu-den-running-man-lam-gi/" rel="bookmark" class="td-image-wrap" title="Minh Hằng và Nam Thư đội mấn công chúa, khiêng kiệu đến Running Man làm gì?">
-                                                <span class="entry-thumb td-thumb-css" data-type="css_image" data-img-url="http://mauweb.monamedia.net/evavn/wp-content/uploads/2019/04/read-book-good-health.jpg" style="background-image: url(http://mauweb.monamedia.net/evavn/wp-content/uploads/2019/04/read-book-good-health.jpg)"></span>
-                                            </a>
-                                        </div>
-                                    </div>
-
-                                    <div class="td-module-meta-info">
-
-                                        <h3 class="entry-title td-module-title"><a href="http://mauweb.monamedia.net/evavn/minh-hang-va-nam-thu-doi-man-cong-chua-khieng-kieu-den-running-man-lam-gi/" rel="bookmark" title="Minh Hằng và Nam Thư đội mấn công chúa, khiêng kiệu đến Running Man làm gì?">Minh Hằng và Nam Thư đội mấn công chúa, khiêng kiệu đến Running Man...</a></h3>
-
-                                        <div class="td-editor-date">
-
-                                            <span class="td-author-date">
-                                                <span class="td-post-date">
-                                                    <time class="entry-date td-module-date text-white" datetime="2019-04-10T06:55:04+00:00"><?= date_TV('d \t\h\á\n\g M , Y', time()) ?></time>
-                                                </span>
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-
-                            <div class="td_module_flex_4 td_module_wrap td-animation-stack">
-                                <div class="td-module-container row">
-                                    <div class="td-image-container col-3">
-                                        <div class="td-module-thumb"><a href="http://mauweb.monamedia.net/evavn/hack-mien-phi-11-banh-mcdonalds-thanh-nien-lai-gan-2-trieu-view-du-chi-500-nguoi-sub-kenh/" rel="bookmark" class="td-image-wrap" title="“Hack” miễn phí 11 bánh McDonald’s, thanh niên lãi gần 2 triệu view dù chỉ 500 người sub kênh"><span class="entry-thumb td-thumb-css" data-type="css_image" data-img-url="http://mauweb.monamedia.net/evavn/wp-content/uploads/2019/04/12-696x392.jpg" style="background-image: url(http://mauweb.monamedia.net/evavn/wp-content/uploads/2019/04/12-696x392.jpg)"></span></a></div>
-                                    </div>
-
-                                    <div class="td-module-meta-info col-9">
-
-                                        <h3 class="entry-title td-module-title"><a href="http://mauweb.monamedia.net/evavn/hack-mien-phi-11-banh-mcdonalds-thanh-nien-lai-gan-2-trieu-view-du-chi-500-nguoi-sub-kenh/" rel="bookmark" title="“Hack” miễn phí 11 bánh McDonald’s, thanh niên lãi gần 2 triệu view dù chỉ 500 người sub kênh">“Hack” miễn phí 11 bánh McDonald’s, thanh niên lãi gần 2 triệu view dù...</a></h3>
-
-                                        <div class="td-editor-date">
-                                            <span class="td-author-date">
-                                                <span class="td-post-date"><time class="entry-date text-muted small td-module-date" datetime="2019-04-11T06:54:48+00:00">11 Tháng Tư, 2019</time></span>
-                                            </span>
-                                        </div>
-
-                                    </div>
-                                </div>
-                            </div>
-
-
-                            <div class="td_module_flex_4 td_module_wrap td-animation-stack">
-                                <div class="td-module-container row">
-                                    <div class="td-image-container col-3">
-                                        <div class="td-module-thumb"><a href="http://mauweb.monamedia.net/evavn/tuong-ngon-an-nhung-ca-trieu-nguoi-tra-loi-sai-4-cau-do-nay-ban-co-dam-thu/" rel="bookmark" class="td-image-wrap" title="Tưởng “ngon ăn” nhưng cả triệu người trả lời sai 4 câu đố này, bạn có dám thử?"><span class="entry-thumb td-thumb-css" data-type="css_image" data-img-url="http://mauweb.monamedia.net/evavn/wp-content/uploads/2019/04/25.jpg" style="background-image: url(http://mauweb.monamedia.net/evavn/wp-content/uploads/2019/04/25.jpg)"></span></a></div>
-                                    </div>
-
-                                    <div class="td-module-meta-info col-9">
-
-                                        <h3 class="entry-title td-module-title"><a href="http://mauweb.monamedia.net/evavn/tuong-ngon-an-nhung-ca-trieu-nguoi-tra-loi-sai-4-cau-do-nay-ban-co-dam-thu/" rel="bookmark" title="Tưởng “ngon ăn” nhưng cả triệu người trả lời sai 4 câu đố này, bạn có dám thử?">Tưởng “ngon ăn” nhưng cả triệu người trả lời sai 4 câu đố này,...</a></h3>
-
-                                        <div class="td-editor-date">
-                                            <span class="td-author-date">
-                                                <span class="td-post-date"><time class="entry-date text-muted small td-module-date" datetime="2019-04-11T06:54:48+00:00">11 Tháng Tư, 2019</time></span>
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-
-                            <div class="td_module_flex_4 td_module_wrap td-animation-stack">
-                                <div class="td-module-container row">
-                                    <div class="td-image-container col-3">
-                                        <div class="td-module-thumb"><a href="http://mauweb.monamedia.net/evavn/apple-se-chuyen-sang-su-dung-man-hinh-mini-led-hoan-toan-moi-tren-ipad-va-mac-khong-chon-oled-vi-lo-ngai-burn-in/" rel="bookmark" class="td-image-wrap" title="Apple sẽ chuyển sang sử dụng màn hình mini-LED hoàn toàn mới trên iPad và Mac, không chọn OLED vì lo ngại burn-in"><span class="entry-thumb td-thumb-css" data-type="css_image" data-img-url="http://mauweb.monamedia.net/evavn/wp-content/uploads/2019/04/17.jpg" style="background-image: url(http://mauweb.monamedia.net/evavn/wp-content/uploads/2019/04/17.jpg)"></span></a></div>
-                                    </div>
-
-                                    <div class="td-module-meta-info col-9">
-
-                                        <h3 class="entry-title td-module-title"><a href="http://mauweb.monamedia.net/evavn/apple-se-chuyen-sang-su-dung-man-hinh-mini-led-hoan-toan-moi-tren-ipad-va-mac-khong-chon-oled-vi-lo-ngai-burn-in/" rel="bookmark" title="Apple sẽ chuyển sang sử dụng màn hình mini-LED hoàn toàn mới trên iPad và Mac, không chọn OLED vì lo ngại burn-in">Apple sẽ chuyển sang sử dụng màn hình mini-LED hoàn toàn mới trên iPad...</a></h3>
-
-                                        <div class="td-editor-date">
-                                            <span class="td-author-date">
-                                                <span class="td-post-date"><time class="entry-date text-muted small td-module-date" datetime="2019-04-11T06:54:48+00:00">11 Tháng Tư, 2019</time></span>
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                    <div class="col-md-3" data-animate="fadeInLeft">
-
-                        <h4 class="block-title td-block-title"><span class="td-pulldown-size">ĐIỂM TIN</span></h4>
-                        <div id="td_uid_86_6100bdcc47f90" class="td_block_inner td-mc1-wrap">
-                            <div class="td_module_flex_1 td_module_wrap td-animation-stack">
-                                <div class="td-module-container td-category-pos-image">
-                                    <div class="td-image-container">
-                                        <a href="http://mauweb.monamedia.net/evavn/category/giai-tri/" class="td-post-category">Giải trí</a>
-                                        <div class="td-module-thumb">
-                                            <a href="http://mauweb.monamedia.net/evavn/minh-hang-va-nam-thu-doi-man-cong-chua-khieng-kieu-den-running-man-lam-gi/" rel="bookmark" class="td-image-wrap" title="Minh Hằng và Nam Thư đội mấn công chúa, khiêng kiệu đến Running Man làm gì?">
-                                                <span class="entry-thumb td-thumb-css" data-type="css_image" data-img-url="http://mauweb.monamedia.net/evavn/wp-content/uploads/2019/04/read-book-good-health.jpg" style="background-image: url(http://mauweb.monamedia.net/evavn/wp-content/uploads/2019/04/read-book-good-health.jpg)"></span>
-                                            </a>
-                                        </div>
-                                    </div>
-
-                                    <div class="td-module-meta-info">
-
-                                        <h3 class="entry-title td-module-title"><a href="http://mauweb.monamedia.net/evavn/minh-hang-va-nam-thu-doi-man-cong-chua-khieng-kieu-den-running-man-lam-gi/" rel="bookmark" title="Minh Hằng và Nam Thư đội mấn công chúa, khiêng kiệu đến Running Man làm gì?">Minh Hằng và Nam Thư đội mấn công chúa, khiêng kiệu đến Running Man...</a></h3>
-
-                                        <div class="td-editor-date">
-
-                                            <span class="td-author-date">
-                                                <span class="td-post-date">
-                                                    <time class="entry-date td-module-date text-white" datetime="2019-04-10T06:55:04+00:00"><?= date_TV('d \t\h\á\n\g M , Y', time()) ?></time>
-                                                </span>
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-
-                            <div class="td_module_flex_4 td_module_wrap td-animation-stack">
-                                <div class="td-module-container row">
-                                    <div class="td-image-container col-3">
-                                        <div class="td-module-thumb"><a href="http://mauweb.monamedia.net/evavn/hack-mien-phi-11-banh-mcdonalds-thanh-nien-lai-gan-2-trieu-view-du-chi-500-nguoi-sub-kenh/" rel="bookmark" class="td-image-wrap" title="“Hack” miễn phí 11 bánh McDonald’s, thanh niên lãi gần 2 triệu view dù chỉ 500 người sub kênh"><span class="entry-thumb td-thumb-css" data-type="css_image" data-img-url="http://mauweb.monamedia.net/evavn/wp-content/uploads/2019/04/12-696x392.jpg" style="background-image: url(http://mauweb.monamedia.net/evavn/wp-content/uploads/2019/04/12-696x392.jpg)"></span></a></div>
-                                    </div>
-
-                                    <div class="td-module-meta-info col-9">
-
-                                        <h3 class="entry-title td-module-title"><a href="http://mauweb.monamedia.net/evavn/hack-mien-phi-11-banh-mcdonalds-thanh-nien-lai-gan-2-trieu-view-du-chi-500-nguoi-sub-kenh/" rel="bookmark" title="“Hack” miễn phí 11 bánh McDonald’s, thanh niên lãi gần 2 triệu view dù chỉ 500 người sub kênh">“Hack” miễn phí 11 bánh McDonald’s, thanh niên lãi gần 2 triệu view dù...</a></h3>
-
-                                        <div class="td-editor-date">
-                                            <span class="td-author-date">
-                                                <span class="td-post-date"><time class="entry-date text-muted small td-module-date" datetime="2019-04-11T06:54:48+00:00">11 Tháng Tư, 2019</time></span>
-                                            </span>
-                                        </div>
-
-                                    </div>
-                                </div>
-                            </div>
-
-
-                            <div class="td_module_flex_4 td_module_wrap td-animation-stack">
-                                <div class="td-module-container row">
-                                    <div class="td-image-container col-3">
-                                        <div class="td-module-thumb"><a href="http://mauweb.monamedia.net/evavn/tuong-ngon-an-nhung-ca-trieu-nguoi-tra-loi-sai-4-cau-do-nay-ban-co-dam-thu/" rel="bookmark" class="td-image-wrap" title="Tưởng “ngon ăn” nhưng cả triệu người trả lời sai 4 câu đố này, bạn có dám thử?"><span class="entry-thumb td-thumb-css" data-type="css_image" data-img-url="http://mauweb.monamedia.net/evavn/wp-content/uploads/2019/04/25.jpg" style="background-image: url(http://mauweb.monamedia.net/evavn/wp-content/uploads/2019/04/25.jpg)"></span></a></div>
-                                    </div>
-
-                                    <div class="td-module-meta-info col-9">
-
-                                        <h3 class="entry-title td-module-title"><a href="http://mauweb.monamedia.net/evavn/tuong-ngon-an-nhung-ca-trieu-nguoi-tra-loi-sai-4-cau-do-nay-ban-co-dam-thu/" rel="bookmark" title="Tưởng “ngon ăn” nhưng cả triệu người trả lời sai 4 câu đố này, bạn có dám thử?">Tưởng “ngon ăn” nhưng cả triệu người trả lời sai 4 câu đố này,...</a></h3>
-
-                                        <div class="td-editor-date">
-                                            <span class="td-author-date">
-                                                <span class="td-post-date"><time class="entry-date text-muted small td-module-date" datetime="2019-04-11T06:54:48+00:00">11 Tháng Tư, 2019</time></span>
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-
-                            <div class="td_module_flex_4 td_module_wrap td-animation-stack">
-                                <div class="td-module-container row">
-                                    <div class="td-image-container col-3">
-                                        <div class="td-module-thumb"><a href="http://mauweb.monamedia.net/evavn/apple-se-chuyen-sang-su-dung-man-hinh-mini-led-hoan-toan-moi-tren-ipad-va-mac-khong-chon-oled-vi-lo-ngai-burn-in/" rel="bookmark" class="td-image-wrap" title="Apple sẽ chuyển sang sử dụng màn hình mini-LED hoàn toàn mới trên iPad và Mac, không chọn OLED vì lo ngại burn-in"><span class="entry-thumb td-thumb-css" data-type="css_image" data-img-url="http://mauweb.monamedia.net/evavn/wp-content/uploads/2019/04/17.jpg" style="background-image: url(http://mauweb.monamedia.net/evavn/wp-content/uploads/2019/04/17.jpg)"></span></a></div>
-                                    </div>
-
-                                    <div class="td-module-meta-info col-9">
-
-                                        <h3 class="entry-title td-module-title"><a href="http://mauweb.monamedia.net/evavn/apple-se-chuyen-sang-su-dung-man-hinh-mini-led-hoan-toan-moi-tren-ipad-va-mac-khong-chon-oled-vi-lo-ngai-burn-in/" rel="bookmark" title="Apple sẽ chuyển sang sử dụng màn hình mini-LED hoàn toàn mới trên iPad và Mac, không chọn OLED vì lo ngại burn-in">Apple sẽ chuyển sang sử dụng màn hình mini-LED hoàn toàn mới trên iPad...</a></h3>
-
-                                        <div class="td-editor-date">
-                                            <span class="td-author-date">
-                                                <span class="td-post-date"><time class="entry-date text-muted small td-module-date" datetime="2019-04-11T06:54:48+00:00">11 Tháng Tư, 2019</time></span>
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                    <div class="col-md-3" data-animate="fadeInLeft">
-
-                        <h4 class="block-title td-block-title"><span class="td-pulldown-size">ĐIỂM TIN</span></h4>
-                        <div id="td_uid_86_6100bdcc47f90" class="td_block_inner td-mc1-wrap">
-                            <div class="td_module_flex_1 td_module_wrap td-animation-stack">
-                                <div class="td-module-container td-category-pos-image">
-                                    <div class="td-image-container">
-                                        <a href="http://mauweb.monamedia.net/evavn/category/giai-tri/" class="td-post-category">Giải trí</a>
-                                        <div class="td-module-thumb">
-                                            <a href="http://mauweb.monamedia.net/evavn/minh-hang-va-nam-thu-doi-man-cong-chua-khieng-kieu-den-running-man-lam-gi/" rel="bookmark" class="td-image-wrap" title="Minh Hằng và Nam Thư đội mấn công chúa, khiêng kiệu đến Running Man làm gì?">
-                                                <span class="entry-thumb td-thumb-css" data-type="css_image" data-img-url="http://mauweb.monamedia.net/evavn/wp-content/uploads/2019/04/read-book-good-health.jpg" style="background-image: url(http://mauweb.monamedia.net/evavn/wp-content/uploads/2019/04/read-book-good-health.jpg)"></span>
-                                            </a>
-                                        </div>
-                                    </div>
-
-                                    <div class="td-module-meta-info">
-
-                                        <h3 class="entry-title td-module-title"><a href="http://mauweb.monamedia.net/evavn/minh-hang-va-nam-thu-doi-man-cong-chua-khieng-kieu-den-running-man-lam-gi/" rel="bookmark" title="Minh Hằng và Nam Thư đội mấn công chúa, khiêng kiệu đến Running Man làm gì?">Minh Hằng và Nam Thư đội mấn công chúa, khiêng kiệu đến Running Man...</a></h3>
-
-                                        <div class="td-editor-date">
-
-                                            <span class="td-author-date">
-                                                <span class="td-post-date">
-                                                    <time class="entry-date td-module-date text-white" datetime="2019-04-10T06:55:04+00:00"><?= date_TV('d \t\h\á\n\g M , Y', time()) ?></time>
-                                                </span>
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-
-                            <div class="td_module_flex_4 td_module_wrap td-animation-stack">
-                                <div class="td-module-container row">
-                                    <div class="td-image-container col-3">
-                                        <div class="td-module-thumb"><a href="http://mauweb.monamedia.net/evavn/hack-mien-phi-11-banh-mcdonalds-thanh-nien-lai-gan-2-trieu-view-du-chi-500-nguoi-sub-kenh/" rel="bookmark" class="td-image-wrap" title="“Hack” miễn phí 11 bánh McDonald’s, thanh niên lãi gần 2 triệu view dù chỉ 500 người sub kênh"><span class="entry-thumb td-thumb-css" data-type="css_image" data-img-url="http://mauweb.monamedia.net/evavn/wp-content/uploads/2019/04/12-696x392.jpg" style="background-image: url(http://mauweb.monamedia.net/evavn/wp-content/uploads/2019/04/12-696x392.jpg)"></span></a></div>
-                                    </div>
-
-                                    <div class="td-module-meta-info col-9">
-
-                                        <h3 class="entry-title td-module-title"><a href="http://mauweb.monamedia.net/evavn/hack-mien-phi-11-banh-mcdonalds-thanh-nien-lai-gan-2-trieu-view-du-chi-500-nguoi-sub-kenh/" rel="bookmark" title="“Hack” miễn phí 11 bánh McDonald’s, thanh niên lãi gần 2 triệu view dù chỉ 500 người sub kênh">“Hack” miễn phí 11 bánh McDonald’s, thanh niên lãi gần 2 triệu view dù...</a></h3>
-
-                                        <div class="td-editor-date">
-                                            <span class="td-author-date">
-                                                <span class="td-post-date"><time class="entry-date text-muted small td-module-date" datetime="2019-04-11T06:54:48+00:00">11 Tháng Tư, 2019</time></span>
-                                            </span>
-                                        </div>
-
-                                    </div>
-                                </div>
-                            </div>
-
-
-                            <div class="td_module_flex_4 td_module_wrap td-animation-stack">
-                                <div class="td-module-container row">
-                                    <div class="td-image-container col-3">
-                                        <div class="td-module-thumb"><a href="http://mauweb.monamedia.net/evavn/tuong-ngon-an-nhung-ca-trieu-nguoi-tra-loi-sai-4-cau-do-nay-ban-co-dam-thu/" rel="bookmark" class="td-image-wrap" title="Tưởng “ngon ăn” nhưng cả triệu người trả lời sai 4 câu đố này, bạn có dám thử?"><span class="entry-thumb td-thumb-css" data-type="css_image" data-img-url="http://mauweb.monamedia.net/evavn/wp-content/uploads/2019/04/25.jpg" style="background-image: url(http://mauweb.monamedia.net/evavn/wp-content/uploads/2019/04/25.jpg)"></span></a></div>
-                                    </div>
-
-                                    <div class="td-module-meta-info col-9">
-
-                                        <h3 class="entry-title td-module-title"><a href="http://mauweb.monamedia.net/evavn/tuong-ngon-an-nhung-ca-trieu-nguoi-tra-loi-sai-4-cau-do-nay-ban-co-dam-thu/" rel="bookmark" title="Tưởng “ngon ăn” nhưng cả triệu người trả lời sai 4 câu đố này, bạn có dám thử?">Tưởng “ngon ăn” nhưng cả triệu người trả lời sai 4 câu đố này,...</a></h3>
-
-                                        <div class="td-editor-date">
-                                            <span class="td-author-date">
-                                                <span class="td-post-date"><time class="entry-date text-muted small td-module-date" datetime="2019-04-11T06:54:48+00:00">11 Tháng Tư, 2019</time></span>
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-
-                            <div class="td_module_flex_4 td_module_wrap td-animation-stack">
-                                <div class="td-module-container row">
-                                    <div class="td-image-container col-3">
-                                        <div class="td-module-thumb"><a href="http://mauweb.monamedia.net/evavn/apple-se-chuyen-sang-su-dung-man-hinh-mini-led-hoan-toan-moi-tren-ipad-va-mac-khong-chon-oled-vi-lo-ngai-burn-in/" rel="bookmark" class="td-image-wrap" title="Apple sẽ chuyển sang sử dụng màn hình mini-LED hoàn toàn mới trên iPad và Mac, không chọn OLED vì lo ngại burn-in"><span class="entry-thumb td-thumb-css" data-type="css_image" data-img-url="http://mauweb.monamedia.net/evavn/wp-content/uploads/2019/04/17.jpg" style="background-image: url(http://mauweb.monamedia.net/evavn/wp-content/uploads/2019/04/17.jpg)"></span></a></div>
-                                    </div>
-
-                                    <div class="td-module-meta-info col-9">
-
-                                        <h3 class="entry-title td-module-title"><a href="http://mauweb.monamedia.net/evavn/apple-se-chuyen-sang-su-dung-man-hinh-mini-led-hoan-toan-moi-tren-ipad-va-mac-khong-chon-oled-vi-lo-ngai-burn-in/" rel="bookmark" title="Apple sẽ chuyển sang sử dụng màn hình mini-LED hoàn toàn mới trên iPad và Mac, không chọn OLED vì lo ngại burn-in">Apple sẽ chuyển sang sử dụng màn hình mini-LED hoàn toàn mới trên iPad...</a></h3>
-
-                                        <div class="td-editor-date">
-                                            <span class="td-author-date">
-                                                <span class="td-post-date"><time class="entry-date text-muted small td-module-date" datetime="2019-04-11T06:54:48+00:00">11 Tháng Tư, 2019</time></span>
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                    <div class="col-md-3" data-animate="fadeInLeft">
-
-                        <h4 class="block-title td-block-title"><span class="td-pulldown-size">ĐIỂM TIN</span></h4>
-                        <div id="td_uid_86_6100bdcc47f90" class="td_block_inner td-mc1-wrap">
-                            <div class="td_module_flex_1 td_module_wrap td-animation-stack">
-                                <div class="td-module-container td-category-pos-image">
-                                    <div class="td-image-container">
-                                        <a href="http://mauweb.monamedia.net/evavn/category/giai-tri/" class="td-post-category">Giải trí</a>
-                                        <div class="td-module-thumb">
-                                            <a href="http://mauweb.monamedia.net/evavn/minh-hang-va-nam-thu-doi-man-cong-chua-khieng-kieu-den-running-man-lam-gi/" rel="bookmark" class="td-image-wrap" title="Minh Hằng và Nam Thư đội mấn công chúa, khiêng kiệu đến Running Man làm gì?">
-                                                <span class="entry-thumb td-thumb-css" data-type="css_image" data-img-url="http://mauweb.monamedia.net/evavn/wp-content/uploads/2019/04/read-book-good-health.jpg" style="background-image: url(http://mauweb.monamedia.net/evavn/wp-content/uploads/2019/04/read-book-good-health.jpg)"></span>
-                                            </a>
-                                        </div>
-                                    </div>
-
-                                    <div class="td-module-meta-info">
-
-                                        <h3 class="entry-title td-module-title"><a href="http://mauweb.monamedia.net/evavn/minh-hang-va-nam-thu-doi-man-cong-chua-khieng-kieu-den-running-man-lam-gi/" rel="bookmark" title="Minh Hằng và Nam Thư đội mấn công chúa, khiêng kiệu đến Running Man làm gì?">Minh Hằng và Nam Thư đội mấn công chúa, khiêng kiệu đến Running Man...</a></h3>
-
-                                        <div class="td-editor-date">
-
-                                            <span class="td-author-date">
-                                                <span class="td-post-date">
-                                                    <time class="entry-date td-module-date text-white" datetime="2019-04-10T06:55:04+00:00"><?= date_TV('d \t\h\á\n\g M , Y', time()) ?></time>
-                                                </span>
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-
-                            <div class="td_module_flex_4 td_module_wrap td-animation-stack">
-                                <div class="td-module-container row">
-                                    <div class="td-image-container col-3">
-                                        <div class="td-module-thumb"><a href="http://mauweb.monamedia.net/evavn/hack-mien-phi-11-banh-mcdonalds-thanh-nien-lai-gan-2-trieu-view-du-chi-500-nguoi-sub-kenh/" rel="bookmark" class="td-image-wrap" title="“Hack” miễn phí 11 bánh McDonald’s, thanh niên lãi gần 2 triệu view dù chỉ 500 người sub kênh"><span class="entry-thumb td-thumb-css" data-type="css_image" data-img-url="http://mauweb.monamedia.net/evavn/wp-content/uploads/2019/04/12-696x392.jpg" style="background-image: url(http://mauweb.monamedia.net/evavn/wp-content/uploads/2019/04/12-696x392.jpg)"></span></a></div>
-                                    </div>
-
-                                    <div class="td-module-meta-info col-9">
-
-                                        <h3 class="entry-title td-module-title"><a href="http://mauweb.monamedia.net/evavn/hack-mien-phi-11-banh-mcdonalds-thanh-nien-lai-gan-2-trieu-view-du-chi-500-nguoi-sub-kenh/" rel="bookmark" title="“Hack” miễn phí 11 bánh McDonald’s, thanh niên lãi gần 2 triệu view dù chỉ 500 người sub kênh">“Hack” miễn phí 11 bánh McDonald’s, thanh niên lãi gần 2 triệu view dù...</a></h3>
-
-                                        <div class="td-editor-date">
-                                            <span class="td-author-date">
-                                                <span class="td-post-date"><time class="entry-date text-muted small td-module-date" datetime="2019-04-11T06:54:48+00:00">11 Tháng Tư, 2019</time></span>
-                                            </span>
-                                        </div>
-
-                                    </div>
-                                </div>
-                            </div>
-
-
-                            <div class="td_module_flex_4 td_module_wrap td-animation-stack">
-                                <div class="td-module-container row">
-                                    <div class="td-image-container col-3">
-                                        <div class="td-module-thumb"><a href="http://mauweb.monamedia.net/evavn/tuong-ngon-an-nhung-ca-trieu-nguoi-tra-loi-sai-4-cau-do-nay-ban-co-dam-thu/" rel="bookmark" class="td-image-wrap" title="Tưởng “ngon ăn” nhưng cả triệu người trả lời sai 4 câu đố này, bạn có dám thử?"><span class="entry-thumb td-thumb-css" data-type="css_image" data-img-url="http://mauweb.monamedia.net/evavn/wp-content/uploads/2019/04/25.jpg" style="background-image: url(http://mauweb.monamedia.net/evavn/wp-content/uploads/2019/04/25.jpg)"></span></a></div>
-                                    </div>
-
-                                    <div class="td-module-meta-info col-9">
-
-                                        <h3 class="entry-title td-module-title"><a href="http://mauweb.monamedia.net/evavn/tuong-ngon-an-nhung-ca-trieu-nguoi-tra-loi-sai-4-cau-do-nay-ban-co-dam-thu/" rel="bookmark" title="Tưởng “ngon ăn” nhưng cả triệu người trả lời sai 4 câu đố này, bạn có dám thử?">Tưởng “ngon ăn” nhưng cả triệu người trả lời sai 4 câu đố này,...</a></h3>
-
-                                        <div class="td-editor-date">
-                                            <span class="td-author-date">
-                                                <span class="td-post-date"><time class="entry-date text-muted small td-module-date" datetime="2019-04-11T06:54:48+00:00">11 Tháng Tư, 2019</time></span>
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-
-                            <div class="td_module_flex_4 td_module_wrap td-animation-stack">
-                                <div class="td-module-container row">
-                                    <div class="td-image-container col-3">
-                                        <div class="td-module-thumb"><a href="http://mauweb.monamedia.net/evavn/apple-se-chuyen-sang-su-dung-man-hinh-mini-led-hoan-toan-moi-tren-ipad-va-mac-khong-chon-oled-vi-lo-ngai-burn-in/" rel="bookmark" class="td-image-wrap" title="Apple sẽ chuyển sang sử dụng màn hình mini-LED hoàn toàn mới trên iPad và Mac, không chọn OLED vì lo ngại burn-in"><span class="entry-thumb td-thumb-css" data-type="css_image" data-img-url="http://mauweb.monamedia.net/evavn/wp-content/uploads/2019/04/17.jpg" style="background-image: url(http://mauweb.monamedia.net/evavn/wp-content/uploads/2019/04/17.jpg)"></span></a></div>
-                                    </div>
-
-                                    <div class="td-module-meta-info col-9">
-
-                                        <h3 class="entry-title td-module-title"><a href="http://mauweb.monamedia.net/evavn/apple-se-chuyen-sang-su-dung-man-hinh-mini-led-hoan-toan-moi-tren-ipad-va-mac-khong-chon-oled-vi-lo-ngai-burn-in/" rel="bookmark" title="Apple sẽ chuyển sang sử dụng màn hình mini-LED hoàn toàn mới trên iPad và Mac, không chọn OLED vì lo ngại burn-in">Apple sẽ chuyển sang sử dụng màn hình mini-LED hoàn toàn mới trên iPad...</a></h3>
-
-                                        <div class="td-editor-date">
-                                            <span class="td-author-date">
-                                                <span class="td-post-date"><time class="entry-date text-muted small td-module-date" datetime="2019-04-11T06:54:48+00:00">11 Tháng Tư, 2019</time></span>
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <style scope="scope">
-                #section_89897571 {
-                    padding-top: 30px;
-                    padding-bottom: 30px;
-                    background-color: white;
-                }
-
-                .block-title {
-                    font-size: 14px;
-                    line-height: 1;
-                    margin-top: 0;
-                    margin-bottom: 26px;
-                    border-bottom: 2px solid #222222;
-                    border-color: #56b665;
-                }
-
-                .block-title span,
-                .block-title a {
-                    line-height: 17px;
-                    display: inline-block;
-                    padding: 7px 12px 4px;
-                    background-color: #56b665;
-                    color: #fff;
-                }
-            </style>
-        </section>
+        <?= view_cell("\App\Libraries\HomeWidget::tag") ?>
     </div>
 </main>
 
@@ -839,7 +373,29 @@
     });
     jQuery(document).ready(function() {
         jQuery('.slide-box').slick('slickNext');
+        animateValue("a_s", 2000);
+        animateValue("a_n", 3000);
+        animateValue("a_c", 2000);
+        animateValue("a_nm", 2000);
     })
+
+    function animateValue(id, duration) {
+        var start = 0;
+        var end = jQuery("#" + id).text();
+        var range = end - start;
+        var current = start;
+        var increment = end > start ? 1 : -1;
+        var stepTime = Math.abs(Math.floor(duration / range));
+        console.log(stepTime)
+        var obj = document.getElementById(id);
+        var timer = setInterval(function() {
+            current += increment;
+            obj.innerHTML = current;
+            if (current >= end) {
+                clearInterval(timer);
+            }
+        }, stepTime);
+    }
 </script>
 
 <?= $this->endSection() ?>

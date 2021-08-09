@@ -5,7 +5,6 @@
 
 <main id="main" class="">
 
-
     <div id="content">
 
         <div id="page-header-92436122" class="page-header-wrapper">
@@ -48,130 +47,59 @@
                 </style>
             </div><!-- .page-title -->
         </div><!-- .page-header-wrapper -->
-        <div class="row row-large row-divided mt-5">
+        <div class="container">
+            <div class="row row-large row-divided mt-5">
 
-            <div class="large-9 col">
-
-
-
-                <article id="post-74" class="post-74 post type-post status-publish format-standard has-post-thumbnail hentry category-tin-tuc">
-                    <div class="article-inner has-shadow box-shadow-1 box-shadow-3-hover">
-                        <header class="entry-header">
-                            <div class="entry-header-text entry-header-text-top text-left">
-
-                                <h1 class="entry-title"><?= $info->{pick_language($info, "title_")} ?></h1>
-                                <h6 class="entry-category is-xsmall">
-                                    <a href="#" rel="category tag"><?= date("d M,Y") ?></a>
-                                </h6>
-                                <div class="entry-divider is-divider small"></div>
-
-                            </div><!-- .entry-header -->
-                        </header><!-- post-header -->
-                        <div class="entry-content single-page">
-                            <?= $info->{pick_language($info, "content_")} ?>
-                        </div><!-- .entry-content2 -->
-
-
-                    </div><!-- .article-inner -->
-                </article><!-- #-74 -->
+                <div class="col-md-9">
 
 
 
+                    <article id="post-74" class="post-74 post type-post status-publish format-standard has-post-thumbnail hentry category-tin-tuc">
+                        <div class="article-inner">
+                            <header class="entry-header">
+                                <div class="entry-header-text entry-header-text-top text-left">
+
+                                    <h1 class="entry-title"><?= $info->{pick_language($info, "title_")} ?></h1>
+                                    <h6 class="entry-category is-xsmall">
+                                        <a href="#" rel="category tag"><?= date("d M,Y", strtotime($info->date)) ?></a>
+                                    </h6>
+                                    <div class="entry-divider is-divider small"></div>
+
+                                </div><!-- .entry-header -->
+                            </header><!-- post-header -->
+                            <div class="entry-content single-page">
+                                <?= $info->{pick_language($info, "content_")} ?>
+                            </div><!-- .entry-content2 -->
 
 
-            </div> <!-- .large-9 -->
-
-            <div class="post-sidebar large-3 col">
-                <div id="secondary" class="widget-area " role="complementary">
-                    <aside id="flatsome_recent_posts-4" class="widget flatsome_recent_posts"> <span class="widget-title "><span>Bài viết mới</span></span>
-                        <div class="is-divider small"></div>
-                        <ul>
-
-                            <li class="recent-blog-posts-li">
-                                <div class="flex-row recent-blog-posts align-top pt-half pb-half">
-                                    <div class="flex-col mr-half">
-                                        <div class="badge post-date  badge-circle">
-                                            <div class="badge-inner bg-fill" style="background: url(http://mauweb.monamedia.net/cleanmate/wp-content/uploads/2018/03/image_03-1-870x400-150x150.jpg); border:0;">
-                                            </div>
-                                        </div>
-                                    </div><!-- .flex-col -->
-                                    <div class="flex-col flex-grow">
-                                        <a href="http://mauweb.monamedia.net/cleanmate/cach-don-dep-nha-bep/" title="Cách dọn dẹp nhà bếp">Cách dọn dẹp nhà bếp</a>
-                                        <span class="post_comments op-7 block is-xsmall"><a href="http://mauweb.monamedia.net/cleanmate/cach-don-dep-nha-bep/#respond"></a></span>
-                                    </div>
-                                </div><!-- .flex-row -->
-                            </li>
-
-
-                            <li class="recent-blog-posts-li">
-                                <div class="flex-row recent-blog-posts align-top pt-half pb-half">
-                                    <div class="flex-col mr-half">
-                                        <div class="badge post-date  badge-circle">
-                                            <div class="badge-inner bg-fill" style="background: url(http://mauweb.monamedia.net/cleanmate/wp-content/uploads/2019/11/image_05-1-150x150.jpg); border:0;">
-                                            </div>
-                                        </div>
-                                    </div><!-- .flex-col -->
-                                    <div class="flex-col flex-grow">
-                                        <a href="http://mauweb.monamedia.net/cleanmate/mauris-tristique-pretium-tempus-vestibulum-et-accumsan-magna/" title="Điều lưu ý gì cần thiết khi dọn dẹp">Điều lưu ý gì cần thiết khi dọn dẹp</a>
-                                        <span class="post_comments op-7 block is-xsmall"><a href="http://mauweb.monamedia.net/cleanmate/mauris-tristique-pretium-tempus-vestibulum-et-accumsan-magna/#respond"></a></span>
-                                    </div>
-                                </div><!-- .flex-row -->
-                            </li>
-
-
-                            <li class="recent-blog-posts-li">
-                                <div class="flex-row recent-blog-posts align-top pt-half pb-half">
-                                    <div class="flex-col mr-half">
-                                        <div class="badge post-date  badge-circle">
-                                            <div class="badge-inner bg-fill" style="background: url(http://mauweb.monamedia.net/cleanmate/wp-content/uploads/2019/11/image_03-4-150x150.jpg); border:0;">
-                                            </div>
-                                        </div>
-                                    </div><!-- .flex-col -->
-                                    <div class="flex-col flex-grow">
-                                        <a href="http://mauweb.monamedia.net/cleanmate/aliquam-placerat-nisl-nec-imperdiet-vehicula-phasellus-tempus-ligula-id-orci-finibus-feugiat/" title="Có nên dọn dẹp vào mùa đông">Có nên dọn dẹp vào mùa đông</a>
-                                        <span class="post_comments op-7 block is-xsmall"><a href="http://mauweb.monamedia.net/cleanmate/aliquam-placerat-nisl-nec-imperdiet-vehicula-phasellus-tempus-ligula-id-orci-finibus-feugiat/#respond"></a></span>
-                                    </div>
-                                </div><!-- .flex-row -->
-                            </li>
-
-
-                            <li class="recent-blog-posts-li">
-                                <div class="flex-row recent-blog-posts align-top pt-half pb-half">
-                                    <div class="flex-col mr-half">
-                                        <div class="badge post-date  badge-circle">
-                                            <div class="badge-inner bg-fill" style="background: url(http://mauweb.monamedia.net/cleanmate/wp-content/uploads/2018/03/image_01-1-870x400-150x150.jpg); border:0;">
-                                            </div>
-                                        </div>
-                                    </div><!-- .flex-col -->
-                                    <div class="flex-col flex-grow">
-                                        <a href="http://mauweb.monamedia.net/cleanmate/luu-y-khi-len-lich-trinh-don-dep/" title="Lưu ý khi lên lịch trình dọn dẹp">Lưu ý khi lên lịch trình dọn dẹp</a>
-                                        <span class="post_comments op-7 block is-xsmall"><a href="http://mauweb.monamedia.net/cleanmate/luu-y-khi-len-lich-trinh-don-dep/#respond"></a></span>
-                                    </div>
-                                </div><!-- .flex-row -->
-                            </li>
-
-
-                            <li class="recent-blog-posts-li">
-                                <div class="flex-row recent-blog-posts align-top pt-half pb-half">
-                                    <div class="flex-col mr-half">
-                                        <div class="badge post-date  badge-circle">
-                                            <div class="badge-inner bg-fill" style="background: url(http://mauweb.monamedia.net/cleanmate/wp-content/uploads/2018/03/image_01-4-870x400-150x150.jpg); border:0;">
-                                            </div>
-                                        </div>
-                                    </div><!-- .flex-col -->
-                                    <div class="flex-col flex-grow">
-                                        <a href="http://mauweb.monamedia.net/cleanmate/10-cach-de-tiet-kiem-nhieu-hon-lang-phi-it-hon/" title="10 cách để tiết kiệm nhiều hơn &amp; lãng phí ít hơn">10 cách để tiết kiệm nhiều hơn &amp; lãng phí ít hơn</a>
-                                        <span class="post_comments op-7 block is-xsmall"><a href="http://mauweb.monamedia.net/cleanmate/10-cach-de-tiet-kiem-nhieu-hon-lang-phi-it-hon/#respond"></a></span>
-                                    </div>
-                                </div><!-- .flex-row -->
-                            </li>
+                        </div><!-- .article-inner -->
+                    </article><!-- #-74 -->
+                    <hr>
+                    <div clas>
+                        <h3>Các tin khác</h3>
+                        <ul class="ms-4">
+                            <?php foreach ($news as $row) : ?>
+                                <li>
+                                    <a href="<?= url_news($row) ?>"><?= $row->{pick_language($row, "title_")} ?></a>
+                                </li>
+                            <?php endforeach ?>
                         </ul>
-                    </aside>
-                </div><!-- #secondary -->
-            </div><!-- .post-sidebar -->
+                    </div>
 
-        </div><!-- .row -->
 
+
+
+                </div> <!-- .large-9 -->
+
+                <div class="post-sidebar col-md-3">
+                    <div id="secondary" class="widget-area" role="complementary">
+                        <?= view_cell("\App\Libraries\SidebarWidget::category") ?>
+                        <?= view_cell("\App\Libraries\SidebarWidget::hot_news") ?>
+                    </div><!-- #secondary -->
+                </div><!-- .post-sidebar -->
+
+            </div><!-- .row -->
+        </div>
     </div><!-- #content .page-wrapper -->
 
 

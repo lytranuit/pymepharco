@@ -333,7 +333,7 @@ if (!function_exists('url_product_list')) {
         if ($id > 0) {
             $category_model = model("CategoryModel");
             $category = $category_model->find($id);
-            $url = base_url("danh-muc/" . ($category->slug != '' ? $category->slug : str_slug($category->name_vi)) . "-c$id.html");
+            $url = !empty($category) ? base_url("danh-muc/" . ($category->slug != '' ? $category->slug : str_slug($category->name_vi)) . "-c$id.html") : "";
         }
         return $url;
     }
@@ -384,7 +384,7 @@ if (!function_exists('url_product_byid')) {
         if ($id) {
             $model = model("TagModel");
             $object = $model->find($id);
-            $url = base_url("san-pham/c$object->id.html");
+            $url = !empty($object) ? base_url("san-pham/c$object->id.html") : "";
         }
         return $url;
     }
@@ -425,7 +425,7 @@ if (!function_exists('url_tag_byid')) {
         if ($id) {
             $model = model("TagModel");
             $object = $model->find($id);
-            $url = base_url("tin-tuc/c$object->id.html");
+            $url = !empty($object) ? base_url("tin-tuc/c$object->id.html") : "";
         }
         return $url;
     }
@@ -449,7 +449,7 @@ if (!function_exists('url_news_byid')) {
         if ($id) {
             $model = model("ProductModel");
             $object = $model->find($id);
-            $url = base_url("post/c$object->id.html");
+            $url = !empty($object) ?  base_url("post/c$object->id.html") : "";
         }
         return $url;
     }
@@ -474,7 +474,7 @@ if (!function_exists('url_category_byid')) {
         if ($id) {
             $model = model("CategoryModel");
             $object = $model->find($id);
-            $url = base_url("danh-muc/c$object->id.html");
+            $url = !empty($object) ?  base_url("danh-muc/c$object->id.html") : "";
         }
         return $url;
     }

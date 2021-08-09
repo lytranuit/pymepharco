@@ -25,42 +25,12 @@ class NewsModel extends Model
             foreach ($data as &$row) {
                 if (gettype($row) == "object") {
 
-                    if (in_array("user", $relation)) {
-                        $user_id = $row->user_id;
-                        $builder = $this->db->table('users');
-                        $row->user = $builder->where('id', $user_id)->limit(1)->get()->getFirstRow();
-                        if (in_array("user_image", $relation)) {
-                            $image_id = $row->user->image_id;
-                            $builder = $this->db->table('cf_file');
-                            $row->user->image = $builder->where('id', $image_id)->limit(1)->get()->getFirstRow();
-                        }
-                    }
-                    //if (in_array("image_other", $relation)) {
-                    //    $news_id = $row->id;
-                    //    $builder = $this->db->table('cf_news_image')->join("cf_file", "cf_news_image.image_id = cf_file.id");
-                    //    $row->image_other = $builder->where('news_id', $news_id)->get()->getResult();
-                    //}
                     if (in_array("tags", $relation)) {
                         $news_id = $row->id;
                         $builder = $this->db->table('pet_news_tag')->join("pet_tag", "pet_news_tag.tag_id = pet_tag.id");
                         $row->tags = $builder->where('news_id', $news_id)->get()->getResult();
                     }
                 } else {
-                    if (in_array("user", $relation)) {
-                        $user_id = $row['user_id'];
-                        $builder = $this->db->table('users');
-                        $row['user'] = $builder->where('id', $user_id)->limit(1)->get()->getFirstRow();
-                        if (in_array("user_image", $relation)) {
-                            $image_id = $row['user']['image_id'];
-                            $builder = $this->db->table('cf_file');
-                            $row['user']['image'] = $builder->where('id', $image_id)->limit(1)->get()->getFirstRow("array");
-                        }
-                    }
-                    //if (in_array("image_other", $relation)) {
-                    //    $news_id = $row['id'];
-                    //    $builder = $this->db->table('cf_news_image')->join("cf_file", "cf_news_image.image_id = cf_file.id");
-                    //    $row['image_other'] = $builder->where('news_id', $news_id)->get()->getResult("array");
-                    //}
                     if (in_array("tags", $relation)) {
                         $news_id = $row['id'];
                         $builder = $this->db->table('pet_news_tag')->join("pet_tag", "pet_news_tag.tag_id = pet_tag.id");
@@ -69,44 +39,12 @@ class NewsModel extends Model
                 }
             }
         } elseif ($type == "array" && isset($data['id'])) {
-
-            if (in_array("user", $relation)) {
-                $user_id = $data['user_id'];
-                $builder = $this->db->table('users');
-                $data['user'] = $builder->where('id', $user_id)->limit(1)->get()->getFirstRow();
-                if (in_array("user_image", $relation)) {
-                    $image_id = $data['user']['image_id'];
-                    $builder = $this->db->table('cf_file');
-                    $data['user']['image'] = $builder->where('id', $image_id)->limit(1)->get()->getFirstRow('array');
-                }
-            }
-            //if (in_array("image_other", $relation)) {
-            //    $news_id = $data['id'];
-            //    $builder = $this->db->table('cf_news_image')->join("cf_file", "cf_news_image.image_id = cf_file.id");
-            //    $data['image_other'] = $builder->where('news_id', $news_id)->get()->getResult("array");
-            //}
             if (in_array("tags", $relation)) {
                 $news_id = $data['id'];
                 $builder = $this->db->table('pet_news_tag')->join("pet_tag", "pet_news_tag.tag_id = pet_tag.id");
                 $data['tags'] = $builder->where('news_id', $news_id)->get()->getResult("array");
             }
         } else {
-
-            if (in_array("user", $relation)) {
-                $user_id = $data->user_id;
-                $builder = $this->db->table('users');
-                $data->user = $builder->where('id', $user_id)->limit(1)->get()->getFirstRow();
-                if (in_array("user_image", $relation)) {
-                    $image_id = $data->user->image_id;
-                    $builder = $this->db->table('cf_file');
-                    $data->user->image = $builder->where('id', $image_id)->limit(1)->get()->getFirstRow();
-                }
-            }
-            //if (in_array("image_other", $relation)) {
-            //    $news_id = $data->id;
-            //    $builder = $this->db->table('cf_news_image')->join("cf_file", "cf_news_image.image_id = cf_file.id");
-            //    $data->image_other = $builder->where('news_id', $news_id)->get()->getResult();
-            //}
             if (in_array("tags", $relation)) {
                 $news_id = $data->id;
                 $builder = $this->db->table('pet_news_tag')->join("pet_tag", "pet_news_tag.tag_id = pet_tag.id");
@@ -122,15 +60,15 @@ class NewsModel extends Model
         if (empty($tags)) {
             return array();
         }
-        $builder = $this->db->table("cf_news");
+        $builder = $this->db->table("pet_news");
         $builder->whereIn('id', function (BaseBuilder $builder) use ($tags) {
             return $builder->select('news_id')->from('pet_news_tag')->whereIn('tag_id', $tags);
         });
-        return $builder->where("deleted_at", NULL)->where("deleted", 0)->where('id !=', $id)->get()->getResult();
+        return $builder->where("deleted_at", NULL)->where('id !=', $id)->limit(5)->get()->getResult();
     }
     public function get_news($tag_id = 0, $keyword = "", $offset = 0, $limit = 20)
     {
-        $builder = $this->db->table("cf_news");
+        $builder = $this->db->table("pet_news");
 
         if ($tag_id > 0) {
             $builder->whereIn('id', function (BaseBuilder $builder) use ($tag_id) {

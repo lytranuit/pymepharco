@@ -128,6 +128,14 @@ class News extends BaseController
         exit;
     }
 
+    public function up($id)
+    { /////// trang ca nhan
+        $news_model = model("NewsModel");
+        $news_model->update($id, array('date' => date("Y-m-d H:i:s")));
+        header('Location: ' . $_SERVER['HTTP_REFERER']);
+        exit;
+    }
+
     public function table()
     {
         $news_model = model("NewsModel");
@@ -143,7 +151,7 @@ class News extends BaseController
         $totalFiltered = $totalData;
 
         $where = $news_model;
-        $posts = $where->asObject()->orderby("id", "DESC")->paginate($limit, '', $page);
+        $posts = $where->asObject()->orderby("date", "DESC")->paginate($limit, '', $page);
         //echo "<pre>";
         //print_r($posts);
         //die();
@@ -158,14 +166,15 @@ class News extends BaseController
                 // $image = isset($post->image->src) ? base_url() . $post->image->src : "";
                 // $nestedData['image'] = "<img src='$image' width='100'/>";
                 $nestedData['date'] =  date("d/m/Y", strtotime($post->date));
-                $nestedData['action'] = '<a href="' . base_url("admin/news/edit/" . $post->id) . '" class="btn btn-warning btn-sm mr-2" title="edit">'
+                $nestedData['action'] = '<div style="white-space: nowrap;"><a href="' . base_url("admin/news/up/" . $post->id) . '" class="btn btn-primary btn-sm" data-type="confirm" title="Up to Top"><i class="fas fa-arrow-alt-circle-up"></i></a>
+                        <a href="' . base_url("admin/news/edit/" . $post->id) . '" class="btn btn-warning btn-sm mr-1" title="up">'
                     . '<i class="fas fa-pencil-alt">'
                     . '</i>'
                     . '</a>'
                     . '<a href="' . base_url("admin/news/remove/" . $post->id) . '" class="btn btn-danger btn-sm" data-type="confirm" title="remove">'
                     . '<i class="far fa-trash-alt">'
                     . '</i>'
-                    . '</a>';
+                    . '</a></div>';
 
                 $data[] = $nestedData;
             }

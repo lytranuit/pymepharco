@@ -473,7 +473,7 @@ h6,
 }
 .td_module_flex_3 .td-module-meta-info,
 .td_module_flex_4 .td-module-meta-info {
-    padding: 0 0 0 16px;
+    padding: 0 0 0 5px;
 }
 .td_module_flex_3 .entry-title,
 .td_module_flex_4 .entry-title {
@@ -747,6 +747,14 @@ h6,
 
 .td_module_flex_1 .td-module-title a {
     color: #ffffff;
+
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    line-height: 20px !important;
+    height: 40px;
 }
 
 .td_module_flex_1 .td-post-author-name a {
@@ -761,7 +769,13 @@ h6,
 
 .td_module_flex_4 .entry-title {
     font-size: 13px !important;
-    line-height: 1.4 !important;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    line-height: 20px !important;
+    height: 40px;
 }
 
 /* CSS product */
@@ -918,4 +932,13 @@ h6,
     transform: translateY(0px);
     -webkit-transform: translateY(0px);
     opacity: 1;
+}
+.row_2 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    line-height: 20px !important;
+    height: 40px;
 }

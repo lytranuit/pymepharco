@@ -84,92 +84,11 @@
 
                 </div> <!-- .large-9 -->
 
-                <div class="post-sidebar large-3 col-md-3">
-                    <div id="secondary" class="widget-area " role="complementary">
-                        <aside id="flatsome_recent_posts-4" class="widget flatsome_recent_posts"> <span class="widget-title "><span>Bài viết mới</span></span>
-                            <div class="is-divider small"></div>
-                            <ul>
 
-                                <li class="recent-blog-posts-li">
-                                    <div class="flex-row recent-blog-posts align-top pt-half pb-half">
-                                        <div class="flex-col mr-half">
-                                            <div class="badge post-date  badge-circle">
-                                                <div class="badge-inner bg-fill" style="background: url(http://mauweb.monamedia.net/cleanmate/wp-content/uploads/2018/03/image_03-1-870x400-150x150.jpg); border:0;">
-                                                </div>
-                                            </div>
-                                        </div><!-- .flex-col -->
-                                        <div class="flex-col flex-grow">
-                                            <a href="http://mauweb.monamedia.net/cleanmate/cach-don-dep-nha-bep/" title="Cách dọn dẹp nhà bếp">Cách dọn dẹp nhà bếp</a>
-                                            <span class="post_comments op-7 block is-xsmall"><a href="http://mauweb.monamedia.net/cleanmate/cach-don-dep-nha-bep/#respond"></a></span>
-                                        </div>
-                                    </div><!-- .flex-row -->
-                                </li>
-
-
-                                <li class="recent-blog-posts-li">
-                                    <div class="flex-row recent-blog-posts align-top pt-half pb-half">
-                                        <div class="flex-col mr-half">
-                                            <div class="badge post-date  badge-circle">
-                                                <div class="badge-inner bg-fill" style="background: url(http://mauweb.monamedia.net/cleanmate/wp-content/uploads/2019/11/image_05-1-150x150.jpg); border:0;">
-                                                </div>
-                                            </div>
-                                        </div><!-- .flex-col -->
-                                        <div class="flex-col flex-grow">
-                                            <a href="http://mauweb.monamedia.net/cleanmate/mauris-tristique-pretium-tempus-vestibulum-et-accumsan-magna/" title="Điều lưu ý gì cần thiết khi dọn dẹp">Điều lưu ý gì cần thiết khi dọn dẹp</a>
-                                            <span class="post_comments op-7 block is-xsmall"><a href="http://mauweb.monamedia.net/cleanmate/mauris-tristique-pretium-tempus-vestibulum-et-accumsan-magna/#respond"></a></span>
-                                        </div>
-                                    </div><!-- .flex-row -->
-                                </li>
-
-
-                                <li class="recent-blog-posts-li">
-                                    <div class="flex-row recent-blog-posts align-top pt-half pb-half">
-                                        <div class="flex-col mr-half">
-                                            <div class="badge post-date  badge-circle">
-                                                <div class="badge-inner bg-fill" style="background: url(http://mauweb.monamedia.net/cleanmate/wp-content/uploads/2019/11/image_03-4-150x150.jpg); border:0;">
-                                                </div>
-                                            </div>
-                                        </div><!-- .flex-col -->
-                                        <div class="flex-col flex-grow">
-                                            <a href="http://mauweb.monamedia.net/cleanmate/aliquam-placerat-nisl-nec-imperdiet-vehicula-phasellus-tempus-ligula-id-orci-finibus-feugiat/" title="Có nên dọn dẹp vào mùa đông">Có nên dọn dẹp vào mùa đông</a>
-                                            <span class="post_comments op-7 block is-xsmall"><a href="http://mauweb.monamedia.net/cleanmate/aliquam-placerat-nisl-nec-imperdiet-vehicula-phasellus-tempus-ligula-id-orci-finibus-feugiat/#respond"></a></span>
-                                        </div>
-                                    </div><!-- .flex-row -->
-                                </li>
-
-
-                                <li class="recent-blog-posts-li">
-                                    <div class="flex-row recent-blog-posts align-top pt-half pb-half">
-                                        <div class="flex-col mr-half">
-                                            <div class="badge post-date  badge-circle">
-                                                <div class="badge-inner bg-fill" style="background: url(http://mauweb.monamedia.net/cleanmate/wp-content/uploads/2018/03/image_01-1-870x400-150x150.jpg); border:0;">
-                                                </div>
-                                            </div>
-                                        </div><!-- .flex-col -->
-                                        <div class="flex-col flex-grow">
-                                            <a href="http://mauweb.monamedia.net/cleanmate/luu-y-khi-len-lich-trinh-don-dep/" title="Lưu ý khi lên lịch trình dọn dẹp">Lưu ý khi lên lịch trình dọn dẹp</a>
-                                            <span class="post_comments op-7 block is-xsmall"><a href="http://mauweb.monamedia.net/cleanmate/luu-y-khi-len-lich-trinh-don-dep/#respond"></a></span>
-                                        </div>
-                                    </div><!-- .flex-row -->
-                                </li>
-
-
-                                <li class="recent-blog-posts-li">
-                                    <div class="flex-row recent-blog-posts align-top pt-half pb-half">
-                                        <div class="flex-col mr-half">
-                                            <div class="badge post-date  badge-circle">
-                                                <div class="badge-inner bg-fill" style="background: url(http://mauweb.monamedia.net/cleanmate/wp-content/uploads/2018/03/image_01-4-870x400-150x150.jpg); border:0;">
-                                                </div>
-                                            </div>
-                                        </div><!-- .flex-col -->
-                                        <div class="flex-col flex-grow">
-                                            <a href="http://mauweb.monamedia.net/cleanmate/10-cach-de-tiet-kiem-nhieu-hon-lang-phi-it-hon/" title="10 cách để tiết kiệm nhiều hơn &amp; lãng phí ít hơn">10 cách để tiết kiệm nhiều hơn &amp; lãng phí ít hơn</a>
-                                            <span class="post_comments op-7 block is-xsmall"><a href="http://mauweb.monamedia.net/cleanmate/10-cach-de-tiet-kiem-nhieu-hon-lang-phi-it-hon/#respond"></a></span>
-                                        </div>
-                                    </div><!-- .flex-row -->
-                                </li>
-                            </ul>
-                        </aside>
+                <div class="post-sidebar col-md-3">
+                    <div id="secondary" class="widget-area" role="complementary">
+                        <?= view_cell("\App\Libraries\SidebarWidget::category") ?>
+                        <?= view_cell("\App\Libraries\SidebarWidget::hot_news") ?>
                     </div><!-- #secondary -->
                 </div><!-- .post-sidebar -->
 
