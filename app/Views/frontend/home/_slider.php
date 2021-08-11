@@ -17,8 +17,7 @@
     padding: 10px 20px;
     position: absolute;
     display: inline-block;
-    bottom: -20px;
-    height: 40px;">XEM CHI TIẾT <i class="fas fa-chevron-right"></i></a>
+    bottom: -20px;">XEM CHI TIẾT <i class="fas fa-chevron-right"></i></a>
                             </div>
                         </div>
                     </div><!-- .banner-layers -->

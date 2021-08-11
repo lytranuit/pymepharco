@@ -30,11 +30,23 @@
                                 <div class="gap-element clearfix" style="display:block; height:auto; padding-top:25px"></div>
                                 <div class="content">
                                     <div class="detail">
-                                        <p style="text-align: justify;">Thành lập 25-05-2011, GMPc tự hào là&nbsp;<span style="color:#d76423;"><strong>Nhà tư vấn tiên phong,</strong></span> sáng tạo nên mô hình&nbsp;<span style="color:#d76423;"><strong>Tư vấn toàn diện, trọn gói dự án Nhà máy GMP</strong></span> áp dụng trong&nbsp;các ngành&nbsp;sản xuất Dược, Mỹ phẩm, Thực phẩm Bảo vệ sức khỏe và&nbsp;Thuốc Thú y thủy sản.</p>
 
-                                        <p style="text-align: justify;">Chúng tôi cung cấp <span style="color:#d76423;"><strong>đầy&nbsp;đủ dịch vụ tư vấn cần thiết&nbsp;&nbsp;</strong></span>bao gồm: Tư vấn đầu tư, Thiết kế, Quản lý dự án, Giám sát thi công,&nbsp;Đào tạo, Hướng dẫn thực hành GMP một cách <span style="color:#d76423;"><strong>Sáng tạo và Chuyên nghiệp</strong></span>, giúp cho việc triển khai đầu tư xây dựng Nhà máy GMP <span style="text-align:justify;"><span style="color:#d76423;"><strong>chỉ cần một đầu mối tư vấn duy nhất,&nbsp;</strong></span></span>và do đó, việc thực hiện&nbsp;trở nên&nbsp;<span style="color:#d76423;"><strong>Đơn giản hóa – Tối ưu chi phí&nbsp;- Đảm bảo đạt Chứng nhận!</strong></span></p>
+                                        <p style="text-align: justify;">
+                                            <strong style="color:#006600;">PYMEPHARCO</strong> được thành lập vào năm 1989 với nhiệm vụ sản xuất dược phẩm, kinh doanh thuốc & vật tư thiết bị y tế.
+                                            Công ty có quan hệ thương mại với các nhà sản xuất, phân phối dược phẩm có uy tín của nhiều quốc gia trên thế giới.
 
-                                        <p style="text-align: justify;">Trải qua 10&nbsp;năm xây dựng và phát triển, GMPc đã nhận được sự tin tưởng và tín nhiệm của <span style="color:#d76423;"><strong>hơn 190</strong></span> Chủ đầu tư Dự án nhà máy GMP,&nbsp;khẳng định <span style="color:#d76423;"><strong>vị thế số 1 trong lĩnh vực Tư vấn trọn gói Nhà máy GMP</strong></span> &nbsp;tại Việt Nam.</p>
+                                        </p>
+
+                                        <p style="text-align: justify;">
+                                            Đầu tháng 10/2003, Nhà máy dược phẩm PYMEPHARCO <strong style="color:#006600;">đạt tiêu chuẩn GMP (ASEAN)</strong> chính thức đi vào hoạt động với 3 phân xưởng Beta–lactam, Non–Beta lactam, Viên nang mềm, và rồi trở thành một nhà máy <strong style="color:#006600;">đạt tiêu chuẩn GMP-WHO đầu tiên tại Việt Nam</strong> vào năm 2005.
+                                        </p>
+
+                                        <p style="text-align: justify;">
+                                            Tháng 5/2006 Công ty chính thức chuyển đổi thành <strong style="color:#006600;">Công ty Cổ Phần PYMEPHARCO</strong>
+                                        </p>
+                                        <p style="text-align: justify;">
+                                            Tháng 03/2008 nhà máy sản xuất thuốc tiêm đã được Bộ Y tế cấp giấy chứng nhận <strong style="color:#006600;">“Thực hành tốt sản xuất thuốc”</strong> theo tiêu chuẩn của Tổ chức y tế thế giới GMP-WHO bắt đầu đi vào hoạt động với 4 dây chuyền sản xuất: dung dịch tiêm, thuốc bột đông khô, thuốc nhỏ mắt và đặc biệt là thuốc bột pha tiêm dòng kháng sinh Cephalosporin.
+                                        </p>
 
                                     </div>
                                 </div>

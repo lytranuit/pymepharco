@@ -25,7 +25,7 @@
                     </div>
                     <div class="title-content flex-col">
                         <div class="title-breadcrumbs pb-half pt-half">
-                            <nav class="woocommerce-breadcrumb breadcrumbs"><a href="<?= base_url()?>">Trang chủ</a> <span class="divider">/</span> Giới thiệu</nav>
+                            <nav class="woocommerce-breadcrumb breadcrumbs"><a href="<?= base_url() ?>">Trang chủ</a> <span class="divider">/</span> Giới thiệu</nav>
                         </div>
                     </div>
                 </div><!-- flex-row -->
@@ -45,217 +45,44 @@
         </div><!-- .page-header-wrapper -->
 
         <section class="section" id="section_1031505060">
-            <div class="bg section-bg fill bg-fill  bg-loaded">
-
-
-
-
-
-            </div><!-- .section-bg -->
-
-            <div class="section-content relative">
-
-                <div class="gap-element clearfix" style="display:block; height:auto; padding-top:30px"></div>
-                <div class="row align-equal" id="row-2037064974">
-                    <div class="col medium-5 small-12 large-6">
-                        <div class="col-inner">
-                            <style scope="scope">
-                                #gallery-1779162972 .grid-col-1 {
-                                    height: 500px
-                                }
-
-                                #gallery-1779162972 .grid-col-1-2 {
-                                    height: 250px
-                                }
-
-                                #gallery-1779162972 .grid-col-1-3 {
-                                    height: 166.66666666667px
-                                }
-
-                                #gallery-1779162972 .grid-col-2-3 {
-                                    height: 333.33333333333px
-                                }
-
-                                #gallery-1779162972 .grid-col-1-4 {
-                                    height: 125px
-                                }
-
-                                #gallery-1779162972 .grid-col-3-4 {
-                                    height: 375px
-                                }
-
-
-                                /* Tablet */
-                                @media (max-width: 850px) {
-                                    #gallery-1779162972 .grid-col-1 {
-                                        height: 333.33333333333px
-                                    }
-
-                                    #gallery-1779162972 .grid-col-1-2 {
-                                        height: 166.66666666667px
-                                    }
-
-                                    #gallery-1779162972 .grid-col-1-3 {
-                                        height: 111.11111111111px
-                                    }
-
-                                    #gallery-1779162972 .grid-col-2-3 {
-                                        height: 222.22222222222px
-                                    }
-
-                                    #gallery-1779162972 .grid-col-1-4 {
-                                        height: 83.333333333333px
-                                    }
-
-                                    #gallery-1779162972 .grid-col-3-4 {
-                                        height: 250px
-                                    }
-                                }
-
-                                /* Mobile */
-                                @media (max-width: 550px) {
-                                    #gallery-1779162972 .grid-col-1 {
-                                        height: 333.33333333333px
-                                    }
-
-                                    #gallery-1779162972 .grid-col-1-2 {
-                                        height: 166.66666666667px
-                                    }
-
-                                    #gallery-1779162972 .grid-col-1-3 {
-                                        height: 111.11111111111px
-                                    }
-
-                                    #gallery-1779162972 .grid-col-2-3 {
-                                        height: 222.22222222222px
-                                    }
-
-                                    #gallery-1779162972 .grid-col-1-4 {
-                                        height: 83.333333333333px
-                                    }
-
-                                    #gallery-1779162972 .grid-col-3-4 {
-                                        height: 250px
-                                    }
-                                }
-                            </style>
-
-
-                            <div id="gallery-1779162972" class="row row-grid" data-packery-options="{&quot;itemSelector&quot;: &quot;.col&quot;, &quot;gutter&quot;: 0, &quot;presentageWidth&quot; : true}" style="position: relative; height: 666.656px;">
-
-                                <div class="gallery-col col grid-col grid-col-1 large-12 medium-12" style="position: absolute; left: 0px; top: 0px;">
-                                    <div class="col-inner">
-                                        <a class="image-lightbox lightbox-gallery" href="<?= base_url()?>/wp-content/uploads/2019/11/image_01-4-640x480.jpg" title="">
-                                            <div class="box has-hover gallery-box box-overlay dark box-text-center">
-                                                <div class="box-image">
-                                                    <img width="640" height="480" src="<?= base_url()?>/wp-content/uploads/2019/11/image_01-4-640x480.jpg" class="attachment-large size-large" alt="" ids="696,697,698,588" style="none" type="grid" grid="2" grid_height="500px" image_size="original" srcset="<?= base_url()?>/wp-content/uploads/2019/11/image_01-4-640x480.jpg 640w, <?= base_url()?>/wp-content/uploads/2019/11/image_01-4-640x480-300x225.jpg 300w, <?= base_url()?>/wp-content/uploads/2019/11/image_01-4-640x480-600x450.jpg 600w" sizes="(max-width: 640px) 100vw, 640px">
-                                                    <div class="overlay fill" style="background-color: rgba(0,0,0,.15)">
-                                                    </div>
-                                                </div><!-- .image -->
-                                                <div class="box-text text-left dark">
-                                                    <p></p>
-                                                </div><!-- .text -->
-                                            </div><!-- .box -->
-                                        </a>
-                                    </div><!-- .col-inner -->
-                                </div><!-- .col -->
-                                <div class="gallery-col col grid-col grid-col-1-3 large-4 medium-12" style="position: absolute; left: 0px; top: 500px;">
-                                    <div class="col-inner">
-                                        <a class="image-lightbox lightbox-gallery" href="<?= base_url()?>/wp-content/uploads/2019/11/image_02-2-480x320-1.jpg" title="">
-                                            <div class="box has-hover gallery-box box-overlay dark box-text-center">
-                                                <div class="box-image">
-                                                    <img width="300" height="200" src="<?= base_url()?>/wp-content/uploads/2019/11/image_02-2-480x320-1-300x200.jpg" class="attachment-medium size-medium" alt="" ids="696,697,698,588" style="none" type="grid" grid="2" grid_height="500px" image_size="original" srcset="<?= base_url()?>/wp-content/uploads/2019/11/image_02-2-480x320-1-300x200.jpg 300w, <?= base_url()?>/wp-content/uploads/2019/11/image_02-2-480x320-1.jpg 480w" sizes="(max-width: 300px) 100vw, 300px">
-                                                    <div class="overlay fill" style="background-color: rgba(0,0,0,.15)">
-                                                    </div>
-                                                </div><!-- .image -->
-                                                <div class="box-text text-left dark">
-                                                    <p></p>
-                                                </div><!-- .text -->
-                                            </div><!-- .box -->
-                                        </a>
-                                    </div><!-- .col-inner -->
-                                </div><!-- .col -->
-                                <div class="gallery-col col grid-col grid-col-1-3 large-4 medium-12" style="position: absolute; left: 204px; top: 500px;">
-                                    <div class="col-inner">
-                                        <a class="image-lightbox lightbox-gallery" href="<?= base_url()?>/wp-content/uploads/2019/11/image_05-1.jpg" title="">
-                                            <div class="box has-hover gallery-box box-overlay dark box-text-center">
-                                                <div class="box-image">
-                                                    <img width="300" height="200" src="<?= base_url()?>/wp-content/uploads/2019/11/image_05-1-300x200.jpg" class="attachment-medium size-medium" alt="" ids="696,697,698,588" style="none" type="grid" grid="2" grid_height="500px" image_size="original" srcset="<?= base_url()?>/wp-content/uploads/2019/11/image_05-1-300x200.jpg 300w, <?= base_url()?>/wp-content/uploads/2019/11/image_05-1.jpg 480w" sizes="(max-width: 300px) 100vw, 300px">
-                                                    <div class="overlay fill" style="background-color: rgba(0,0,0,.15)">
-                                                    </div>
-                                                </div><!-- .image -->
-                                                <div class="box-text text-left dark">
-                                                    <p></p>
-                                                </div><!-- .text -->
-                                            </div><!-- .box -->
-                                        </a>
-                                    </div><!-- .col-inner -->
-                                </div><!-- .col -->
-                                <div class="gallery-col col grid-col grid-col-1-3 large-4 medium-12" style="position: absolute; left: 409px; top: 500px;">
-                                    <div class="col-inner">
-                                        <a class="image-lightbox lightbox-gallery" href="<?= base_url()?>/wp-content/uploads/2019/11/image_03-4-1.jpg" title="">
-                                            <div class="box has-hover gallery-box box-overlay dark box-text-center">
-                                                <div class="box-image">
-                                                    <img width="300" height="200" src="<?= base_url()?>/wp-content/uploads/2019/11/image_03-4-1-300x200.jpg" class="attachment-medium size-medium" alt="" ids="696,697,698,588" style="none" type="grid" grid="2" grid_height="500px" image_size="original" srcset="<?= base_url()?>/wp-content/uploads/2019/11/image_03-4-1-300x200.jpg 300w, <?= base_url()?>/wp-content/uploads/2019/11/image_03-4-1.jpg 480w" sizes="(max-width: 300px) 100vw, 300px">
-                                                    <div class="overlay fill" style="background-color: rgba(0,0,0,.15)">
-                                                    </div>
-                                                </div><!-- .image -->
-                                                <div class="box-text text-left dark">
-                                                    <p></p>
-                                                </div><!-- .text -->
-                                            </div><!-- .box -->
-                                        </a>
-                                    </div><!-- .col-inner -->
-                                </div><!-- .col -->
+            <div class="container">
+                <div class="section-content relative">
+                    <div class="row align-equal" id="row-2037064974">
+                        <div class="col-md-5">
+                            <div class="col-inner">
+                            </div>
+                        </div>
+                        <div class="col-md-7">
+                            <div class="col-inner">
+                                <div class="title-all">
+                                    <h2>Giới thiệu</h2>
+                                    <div class="line-bottom"></div>
+                                </div>
+                                <div class="ul-colum">
+                                    <h5>Sứ mệnh của chúng tôi</h5>
+                                    <ul>
+                                        <li>Cung cấp một loại dịch vụ khác nhau cho gia đình và các chuyên gia</li>
+                                        <li>Cung cấp chất lượng cao và dịch vụ phù hợp</li>
+                                        <li>Sử dụng các sản phẩm làm sạch thân thiện với môi trường</li>
+                                        <li>Cung cấp công việc ổn định với mức lương cộng hưởng</li>
+                                        <li>Tập trung nguồn lực của chúng tôi vào việc duy trì các tiêu chuẩn</li>
+                                        <li>Làm cho bạn một khách hàng cực kỳ hài lòng</li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col medium-7 small-12 large-6">
-                        <div class="col-inner">
-                            <div class="title-all">
-                                <h2>Giới thiệu</h2>
-                                <div class="line-bottom"></div>
-                                <p>Lorem Ipsum chỉ đơn giản là một đoạn văn bản giảLorem Ipsum chỉ đơn giản là một đoạn văn bản giả, được dùng vào việc trình bày và dàn trang phục vụ cho in ấn.</p>
-                                <h6>khi một họa sĩ vô danh ghép nhiều đoạn văn bản với nhau để tạo thành một bản mẫu văn bản. Đoạn văn bản này không những đã tồn tại năm thế kỉ, mà khi được áp dụng vào tin học văn phòng, nội dung của nó vẫn không hề bị thay đổi. Nó đã được phổ biến trong những năm 1960 nhờ việc bán những bản giấy Letraset in những đoạn Lorem Ipsum, và gần đây hơn</h6>
-                            </div>
-                            <div class="ul-colum">
-                                <h5>Sứ mệnh của chúng tôi</h5>
-                                <ul>
-                                    <li>Cung cấp một loại dịch vụ khác nhau cho gia đình và các chuyên gia</li>
-                                    <li>Cung cấp chất lượng cao và dịch vụ phù hợp</li>
-                                    <li>Sử dụng các sản phẩm làm sạch thân thiện với môi trường</li>
-                                    <li>Cung cấp công việc ổn định với mức lương cộng hưởng</li>
-                                    <li>Tập trung nguồn lực của chúng tôi vào việc duy trì các tiêu chuẩn</li>
-                                    <li>Làm cho bạn một khách hàng cực kỳ hài lòng</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-
-                    <style scope="scope">
-
-                    </style>
-                </div>
-            </div><!-- .section-content -->
-
-
-            <style scope="scope">
-                #section_1031505060 {
-                    padding-top: 30px;
-                    padding-bottom: 30px;
-                }
-            </style>
+                </div><!-- .section-content -->
+                <style scope="scope">
+                    #section_1031505060 {
+                        padding-top: 30px;
+                        padding-bottom: 30px;
+                    }
+                </style>
+            </div>
         </section>
 
         <section class="section" id="section_1731909771">
-            <div class="bg section-bg fill bg-fill  ">
-
-
-                <div class="section-bg-overlay absolute fill"></div>
-
-
-            </div><!-- .section-bg -->
-
             <div class="section-content relative">
 
                 <div class="gap-element clearfix" style="display:block; height:auto; padding-top:60px"></div>
@@ -315,7 +142,7 @@
                 }
 
                 #section_1731909771 .section-bg.bg-loaded {
-                    background-image: url(<?= base_url()?>/wp-content/uploads/2019/11/image_03-3.jpg);
+                    background-image: url(<?= base_url() ?>);
                 }
             </style>
         </section>
@@ -1037,7 +864,7 @@
                                                                         </div>
                                                                     </div>
                                                                 </div>
-                                                                <a href="<?= base_url()?>/du-an/" target="_self" class="button primary btn-nut-2">
+                                                                <a href="<?= base_url() ?>/du-an/" target="_self" class="button primary btn-nut-2">
                                                                     <span>Xem thêm</span>
                                                                 </a>
 
@@ -1058,11 +885,11 @@
                                                 </div><!-- .banner-layers -->
                                             </div><!-- .banner-inner -->
 
-                                            <div class="height-fix is-invisible"><img width="480" height="480" src="<?= base_url()?>/wp-content/uploads/2019/11/image_02-8.jpg" class="attachment-original size-original" alt="" srcset="<?= base_url()?>/wp-content/uploads/2019/11/image_02-8.jpg 480w, <?= base_url()?>/wp-content/uploads/2019/11/image_02-8-150x150.jpg 150w, <?= base_url()?>/wp-content/uploads/2019/11/image_02-8-300x300.jpg 300w, <?= base_url()?>/wp-content/uploads/2019/11/image_02-8-100x100.jpg 100w" sizes="(max-width: 480px) 100vw, 480px"></div>
+                                            <div class="height-fix is-invisible"><img width="480" height="480" src="<?= base_url() ?>/wp-content/uploads/2019/11/image_02-8.jpg" class="attachment-original size-original" alt="" srcset="<?= base_url() ?>/wp-content/uploads/2019/11/image_02-8.jpg 480w, <?= base_url() ?>/wp-content/uploads/2019/11/image_02-8-150x150.jpg 150w, <?= base_url() ?>/wp-content/uploads/2019/11/image_02-8-300x300.jpg 300w, <?= base_url() ?>/wp-content/uploads/2019/11/image_02-8-100x100.jpg 100w" sizes="(max-width: 480px) 100vw, 480px"></div>
 
                                             <style scope="scope">
                                                 #banner-876702222 .bg.bg-loaded {
-                                                    background-image: url(<?= base_url()?>/wp-content/uploads/2019/11/image_02-8.jpg);
+                                                    background-image: url(<?= base_url() ?>/wp-content/uploads/2019/11/image_02-8.jpg);
                                                 }
 
                                                 #banner-876702222 .overlay {
@@ -1217,7 +1044,7 @@
                                                                         </div>
                                                                     </div>
                                                                 </div>
-                                                                <a href="<?= base_url()?>/du-an/" target="_self" class="button primary btn-nut-2">
+                                                                <a href="<?= base_url() ?>/du-an/" target="_self" class="button primary btn-nut-2">
                                                                     <span>Xem thêm</span>
                                                                 </a>
 
@@ -1238,11 +1065,11 @@
                                                 </div><!-- .banner-layers -->
                                             </div><!-- .banner-inner -->
 
-                                            <div class="height-fix is-invisible"><img width="480" height="480" src="<?= base_url()?>/wp-content/uploads/2019/11/image_01-1-480x480.jpg" class="attachment-original size-original" alt="" srcset="<?= base_url()?>/wp-content/uploads/2019/11/image_01-1-480x480.jpg 480w, <?= base_url()?>/wp-content/uploads/2019/11/image_01-1-480x480-150x150.jpg 150w, <?= base_url()?>/wp-content/uploads/2019/11/image_01-1-480x480-300x300.jpg 300w, <?= base_url()?>/wp-content/uploads/2019/11/image_01-1-480x480-100x100.jpg 100w" sizes="(max-width: 480px) 100vw, 480px"></div>
+                                            <div class="height-fix is-invisible"><img width="480" height="480" src="<?= base_url() ?>/wp-content/uploads/2019/11/image_01-1-480x480.jpg" class="attachment-original size-original" alt="" srcset="<?= base_url() ?>/wp-content/uploads/2019/11/image_01-1-480x480.jpg 480w, <?= base_url() ?>/wp-content/uploads/2019/11/image_01-1-480x480-150x150.jpg 150w, <?= base_url() ?>/wp-content/uploads/2019/11/image_01-1-480x480-300x300.jpg 300w, <?= base_url() ?>/wp-content/uploads/2019/11/image_01-1-480x480-100x100.jpg 100w" sizes="(max-width: 480px) 100vw, 480px"></div>
 
                                             <style scope="scope">
                                                 #banner-327898211 .bg.bg-loaded {
-                                                    background-image: url(<?= base_url()?>/wp-content/uploads/2019/11/image_01-1-480x480.jpg);
+                                                    background-image: url(<?= base_url() ?>/wp-content/uploads/2019/11/image_01-1-480x480.jpg);
                                                 }
 
                                                 #banner-327898211 .overlay {
@@ -1297,10 +1124,10 @@
                                         <div class="row gt-img large-columns-3 medium-columns- small-columns-2 row-xsmall">
                                             <div class="gallery-col col">
                                                 <div class="col-inner">
-                                                    <a class="image-lightbox lightbox-gallery" href="<?= base_url()?>/wp-content/uploads/2019/11/logo_01-1.png" title="">
+                                                    <a class="image-lightbox lightbox-gallery" href="<?= base_url() ?>/wp-content/uploads/2019/11/logo_01-1.png" title="">
                                                         <div class="box has-hover gallery-box box-none">
                                                             <div class="box-image">
-                                                                <img width="280" height="220" src="<?= base_url()?>/wp-content/uploads/2019/11/logo_01-1.png" class="gt-img" alt="" ids="715,716,717,718,719,720" style="none" col_spacing="xsmall" columns="3" image_size="original">
+                                                                <img width="280" height="220" src="<?= base_url() ?>/wp-content/uploads/2019/11/logo_01-1.png" class="gt-img" alt="" ids="715,716,717,718,719,720" style="none" col_spacing="xsmall" columns="3" image_size="original">
                                                             </div><!-- .image -->
                                                             <div class="box-text text-left">
                                                                 <p></p>
@@ -1311,10 +1138,10 @@
                                             </div><!-- .col -->
                                             <div class="gallery-col col">
                                                 <div class="col-inner">
-                                                    <a class="image-lightbox lightbox-gallery" href="<?= base_url()?>/wp-content/uploads/2019/11/logo_02-1.png" title="">
+                                                    <a class="image-lightbox lightbox-gallery" href="<?= base_url() ?>/wp-content/uploads/2019/11/logo_02-1.png" title="">
                                                         <div class="box has-hover gallery-box box-none">
                                                             <div class="box-image">
-                                                                <img width="280" height="220" src="<?= base_url()?>/wp-content/uploads/2019/11/logo_02-1.png" class="gt-img" alt="" ids="715,716,717,718,719,720" style="none" col_spacing="xsmall" columns="3" image_size="original">
+                                                                <img width="280" height="220" src="<?= base_url() ?>/wp-content/uploads/2019/11/logo_02-1.png" class="gt-img" alt="" ids="715,716,717,718,719,720" style="none" col_spacing="xsmall" columns="3" image_size="original">
                                                             </div><!-- .image -->
                                                             <div class="box-text text-left">
                                                                 <p></p>
@@ -1325,10 +1152,10 @@
                                             </div><!-- .col -->
                                             <div class="gallery-col col">
                                                 <div class="col-inner">
-                                                    <a class="image-lightbox lightbox-gallery" href="<?= base_url()?>/wp-content/uploads/2019/11/logo_03-1.png" title="">
+                                                    <a class="image-lightbox lightbox-gallery" href="<?= base_url() ?>/wp-content/uploads/2019/11/logo_03-1.png" title="">
                                                         <div class="box has-hover gallery-box box-none">
                                                             <div class="box-image">
-                                                                <img width="280" height="220" src="<?= base_url()?>/wp-content/uploads/2019/11/logo_03-1.png" class="gt-img" alt="" ids="715,716,717,718,719,720" style="none" col_spacing="xsmall" columns="3" image_size="original">
+                                                                <img width="280" height="220" src="<?= base_url() ?>/wp-content/uploads/2019/11/logo_03-1.png" class="gt-img" alt="" ids="715,716,717,718,719,720" style="none" col_spacing="xsmall" columns="3" image_size="original">
                                                             </div><!-- .image -->
                                                             <div class="box-text text-left">
                                                                 <p></p>
@@ -1339,10 +1166,10 @@
                                             </div><!-- .col -->
                                             <div class="gallery-col col">
                                                 <div class="col-inner">
-                                                    <a class="image-lightbox lightbox-gallery" href="<?= base_url()?>/wp-content/uploads/2019/11/logo_04-1.png" title="">
+                                                    <a class="image-lightbox lightbox-gallery" href="<?= base_url() ?>/wp-content/uploads/2019/11/logo_04-1.png" title="">
                                                         <div class="box has-hover gallery-box box-none">
                                                             <div class="box-image">
-                                                                <img width="280" height="220" src="<?= base_url()?>/wp-content/uploads/2019/11/logo_04-1.png" class="gt-img" alt="" ids="715,716,717,718,719,720" style="none" col_spacing="xsmall" columns="3" image_size="original">
+                                                                <img width="280" height="220" src="<?= base_url() ?>/wp-content/uploads/2019/11/logo_04-1.png" class="gt-img" alt="" ids="715,716,717,718,719,720" style="none" col_spacing="xsmall" columns="3" image_size="original">
                                                             </div><!-- .image -->
                                                             <div class="box-text text-left">
                                                                 <p></p>
@@ -1353,10 +1180,10 @@
                                             </div><!-- .col -->
                                             <div class="gallery-col col">
                                                 <div class="col-inner">
-                                                    <a class="image-lightbox lightbox-gallery" href="<?= base_url()?>/wp-content/uploads/2019/11/logo_05-2.png" title="">
+                                                    <a class="image-lightbox lightbox-gallery" href="<?= base_url() ?>/wp-content/uploads/2019/11/logo_05-2.png" title="">
                                                         <div class="box has-hover gallery-box box-none">
                                                             <div class="box-image">
-                                                                <img width="280" height="220" src="<?= base_url()?>/wp-content/uploads/2019/11/logo_05-2.png" class="gt-img" alt="" ids="715,716,717,718,719,720" style="none" col_spacing="xsmall" columns="3" image_size="original">
+                                                                <img width="280" height="220" src="<?= base_url() ?>/wp-content/uploads/2019/11/logo_05-2.png" class="gt-img" alt="" ids="715,716,717,718,719,720" style="none" col_spacing="xsmall" columns="3" image_size="original">
                                                             </div><!-- .image -->
                                                             <div class="box-text text-left">
                                                                 <p></p>
@@ -1367,10 +1194,10 @@
                                             </div><!-- .col -->
                                             <div class="gallery-col col">
                                                 <div class="col-inner">
-                                                    <a class="image-lightbox lightbox-gallery" href="<?= base_url()?>/wp-content/uploads/2019/11/logo_06-1.png" title="">
+                                                    <a class="image-lightbox lightbox-gallery" href="<?= base_url() ?>/wp-content/uploads/2019/11/logo_06-1.png" title="">
                                                         <div class="box has-hover gallery-box box-none">
                                                             <div class="box-image">
-                                                                <img width="280" height="220" src="<?= base_url()?>/wp-content/uploads/2019/11/logo_06-1.png" class="gt-img" alt="" ids="715,716,717,718,719,720" style="none" col_spacing="xsmall" columns="3" image_size="original">
+                                                                <img width="280" height="220" src="<?= base_url() ?>/wp-content/uploads/2019/11/logo_06-1.png" class="gt-img" alt="" ids="715,716,717,718,719,720" style="none" col_spacing="xsmall" columns="3" image_size="original">
                                                             </div><!-- .image -->
                                                             <div class="box-text text-left">
                                                                 <p></p>

@@ -942,3 +942,19 @@ h6,
     line-height: 20px !important;
     height: 40px;
 }
+.chi_nhanh ul {
+    list-style: none;
+    overflow: auto;
+}
+.chi_nhanh li {
+    padding: 5px 15px;
+    cursor: pointer;
+    font-size: 13px;
+    background-color: #fff;
+    border-bottom: 1px solid #e8e8e8;
+    border-left: 4px solid #99CC66;
+}
+.chi_nhanh li:hover {
+    color: #fff;
+    background-color: #009a4e;
+}
