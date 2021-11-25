@@ -1,0 +1,670 @@
+﻿@media only screen and (max-width: 1472px)
+{
+    .ibImageLeft, .ibImageLeft2, .ibImageRight, .ibImageRight2, .plainText, .listItem, .ibLinkList, .ibImageDown, .ibMapa
+    {
+        margin:48px 1%;
+        width:auto;
+    }
+
+    .plainText
+    {
+        padding:48px 4% !important;
+    }
+
+    /**************************/
+
+    .ibMain1 .infoblockImage
+    {
+        position:absolute;
+        left:0;
+        top:0;
+        height:100%;
+    }
+
+    .ibMain1 .infoblockImage img
+    {
+        position:absolute;
+        top:50%;
+        left:50%;
+        transform:translate(-50%, -50%);
+        width:auto;
+        height:auto;
+        min-height:100%;
+        min-width:100%;
+    }
+
+    .ibMain1 .infoblockText2
+    {
+        float:right;
+    }
+	
+	/*.ibImageLeft .infoblockImage
+    {
+        position:absolute;
+        left:0;
+        top:0;
+        height:100%;
+        width:50%;
+        overflow:hidden;
+    }
+
+    .ibImageLeft .infoblockImage img
+    {
+        position:absolute;
+        height:100%;
+        width:auto;
+        transform:translate(-50%, -50%);
+        top:50%;
+        left:50%;
+    }
+
+    .ibImageLeft .infoblockText
+    {
+        position:relative;
+        float:none;
+        width:42%;
+        padding:32px 4%;
+        margin:0;
+        top:auto;
+        left:auto;
+        margin-left:50%;
+        transform:none;
+    }*/
+}
+
+/*****************************************/
+
+@media only screen and (max-width: 1280px)
+{
+    .ibImageCircle .infoblockImage
+    {
+        min-height:400px;
+        width:auto;
+    }
+
+    .ibImageCircle .infoblockImage img
+    {
+        position:absolute;
+        top:50%;
+        left:50%;
+        transform:translate(-50%,-50%);
+        height:100%;
+        width:auto;
+    }
+
+    .ibImageCircle .infoblockText
+    {
+        left:-640px;
+        width:1280px;
+        min-width:1080px;
+        height:1280px;
+    }
+
+    .ibImageCircle .infoblockAbstract
+    {
+        width:42%;
+        min-width:480px;
+        padding:0 4%;
+    }
+}
+
+@media only screen and (max-width: 1080px)
+{
+    .ibImageLeft, .ibImageLeft2, .ibImageRight, .ibImageRight2, .ibMain1, .plainText, .listItem, .ibLinkList, .ibImageDown, .ibMapa, .ibVideo, .ibVideoLeft
+    {
+        margin:32px 2%;
+        width:auto;
+    }
+
+/*********************************/
+
+    .ibImageLeft .infoblockImage
+    {
+        position:absolute;
+        left:0;
+        top:0;
+        height:100%;
+        width:50%;
+        overflow:hidden;
+    }
+
+    .ibImageLeft .infoblockImage img
+    {
+        position:absolute;
+        height:100%;
+        width:auto;
+        transform:translate(-50%, -50%);
+        top:50%;
+        left:50%;
+    }
+
+    .ibImageLeft .infoblockText
+    {
+        position:relative;
+        float:none;
+        width:42%;
+        padding:32px 4%;
+        margin:0;
+        top:auto;
+        left:auto;
+        margin-left:50%;
+        transform:none;
+    }
+    
+/*********************************/
+
+    /*.ibImageLeft2 .infoblockImage
+    {
+        position:absolute;
+        left:0;
+        top:0;
+        height:100%;
+        width:50%;
+        overflow:hidden;
+    }
+
+    .ibImageLeft2 .infoblockImage img
+    {
+        position:absolute;
+        height:100%;
+        width:auto;
+        transform:translate(-50%, -50%);
+        top:50%;
+        left:50%;
+    }
+
+    .ibImageLeft2 .infoblockText
+    {
+        position:relative;
+        float:none;
+        width:42%;
+        padding:32px 4%;
+        margin:0;
+        top:auto;
+        left:auto;
+        margin-left:50%;
+        transform:none;
+    }*/
+
+    /*****************************/
+
+    .ibImageRight .infoblockImage
+    {
+        position:absolute;
+        left:50%;
+        top:0;
+        height:100%;
+        width:50%;
+        overflow:hidden;
+        transform:none;
+    }
+
+    .ibImageRight .infoblockImage img
+    {
+        position:absolute;
+        height:100%;
+        width:auto;
+        transform:translate(-50%, -50%);
+        top:50%;
+        left:50%;
+    }
+
+    .ibImageRight .infoblockText
+    {
+        position:relative;
+        float:left;
+        width:42%;
+        padding:32px 4%;
+        margin:0;
+        top:auto;
+        left:auto;
+        transform:none;
+    }
+
+    /*********************************/
+
+    .ibImageRight2 .infoblockImage
+    {
+        position:absolute;
+        right:0;
+        top:0;
+        height:100%;
+        width:50%;
+        overflow:hidden;
+    }
+
+    .ibImageRight2 .infoblockImage img
+    {
+        position:absolute;
+        height:100%;
+        width:auto;
+        transform:translate(-50%, -50%);
+        top:50%;
+        left:50%;
+    }
+
+    .ibImageRight2 .infoblockText
+    {
+        position:relative;
+        float:none;
+        width:42%;
+        padding:32px 4%;
+        margin:0;
+        top:auto;
+        left:auto;
+        margin-left:0;
+        transform:none;
+    }
+
+    /**********************************/
+	
+	.ibVideo .infoblockDesc2
+    {
+        position:absolute;
+        right:0;
+        top:0;
+        height:100%;
+        width:50%;
+        overflow:hidden;
+    }
+
+    .ibVideo .infoblockText
+    {
+        position:relative;
+        float:none;
+        width:42%;
+        padding:32px 4%;
+        margin:0;
+        top:auto;
+        left:auto;
+        margin-left:0;
+        transform:none;
+    }
+
+/**********************************/
+	
+	.ibVideoLeft .infoblockDesc2
+    {
+        position:absolute;
+        left:0;
+        top:0;
+        height:100%;
+        width:50%;
+        overflow:hidden;
+    }
+
+    .ibVideoLeft .infoblockText
+    {
+        position:relative;
+        float:right;
+        width:42%;
+        padding:32px 4%;
+        margin:0;
+        top:auto;
+        left:auto;
+        margin-left:0;
+        transform:none;
+    }
+
+    /********************************/
+
+    .ibMain1 .infoblockImage
+    {
+        position:absolute;
+        left:0;
+        top:0;
+        height:100%;
+        width:50%;
+        overflow:hidden;
+    }
+
+    .ibMain1 .infoblockImage img
+    {
+        position:absolute;
+        height:100%;
+        width:auto;
+        transform:translate(-50%, -50%);
+        top:50%;
+        left:50%;
+    }
+
+    .ibMain1 .infoblockText
+    {
+        position:absolute;
+        padding:0;
+        color:#fff;
+        left:4%;
+        width:42%;
+    }
+
+    .ibMain1 .infoblockText2
+    {
+        float:left;
+        background-color:#4fb675;
+        width:40%;
+        padding:48px 5%;
+        margin-left:50%;
+    }
+
+    /********************************/
+
+    
+}
+
+/**********************************/
+
+@media only screen and (max-width: 800px)
+{
+    .infoblockTitle
+    {
+        font-size:24px;
+    }
+
+    .largeTitle .infoblockTitle
+    {
+        font-size:28px;
+    }
+
+    .mediumTitle .infoblockTitle
+    {
+        font-size:24px;
+    }
+
+    .ibImageLeft, .ibImageLeft2, .ibImageRight, .ibImageRight2, .plainText, .listItem, .ibLinkList, .ibImageDown 
+    {
+        margin:16px 2%;
+        width:auto;
+    }
+
+    /*******************************/
+
+    .ibImageLeft .infoblockImage
+    {
+        position:relative;
+        float:none;
+        width:100%;
+    }
+
+    .ibImageLeft .infoblockImage img
+    {
+        position:relative;
+        height:auto;
+        width:100%;
+        transform:none;
+        top:0;
+        left:0;
+    }
+
+    .ibImageLeft .infoblockText
+    {
+        position:relative;
+        float:none;
+        width:96%;
+        padding:32px 2%;
+        margin:0;
+        top:0;
+        left:0;
+    }
+
+/*******************************/
+
+    .ibImageLeft2 .infoblockImage
+    {
+        position:relative;
+        float:none;
+        width:100%;
+    }
+
+    .ibImageLeft2 .infoblockImage img
+    {
+        position:relative;
+        height:auto;
+	width:100%;
+        max-width:100%;
+        transform:none;
+        top:0;
+        left:0;
+    }
+
+    .ibImageLeft2 .infoblockText
+    {
+        position:relative;
+        float:none;
+        width:96%;
+        padding:32px 2%;
+        margin:0;
+        top:0;
+        left:0;
+    }
+
+    /******************************/
+
+    .ibImageRight
+    {
+        margin:16px 2%;
+        width:auto;
+    }
+
+    .ibImageRight .infoblockImage
+    {
+        position:relative;
+        float:none;
+        left:0;
+        width:100%;
+    }
+
+    .ibImageRight .infoblockImage img
+    {
+        position:relative;
+        height:auto;
+        width:100%;
+        transform:none;
+        top:0;
+        left:0;
+    }
+
+    .ibImageRight .infoblockText
+    {
+        position:relative;
+        float:none;
+        width:96%;
+        padding:32px 2%;
+        margin:0;
+        top:0;
+        left:0;
+    }
+
+    /*******************************/
+
+    .ibImageRight2 .infoblockImage
+    {
+        position:relative;
+        float:none;
+        width:100%;
+    }
+
+    .ibImageRight2 .infoblockImage img
+    {
+        position:relative;
+        height:auto;
+        width:100%;
+        transform:none;
+        top:0;
+        left:0;
+    }
+
+    .ibImageRight2 .infoblockText
+    {
+        position:relative;
+        float:none;
+        width:96%;
+        padding:32px 2%;
+        margin:0;
+        top:0;
+        left:0;
+    }
+
+    /*******************************/
+	
+	.ibVideo .infoblockDesc2
+    {
+        position:relative;
+        float:none;
+        width:100%;
+    }
+
+    .ibVideo .infoblockText
+    {
+        position:relative;
+        float:none;
+        width:96%;
+        padding:32px 2%;
+        margin:0;
+        top:0;
+        left:0;
+    }
+
+/*******************************/
+	
+	.ibVideoLeft .infoblockDesc2
+    {
+        position:relative;
+        float:none;
+        width:100%;
+    }
+
+    .ibVideoLeft .infoblockText
+    {
+        position:relative;
+        float:none;
+        width:96%;
+        padding:32px 2%;
+        margin:0;
+        top:0;
+        left:0;
+    }
+
+    /*******************************/
+
+    .ibMain1
+    {
+        margin:16px 2%;
+        width:auto;
+    }
+
+    .ibMain1 .infoblockImage
+    {
+        position:relative;
+        float:none;
+        width:100%;
+    }
+
+    .ibMain1 .infoblockImage img
+    {
+        position:relative;
+        width:auto;
+        height:320px;
+        transform:none;
+        top:0;
+        left:0;
+    }
+
+    .ibMain1 .infoblockText
+    {
+        width:96%;
+        padding:32px 2%;
+        margin:0;
+        top:19%;
+        left:0;
+    }
+
+    .ibMain1 .infoblockText2
+    {
+        float:none;
+        background-color:#4fb675;
+        width:90%;
+        padding:48px 5%;
+        margin-left:0;
+    }
+
+    .columns2 .infoblockAbstract ul
+    {
+        columns:1;
+    }
+
+    /***************************************/
+
+    .ibMapa .infoblockText
+    {
+        position:relative;
+        top:0;
+        transform:none;
+        padding:48px 5%;
+        left:0;
+        width:auto;
+    }
+
+    .ibMapa .infoblockText2
+    {
+        float:none;
+        width:auto;
+    }
+
+    /*************************************/
+
+    .ibImageCircle .infoblockImage
+    {
+        min-height:initial;
+        width:auto;
+    }
+
+    .ibImageCircle .infoblockImage img
+    {
+        position:relative;
+        top:0;
+        left:0;
+        transform:none;
+        width:100%;
+        height:auto;
+    }
+
+    .ibImageCircle .infoblockText
+    {
+        position:relative;
+        left:0;
+        width:100%;
+        min-width:initial;
+        height:auto;
+        min-height:initial;
+        border-radius:0px;
+        top:0;
+        background-color:rgba(238, 119, 0, 1);
+        transform:none;
+    }
+
+    .ibImageCircle .infoblockAbstract
+    {
+        position:relative;
+        width:92%;
+        min-width:initial;        
+        padding:32px 4%;
+        float:none;
+        max-width:initial;
+        margin-top:0;
+        transform:none;
+        font-size:16px;
+        min-height:initial;
+    }
+}
+
+/****************************************/
+
+@media only screen and (max-width: 800px)
+{
+    .topMargin
+    {
+        margin-top:32px;
+    }
+}
+
+

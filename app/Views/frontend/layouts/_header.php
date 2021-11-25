@@ -1,315 +1,250 @@
-<header id="header" class="header transparent has-transparent has-sticky sticky-jump">
+<div id="header">
+    <div id="headerContent">
 
-    <div class="header-wrapper">
+        <script type="text/javascript">
+            var prevId = 1;
+            var prevParent = null;
+            var wheel;
 
-        <!-- <div id="top-bar" class="header-top hide-for-sticky nav-dark">
-            <div class="flex-row container">
-                <div class="flex-col hide-for-medium flex-left">
-                    <ul class="nav nav-left medium-nav-center nav-small  nav-divided">
-                        <li class="html custom html_topbar_left">
-                            <p class="mona-html showroom">319 C16 Lý Thường Kiệt, P.15, Q.11, Tp.HCM</p>
-                        </li>
-                        <li class="header-divider"></li>
-                        <li class="html custom html_topbar_right">
-                            <p class="mona-html hotline"><a href="tel:0769220162">076 922 0162</a></p>
-                        </li>
-                        <li class="header-divider"></li>
-                        <li class="html custom html_top_right_text">
-                            <p class="mona-html time">08.00 am - 05.00 pm</p>
-                        </li>
-                    </ul>
-                </div>
+            function showMenu() {
+                var menu = document.getElementById("menuResp");
+                var mask = document.getElementById("darkMask");
+                var lang = document.getElementById("langListResp");
 
-                <div class="flex-col hide-for-medium flex-center">
-                    <ul class="nav nav-center nav-small  nav-divided">
-                    </ul>
-                </div>
+                if (menu.style.right == "0px") {
+                    menu.style.right = "-100%";
+                    mask.style.opacity = "0";
+                    setTimeout(function() {
+                        mask.style.display = "none";
+                    }, 300);
+                    document.body.className = null;
+                    lang.style.display = "none";
+                } else {
+                    menu.style.right = "0px";
+                    mask.style.display = "block";
+                    setTimeout(function() {
+                        mask.style.opacity = "0.5";
+                    }, 0);
+                    document.body.className = "stop-scrolling";
+                }
+            }
 
-                <div class="flex-col hide-for-medium flex-right">
-                    <ul class="nav top-bar-nav nav-right nav-small  nav-divided">
-                        <li class="html header-social-icons ml-0">
-                            <div class="social-icons follow-icons"><a href="http://url/" target="_blank" data-label="Facebook" rel="noopener noreferrer nofollow" class="icon plain facebook tooltip tooltipstered"><i class="icon-facebook"></i></a><a href="http://url/" target="_blank" rel="noopener noreferrer nofollow" data-label="Instagram" class="icon plain  instagram tooltip tooltipstered"><i class="icon-instagram"></i></a><a href="http://url/" target="_blank" data-label="Twitter" rel="noopener noreferrer nofollow" class="icon plain  twitter tooltip tooltipstered"><i class="icon-twitter"></i></a></div>
-                        </li>
-                    </ul>
-                </div>
+            function showSubMenu(id, parent) {
+                var menu = document.getElementById(id);
+                var prev = document.getElementById(prevId);
+                var arr = parent.getElementsByClassName("menuItemArrow")[0];
+                var prevArr = null;
 
-                <div class="flex-col show-for-medium flex-grow">
-                    <ul class="nav nav-center nav-small mobile-nav  nav-divided">
-                        <li class="html custom html_topbar_left">
-                            <p class="mona-html showroom">319 C16 Lý Thường Kiệt, P.15, Q.11, Tp.HCM</p>
-                        </li>
-                        <li class="html custom html_topbar_right">
-                            <p class="mona-html hotline"><a href="tel:0769220162">076 922 0162</a></p>
-                        </li>
-                        <li class="html custom html_top_right_text">
-                            <p class="mona-html time">08.00 am - 05.00 pm</p>
-                        </li>
-                    </ul>
-                </div>
+                if (prevParent != null) {
+                    prevArr = prevParent.getElementsByClassName("menuItemArrow")[0];
+                }
 
+                if (getComputedStyle(menu).height == "0px") {
+                    prev.style.transition = "all 0.3s";
+                    prev.style.height = "0px";
+                    prevId = id;
+                    prevParent = parent;
+                    menu.style.transition = "all 0.3s";
+                    menu.style.height = menu.scrollHeight + "px";
+
+                    if (prevArr != null) {
+                        prevArr.style.transform = "rotate(0deg)";
+                    }
+
+                    arr.style.transform = "rotate(180deg)";
+                } else {
+                    menu.style.transition = "all 0.3s";
+                    menu.style.height = "0px";
+                    arr.style.transform = "rotate(0deg)";
+                }
+            }
+
+            function showLangResp() {
+                var menu = document.getElementById("langListResp");
+
+                if (menu.style.display == "block") {
+                    menu.style.display = "none";
+                } else {
+                    menu.style.display = "block";
+                }
+            }
+        </script>
+        <script>
+            function showLang() {
+                var menu = document.getElementById("langList");
+
+                if (menu.style.display == "block") {
+                    menu.style.display = "none";
+                } else {
+                    menu.style.display = "block";
+                }
+            }
+
+            function hideLang() {
+                var menu = document.getElementById("langList");
+                menu.style.display = "none";
+            }
+        </script>
+        <div id="menuIcon" onmousedown="showMenu()">
+            <div class="menuIconLine"></div>
+            <div class="menuIconLine"></div>
+            <div class="menuIconLine"></div>
+        </div>
+
+        <div id="headerLogo">
+            <a id="headerInstance_hlLogo" href="<?= base_url() ?>"><img src="<?= base_url("/assets/images/logo.png") ?>" alt="" style="border-width:0px;"></a>
+        </div>
+
+        <div id="headerStadaLogo">
+            <a href="https://www.stada.com/" target="_blank">
+                <img src="<?= base_url("/assets/images/Stada-logo.jpg") ?>">
+            </a>
+        </div>
+
+        <div id="headerLang">
+            <div onmousedown="showLang()">
+                <span class="lang">
+                    <img id="headerInstance_imgLang" src="<?= base_url("/assets/images/vi-vn.svg") ?>" style="border-width:0px;">
+                    <span id="headerInstance_lblLang">VI</span>
+                </span>
             </div>
-        </div> -->
-        <!-- #header-top -->
-        <div id="masthead" class="header-main show-logo-center has-sticky-logo nav-dark toggle-nav-dark">
-            <div class="header-inner flex-row container logo-center medium-logo-center" role="navigation">
+            <div id="langList">
 
-                <!-- Logo -->
-                <div id="logo" class="flex-col logo">
-                    <!-- Header logo -->
-                    <a href="<?= base_url() ?>" title="Pymepharco" rel="home">
-                        <img width="200" height="100" src="<?= base_url("assets/images/logo.png") ?>" class="header-logo-sticky" alt="Pymepharco">
-                        <img width="200" height="100" src="<?= base_url("assets/images/logo.png") ?>" class="header_logo header-logo" alt="Pymepharco">
-                        <img width="200" height="100" src="<?= base_url("assets/images/logo.png") ?>" class="header-logo-dark" alt="Pymepharco"></a>
-                </div>
-
-                <!-- Mobile Left Elements -->
-                <div class="flex-col show-for-medium flex-left">
-                    <ul class="mobile-nav nav nav-left ">
-                        <li class="nav-icon has-icon">
-                            <a href="http://mauweb.monamedia.net/Pymepharco/#" data-open="#main-menu" data-pos="center" data-bg="main-menu-overlay" data-color="" class="is-small" aria-controls="main-menu" aria-expanded="false">
-                                <i class="fas fa-bars"></i>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-
-                <!-- Left Elements -->
-                <div class="flex-col hide-for-medium flex-left">
-                    <ul class="header-nav header-nav-main nav nav-left  nav-uppercase">
-                        <?php for ($i = 0; $i < round(count($list_menu) / 2, 0); $i++) : ?>
-                            <?php $row = $list_menu[$i] ?>
-                            <li id="menu-item-22" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-22">
-                                <?php if ($row->type == 1) : ?>
-                                    <a href="<?= $row->link ?>" class="nav-top-link"><?= $row->{pick_language($row, 'name_')}  ?></a>
-                                <?php elseif ($row->type == 2) : ?>
-                                    <a href="<?= url_category_byid($row->related_id) ?>" class="nav-top-link"><?= $row->{pick_language($row, 'name_')}  ?></a>
-                                <?php elseif ($row->type == 3) : ?>
-                                    <a href="<?= url_tag_byid($row->related_id) ?>" class="nav-top-link"><?= $row->{pick_language($row, 'name_')}  ?></a>
-                                <?php elseif ($row->type == 4) : ?>
-                                    <a href="<?= url_product_byid($row->related_id) ?>" class="nav-top-link"><?= $row->{pick_language($row, 'name_')}  ?></a>
-                                <?php elseif ($row->type == 5) : ?>
-                                    <a href="<?= url_news_byid($row->related_id) ?>" class="nav-top-link"><?= $row->{pick_language($row, 'name_')}  ?></a>
-                                <?php elseif ($row->type == 7) : ?>
-                                    <a href="<?= route_to("about") ?>" class="nav-top-link"><?= $row->{pick_language($row, 'name_')}  ?></a>
-                                <?php elseif ($row->type == 8) : ?>
-                                    <a href="<?= route_to("contact") ?>" class="nav-top-link"><?= $row->{pick_language($row, 'name_')}  ?></a>
-                                <?php endif ?>
-                                <?php if (!empty($row->child)) : ?>
-                                    <ul class="nav-dropdown nav-dropdown-default">
-                                        <?php foreach ($row->child as $row2) : ?>
-                                            <li id="menu-item-821" class="menu-item menu-item-type-custom menu-item-object-custom  menu-item-821">
-                                                <?php if ($row2->type == 1) : ?>
-                                                    <a href="<?= $row2->link ?>" class="nav-top-link"><?= $row2->{pick_language($row2, 'name_')}  ?></a>
-                                                <?php elseif ($row2->type == 2) : ?>
-                                                    <a href="<?= url_category_byid($row2->related_id) ?>" class="nav-top-link"><?= $row2->{pick_language($row2, 'name_')}  ?></a>
-                                                <?php elseif ($row2->type == 3) : ?>
-                                                    <a href="<?= url_tag_byid($row2->related_id) ?>" class="nav-top-link"><?= $row2->{pick_language($row2, 'name_')}  ?></a>
-                                                <?php elseif ($row2->type == 4) : ?>
-                                                    <a href="<?= url_product_byid($row2->related_id) ?>" class="nav-top-link"><?= $row2->{pick_language($row2, 'name_')}  ?></a>
-                                                <?php elseif ($row2->type == 5) : ?>
-                                                    <a href="<?= url_news_byid($row2->related_id) ?>" class="nav-top-link"><?= $row2->{pick_language($row2, 'name_')}  ?></a>
-                                                <?php elseif ($row2->type == 7) : ?>
-                                                    <a href="<?= route_to("about") ?>" class="nav-top-link"><?= $row2->{pick_language($row2, 'name_')}  ?></a>
-                                                <?php elseif ($row2->type == 8) : ?>
-                                                    <a href="<?= route_to("contact") ?>" class="nav-top-link"><?= $row2->{pick_language($row2, 'name_')}  ?></a>
-                                                <?php endif ?>
-                                            </li>
-                                        <?php endforeach ?>
-                                    </ul>
-                                <?php endif ?>
-                            </li>
-                        <?php endfor ?>
-                    </ul>
-                </div>
-
-                <!-- Right Elements -->
-                <div class="flex-col hide-for-medium flex-right">
-                    <ul class="header-nav header-nav-main nav nav-right  nav-uppercase">
-                        <?php for ($i = round(count($list_menu) / 2, 0); $i < count($list_menu); $i++) : ?>
-                            <?php $row = $list_menu[$i] ?>
-                            <li id="menu-item-22" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-22">
-                                <?php if ($row->type == 1) : ?>
-                                    <a href="<?= $row->link ?>" class="nav-top-link"><?= $row->{pick_language($row, 'name_')}  ?></a>
-                                <?php elseif ($row->type == 2) : ?>
-                                    <a href="<?= url_category_byid($row->related_id) ?>" class="nav-top-link"><?= $row->{pick_language($row, 'name_')}  ?></a>
-                                <?php elseif ($row->type == 3) : ?>
-                                    <a href="<?= url_tag_byid($row->related_id) ?>" class="nav-top-link"><?= $row->{pick_language($row, 'name_')}  ?></a>
-                                <?php elseif ($row->type == 4) : ?>
-                                    <a href="<?= url_product_byid($row->related_id) ?>" class="nav-top-link"><?= $row->{pick_language($row, 'name_')}  ?></a>
-                                <?php elseif ($row->type == 5) : ?>
-                                    <a href="<?= url_news_byid($row->related_id) ?>" class="nav-top-link"><?= $row->{pick_language($row, 'name_')}  ?></a>
-                                <?php elseif ($row->type == 7) : ?>
-                                    <a href="<?= route_to("about") ?>" class="nav-top-link"><?= $row->{pick_language($row, 'name_')}  ?></a>
-                                <?php elseif ($row->type == 8) : ?>
-                                    <a href="<?= route_to("contact") ?>" class="nav-top-link"><?= $row->{pick_language($row, 'name_')}  ?></a>
-                                <?php endif ?>
-                                <?php if (!empty($row->child)) : ?>
-                                    <ul class="nav-dropdown nav-dropdown-default">
-                                        <?php foreach ($row->child as $row2) : ?>
-                                            <li id="menu-item-821" class="menu-item menu-item-type-custom menu-item-object-custom  menu-item-821">
-                                                <?php if ($row2->type == 1) : ?>
-                                                    <a href="<?= $row2->link ?>" class="nav-top-link"><?= $row2->{pick_language($row2, 'name_')}  ?></a>
-                                                <?php elseif ($row2->type == 2) : ?>
-                                                    <a href="<?= url_category_byid($row2->related_id) ?>" class="nav-top-link"><?= $row2->{pick_language($row2, 'name_')}  ?></a>
-                                                <?php elseif ($row2->type == 3) : ?>
-                                                    <a href="<?= url_tag_byid($row2->related_id) ?>" class="nav-top-link"><?= $row2->{pick_language($row2, 'name_')}  ?></a>
-                                                <?php elseif ($row2->type == 4) : ?>
-                                                    <a href="<?= url_product_byid($row2->related_id) ?>" class="nav-top-link"><?= $row2->{pick_language($row2, 'name_')}  ?></a>
-                                                <?php elseif ($row2->type == 5) : ?>
-                                                    <a href="<?= url_news_byid($row2->related_id) ?>" class="nav-top-link"><?= $row2->{pick_language($row2, 'name_')}  ?></a>
-                                                <?php elseif ($row2->type == 7) : ?>
-                                                    <a href="<?= route_to("about") ?>" class="nav-top-link"><?= $row2->{pick_language($row2, 'name_')}  ?></a>
-                                                <?php elseif ($row2->type == 8) : ?>
-                                                    <a href="<?= route_to("contact") ?>" class="nav-top-link"><?= $row2->{pick_language($row2, 'name_')}  ?></a>
-                                                <?php endif ?>
-                                            </li>
-                                        <?php endforeach ?>
-                                    </ul>
-                                <?php endif ?>
-                            </li>
-                        <?php endfor ?>
-                        <li class="header-search header-search-dropdown has-icon has-dropdown menu-item-has-children">
-                            <a href="http://mauweb.monamedia.net/Pymepharco/#" class="is-small"><i class="fas fa-search"></i></a>
-                            <ul class="nav-dropdown nav-dropdown-simple">
-                                <li class="header-search-form search-form html relative has-icon">
-                                    <div class="header-search-form-wrapper">
-                                        <div class="searchform-wrapper ux-search-box relative is-normal">
-                                            <form role="search" method="get" class="searchform" action="http://mauweb.monamedia.net/Pymepharco/">
-                                                <div class="flex-row relative">
-                                                    <div class="flex-col flex-grow">
-                                                        <input type="search" class="search-field mb-0" name="s" value="" placeholder="Tìm kiếm…" autocomplete="off">
-                                                        <input type="hidden" name="post_type" value="product">
-                                                    </div><!-- .flex-col -->
-                                                    <div class="flex-col">
-                                                        <button type="submit" class="ux-search-submit submit-button secondary button icon mb-0">
-                                                            <i class="fas fa-search"></i></button>
-                                                    </div><!-- .flex-col -->
-                                                </div><!-- .flex-row -->
-                                                <div class="live-search-results text-left z-top">
-                                                    <div class="autocomplete-suggestions" style="position: absolute; display: none; max-height: 300px; z-index: 9999;"></div>
-                                                </div>
-                                            </form>
-                                        </div>
-                                    </div>
-                                </li>
-                            </ul><!-- .nav-dropdown -->
-                        </li>
-                    </ul>
-                </div>
-
-                <!-- Mobile Right Elements -->
-                <div class="flex-col show-for-medium flex-right">
-                    <ul class="mobile-nav nav nav-right ">
-                        <li class="header-search header-search-dropdown has-icon has-dropdown menu-item-has-children">
-                            <a href="http://mauweb.monamedia.net/Pymepharco/#" class="is-small"><i class="fas fa-search"></i></a>
-                            <ul class="nav-dropdown nav-dropdown-simple">
-                                <li class="header-search-form search-form html relative has-icon">
-                                    <div class="header-search-form-wrapper">
-                                        <div class="searchform-wrapper ux-search-box relative is-normal">
-                                            <form role="search" method="get" class="searchform" action="http://mauweb.monamedia.net/Pymepharco/">
-                                                <div class="flex-row relative">
-                                                    <div class="flex-col flex-grow">
-                                                        <input type="search" class="search-field mb-0" name="s" value="" placeholder="Tìm kiếm…" autocomplete="off">
-                                                        <input type="hidden" name="post_type" value="product">
-                                                    </div><!-- .flex-col -->
-                                                    <div class="flex-col">
-                                                        <button type="submit" class="ux-search-submit submit-button secondary button icon mb-0">
-                                                            <i class="fas fa-search"></i></button>
-                                                    </div><!-- .flex-col -->
-                                                </div><!-- .flex-row -->
-                                                <div class="live-search-results text-left z-top">
-                                                    <div class="autocomplete-suggestions" style="position: absolute; display: none; max-height: 300px; z-index: 9999;"></div>
-                                                </div>
-                                            </form>
-                                        </div>
-                                    </div>
-                                </li>
-                            </ul><!-- .nav-dropdown -->
-                        </li>
-                    </ul>
-                </div>
-
-            </div><!-- .header-inner -->
-
-            <!-- Header divider -->
-            <div class="container">
-                <div class="top-divider full-width"></div>
-            </div>
-        </div><!-- .header-main -->
-        <div class="header-bg-container fill">
-            <div class="header-bg-image fill"></div>
-            <div class="header-bg-color fill"></div>
-        </div><!-- .header-bg-container -->
-    </div><!-- header-wrapper-->
-
-</header>
-<div id="main-menu" class="mobile-sidebar no-scrollbar mfp-hide">
-    <div class="sidebar-menu no-scrollbar ">
-        <ul class="nav nav-sidebar  nav-vertical nav-uppercase">
-            <li class="header-search-form search-form html relative has-icon">
-                <div class="header-search-form-wrapper">
-                    <div class="searchform-wrapper ux-search-box relative form-flat is-normal">
-                        <form role="search" method="get" class="searchform" action="https://datbienphuyen.com.vn/">
-                            <div class="flex-row relative">
-                                <div class="flex-col flex-grow">
-                                    <input type="search" class="search-field mb-0" name="s" value="" placeholder="Bạn cần tìm gì?" autocomplete="off">
-                                    <input type="hidden" name="post_type" value="product">
-                                </div><!-- .flex-col -->
-                                <div class="flex-col">
-                                    <button type="submit" class="ux-search-submit submit-button secondary button icon mb-0">
-                                        <i class="fas fa-search"></i> </button>
-                                </div><!-- .flex-col -->
-                            </div><!-- .flex-row -->
-                            <div class="live-search-results text-left z-top">
-                                <div class="autocomplete-suggestions" style="position: absolute; display: none; max-height: 300px; z-index: 9999;"></div>
-                            </div>
-                        </form>
+                <a href="https://www.hemofarm.com/srb">
+                    <div class="langListItem">
+                        <img src="<?= base_url("/assets/images/en-GB.svg") ?>" width="20">
+                        EN
                     </div>
-                </div>
-            </li>
+                </a>
+            </div>
+        </div>
+
+        <div id="headerSearch">
+            <form class="search  flex  align-center" action="/search" method="get">
+                <input class="search__input  f6  fw4  ph4  mr3  bg-white  ba  bc-light-silver  br-pill" type="search" name="t" placeholder="Search" style="min-width: 300px; min-height: 50px;outline: none;border-radius: 100px;padding: 0px 30px;vertical-align: middle;display: inline-block;border: 1px solid gray;">
+                <button class="btn  btn-search  pa0  bg-transparent  bn" type="button" style="background: transparent;border: 0;vertical-align: middle;">
+                    <img src="<?= base_url("/assets/images/ui-search.svg") ?>" alt="Search">
+                </button>
+            </form>
+        </div>
+
+        <div class="cleaner"></div>
+    </div>
+</div>
+
+
+
+<div id="menu">
+    <div id="menuContent">
+        <ul id="uppermenu">
             <?php foreach ($list_menu as $row) : ?>
-                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-714 current_page_item menu-item-805">
+                <li>
                     <?php if ($row->type == 1) : ?>
-                        <a href="<?= $row->link ?>" class="nav-top-link"><?= $row->{pick_language($row, 'name_')}  ?></a>
+                        <a href="<?= $row->link ?>"><?= $row->{pick_language($row, 'name_')}  ?></a>
                     <?php elseif ($row->type == 2) : ?>
-                        <a href="<?= url_category_byid($row->related_id) ?>" class="nav-top-link"><?= $row->{pick_language($row, 'name_')}  ?></a>
+                        <a href="<?= url_category_byid($row->related_id) ?>"><?= $row->{pick_language($row, 'name_')}  ?></a>
                     <?php elseif ($row->type == 3) : ?>
-                        <a href="<?= url_tag_byid($row->related_id) ?>" class="nav-top-link"><?= $row->{pick_language($row, 'name_')}  ?></a>
+                        <a href="<?= url_tag_byid($row->related_id) ?>"><?= $row->{pick_language($row, 'name_')}  ?></a>
                     <?php elseif ($row->type == 4) : ?>
-                        <a href="<?= url_product_byid($row->related_id) ?>" class="nav-top-link"><?= $row->{pick_language($row, 'name_')}  ?></a>
+                        <a href="<?= url_product_byid($row->related_id) ?>"><?= $row->{pick_language($row, 'name_')}  ?></a>
                     <?php elseif ($row->type == 5) : ?>
-                        <a href="<?= url_news_byid($row->related_id) ?>" class="nav-top-link"><?= $row->{pick_language($row, 'name_')}  ?></a>
+                        <a href="<?= url_news_byid($row->related_id) ?>"><?= $row->{pick_language($row, 'name_')}  ?></a>
                     <?php elseif ($row->type == 7) : ?>
-                        <a href="<?= route_to("about") ?>" class="nav-top-link"><?= $row->{pick_language($row, 'name_')}  ?></a>
+                        <a href="<?= route_to("about") ?>"><?= $row->{pick_language($row, 'name_')}  ?></a>
                     <?php elseif ($row->type == 8) : ?>
-                        <a href="<?= route_to("contact") ?>" class="nav-top-link"><?= $row->{pick_language($row, 'name_')}  ?></a>
-                    <?php endif ?>
-                    <?php if (!empty($row->child)) : ?>
-                        <ul class="children">
-                            <?php foreach ($row->child as $row2) : ?>
-                                <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-821">
-                                    <?php if ($row2->type == 1) : ?>
-                                        <a href="<?= $row2->link ?>" class="nav-top-link"><?= $row2->{pick_language($row2, 'name_')}  ?></a>
-                                    <?php elseif ($row2->type == 2) : ?>
-                                        <a href="<?= url_category_byid($row2->related_id) ?>" class="nav-top-link"><?= $row2->{pick_language($row2, 'name_')}  ?></a>
-                                    <?php elseif ($row2->type == 3) : ?>
-                                        <a href="<?= url_tag_byid($row2->related_id) ?>" class="nav-top-link"><?= $row2->{pick_language($row2, 'name_')}  ?></a>
-                                    <?php elseif ($row2->type == 4) : ?>
-                                        <a href="<?= url_product_byid($row2->related_id) ?>" class="nav-top-link"><?= $row2->{pick_language($row2, 'name_')}  ?></a>
-                                    <?php elseif ($row2->type == 5) : ?>
-                                        <a href="<?= url_news_byid($row2->related_id) ?>" class="nav-top-link"><?= $row2->{pick_language($row2, 'name_')}  ?></a>
-                                    <?php elseif ($row2->type == 7) : ?>
-                                        <a href="<?= route_to("about") ?>" class="nav-top-link"><?= $row2->{pick_language($row2, 'name_')}  ?></a>
-                                    <?php elseif ($row2->type == 8) : ?>
-                                        <a href="<?= route_to("contact") ?>" class="nav-top-link"><?= $row2->{pick_language($row2, 'name_')}  ?></a>
-                                    <?php endif ?>
-                                </li>
-                            <?php endforeach ?>
-                        </ul>
+                        <a href="<?= route_to("contact") ?>"><?= $row->{pick_language($row, 'name_')}  ?></a>
                     <?php endif ?>
                 </li>
             <?php endforeach ?>
-
         </ul>
-    </div><!-- inner -->
+        <div class="cleaner"></div>
+    </div>
+    <div id="subMenuWrapper">
+        <div id="subMenu">
+            <ul>
+
+            </ul>
+        </div>
+    </div>
 </div>
+
+
+<div id="menuResp">
+    <div id="menuRespHeader">
+        <div id="langMenuResp" onmousedown="showLangResp()">
+            <span class="lang">
+                <img id="menuRespInstance_imgLang" src="<?= base_url("/assets/images/vi-vn.svg") ?>" style="border-width:0px;">
+                <span id="menuRespInstance_lblLang">VI</span>
+            </span>
+        </div>
+        <div class="cleaner"></div>
+
+        <div id="langListResp">
+
+
+            <a href="<?= base_url() ?>">
+                <div class="langItem">
+                    <img src="<?= base_url("/assets/images/en-GB.svg") ?>">
+                    EN
+                </div>
+            </a>
+
+        </div>
+
+        <div id="closeMenu" onmousedown="showMenu()">
+            <div class="closeMenuLine1"></div>
+            <div class="closeMenuLine2"></div>
+        </div>
+    </div>
+    <?php $key = 0; ?>
+    <?php foreach ($list_menu as $row) : ?>
+
+        <?php $key++ ?>
+        <div class="menuRespItem" onmousedown="showSubMenu('<?= $key ?>', this)">
+            <?php if ($row->type == 1) : ?>
+                <a href="<?= $row->link ?>"><?= $row->{pick_language($row, 'name_')}  ?></a>
+            <?php elseif ($row->type == 2) : ?>
+                <a href="<?= url_category_byid($row->related_id) ?>"><?= $row->{pick_language($row, 'name_')}  ?></a>
+            <?php elseif ($row->type == 3) : ?>
+                <a href="<?= url_tag_byid($row->related_id) ?>"><?= $row->{pick_language($row, 'name_')}  ?></a>
+            <?php elseif ($row->type == 4) : ?>
+                <a href="<?= url_product_byid($row->related_id) ?>"><?= $row->{pick_language($row, 'name_')}  ?></a>
+            <?php elseif ($row->type == 5) : ?>
+                <a href="<?= url_news_byid($row->related_id) ?>"><?= $row->{pick_language($row, 'name_')}  ?></a>
+            <?php elseif ($row->type == 7) : ?>
+                <a href="<?= route_to("about") ?>"><?= $row->{pick_language($row, 'name_')}  ?></a>
+            <?php elseif ($row->type == 8) : ?>
+                <a href="<?= route_to("contact") ?>"><?= $row->{pick_language($row, 'name_')}  ?></a>
+            <?php endif ?>
+            <div class="menuItemArrow">
+                <?php if (!empty($row->child)) : ?>
+                    <span id="menuRespInstance_rptMenu_ctl01_lblArrow">▾</span>
+                <?php endif ?>
+            </div>
+        </div>
+        <div id="<?= $key ?>" class="subMenuResp">
+
+            <?php foreach ($row->child as $row2) : ?>
+                <div class="menuRespSubitem">
+                    <?php if ($row2->type == 1) : ?>
+                        <a href="<?= $row2->link ?>" class="nav-top-link"><?= $row2->{pick_language($row2, 'name_')}  ?></a>
+                    <?php elseif ($row2->type == 2) : ?>
+                        <a href="<?= url_category_byid($row2->related_id) ?>" class="nav-top-link"><?= $row2->{pick_language($row2, 'name_')}  ?></a>
+                    <?php elseif ($row2->type == 3) : ?>
+                        <a href="<?= url_tag_byid($row2->related_id) ?>" class="nav-top-link"><?= $row2->{pick_language($row2, 'name_')}  ?></a>
+                    <?php elseif ($row2->type == 4) : ?>
+                        <a href="<?= url_product_byid($row2->related_id) ?>" class="nav-top-link"><?= $row2->{pick_language($row2, 'name_')}  ?></a>
+                    <?php elseif ($row2->type == 5) : ?>
+                        <a href="<?= url_news_byid($row2->related_id) ?>" class="nav-top-link"><?= $row2->{pick_language($row2, 'name_')}  ?></a>
+                    <?php elseif ($row2->type == 7) : ?>
+                        <a href="<?= route_to("about") ?>" class="nav-top-link"><?= $row2->{pick_language($row2, 'name_')}  ?></a>
+                    <?php elseif ($row2->type == 8) : ?>
+                        <a href="<?= route_to("contact") ?>" class="nav-top-link"><?= $row2->{pick_language($row2, 'name_')}  ?></a>
+                    <?php endif ?>
+                </div>
+            <?php endforeach ?>
+        </div>
+    <?php endforeach ?>
+</div>
+
+<div id="darkMask" onmousedown="showMenu()"></div>

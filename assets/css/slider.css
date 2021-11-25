@@ -1,0 +1,53 @@
+﻿.sliderImage
+{
+	position:absolute;
+	left:0;
+	top:0;
+	bottom:0;
+	overflow:hidden;
+	width:100%;
+	min-height:400px;
+}
+
+.sliderImage img
+{
+	min-width:100%;
+	min-height:100%;
+	text-align:right;
+	float:right;
+}
+
+#sliderNavigator
+{
+	position:absolute;
+	bottom:32px;
+	left:50%;
+	transform:translateX(-50%);
+	height:16px;
+	z-index:300;
+}
+
+.slideNavItem
+{
+	width:12px;
+	height:12px;
+	border-radius:12px;
+	border:2px solid #fff;
+	cursor:pointer;
+	transition:all 0.5s;
+	position:absolute;
+	background:rgba(255,255,255,0);
+}
+
+.noSliderButton
+{
+	display:none;
+}
+
+@media only screen and (max-width: 640px) 
+{
+	.sliderImage img
+	{
+		transform:translateX(320px);
+	}
+}

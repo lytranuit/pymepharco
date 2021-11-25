@@ -48,19 +48,9 @@ class HomeWidget
     }
     public function tag()
     {
-        //return 1;
-        $tag_model = model("TagModel");
         $news_model = model("NewsModel");
-        $list_tag = $tag_model->where(array('is_home' => 1))->orderBy('date', 'DESC')->asObject()->findAll();
-        foreach ($list_tag as &$row) {
-            $info = $news_model->get_news_by_tag($row->id, 5);
-            $row->news = $info['news'];
-            $row->count = $info['count'];
-        }
-        $this->data['tags'] = $list_tag;
-        ///TIN MOI
 
-        $list_news = $news_model->orderBy('date', 'DESC')->asObject()->findAll(5);
+        $list_news = $news_model->orderBy('date', 'DESC')->asObject()->findAll(4);
         $this->data['list_news'] = $list_news;
         // echo "<pre>";
         // print_r(count($list_news));

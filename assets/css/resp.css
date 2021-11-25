@@ -1,0 +1,216 @@
+﻿@media only screen and (max-width: 1472px)
+{
+    #headerContent, #sliderOverlay
+    {
+        width:auto;
+        padding:0 4%;
+    }
+
+    .pageTitle div
+    {
+        width:auto;
+        padding:0 4%;
+    }
+
+    #breadcrumb
+    {
+        width:auto;
+        padding:0 32px;
+    }
+}
+
+@media only screen and (max-width: 1080px)
+{
+    #menu, #headerSearch, #headerLang
+    {
+        display:none;
+    }
+
+    #menuIcon
+    {
+        display:block;
+    }
+
+    #header
+    {
+        position:fixed;
+        top:0;
+        left:0;
+        z-index:1000;
+    }
+
+    #headerStadaLogo
+    {
+        padding-right:10%;
+    }
+
+    #slider, #pageImage
+    {
+        margin-top:125px;
+    }
+
+    .topNewsItem
+    {
+        width:46%;
+        padding:0 2%;
+        padding-bottom:32px;
+    }
+
+    #footerTop
+    {
+        padding:32px 2%;
+    }
+
+    .footerBottomItem
+    {
+        float:none;
+        width:100%;
+        padding-bottom:8px;
+    }
+
+    #breadcrumb
+    {
+        display:none;
+    }
+	
+	.pageTitle
+	{
+		text-shadow:2px 2px 4px #000;
+	}
+
+    #viewNewsPageImage
+    {
+	margin-top:125px;
+    }
+}
+
+@media only screen and (max-width: 960px) 
+{
+
+    .footerLeftCol 
+    {
+        width: 46%;
+        padding-right: 4%;
+    }
+
+    .footerMidCol 
+    {
+        width: 46%;
+        padding-left: 4%;
+        padding-right: 0;
+    }
+
+    .footerRightCol
+    {
+        border-top:1px solid #343434;
+        float:none;
+        width:100%;
+        padding:0;
+        padding-top:16px;
+        margin-top:24px;
+        text-align:center;
+    }
+
+    .footerRightCol .footerTopTitle
+    {
+        display:none;
+    }
+
+    .cleaner960
+    {
+        clear:both;
+    }
+}
+
+@media only screen and (max-width: 768px)
+{
+    #slider, #pageImage
+    {
+        margin-top:16%;
+    }
+
+    #viewNewsPageImage
+    {
+	margin-top:16%;
+    }
+
+    #sliderOverlayText
+    {
+        color:#fff;
+		font-size:24px;
+        text-shadow:4px 2px 2px #000;
+    }
+}
+
+@media only screen and (max-width: 640px) 
+{
+    .footerBottomLeft 
+    {
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    .footerBottomRight 
+    {
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 560px) 
+{
+    .topNewsItem 
+    {
+        float:none;
+        width: 92%;
+        padding: 0 4%;
+        padding-bottom: 32px;
+    }
+
+    #footerTop
+    {
+        padding:32px 4%;
+    }
+
+    .footerLeftCol
+    {
+        float:none;
+        width: 100%;
+        padding-right: 0;
+        text-align:center;
+    }
+
+    .footerMidCol 
+    {
+        display:none;
+    }
+}
+
+@media only screen and (max-width: 510px)
+{
+	.cookiesPopupContent
+	{
+		padding-bottom:16px;
+	}
+}
+
+@media only screen and (max-width: 480px)
+{
+    #headerStadaLogo
+    {
+        display:none;
+    }
+
+    #slider
+    {
+        height:80vh;
+        background-position-x:80%;
+    }
+	
+	.pageTitle
+	{
+		font-size:36px;
+	}
+}
