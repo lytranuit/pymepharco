@@ -15,7 +15,7 @@
         <div class="infoblockTitle">
             <span id="infoblockInstance5_lblTitle"></span>
         </div>
-        <div class="infoblockAbstract animate__animated animate__backInLeft">
+        <div class="infoblockAbstract" data-animate="backInLeft">
             <span id="infoblockInstance5_lblAbstract">Exactly <a href="https://www.linkedin.com/feed/hashtag/?highlightedUpdateUrns=urn%3Ali%3Aactivity%3A6653982567525568512&amp;keywords=%2360years&amp;originTrackingId=bZAI%2FL2MLZusuG8EEI2veg%3D%3D&amp;lipi=urn%3Ali%3Apage%3Ad_flagship3_company%3B9ZqAFgrJSK2OIe%2F6b5fLoQ%3D%3D&amp;licu=urn%3Ali%3Acontrol%3Ad_flagship3_company-hashtag" target="_blank">#60years</a> ago, we started our journey in Vršac. Taking big and
                 confident steps, in these six decades we have reached a leading position not only in Serbia
                 but also in the region. Along the way, we faced many challenges, built memories and lived

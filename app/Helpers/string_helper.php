@@ -307,6 +307,14 @@ if (!function_exists('language_current')) {
         return $language->getLocale();
     }
 }
+if (!function_exists('support_language')) {
+
+    function support_language()
+    {
+        return config("App")->supportedLocales;
+    }
+}
+
 
 if (!function_exists('split_string')) {
 

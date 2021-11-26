@@ -103,19 +103,37 @@
 
         <div id="headerLang">
             <div onmousedown="showLang()">
-                <span class="lang">
-                    <img id="headerInstance_imgLang" src="<?= base_url("/assets/images/vi-vn.svg") ?>" style="border-width:0px;">
-                    <span id="headerInstance_lblLang">VI</span>
-                </span>
+                <?php if (current_language() == "en") : ?>
+                    <span class="lang">
+                        <img id="headerInstance_imgLang" src="<?= base_url("/assets/images/en-GB.svg") ?>" style="border-width:0px;">
+                        <span id="headerInstance_lblLang">EN</span>
+                    </span>
+                <?php else : ?>
+                    <span class="lang">
+                        <img id="headerInstance_imgLang" src="<?= base_url("/assets/images/vi-vn.svg") ?>" style="border-width:0px;">
+                        <span id="headerInstance_lblLang">VI</span>
+                    </span>
+                <?php endif ?>
             </div>
             <div id="langList">
+                <?php if (current_language() != "en") : ?>
+                    <a href="<?= base_url("lang/en") ?>">
+                        <div class="langListItem">
+                            <img src="<?= base_url("/assets/images/en-GB.svg") ?>" width="20">
+                            EN
+                        </div>
+                    </a>
+                <?php endif ?>
 
-                <a href="https://www.hemofarm.com/srb">
-                    <div class="langListItem">
-                        <img src="<?= base_url("/assets/images/en-GB.svg") ?>" width="20">
-                        EN
-                    </div>
-                </a>
+
+                <?php if (current_language() != "vi") : ?>
+                    <a href="<?= base_url("lang/vi") ?>">
+                        <div class="langListItem">
+                            <img src="<?= base_url("/assets/images/vi-vn.svg") ?>" width="20">
+                            VI
+                        </div>
+                    </a>
+                <?php endif ?>
             </div>
         </div>
 
@@ -172,22 +190,40 @@
 <div id="menuResp">
     <div id="menuRespHeader">
         <div id="langMenuResp" onmousedown="showLangResp()">
-            <span class="lang">
-                <img id="menuRespInstance_imgLang" src="<?= base_url("/assets/images/vi-vn.svg") ?>" style="border-width:0px;">
-                <span id="menuRespInstance_lblLang">VI</span>
-            </span>
+            <?php if (current_language() == "en") : ?>
+                <span class="lang">
+                    <img id="menuRespInstance_imgLang" src="<?= base_url("/assets/images/en-GB.svg") ?>" style="border-width:0px;">
+                    <span id="menuRespInstance_lblLang">EN</span>
+                </span>
+            <?php else : ?>
+                <span class="lang">
+                    <img id="menuRespInstance_imgLang" src="<?= base_url("/assets/images/vi-vn.svg") ?>" style="border-width:0px;">
+                    <span id="menuRespInstance_lblLang">VI</span>
+                </span>
+            <?php endif ?>
         </div>
         <div class="cleaner"></div>
 
         <div id="langListResp">
+            <?php if (current_language() != "en") : ?>
+                <a href="<?= base_url("lang/en") ?>">
+                    <div class="langItem">
+                        <img src="<?= base_url("/assets/images/en-GB.svg") ?>">
+                        EN
+                    </div>
+                </a>
+            <?php endif ?>
+
+            <?php if (current_language() != "vi") : ?>
+                <a href="<?= base_url("lang/vi") ?>">
+                    <div class="langItem">
+                        <img src="<?= base_url("/assets/images/vi-vn.svg") ?>">
+                        VI
+                    </div>
+                </a>
+            <?php endif ?>
 
 
-            <a href="<?= base_url() ?>">
-                <div class="langItem">
-                    <img src="<?= base_url("/assets/images/en-GB.svg") ?>">
-                    EN
-                </div>
-            </a>
 
         </div>
 
