@@ -62,7 +62,7 @@ class ProductModel extends Model
         if (empty($categories)) {
             return array();
         }
-        $builder = $this->db->table("product");
+        $builder = $this->db->table("pet_product");
         $builder->whereIn('id', function (BaseBuilder $builder) use ($categories) {
             return $builder->select('product_id')->from('pet_product_category')->whereIn('category_id', $categories);
         });
@@ -71,11 +71,11 @@ class ProductModel extends Model
 
     public function get_product($category_id = 0, $keyword = "", $offset = 0, $limit = 20)
     {
-        $builder = $this->db->table("cf_product");
+        $builder = $this->db->table("pet_product");
 
         if ($category_id > 0) {
             $builder->whereIn('id', function (BaseBuilder $builder) use ($category_id) {
-                return $builder->select('product_id')->from('cf_product_category')->where('category_id', $category_id);
+                return $builder->select('product_id')->from('pet_product_category')->where('category_id', $category_id);
             });
         }
         if ($keyword != "") {
@@ -97,147 +97,18 @@ class ProductModel extends Model
     {
 
         $offset = ($page - 1) * $perPage;
-        $my_region = area_current();
-        $builder = $this->db->table('product')->join("pet_product_category", "pet_product_category.product_id = product.id");
-        $count = $builder->where("status = 1 and is_pet = 1 and FIND_IN_SET('$my_region',region) AND category_id = $category_id")->orderBy("pet_product_category.order", "ASC")->countAllResults();
+        $builder = $this->db->table('pet_product')->join("pet_product_category", "pet_product_category.product_id = pet_product.id");
+        $count = $builder->where("category_id = $category_id")->orderBy("pet_product_category.order", "ASC")->countAllResults();
 
 
+        $builder = $this->db->table('pet_product')->join("pet_product_category", "pet_product_category.product_id = pet_product.id")->select("pet_product.*");
+        $products = $builder->where("category_id = $category_id")->limit($perPage, $offset)->get()->getResult();
 
-
-        $builder = $this->db->table('product')->join("pet_product_category", "pet_product_category.product_id = product.id")->select("product.*");
-        if ($sort == "price-asc") {
-
-            $builder->orderBy('product.retail_price', "ASC");
-        } elseif ($sort == "price-desc") {
-            $builder->orderBy('product.retail_price', "DESC");
-        } else {
-            $builder->orderBy("pet_product_category.order", "ASC");
-        }
-        $products = $builder->where("status = 1 and is_pet = 1 and FIND_IN_SET('$my_region',region) AND category_id = $category_id")->limit($perPage, $offset)->get()->getResult();
-
-        ////CateGory con
-        $builder = $this->db->table('pet_category');
-        $category = $builder->where("is_home = 1 and parent_id = $category_id")->orderBy("pet_category.date", "DESC")->get()->getResult();
-
-        foreach ($products as &$product) {
-            $this->format_product($product);
-        }
-
-        // echo "<pre>";
-        // print_r($count);
-        // die();
         $return = array(
             'count_product' => $count,
-            'products' => $products,
-            'child' => $category
+            'products' => $products
         );
         return $return;
-    }
-    function format_product(&$product)
-    {
-        $product_id = $product->id;
-        $product_code = $product->code;
-        $builder = $this->db->table('tbl_unit');
-        $product->units = $builder->where('product_id', $product_id)->orderBy("price", "ASC")->get()->getResult();
-        // echo "<pre>";
-        // print_r($product->units);
-        // die();
-        $builder = $this->db->table('pet_product_price');
-        $product->price_km = $builder->where('product_id', $product_id)->where('deleted_at', NULL)->get()->getResult();
-
-        $builder = $this->db->table('pet_product');
-        $product->pet = $builder->where('code', $product_code)->get()->getFirstRow();
-
-
-        $price_km = isset($product->price_km) ?  array_values((array) $product->price_km) : array();
-        if (isset($product->pet)) {
-            if ($product->pet->name_vi != "")
-                $product->name_vi = $product->pet->name_vi;
-            if ($product->pet->name_en != "")
-                $product->name_en = $product->pet->name_en;
-            if ($product->pet->name_jp != "")
-                $product->name_jp = $product->pet->name_jp;
-
-            if ($product->pet->volume_vi != "")
-                $product->volume_vi = $product->pet->volume_vi;
-            if ($product->pet->volume_en != "")
-                $product->volume_en = $product->pet->volume_en;
-            if ($product->pet->volume_jp != "")
-                $product->volume_jp = $product->pet->volume_jp;
-
-            if ($product->pet->description_vi != "")
-                $product->description_vi = $product->pet->description_vi;
-
-            if ($product->pet->description_en != "")
-                $product->description_en = $product->pet->description_en;
-            if ($product->pet->description_jp != "")
-                $product->description_jp = $product->pet->description_jp;
-
-            if ($product->pet->detail_vi != "")
-                $product->detail_vi = $product->pet->detail_vi;
-            if ($product->pet->detail_en != "")
-                $product->detail_en = $product->pet->detail_en;
-            if ($product->pet->detail_jp != "")
-                $product->detail_jp = $product->pet->detail_jp;
-
-            if ($product->pet->guide_vi != "")
-                $product->guide_vi = $product->pet->guide_vi;
-            if ($product->pet->guide_en != "")
-                $product->guide_en = $product->pet->guide_en;
-            if ($product->pet->guide_jp != "")
-                $product->guide_jp = $product->pet->guide_jp;
-            if ($product->pet->price != "")
-                $product->retail_price = $product->pet->price;
-        }
-
-
-        $product->price = $product->retail_price;
-
-        if (!empty($product->units)) {
-            // $product->units = array_values((array) $product->units);
-            // usort($product->units, function ($a, $b) {
-            //     return $a->price > $b->price;
-            // });
-            foreach ($product->units as $key => &$unit) {
-                // if ($unit->deleted == 1) {
-                //     unset($product->units[$key]);
-                //     break;
-                // }
-                $unit_id = $unit->id;
-
-                $unit_km = array_values(array_filter($price_km, function ($item) use ($unit_id) {
-                    return $item->unit_id == $unit_id;
-                }));
-                // print_r($price_km);
-                if (!empty($unit_km)) {
-                    $unit->km_price = $unit_km[0]->price;
-                    $unit->prev_price = $unit->price;
-                    $unit->price = $unit->km_price;
-                    $unit->down_per = $unit->prev_price > 0 ? round(($unit->price - $unit->prev_price) * 100 / $unit->prev_price, 0) : 0;
-                }
-
-                // print_r($unit);
-            }
-            $product->units = array_values((array) $product->units);
-            usort($product->units, function ($a, $b) {
-                return $a->price > $b->price;
-            });
-        } else {
-
-            $list_km = array();
-            foreach ($price_km as $row1) {
-                $now =  date("Y-m-d H:i:s");
-                if ($row1->date_from <= $now && $row1->date_to >= $now)
-                    $list_km[] = $row1;
-            }
-            if (isset($list_km[0]->price)) {
-                $product->km_price = $list_km[0]->price;
-                $product->prev_price = $product->price;
-                $product->price = $product->km_price;
-                $product->down_per = $product->prev_price > 0 ? round(($product->price - $product->prev_price) * 100 / $product->prev_price, 0) : 0;
-            }
-        }
-        return $product;
     }
     function create_object($data)
     {

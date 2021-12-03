@@ -42,10 +42,15 @@ $routes->add('dang-nhap.html', 'Home::login', ['as' => 'loginhome']);
 $routes->add('dang-ky.html', 'Home::register', ['as' => 'registerhome']);
 
 
-$routes->add('danh-muc/c(:num).html', 'Category::view/$1');
-$routes->add('tin-tuc/c(:num).html', 'Tag::view/$1');
-$routes->add('san-pham/c(:num).html', 'Product::view/$1');
-$routes->add('post/c(:num).html', 'News::view/$1');
+$routes->add('san-pham.html', 'Product::index'); // Tất cả sản phẩm
+$routes->add('san-pham/c(:num).html', 'Category::view/$1'); // san pham trong danh muc
+$routes->add('san-pham/d(:num).html', 'Product::view/$1'); //san phẩm chi tiết
+
+
+
+$routes->add('tin-tuc.html', 'News::index'); // tat ca tin tuc
+$routes->add('tin-tuc/c(:num).html', 'Tag::view/$1'); // tin tuc trong danh mục
+$routes->add('tin-tuc/d(:num).html', 'News::view/$1'); // Tin tức chi tiết
 
 /**
  * --------------------------------------------------------------------

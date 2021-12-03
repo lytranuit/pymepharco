@@ -10,7 +10,6 @@ class News extends BaseController
         $news_model = model("NewsModel");
         $this->data['news'] = $news_model->paginate(10);
         $this->data['pager'] = $news_model->pager;
-        $news_model->image($this->data['news']);
         // echo "<pre>";
         // print_r($this->data['news']);
         // die();
@@ -22,22 +21,8 @@ class News extends BaseController
     {
         $news_model = model("NewsModel");
         $this->data['info'] = $news_model->asObject()->find($id);
-        $news_model->relation($this->data['info'], array("image", 'tags'));
         $this->data['title'] =   $this->data['info']->{pick_language($this->data['info'], "title_")} . $this->data['title'];
 
-        $tags = array_map(function ($item) {
-            return $item->tag_id;
-        }, $this->data['info']->tags);
-        // //echo "<pre>";
-        // //print_r($tags);
-        // //die();
-        $this->data['news'] = $news_model->get_news_related($id, $tags);
-
-        // $this->data['news'] = $news_model->where("id <>", $id)->orderby("id", "DESC")->findAll(10);
-        $this->data['tag'] = isset($this->data['info']->tags[0]) ? $this->data['info']->tags[0]->{pick_language($this->data['info']->tags[0])} : "";
-        // echo "<pre>";
-        // print_r($this->data['info']->tags[0]);
-        // die();
         return view($this->data['content'], $this->data);
     }
 }

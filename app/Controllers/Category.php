@@ -29,13 +29,11 @@ class Category extends BaseController
         $total = $info['count_product'];
         $pager->makeLinks($page, $perPage, $total);
         $this->data['products'] = $info['products'];
-        $this->data['child'] = $info['child'];
 
 
 
 
         $this->data['title'] =  $this->data['category']->{pick_language($this->data['category'])} . $this->data['title'];
-        $this->data['sort'] = $sort;
         // echo "<pre>";
         // print_r($this->data['products']);
         // die();

@@ -8,6 +8,7 @@
 
 <?= view_cell("\App\Libraries\HomeWidget::tag") ?>
 
+
 <div id="infoblockInstance5_pnlInfoblock" class="infoblock ibVideo noButton noTitle">
 
 
