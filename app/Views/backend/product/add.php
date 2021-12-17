@@ -57,7 +57,7 @@
                                     <div class="form-group row">
                                         <b class="col-12 col-lg-2 col-form-label">Thông tin:<i class="text-danger">*</i></b>
                                         <div class="col-12">
-                                            <textarea class="edit" name="element_vi"></textarea>
+                                            <textarea class="edit" name="detail_vi"></textarea>
                                         </div>
                                     </div>
                                 </div>
@@ -77,7 +77,7 @@
                                     <div class="form-group row">
                                         <b class="col-12 col-lg-2 col-form-label">Thông tin:<i class="text-danger">*</i></b>
                                         <div class="col-12">
-                                            <textarea class="edit" name="element_en"></textarea>
+                                            <textarea class="edit" name="detail_en"></textarea>
                                         </div>
                                     </div>
                                 </div>
@@ -97,7 +97,7 @@
                                     <div class="form-group row">
                                         <b class="col-12 col-lg-2 col-form-label">Thông tin:<i class="text-danger">*</i></b>
                                         <div class="col-12">
-                                            <textarea class="edit" name="element_jp"></textarea>
+                                            <textarea class="edit" name="detail_jp"></textarea>
                                         </div>
                                     </div>
                                 </div>
@@ -245,8 +245,8 @@
             unhighlight: function(input) {
                 $(input).parents('.form-line').removeClass('error');
             },
-            errorPlacement: function(error, element) {
-                $(element).parents('.form-group').append(error);
+            errorPlacement: function(error, detail) {
+                $(detail).parents('.form-group').append(error);
             },
             submitHandler: function(form) {
                 let data_image = $('#quanlyimage').dataTable().fnGetData();

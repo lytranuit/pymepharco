@@ -2,13 +2,10 @@
 
 
 <?= $this->section('content') ?>
-<div id="breadcrumb">
-    <span id="breadcrumbInstance_lblBreadcrumb">
-        <li><a href="/eng">Home</a></li>
-        <li>›</li>
-        <li>Contact</li>
-    </span>
-</div>
+
+<?= view_cell("\App\Libraries\HeaderWidget::breadcrumb") ?>
+
+
 <div id="pageImage">
 
     <img id="pageImageInstance_imgPageImage" src="<?= base_url("/assets/images/Header-Kontakt.png") ?>" style="border-width:0px;">

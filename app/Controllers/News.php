@@ -8,8 +8,11 @@ class News extends BaseController
     public function index()
     {
         $news_model = model("NewsModel");
-        $this->data['news'] = $news_model->paginate(10);
+        $this->data['news'] = $news_model->paginate(9);
         $this->data['pager'] = $news_model->pager;
+        $this->data['title'] =  lang("Custom.news") . $this->data['title'];
+
+        
         // echo "<pre>";
         // print_r($this->data['news']);
         // die();

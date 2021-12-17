@@ -14,10 +14,10 @@ class Language extends BaseController
         $translations = $this->_load_language();
 
         $this->data['moduleData'] = $translations;
-
-        //echo "<pre>";
-        //print_r($this->data['moduleData']);
-        //die();
+        $this->data['supportedLocales'] = config("App")->supportedLocales;
+        // echo "<pre>";
+        // print_r($this->data['moduleData']);
+        // die();
         return view($this->data['content'], $this->data);
     }
 

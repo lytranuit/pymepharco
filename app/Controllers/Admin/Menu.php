@@ -29,6 +29,29 @@ class Menu extends BaseController
 
             $Menu_model = model("MenuModel");
             $data = $this->request->getPost();
+            if (isset($data['type'])) {
+                switch ($data['type']) {
+                    case 2:
+                        $data['link'] = url_category_byid($data['related_id']);
+                        break;
+                    case 3:
+                        $data['link'] = url_tag_byid($data['related_id']);
+                        break;
+                    case 4:
+                        $data['link'] = url_product_byid($data['related_id']);
+                        break;
+
+                    case 5:
+                        $data['link'] = url_news_byid($data['related_id']);
+                        break;
+                    case 7:
+                        $data['link'] = base_url(route_to("about"));
+                        break;
+                    case 8:
+                        $data['link'] = base_url(route_to("contact"));
+                        break;
+                }
+            }
             $data['user_id'] = user_id();
             $obj = new \App\Entities\Menu();
             $obj->fill($data);
@@ -57,12 +80,35 @@ class Menu extends BaseController
 
             $Menu_model = model("MenuModel");
             $data = $this->request->getPost();
-            $obj = $Menu_model->find($id);
+            if (isset($data['type'])) {
+                switch ($data['type']) {
+                    case 2:
+                        $data['link'] = url_category_byid($data['related_id']);
+                        break;
+                    case 3:
+                        $data['link'] = url_tag_byid($data['related_id']);
+                        break;
+                    case 4:
+                        $data['link'] = url_product_byid($data['related_id']);
+                        break;
+
+                    case 5:
+                        $data['link'] = url_news_byid($data['related_id']);
+                        break;
+                    case 7:
+                        $data['link'] = base_url(route_to("about"));
+                        break;
+                    case 8:
+                        $data['link'] = base_url(route_to("contact"));
+                        break;
+                }
+            }
             //echo "<pre>";
             //print_r($obj);
             //die();
-            $obj->fill($data);
-            $Menu_model->save($obj);
+
+            $array = $Menu_model->create_object($data);
+            $Menu_model->update($id, $array);
             return redirect()->to(base_url('admin/menu'));
         } else {
             $Menu_model = model("MenuModel");

@@ -6,11 +6,6 @@ use CodeIgniter\Database\BaseBuilder;
 
 class Tag extends BaseController
 {
-    public function index()
-    {
-        return view($this->data['content'], $this->data);
-    }
-    //--------------------------------------------------------------------
     public function view($id)
     {
         $tag_model = model("TagModel");
@@ -28,6 +23,8 @@ class Tag extends BaseController
         $total = $info['count'];
         $pager->makeLinks($page, $perPage, $total);
         $this->data['news'] = $info['news'];
+
+        $this->data['pager'] = $pager;
         // echo '<pre>';
         // print_r($this->data['info']);
         // die();

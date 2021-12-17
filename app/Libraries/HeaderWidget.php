@@ -19,4 +19,31 @@ class HeaderWidget
         //die();
         return view("lib/header/index", $this->data);
     }
+
+    public function breadcrumb()
+    {
+        $current_url = current_url();
+        $MenuModel = model("MenuModel");
+        $menu = $MenuModel->where("link", $current_url)->asObject()->first();
+        $list_parent = $MenuModel->get_list_parent($menu);
+        $list_parent[] = $menu;
+        // echo "<pre>";
+        // print_r($list_parent);
+        // die();
+        $this->data['breakcrumb'] = $list_parent;
+        return view("frontend/lib/header/breadcrumb", $this->data);
+    }
+
+    public function submenu()
+    {
+        $current_url = current_url();
+        $MenuModel = model("MenuModel");
+        $menu = $MenuModel->where("link", $current_url)->asObject()->first();
+        if (!empty($menu)) {
+            $list_child =  $MenuModel->where("parent_id", $menu->id)->asObject()->findAll();
+            $this->data['list_child'] = $list_child;
+            return view("frontend/lib/header/submenu", $this->data);
+        }
+        return '';
+    }
 }

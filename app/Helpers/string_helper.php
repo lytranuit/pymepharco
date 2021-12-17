@@ -394,7 +394,7 @@ if (!function_exists('url_product')) {
     {
         $url = base_url("san-pham.html");
         if ($product) {
-            $url = base_url("san-pham/c$product->id.html");
+            $url = base_url("san-pham/d$product->id.html");
         }
         return $url;
     }
@@ -407,7 +407,7 @@ if (!function_exists('url_product_byid')) {
         if ($id) {
             $model = model("TagModel");
             $object = $model->find($id);
-            $url = !empty($object) ? base_url("san-pham/c$object->id.html") : "";
+            $url = !empty($object) ? base_url("san-pham/d$object->id.html") : "";
         }
         return $url;
     }

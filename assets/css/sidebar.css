@@ -1,0 +1,51 @@
+.sidebar {
+    border: 1px solid gray;
+}
+
+.sidebar__header {
+    border-bottom: 1px solid lightgrey;
+    font-size: 18px;
+    font-weight: 700;
+    color: black;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+.sidebar ul {
+    padding: 0;
+    margin: 10px;
+}
+
+.sidebar li {
+    list-style: none;
+    padding: 10px;
+    border-bottom: 1px solid lightgrey;
+}
+
+.sidebar li:last-child {
+    border: 0;
+}
+
+.sidebar a {
+    color: black;
+}
+
+.pagination {
+    text-align: center;
+}
+
+.pagination li {
+    list-style: none;
+    display: inline-block;
+}
+
+.pagination li a {
+    border: 1px solid lightgray;
+    padding: 10px 15px;
+    color: gray;
+}
+
+.showhide {
+    float: right;
+    cursor: pointer;
+}

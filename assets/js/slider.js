@@ -60,6 +60,7 @@ function changeSlide(i) {
   showText(currentSlider);
   showImage(currentSlider);
   moveCircle(allImageContainers[currentSlider]);
+  // $(".slideNavItem").
 }
 
 function createTimer() {
@@ -147,7 +148,11 @@ function stopTimer() {
 function moveCircle(sliderItem) {
   var c = sliderItem.querySelectorAll(".circle");
   var mainW = window.innerWidth;
-
+  for (i = 0; i < c.length; i++) {
+    c[i].style.top = 0;
+    c[i].style.left = 0;
+    c[i].style.opacity = "1";
+  }
   setTimeout(function () {
     for (i = 0; i < c.length; i++) {
       var w = parseInt(getComputedStyle(c[i]).width);

@@ -157,33 +157,16 @@
         <ul id="uppermenu">
             <?php foreach ($list_menu as $row) : ?>
                 <li>
-                    <?php if ($row->type == 1) : ?>
-                        <a href="<?= $row->link ?>"><?= $row->{pick_language($row, 'name_')}  ?></a>
-                    <?php elseif ($row->type == 2) : ?>
-                        <a href="<?= url_category_byid($row->related_id) ?>"><?= $row->{pick_language($row, 'name_')}  ?></a>
-                    <?php elseif ($row->type == 3) : ?>
-                        <a href="<?= url_tag_byid($row->related_id) ?>"><?= $row->{pick_language($row, 'name_')}  ?></a>
-                    <?php elseif ($row->type == 4) : ?>
-                        <a href="<?= url_product_byid($row->related_id) ?>"><?= $row->{pick_language($row, 'name_')}  ?></a>
-                    <?php elseif ($row->type == 5) : ?>
-                        <a href="<?= url_news_byid($row->related_id) ?>"><?= $row->{pick_language($row, 'name_')}  ?></a>
-                    <?php elseif ($row->type == 7) : ?>
-                        <a href="<?= route_to("about") ?>"><?= $row->{pick_language($row, 'name_')}  ?></a>
-                    <?php elseif ($row->type == 8) : ?>
-                        <a href="<?= route_to("contact") ?>"><?= $row->{pick_language($row, 'name_')}  ?></a>
-                    <?php endif ?>
+                    <a href="<?= $row->link ?>"><?= $row->{pick_language($row, 'name_')}  ?></a>
                 </li>
             <?php endforeach ?>
         </ul>
         <div class="cleaner"></div>
     </div>
-    <div id="subMenuWrapper">
-        <div id="subMenu">
-            <ul>
 
-            </ul>
-        </div>
-    </div>
+    <?= view_cell("\App\Libraries\HeaderWidget::submenu") ?>
+
+
 </div>
 
 
@@ -237,21 +220,7 @@
 
         <?php $key++ ?>
         <div class="menuRespItem" onmousedown="showSubMenu('<?= $key ?>', this)">
-            <?php if ($row->type == 1) : ?>
-                <a href="<?= $row->link ?>"><?= $row->{pick_language($row, 'name_')}  ?></a>
-            <?php elseif ($row->type == 2) : ?>
-                <a href="<?= url_category_byid($row->related_id) ?>"><?= $row->{pick_language($row, 'name_')}  ?></a>
-            <?php elseif ($row->type == 3) : ?>
-                <a href="<?= url_tag_byid($row->related_id) ?>"><?= $row->{pick_language($row, 'name_')}  ?></a>
-            <?php elseif ($row->type == 4) : ?>
-                <a href="<?= url_product_byid($row->related_id) ?>"><?= $row->{pick_language($row, 'name_')}  ?></a>
-            <?php elseif ($row->type == 5) : ?>
-                <a href="<?= url_news_byid($row->related_id) ?>"><?= $row->{pick_language($row, 'name_')}  ?></a>
-            <?php elseif ($row->type == 7) : ?>
-                <a href="<?= route_to("about") ?>"><?= $row->{pick_language($row, 'name_')}  ?></a>
-            <?php elseif ($row->type == 8) : ?>
-                <a href="<?= route_to("contact") ?>"><?= $row->{pick_language($row, 'name_')}  ?></a>
-            <?php endif ?>
+            <a href="<?= $row->link ?>"><?= $row->{pick_language($row, 'name_')}  ?></a>
             <div class="menuItemArrow">
                 <?php if (!empty($row->child)) : ?>
                     <span id="menuRespInstance_rptMenu_ctl01_lblArrow">▾</span>
@@ -262,25 +231,13 @@
 
             <?php foreach ($row->child as $row2) : ?>
                 <div class="menuRespSubitem">
-                    <?php if ($row2->type == 1) : ?>
-                        <a href="<?= $row2->link ?>" class="nav-top-link"><?= $row2->{pick_language($row2, 'name_')}  ?></a>
-                    <?php elseif ($row2->type == 2) : ?>
-                        <a href="<?= url_category_byid($row2->related_id) ?>" class="nav-top-link"><?= $row2->{pick_language($row2, 'name_')}  ?></a>
-                    <?php elseif ($row2->type == 3) : ?>
-                        <a href="<?= url_tag_byid($row2->related_id) ?>" class="nav-top-link"><?= $row2->{pick_language($row2, 'name_')}  ?></a>
-                    <?php elseif ($row2->type == 4) : ?>
-                        <a href="<?= url_product_byid($row2->related_id) ?>" class="nav-top-link"><?= $row2->{pick_language($row2, 'name_')}  ?></a>
-                    <?php elseif ($row2->type == 5) : ?>
-                        <a href="<?= url_news_byid($row2->related_id) ?>" class="nav-top-link"><?= $row2->{pick_language($row2, 'name_')}  ?></a>
-                    <?php elseif ($row2->type == 7) : ?>
-                        <a href="<?= route_to("about") ?>" class="nav-top-link"><?= $row2->{pick_language($row2, 'name_')}  ?></a>
-                    <?php elseif ($row2->type == 8) : ?>
-                        <a href="<?= route_to("contact") ?>" class="nav-top-link"><?= $row2->{pick_language($row2, 'name_')}  ?></a>
-                    <?php endif ?>
+                    <a href="<?= $row2->link ?>" class="nav-top-link"><?= $row2->{pick_language($row2, 'name_')}  ?></a>
                 </div>
             <?php endforeach ?>
         </div>
     <?php endforeach ?>
 </div>
 
-<div id="darkMask" onmousedown="showMenu()"></div>
+<div id="darkMask" onmousedown="showMenu()">
+
+</div>

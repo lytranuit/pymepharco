@@ -40,4 +40,29 @@ class MenuModel extends Model
 
         return $obj;
     }
+    function get_list_parent($menu)
+    {
+        $list_parent = [];
+        if (is_numeric($menu))
+            $menu = $this->find($menu);
+
+        $parent_id = $menu->parent_id;
+        if ($parent_id != 0) {
+            $parent = $this->asObject()->find($parent_id);
+            array_push($list_parent, $parent);
+            $list_parent = array_merge($this->get_list_parent($parent), $list_parent);
+        }
+
+        return $list_parent;
+    }
+
+    function get_list_child($menu)
+    {
+        $list = $this->where("parent_id", $menu)->asObject()->findAll();
+        foreach ($list as &$row) {
+            $row_id = $row->id;
+            $row->child = $this->get_list_child($row_id);
+        }
+        return $list;
+    }
 }

@@ -10,41 +10,19 @@ class Product extends BaseController
     {
 
         $product_model = model("ProductModel");
-        $this->data['products'] = $product_model->paginate(12);
+        $this->data['products'] = $product_model->paginate(9);
         $this->data['pager'] = $product_model->pager;
+        $this->data['title'] =  lang("Custom.product") . $this->data['title'];
         return view($this->data['content'], $this->data);
     }
-    public function category($category_id)
-    {
-        $category_model = model("CategoryModel");
-        $product_model = model("ProductModel");
-
-        $this->data['category'] = $category_model->find($category_id);
-        if ($this->data['category']->is_menu == 1) {
-            $this->data['content'] = "frontend/product/menuview";
-        } else {
-            $this->data['content'] = "frontend/product/productview";
-        }
-
-        $this->data['products'] = $product_model->join('pet_product_category', 'pet_product_category.product_id = pet_product.id')->where("category_id", $category_id)->paginate(12);
-
-        $this->data['pager'] = $product_model->join('pet_product_category', 'pet_product_category.product_id = pet_product.id')->where("category_id", $category_id)->pager;
-
-        $product_model->image($this->data['products']);
-        $this->data['title'] =   $this->data['category']->name_vi . $this->data['title'];
-
-        // echo "<pre>";
-        // print_r($this->data['products']);
-        // die();
-        return view($this->data['content'], $this->data);
-    }
-
     //--------------------------------------------------------------------
     public function view($id)
     {
         $product_model = model("ProductModel");
         $this->data['info'] = $product_model->asObject()->find($id);
-
+        // echo "<pre>";
+        // print_r($this->data['info']);
+        // die();
         $this->data['title'] =   $this->data['info']->{pick_language($this->data['info'])} . $this->data['title'];
         return view($this->data['content'], $this->data);
     }

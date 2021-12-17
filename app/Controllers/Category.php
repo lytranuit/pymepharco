@@ -6,11 +6,6 @@ use CodeIgniter\Database\BaseBuilder;
 
 class Category extends BaseController
 {
-    public function index()
-    {
-        return view($this->data['content'], $this->data);
-    }
-    //--------------------------------------------------------------------
     public function view($id)
     {
         $category_model = model("CategoryModel");
@@ -18,7 +13,7 @@ class Category extends BaseController
 
         $this->data['category'] = $category_model->find($id);
         $sort = $this->request->getVar("sort");
-        // print_r($sort);
+        // print_r($this->data['category']);
         // die();
 
         $pager = service('pager');
@@ -31,8 +26,7 @@ class Category extends BaseController
         $this->data['products'] = $info['products'];
 
 
-
-
+        $this->data['pager'] = $pager;
         $this->data['title'] =  $this->data['category']->{pick_language($this->data['category'])} . $this->data['title'];
         // echo "<pre>";
         // print_r($this->data['products']);

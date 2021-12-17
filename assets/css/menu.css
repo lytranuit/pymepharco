@@ -22,6 +22,7 @@
 	max-height:23px;
     text-align:left;
     z-index:0 !important;
+    line-height: 1.5;
 }
 
 #uppermenu li a 

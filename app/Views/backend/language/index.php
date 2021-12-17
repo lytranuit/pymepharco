@@ -21,9 +21,9 @@
                             <tr>
                                 <th>STT</th>
                                 <th>Key</th>
-                                <th>Tiếng Việt</th>
-                                <th>Tiếng Anh</th>
-                                <th>Tiếng Nhật</th>
+                                <?php foreach ($supportedLocales as $lang) : ?>
+                                    <th><?= $lang ?></th>
+                                <?php endforeach ?>
                             </tr>
                         </thead>
                         <tbody>
@@ -34,9 +34,9 @@
                                 <tr>
                                     <td><?= $i ?></td>
                                     <td class="key"><?= $key ?></td>
-                                    <td><input type='text' style="width:100%;" class="form-control vietnamese" value='<?= $row['vi'] ?>' /></td>
-                                    <td><input type='text' style="width:100%;" class="form-control english" value='<?= $row['en'] ?>' /></td>
-                                    <td><input type='text' style="width:100%;" class="form-control japanese" value='<?= $row['jp'] ?>' /></td>
+                                    <?php foreach ($supportedLocales as $lang) : ?>
+                                        <td><input type='text' style="width:100%;" class="form-control <?= $lang ?>" value='<?= isset($row[$lang]) ? $row[$lang] : '' ?>' /></td>
+                                    <?php endforeach ?>
                                 </tr>
                             <?php endforeach ?>
                         </tbody>
@@ -61,6 +61,7 @@
 <script src="<?= base_url('assets/lib/datatables/jquery.highlight.js') ?>"></script>
 
 <script type="text/javascript">
+    let supportedLocales = <?= json_encode($supportedLocales) ?>;
     $(document).ready(function() {
         $.fn.dataTableExt.ofnSearch['html-input'] = function(value) {
             return $(value).val();
@@ -77,19 +78,16 @@
         });
         $("#Save").click(function(e) {
             e.preventDefault();
-            var data = {
-                vi: {},
-                en: {},
-                jp: {}
-            };
+            var data = {};
+            for (let lang of supportedLocales) {
+                data[lang] = {};
+            }
             $("#quanlytin tbody tr").each(function() {
                 var key = $(".key", $(this)).text();
-                var vietnamese = $(".vietnamese", $(this)).val();
-                var english = $(".english", $(this)).val();
-                var japanese = $(".japanese", $(this)).val();
-                data['vi'][key] = vietnamese;
-                data['en'][key] = english;
-                data['jp'][key] = japanese;
+                for (let lang of supportedLocales) {
+                    let value = $("." + lang, $(this)).val();
+                    data[lang][key] = value;
+                }
             });
             //            console.log(data);
             //           return false;

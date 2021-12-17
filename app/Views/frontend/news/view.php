@@ -20,7 +20,7 @@
 
         <div class="pageTitle" style="opacity: 1; top: 50%; bottom: auto; transform: translateY(-50%);">
             <div class="pageTitleContent">
-                <div><span id="pageImageInstance_lblTitle"><?= lang("Custom.news") ?></span></div>
+                <span id="pageImageInstance_lblTitle"><?= $info->{pick_language($info, "title_")} ?></span>
             </div>
         </div>
     </div>
@@ -30,13 +30,11 @@
 
     <div class="container">
         <div class="row row-large row-divided mt-5">
-            <div class="col-md-9">
+            <div class="col-md-12">
                 <article id="post-74" class="post-74 post type-post status-publish format-standard has-post-thumbnail hentry category-tin-tuc">
                     <div class="article-inner">
                         <header class="entry-header">
                             <div class="entry-header-text entry-header-text-top text-left">
-
-                                <h1 class="entry-title"><?= $info->{pick_language($info, "title_")} ?></h1>
                                 <h6 class="entry-category is-xsmall">
                                     <a href="#" rel="category tag"><?= date("d M,Y", strtotime($info->date)) ?></a>
                                 </h6>
@@ -67,4 +65,5 @@
 
 <?= $this->endSection() ?>
 <?= $this->section("script") ?>
+<script src="<?= base_url("assets/js/circle.js") ?>"></script>
 <?= $this->endSection() ?>
