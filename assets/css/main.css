@@ -125,12 +125,18 @@ h5 {
     vertical-align: middle;
 }
 
+#headerInstance_hlLogo {
+    display: inline-block;
+    width: 251px;
+    padding: 22px;
+}
+
 #headerSearch {
     position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    height: 36px;
+    height: 53px;
 }
 
 .txbSearch {
@@ -198,6 +204,7 @@ h5 {
     font-size: 16px;
     cursor: pointer;
     white-space: normal;
+    text-shadow: none;
 }
 
 .sliderButton:hover {
