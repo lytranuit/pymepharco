@@ -16,6 +16,7 @@
   padding-left: var(--bs-gutter-x, 0.75rem);
   margin-right: auto;
   margin-left: auto;
+  box-sizing: border-box;
 }
 
 @media (min-width: 576px) {
@@ -40,7 +41,7 @@
 }
 @media (min-width: 1400px) {
   .container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container {
-    max-width: 1320px;
+    max-width: 1440px;
   }
 }
 .row {
