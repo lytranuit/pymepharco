@@ -131,6 +131,46 @@ class Home extends BaseController
 
         return view($this->data['content'], $this->data);
     }
+    public function submit()
+    {
+
+        // $model = new UserModel();
+        // $data = array(
+        //     'name' => $this->request->getVar('name'),
+        //     'email' => $this->request->getVar('email'),
+        //     'contact_no' => $this->request->getVar('mobile_number'),
+        // );
+
+        $recaptchaResponse = trim($this->request->getVar('g-recaptcha-response'));
+
+        // $userIp = $this->request->ip_address();
+
+        $secret = '6LcyUcQdAAAAAIJkEQAq70u7LbkNzCnKY1TeDjxF';
+
+        $credential = array(
+            'secret' => $secret,
+            'response' => $recaptchaResponse
+        );
+
+        $verify = curl_init();
+        curl_setopt($verify, CURLOPT_URL, "https://www.google.com/recaptcha/api/siteverify");
+        curl_setopt($verify, CURLOPT_POST, true);
+        curl_setopt($verify, CURLOPT_POSTFIELDS, http_build_query($credential));
+        curl_setopt($verify, CURLOPT_SSL_VERIFYPEER, false);
+        curl_setopt($verify, CURLOPT_RETURNTRANSFER, true);
+        $response = curl_exec($verify);
+
+        $status = json_decode($response, true);
+        $session = session();
+        if ($status['success']) {
+            // $model->save($data);
+            $session->setFlashdata('errors', 'Form has been successfully submitted');
+        } else {
+            $session->setFlashdata('msg', 'Something goes to wrong');
+        }
+
+        return redirect()->to('home/contact');
+    }
     public function library()
     {
         $this->data['title'] =  "Thư viện" . $this->data['title'];

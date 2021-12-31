@@ -42,7 +42,7 @@
 
         <!--<a href="/eng/predstavnistva">-->
         <div class="infoblockButton">
-            <input type="button" value="See the list of represntative offices" onclick="window.location='/eng/predstavnistva'">
+            <input type="button" value="See the list of represntative offices">
         </div>
         <!--</a>-->
     </div>
@@ -63,10 +63,13 @@
 
 </div>
 <div id="contactForm">
-    <div id="contactFormContent">
+    <form id="contactFormContent" action="home/submit" method="POST">
+        <?= csrf_field() ?>
         <div class="pageMainTitle">
             <span id="lblFormTitle">Write to us</span>
         </div>
+        <?= view('Myth\Auth\Views\_message_block') ?>
+        
         <div class="contactInput">
             <input name="txbName" type="text" id="txbName" placeholder="Name and Surname*">
         </div>
@@ -76,24 +79,14 @@
         <div class="contactInput">
             <textarea name="txbMessage" rows="2" cols="20" id="txbMessage" placeholder="Your message*"></textarea>
         </div>
-        <div class="contactInput2">
-            <input id="chkConfirm" type="checkbox" name="chkConfirm"><label for="chkConfirm">*I agree that any personal data may only be processed in accordance with the Hemofarm AD <a href="/eng/obavestenje-o-privatnosti" target="_blank">Privacy Notice</a>. You can access the data protection information obligations in accordance with applicable laws <a href="/eng/obavestenje-o-obradi-podataka" target="_blank">here</a>.</label>
-        </div>
         <div id="recaptcha">
-            <div class="g-recaptcha" data-sitekey="6Ldb5jYUAAAAAE0tftRVSKCzdSXtT0hOSAHsaIxC" data-callback="">
-                <div style="width: 304px; height: 78px;">
-                    <div><iframe title="reCAPTCHA" src="https://www.google.com/recaptcha/api2/anchor?ar=2&amp;k=6Ldb5jYUAAAAAE0tftRVSKCzdSXtT0hOSAHsaIxC&amp;co=aHR0cHM6Ly93d3cuaGVtb2Zhcm0uY29tOjQ0Mw..&amp;hl=vi&amp;v=_7Co1fh8iT2hcjvquYJ_3zSP&amp;size=normal&amp;cb=2uvjacv99lz3" width="304" height="78" role="presentation" name="a-sdyjltv07id3" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"></iframe></div><textarea id="g-recaptcha-response" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea>
-                </div><iframe style="display: none;"></iframe>
-            </div>
-        </div>
-        <div class="contactInput">
-
+            <div class="g-recaptcha" data-sitekey="6LcyUcQdAAAAAIcWcFJiHaYUQEZlkqfV_puYVV9a"></div>
         </div>
 
         <div class="contactButton">
-            <input type="submit" name="btnSend" value="Send message" onclick="return checkInput();" id="btnSend">
+            <input type="submit" name="btnSend" value="Send message" id="btnSend">
         </div>
-    </div>
+    </form>
 </div>
 <?= $this->endSection() ?>
 
@@ -104,6 +97,6 @@
 
 
 <?= $this->section("script") ?>
-
+<script src='https://www.google.com/recaptcha/api.js'></script>
 <script src="<?= base_url("assets/js/circle.js") ?>"></script>
 <?= $this->endSection() ?>

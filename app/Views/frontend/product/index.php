@@ -20,7 +20,7 @@
         </div>
     </div>
 </div>
-<div class="container">
+<div class="container plainText">
     <div class="row">
         <div class="col-md-3 my-2">
             <?= view_cell("\App\Libraries\SidebarWidget::sidemenuproduct") ?>

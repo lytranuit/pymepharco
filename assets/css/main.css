@@ -4,7 +4,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&amp;display=swap");
 
 html {
-    line-height: 1.8;
+    line-height: 1.6;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%
 }
@@ -184,7 +184,7 @@ h5 {
     width: 100%;
     max-width: 1440px;
     margin: auto;
-    font-size: 28px;
+    font-size: 20px;
 }
 
 #sliderOverlayText {
@@ -493,7 +493,7 @@ input {
     left: 0;
     width: 100%;
     color: #fff;
-    font-size: 48px;
+    font-size: 40px;
     transition: all 1s;
     opacity: 0;
     height: auto;

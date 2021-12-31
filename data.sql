@@ -99,7 +99,7 @@ CREATE TABLE `pet_auth_logins` (
   PRIMARY KEY (`id`),
   KEY `email` (`email`),
   KEY `user_id` (`user_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=149 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=162 DEFAULT CHARSET=utf8;
 
 /*Data for the table `pet_auth_logins` */
 
@@ -251,7 +251,20 @@ insert  into `pet_auth_logins`(`id`,`ip_address`,`email`,`user_id`,`date`,`succe
 (145,'127.0.0.1','lasdxfv@gmail.com',10,'2021-11-23 18:34:26',1),
 (146,'127.0.0.1','lasdxfv@gmail.com',10,'2021-11-24 21:36:39',1),
 (147,'127.0.0.1','lasdxfv@gmail.com',10,'2021-11-25 03:25:29',1),
-(148,'127.0.0.1','lasdxfv@gmail.com',10,'2021-11-25 20:03:53',1);
+(148,'127.0.0.1','lasdxfv@gmail.com',10,'2021-11-25 20:03:53',1),
+(149,'127.0.0.1','lasdxfv@gmail.com',10,'2021-12-01 01:10:11',1),
+(150,'127.0.0.1','lasdxfv@gmail.com',10,'2021-12-01 21:38:15',1),
+(151,'127.0.0.1','lasdxfv@gmail.com',10,'2021-12-02 00:28:36',1),
+(152,'127.0.0.1','lasdxfv@gmail.com',10,'2021-12-02 03:11:13',1),
+(153,'127.0.0.1','lasdxfv@gmail.com',10,'2021-12-05 19:48:44',1),
+(154,'127.0.0.1','lasdxfv@gmail.com',10,'2021-12-06 02:50:06',1),
+(155,'127.0.0.1','lasdxfv@gmail.com',10,'2021-12-06 18:38:17',1),
+(156,'127.0.0.1','lasdxfv@gmail.com',10,'2021-12-10 02:34:50',1),
+(157,'127.0.0.1','lasdxfv@gmail.com',10,'2021-12-12 21:41:06',1),
+(158,'127.0.0.1','lasdxfv@gmail.com',10,'2021-12-15 02:03:35',1),
+(159,'127.0.0.1','lasdxfv@gmail.com',10,'2021-12-15 20:51:44',1),
+(160,'127.0.0.1','lasdxfv@gmail.com',10,'2021-12-16 00:45:42',1),
+(161,'127.0.0.1','lasdxfv@gmail.com',10,'2021-12-16 19:46:46',1);
 
 /*Table structure for table `pet_auth_permissions` */
 
@@ -385,12 +398,15 @@ CREATE TABLE `pet_category` (
   `date` datetime DEFAULT NULL,
   `slug` varchar(256) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8;
 
 /*Data for the table `pet_category` */
 
 insert  into `pet_category`(`id`,`name_vi`,`name_en`,`name_jp`,`description_vi`,`description_en`,`description_jp`,`content_vi`,`content_en`,`content_jp`,`image_url`,`active`,`order`,`is_home`,`type`,`parent_id`,`deleted_at`,`created_at`,`updated_at`,`date`,`slug`) values 
-(1,'test','','','','','','','','','/assets/images/placeholder.png',1,0,0,1,0,NULL,NULL,NULL,'2021-08-09 04:11:17','test');
+(1,'Sản phẩm thuốc','','','','','','','','','/assets/images/placeholder.png',1,0,0,1,0,NULL,NULL,NULL,'2021-08-09 04:11:17','san-pham-thuoc'),
+(2,'Sản phẩm chăm sóc sức khỏe','','','','','','','','',NULL,1,0,0,1,0,NULL,NULL,NULL,'2021-12-01 01:33:03','san-pham-cham-soc-suc-khoe'),
+(3,'Vitamin khoáng chất','','','','','','','','',NULL,1,0,0,1,0,NULL,NULL,NULL,'2021-12-01 01:33:41','vitamin-khoang-chat'),
+(4,'Tuần hoàn máu','','','','','','','','','/assets/userfiles/files/Colorful-Free-Medical-Banner-Template.png',1,0,0,1,0,NULL,NULL,NULL,'2021-12-01 01:33:53','tuan-hoan-mau');
 
 /*Table structure for table `pet_menu` */
 
@@ -410,22 +426,26 @@ CREATE TABLE `pet_menu` (
   `created_at` datetime DEFAULT NULL,
   `updated_at` datetime DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=14 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=18 DEFAULT CHARSET=utf8;
 
 /*Data for the table `pet_menu` */
 
 insert  into `pet_menu`(`id`,`name_vi`,`name_en`,`name_jp`,`type`,`link`,`related_id`,`order`,`parent_id`,`deleted_at`,`created_at`,`updated_at`) values 
 (1,'Trang chủ','Home','',1,'/',0,0,0,NULL,NULL,NULL),
-(4,'Sản phẩm','Products','',4,'#',0,8,0,NULL,NULL,NULL),
-(5,'Tin tức','','',5,'#',0,9,0,NULL,NULL,NULL),
+(4,'Sản phẩm','Products','',4,'http://pymetest.duckdns.org/san-pham.html',0,8,0,NULL,NULL,NULL),
+(5,'Tin tức','','',5,'http://pymetest.duckdns.org/tin-tuc.html',0,12,0,NULL,NULL,NULL),
 (6,'Câu chuyện kinh doanh','Business','',1,'#',9,5,0,NULL,NULL,NULL),
-(7,'Liên hệ','','',8,'#',0,10,0,NULL,NULL,NULL),
-(8,'Về chúng tôi','About us','',7,'#',0,1,0,NULL,NULL,NULL),
+(7,'Liên hệ','','',8,'http://pymetest.duckdns.org/lien-he',0,14,0,NULL,NULL,NULL),
+(8,'Về chúng tôi','About us','',7,'http://pymetest.duckdns.org/gioi-thieu',0,1,0,NULL,NULL,NULL),
 (9,'Thông tin doanh nghiệp','Company profile','',1,'#',0,2,8,NULL,NULL,NULL),
 (10,'Mission and vision','Mission and vision','',1,'#',0,3,8,NULL,NULL,NULL),
 (11,'Management','Management','',1,'#',0,4,8,NULL,NULL,NULL),
 (12,'R&D','R&D','',1,'#',0,7,6,NULL,NULL,NULL),
-(13,'Quality','Quality','',1,'#',0,6,6,NULL,NULL,NULL);
+(13,'Quality','Quality','',1,'#',0,6,6,NULL,NULL,NULL),
+(14,'Tuần hoàn máu','','',2,'http://pymetest.duckdns.org/san-pham/c4.html',4,11,16,NULL,NULL,NULL),
+(15,'Sản phẩm thuốc','','',2,'http://pymetest.duckdns.org/san-pham/c1.html',1,9,4,NULL,NULL,NULL),
+(16,'Sản phẩm chăm sóc sức khỏe','','',2,'http://pymetest.duckdns.org/san-pham/c2.html',2,10,4,NULL,NULL,NULL),
+(17,'Tuyển dụng','','',3,'http://pymetest.duckdns.org/tin-tuc/c10.html',10,13,5,NULL,NULL,NULL);
 
 /*Table structure for table `pet_news` */
 
@@ -580,13 +600,13 @@ CREATE TABLE `pet_product` (
 
 insert  into `pet_product`(`id`,`code`,`price`,`slug`,`name_vi`,`name_en`,`name_jp`,`description_vi`,`description_en`,`description_jp`,`detail_vi`,`detail_en`,`detail_jp`,`image_url`,`order`,`date`,`active`,`deleted_at`,`updated_at`,`created_at`) values 
 (1,NULL,NULL,NULL,'Negacef 750mg','','','','','',NULL,NULL,NULL,'/assets/userfiles/images/product/1.jpg',NULL,'2021-08-06 01:48:21',1,NULL,NULL,NULL),
-(2,NULL,NULL,NULL,'Negacef 500','','','','','',NULL,NULL,NULL,'/assets/userfiles/images/product/2.jpg',NULL,'2021-08-06 01:48:46',1,NULL,NULL,NULL),
+(2,NULL,NULL,'','Negacef 500','','','<p><strong>TH&Agrave;NH PHẦN:</strong>&nbsp;Candesartan cilexetil&nbsp;</p>\r\n\r\n<p><strong>H&Agrave;M LƯỢNG:</strong>&nbsp;8mg</p>\r\n\r\n<p><strong>QUY C&Aacute;CH:</strong>&nbsp;Hộp 2 vỉ x 14 vi&ecirc;n n&eacute;n</p>\r\n','','','','','','/assets/userfiles/images/product/2.jpg',NULL,'2021-08-06 01:48:46',1,NULL,NULL,NULL),
 (3,NULL,NULL,NULL,'Pymetphage-500','','','','','',NULL,NULL,NULL,'/assets/userfiles/images/product/3.jpg',NULL,'2021-08-06 01:49:09',1,NULL,NULL,NULL),
 (4,NULL,NULL,NULL,'negacef 1.5g','','','','','',NULL,NULL,NULL,'/assets/userfiles/images/product/4.jpg',NULL,'2021-08-06 01:49:34',1,NULL,NULL,NULL),
 (5,NULL,NULL,NULL,'Tatanol children','','','','','',NULL,NULL,NULL,'/assets/userfiles/images/product/5.jpg',NULL,'2021-08-06 01:50:05',1,NULL,NULL,NULL),
-(6,NULL,NULL,NULL,'Mobimed','','','','','',NULL,NULL,NULL,'/assets/userfiles/images/product/7.jpg',NULL,'2021-08-06 01:50:38',1,NULL,NULL,NULL),
+(6,NULL,NULL,'','Mobimed','','','<p>test</p>\r\n','','',NULL,NULL,NULL,'/assets/userfiles/images/product/7.jpg',NULL,'2021-08-06 01:50:38',1,NULL,NULL,NULL),
 (7,NULL,NULL,NULL,'Pymetphage 1000','','','','','',NULL,NULL,NULL,'/assets/userfiles/images/product/9.jpg',NULL,'2021-08-06 01:50:59',1,NULL,NULL,NULL),
-(8,NULL,NULL,'vivace','Vivace','','','','','',NULL,NULL,NULL,'/assets/userfiles/images/product/thuoc-vivace-pymepharco-giup-tang-cuong-suc-de-khang-cho-co-the_00335.jpg',NULL,'2021-08-06 01:51:50',1,NULL,NULL,NULL);
+(8,NULL,NULL,'vivace','Vivace','','','','','','','','','/assets/userfiles/images/product/thuoc-vivace-pymepharco-giup-tang-cuong-suc-de-khang-cho-co-the_00335.jpg',NULL,'2021-08-06 01:51:50',1,NULL,NULL,NULL);
 
 /*Table structure for table `pet_product_category` */
 
@@ -598,9 +618,16 @@ CREATE TABLE `pet_product_category` (
   `category_id` int(11) DEFAULT NULL,
   `order` int(11) DEFAULT '0',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8;
 
 /*Data for the table `pet_product_category` */
+
+insert  into `pet_product_category`(`id`,`product_id`,`category_id`,`order`) values 
+(1,2,2,0),
+(2,8,1,0),
+(3,8,2,0),
+(4,8,3,0),
+(5,8,4,0);
 
 /*Table structure for table `pet_product_image` */
 
