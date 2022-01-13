@@ -16,46 +16,167 @@
 
         <div class="pageTitle" style="opacity: 1; top: 50%; bottom: auto; transform: translateY(-50%);">
             <div class="pageTitleContent">
-                <div><span id="pageImageInstance_lblTitle">Contact</span></div>
+                <div><span id="pageImageInstance_lblTitle">Liên hệ</span></div>
             </div>
         </div>
     </div>
 
 </div>
-<div id="infoblockInstance_pnlInfoblock" class="infoblock ibMapa">
+<div id="rptInfoblock_ctl00_infoblockInstance1_pnlInfoblock" class="plainText grey fullWidth titleOnly">
 
 
     <div class="infoblockText">
         <div class="infoblockTitle">
-            <span id="infoblockInstance_lblTitle">Hemofarm A.D.</span>
+            <span id="rptInfoblock_ctl00_infoblockInstance1_lblTitle">Thương hiệu PYMEPHARCO đã tạo được thế vững chắc và có uy tín trên thị trường trong và ngoài nước.</span>
         </div>
         <div class="infoblockAbstract">
-            <span id="infoblockInstance_lblAbstract">
-                <p>Hemofarm A.D., Beogradski put bb,<br>
-                    26300 Vršac, Srbija</p>
+            <span id="rptInfoblock_ctl00_infoblockInstance1_lblAbstract"></span>
+        </div>
 
-                <p>+381 13 803 100</p>
+        <!--<a href="/eng/predstavnistva">-->
+        <div class="infoblockButton">
+            <input type="button" value="" onclick="window.location='/eng/predstavnistva'">
+        </div>
+        <!--</a>-->
+    </div>
+    <div class="infoblockImage">
+        <img id="rptInfoblock_ctl00_infoblockInstance1_imgImage" src="/images/infoblock/" style="border-width: 0px; transition: all 1s ease 0s; opacity: 1; margin-left: 0px;">
+        <div class="infoblockCircle" style="opacity: 0.5; bottom: -280px;"></div>
+    </div>
+    <div class="infoblockText2">
+        <div class="infoblockDesc2">
+            <span id="rptInfoblock_ctl00_infoblockInstance1_lblDesc"></span>
+        </div>
+        <div class="infoblockSubnote">
+            <span id="rptInfoblock_ctl00_infoblockInstance1_lblSubnote"></span>
+        </div>
+    </div>
+    <div class="cleaner"></div>
 
-                <p><a href="mailto:svakodobro@hemofarm.com">svakodobro@hemofarm.com</a></p>
+
+</div>
+<div id="rptInfoblock_ctl01_infoblockInstance1_pnlInfoblock" class="plainText smallTitle fullWidth noTitle centerText">
+
+
+    <div class="infoblockText">
+        <div class="infoblockTitle">
+            <span id="rptInfoblock_ctl01_infoblockInstance1_lblTitle"></span>
+        </div>
+        <div class="infoblockAbstract">
+            <span id="rptInfoblock_ctl01_infoblockInstance1_lblAbstract">PYMEPHARCO là nhà sản xuất nhượng quyền cho các sản phẩm kháng sinh Cephalosporin của các công ty dược phẩm có uy tín như Orchid – Ấn Độ, SamchunDang – Hàn Quốc… và đặc biệt là công ty Stada – CHLB Đức. Nhà máy hiện có hơn 140 SP được Bộ Y tế cấp số đăng ký lưu hành với sự phong phú về chủng loại và hình thức sản phẩm. </span>
+        </div>
+
+        <!--<a href="/eng/predstavnistva">-->
+        <div class="infoblockButton">
+            <input type="button" value="" onclick="window.location='/eng/predstavnistva'">
+        </div>
+        <!--</a>-->
+    </div>
+    <div class="infoblockImage">
+        <img id="rptInfoblock_ctl01_infoblockInstance1_imgImage" src="/images/infoblock/" style="border-width: 0px; transition: all 1s ease 0s; opacity: 1; margin-left: 0px;">
+        <div class="infoblockCircle" style="opacity: 0.5; bottom: -280px;"></div>
+    </div>
+    <div class="infoblockText2">
+        <div class="infoblockDesc2">
+            <span id="rptInfoblock_ctl01_infoblockInstance1_lblDesc"></span>
+        </div>
+        <div class="infoblockSubnote">
+            <span id="rptInfoblock_ctl01_infoblockInstance1_lblSubnote"></span>
+        </div>
+    </div>
+    <div class="cleaner"></div>
+
+
+</div>
+<div id="rptInfoblock_ctl02_infoblockInstance1_pnlInfoblock" class="infoblock ibImageLeft noTitle noButton noTopMargin">
+
+
+    <div class="infoblockText">
+        <div class="infoblockTitle">
+            <span id="rptInfoblock_ctl02_infoblockInstance1_lblTitle"></span>
+        </div>
+        <div class="infoblockAbstract">
+            <span id="rptInfoblock_ctl02_infoblockInstance1_lblAbstract"><strong>PYMEPHARCO:</strong><br>
+                166-170 Nguyễn Huệ – Tp. Tuy Hòa – Phú Yên
+                Tel: (84-0257) 3829 165 – 3823 228<br>
+                Fax: (84-0257) 3824 717<br>
+                email: <a href="mailto:hcns@pymepharco.com">hcns@pymepharco.com</a><br><br>
+
+                <strong>CHI NHÁNH TP.HCM</strong><br>
+                44 Đồng Nai, Phường 15, Quận 10, Tp.Hồ Chí Minh<br>
+                Tel: (84-028) 39703 099 – 39708789<br><br>
+
+                <strong>CHI NHÁNH HÀ NỘI</strong><br>
+                Lô 5 -TT 24 khu Nhà ở Báo Nhân Dân , Phường Xuân Phương, Q.Nam Từ Liêm, Tp.Hà Nội<br>
+                Tel: (84 024) 32011536</span>
+        </div>
+
+        <!--<a href="/eng/predstavnistva">-->
+        <div class="infoblockButton">
+            <input type="button" value="" onclick="window.location='/eng/predstavnistva'">
+        </div>
+        <!--</a>-->
+    </div>
+    <div class="infoblockImage">
+        <img id="rptInfoblock_ctl02_infoblockInstance1_imgImage" src="assets/images/py.jpg" style="border-width: 0px; opacity: 1; margin-left: 0px; transition: all 1s ease 0s;">
+        <div class="infoblockCircle" style="opacity: 0.5; bottom: -280px;"></div>
+    </div>
+    <div class="infoblockText2">
+        <div class="infoblockDesc2">
+            <span id="rptInfoblock_ctl02_infoblockInstance1_lblDesc"></span>
+        </div>
+        <div class="infoblockSubnote">
+            <span id="rptInfoblock_ctl02_infoblockInstance1_lblSubnote"></span>
+        </div>
+    </div>
+    <div class="cleaner"></div>
+
+
+</div>
+<div id="rptInfoblock_ctl03_infoblockInstance1_pnlInfoblock" class="infoblock listItem columns2 fullWidth">
+
+
+    <div class="infoblockText">
+        <div class="infoblockTitle">
+            <span id="rptInfoblock_ctl03_infoblockInstance1_lblTitle">Nhà máy</span>
+        </div>
+        <div class="infoblockAbstract">
+            <span id="rptInfoblock_ctl03_infoblockInstance1_lblAbstract">
+                <ul>
+                    <li style="opacity: 1; margin-left: 0px; transition: all 1s ease 0s;">
+                        <div>
+                            <h4>Nhà máy 1</h4>
+                            01 Bà Triệu, P7, Tuy Hòa, Phú Yên<br>
+                            tel: (84 0257) 3 810 525 – 3 820 663
+                        </div>
+                    </li>
+                    <li style="opacity: 1; margin-left: 0px; transition: all 1s ease 0s;">
+                        <div>
+                            <h4>Nhà máy 2</h4>
+                            189 Hoàng Văn Thụ, Phường 9,Tp Tuy Hòa,Tỉnh Phú Yên<br>
+                            tel: (84 0257) 3 810 525 – 3 820 663
+                        </div>
+                    </li>
+                </ul>
             </span>
         </div>
 
         <!--<a href="/eng/predstavnistva">-->
         <div class="infoblockButton">
-            <input type="button" value="See the list of represntative offices">
+            <input type="button" value="" onclick="window.location='/eng/predstavnistva'">
         </div>
         <!--</a>-->
     </div>
     <div class="infoblockImage">
-        <img id="infoblockInstance_imgImage" src="/images/infoblock/" style="border-width: 0px; transition: all 1s ease 0s; opacity: 1; margin-left: 0px;">
+        <img id="rptInfoblock_ctl03_infoblockInstance1_imgImage" src="/images/infoblock/" style="border-width: 0px; transition: all 1s ease 0s; opacity: 1; margin-left: 0px;">
         <div class="infoblockCircle" style="opacity: 0.5; bottom: -280px;"></div>
     </div>
     <div class="infoblockText2">
         <div class="infoblockDesc2">
-            <span id="infoblockInstance_lblDesc"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2816.1703263572126!2d21.27326481554018!3d45.10261517909835!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47506b4765f373bb%3A0x720bcc565ea98b91!2sHEMOFARM+AD!5e0!3m2!1ssr!2srs!4v1520866645413" width="100%" height="400" frameborder="0" style="border:0" allowfullscreen=""></iframe></span>
+            <span id="rptInfoblock_ctl03_infoblockInstance1_lblDesc"></span>
         </div>
         <div class="infoblockSubnote">
-            <span id="infoblockInstance_lblSubnote"></span>
+            <span id="rptInfoblock_ctl03_infoblockInstance1_lblSubnote"></span>
         </div>
     </div>
     <div class="cleaner"></div>
@@ -69,7 +190,7 @@
             <span id="lblFormTitle">Write to us</span>
         </div>
         <?= view('Myth\Auth\Views\_message_block') ?>
-        
+
         <div class="contactInput">
             <input name="txbName" type="text" id="txbName" placeholder="Name and Surname*">
         </div>

@@ -25,8 +25,12 @@ class HeaderWidget
         $current_url = current_url();
         $MenuModel = model("MenuModel");
         $menu = $MenuModel->where("link", $current_url)->asObject()->first();
-        $list_parent = $MenuModel->get_list_parent($menu);
-        $list_parent[] = $menu;
+        if(!empty($menu)){
+            $list_parent = $MenuModel->get_list_parent($menu);
+            $list_parent[] = $menu;
+        }else{
+            $list_parent = [];
+        }
         // echo "<pre>";
         // print_r($list_parent);
         // die();

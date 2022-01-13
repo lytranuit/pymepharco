@@ -1,989 +1,866 @@
-﻿.infoblock
-{
-    width:100%;
-    max-width:1440px;
-    margin:auto;
-    margin-top:64px;
+﻿.infoblock {
+    width: 100%;
+    max-width: 1440px;
+    margin: auto;
+    margin-top: 64px;
 }
 
-.noInfoblock
-{
-	display:none;
+.noInfoblock {
+    display: none;
 }
 
-.infoblockImage
-{
-    z-index:0;
+.infoblockImage {
+    z-index: 0;
 }
 
-.infoblockText
-{
-    z-index:100;
+.infoblockText {
+    z-index: 100;
 }
 
-.infoblockTitle
-{
-    font-size:28px;
-    color:#343434;
-    padding-bottom:16px;
+.infoblockTitle {
+    font-size: 28px;
+    color: #343434;
+    padding-bottom: 16px;
 }
 
-.largeTitle .infoblockTitle
-{
-    font-size:36px;
+.largeTitle .infoblockTitle {
+    font-size: 36px;
 }
 
-.mediumTitle .infoblockTitle
-{
-    font-size:28px;
+.mediumTitle .infoblockTitle {
+    font-size: 28px;
 }
 
-.smallTitle .infoblockTitle
-{
-    font-size:20px;
+.smallTitle .infoblockTitle {
+    font-size: 20px;
 }
 
-.infoblockAbstract
-{
-    font-size:16px;
-    color:#343434;
-    line-height:1.5;
+.infoblockAbstract {
+    font-size: 16px;
+    color: #343434;
+    line-height: 1.5;
 }
 
-.infoblockAbstract ul
-{
-    padding:0 16px;
+.infoblockAbstract ul {
+    padding: 0 16px;
 }
 
-.infoblockAbstract li
-{
-    padding:16px 0;
-    background-image:url("checkorange.png");
-    list-style:none;
-    background-repeat:no-repeat;
-    padding-left:52px;
-    background-position-y:center;
+.infoblockAbstract li {
+    padding: 16px 0;
+    display: flex;
+    list-style: none;
+    align-items: center;
 }
 
-.infoblockButton input
-{
-    padding:8px 32px;
-    border-radius:20px;
-    text-align:center;
-    margin-top:40px;
-    font-size:16px;
-    cursor:pointer;
-    max-width:100%;
-    white-space:normal;
+.infoblockAbstract li:before {
+    content: "";
+    background-image: url("../images/check.png");
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    flex: 0 0 40px;
+    margin-right: 10px;
+    background-size: contain;
 }
 
-.infoblockDesc2
-{
-    display:none;
-    font-size:24px;
+
+.infoblockButton input {
+    padding: 8px 32px;
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 40px;
+    font-size: 16px;
+    cursor: pointer;
+    max-width: 100%;
+    white-space: normal;
 }
 
-.infoblockSubnote
-{
-    display:none;
-    font-size:14px;
+.infoblockDesc2 {
+    display: none;
+    font-size: 24px;
 }
 
-.infoblockCircle
-{
-    position:absolute;
-    display:none;
-    background-color:#4fb675;
-    opacity:0;
-    width:720px;
-    height:720px;
-    z-index:0;
-    bottom:-720px;
-    right:-160px;
-    border-radius:360px;
-    transition:all 1.2s;
+.infoblockSubnote {
+    display: none;
+    font-size: 14px;
 }
 
-.grey
-{
-    background-color:#f8f8f8;
+.infoblockCircle {
+    position: absolute;
+    display: none;
+    background-color: #4fb675;
+    opacity: 0;
+    width: 720px;
+    height: 720px;
+    z-index: 0;
+    bottom: -720px;
+    right: -160px;
+    border-radius: 360px;
+    transition: all 1.2s;
 }
 
-.backOrange
-{
-    background-color:#4fb675;
-    padding:48px 0 !important;
+.grey {
+    background-color: #f8f8f8;
 }
 
-.backOrange a
-{
-    color:#fff;
-    font-family:NotoSansBold;
+.backOrange {
+    background-color: #4fb675;
+    padding: 48px 0 !important;
 }
 
-.backOrange .infoblockTitle, .backOrange .infoblockAbstract
-{
-    color:#fff;
-    line-height:1.5;
-    padding:0;
+.backOrange a {
+    color: #fff;
+    font-family: NotoSansBold;
 }
 
-.backPurple
-{
-    background-color:#6F5F96 !important;
-    margin-top:64px;
-    padding:32px 0;
+.backOrange .infoblockTitle, .backOrange .infoblockAbstract {
+    color: #fff;
+    line-height: 1.5;
+    padding: 0;
 }
 
-.backPurple .infoblockTitle, .backPurple .infoblockAbstract
-{
-    color:#fff !important;
+.backPurple {
+    background-color: #6F5F96 !important;
+    margin-top: 64px;
+    padding: 32px 0;
 }
 
-.titleOnly .infoblockTitle
-{
-    line-height:1.5;
-    padding:0 !important;
+.backPurple .infoblockTitle, .backPurple .infoblockAbstract {
+    color: #fff !important;
 }
 
-.noBack .infoblockText
-{
-    background-color:transparent !important;
+.titleOnly .infoblockTitle {
+    line-height: 1.5;
+    padding: 0 !important;
 }
 
-.orangeBorder .infoblockText
-{
-    border-top:1px solid #4fb675;
-    border-bottom:1px solid #4fb675;
+.noBack .infoblockText {
+    background-color: transparent !important;
 }
 
-.fullWidth .infoblockText, .fullWidth .infoblockImage
-{
-    max-width:1140px;
-    margin:auto;
+.orangeBorder .infoblockText {
+    border-top: 1px solid #4fb675;
+    border-bottom: 1px solid #4fb675;
 }
 
-.halfWidth .infoblockText, .halfWidth .infoblockImage
-{
-    max-width:690px;
-    text-align:center;
+.fullWidth .infoblockText, .fullWidth .infoblockImage {
+    max-width: 1140px;
+    margin: auto;
 }
 
-.leftText .infoblockAbstract
-{
-    text-align:left;
+.halfWidth .infoblockText, .halfWidth .infoblockImage {
+    max-width: 690px;
+    text-align: center;
 }
 
-.columns2 .infoblockAbstract ul
-{
-    columns:2;
+.leftText .infoblockAbstract {
+    text-align: left;
 }
-.columns2 .infoblockAbstract ul li
-{
-	break-inside:avoid;
-	/*display:inline-block;
+
+.columns2 .infoblockAbstract ul {
+    columns: 2;
+}
+
+.columns2 .infoblockAbstract ul li {
+    break-inside: avoid;
+    /*display:inline-block;
 	width:calc(50% - 56px);*/
 }
 
-.smallDesc2 .infoblockDesc2
-{
-    font-size:16px;
+.smallDesc2 .infoblockDesc2 {
+    font-size: 16px;
 }
 
-.smallDesc2 .infoblockSubnote
-{
-    padding-top:16px !important;
+.smallDesc2 .infoblockSubnote {
+    padding-top: 16px !important;
 }
 
-.colorRect
-{
-    width:24px;
-    height:24px;
-    float:left;
-    margin-right:8px;
+.colorRect {
+    width: 24px;
+    height: 24px;
+    float: left;
+    margin-right: 8px;
 }
 
-.orangeBox
-{
-    background-color:#4fb675;
+.orangeBox {
+    background-color: #4fb675;
 }
 
-.purpleBox
-{
-    background-color:#6F5F96 !important;
+.purpleBox {
+    background-color: #6F5F96 !important;
 }
 
-.blueBox
-{
-    background-color:#4A80B5;
+.blueBox {
+    background-color: #4A80B5;
 }
 
-.noTitle .infoblockTitle
-{
-    display:none;
+.noTitle .infoblockTitle {
+    display: none;
 }
 
-.noButton .infoblockButton
-{
-    display:none;
+.noButton .infoblockButton {
+    display: none;
 }
 
-.centerText .infoblockText
-{
-    text-align:center;
+.centerText .infoblockText {
+    text-align: center;
 }
 
-.justifyText .infoblockText
-{
-    text-align:justify;
+.justifyText .infoblockText {
+    text-align: justify;
 }
 
-.noCheck .infoblockText li
-{
-    background-image:none !important;
-    padding:8px 0 !important;
+.noCheck .infoblockText li {
+    background-image: none !important;
+    padding: 8px 0 !important;
 }
 
-.topMargin
-{
-    margin-top:64px;
+.topMargin {
+    margin-top: 64px;
 }
 
-.noTopMargin
-{
-    margin-top:0;
+.noTopMargin {
+    margin-top: 0;
 }
 
-.noTopPadding
-{
-    padding-top:0 !important;
+.noTopPadding {
+    padding-top: 0 !important;
 }
 
-.whiteButton input
-{
-    background-color:transparent !important;
-    color:#4fb675 !important;
+.whiteButton input {
+    background-color: transparent !important;
+    color: #4fb675 !important;
 }
 
-.orangeBack .infoblockText
-{
-    background-color:#4fb675 !important;
+.orangeBack .infoblockText {
+    background-color: #4fb675 !important;
 }
 
-.orangeBack .infoblockAbstract, .orangeBack .infoblockTitle, .purpleBack .infoblockAbstract, .purpleBack .infoblockTitle
-{
-    color:#fff !important;
+.orangeBack .infoblockAbstract, .orangeBack .infoblockTitle, .purpleBack .infoblockAbstract, .purpleBack .infoblockTitle {
+    color: #fff !important;
 }
 
-.purpleBack .infoblockText
-{
-    background-color:#6F5F96 !important;
+.purpleBack .infoblockText {
+    background-color: #6F5F96 !important;
 }
 
-.noDesc .infoblockText
-{
-	display:none;
+.noDesc .infoblockText {
+    display: none;
 }
 
-.piktogram
-{
-	font-size:20px;
+.piktogram {
+    font-size: 20px;
 }
 
-.piktogram li
-{
-	min-height:80px;
-	position:relative;
-	padding-left:96px !important;
-	background-image:none !important;
-	line-height:32px;
+.piktogram li {
+    min-height: 80px;
+    position: relative;
+    padding-left: 96px !important;
+    background-image: none !important;
+    line-height: 32px;
 }
 
-.piktogram li span
-{
-	font-size:26px;
-	font-weight:bold;
+.piktogram li span {
+    font-size: 26px;
+    font-weight: bold;
 }
 
-.piktogram img
-{
-	position:absolute;
-	left:0;
-	top:50%;
-	transform:translateY(-50%);
-	max-width:80px;
-	vertical-align:middle;
+.piktogram img {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    max-width: 80px;
+    vertical-align: middle;
 }
 
-.justified .infoblockText
-{
-	text-align:justify;
+.justified .infoblockText {
+    text-align: justify;
 }
 
 /**************************************/
 
-.ibImageLeft
-{
-    position:relative;
+.ibImageLeft {
+    position: relative;
 }
 
-.ibImageLeft .infoblockImage
-{
-    float:left;
-    width:49%;
+.ibImageLeft .infoblockImage {
+    float: left;
+    width: 49%;
     /*text-align:right; ovo kad je aktivni ne radi negativna margina*/
 }
 
-.ibImageLeft .infoblockImage img
-{
-    width:100%;
-    max-width:800px;
+.ibImageLeft .infoblockImage img {
+    width: 100%;
+    max-width: 800px;
 }
 
-.ibImageLeft .infoblockText
-{
-    position:absolute;
-    left:49%;
-    width:41%;
-    padding:48px 5%;
-    top:50%;
-    transform:translateY(-50%);
-    background-color:#f8f8f8;
+.ibImageLeft .infoblockText {
+    position: absolute;
+    left: 49%;
+    width: 41%;
+    padding: 48px 5%;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #f8f8f8;
 }
 
-.ibImageLeft .infoblockButton input
-{
-    background-color:#4fb675;
-    color:#fff;
-    border:2px solid #4fb675;
+.ibImageLeft .infoblockButton input {
+    background-color: #4fb675;
+    color: #fff;
+    border: 2px solid #4fb675;
 }
 
-.ibImageLeft .infoblockButton input:hover
-{
-    color:#4fb675;
-    background-color:transparent;
-    border:2px solid #4fb675;
+.ibImageLeft .infoblockButton input:hover {
+    color: #4fb675;
+    background-color: transparent;
+    border: 2px solid #4fb675;
 }
 
 /**************************************/
 
-.ibImageLeft2
-{
-    position:relative;
-    max-width:1024px;
+.ibImageLeft2 {
+    position: relative;
+    max-width: 1024px;
 }
 
-.ibImageLeft2 .infoblockImage
-{
-    float:left;
-    width:49%;
+.ibImageLeft2 .infoblockImage {
+    float: left;
+    width: 49%;
     /*text-align:right; ovo kad je aktivni ne radi negativna margina*/
 }
 
-.ibImageLeft2 .infoblockImage img
-{
-	width:50%;
-	min-width:240px;
+.ibImageLeft2 .infoblockImage img {
+    width: 50%;
+    min-width: 240px;
 }
 
-.ibImageLeft2 .infoblockText
-{
-    position:relative;
-	float:right;
-    width:41%;
-    padding:48px 5%;
-	text-align:left;
+.ibImageLeft2 .infoblockText {
+    position: relative;
+    float: right;
+    width: 41%;
+    padding: 48px 5%;
+    text-align: left;
 }
 
-.ibImageLeft2 .infoblockButton input
-{
-    background-color:#4fb675;
-    color:#fff;
-    border:2px solid #4fb675;
+.ibImageLeft2 .infoblockButton input {
+    background-color: #4fb675;
+    color: #fff;
+    border: 2px solid #4fb675;
 }
 
-.ibImageLeft2 .infoblockButton input:hover
-{
-    color:#4fb675;
-    background-color:transparent;
-    border:2px solid #4fb675;
+.ibImageLeft2 .infoblockButton input:hover {
+    color: #4fb675;
+    background-color: transparent;
+    border: 2px solid #4fb675;
 }
 
 
 /**************************************/
 
-.ibImageRight2
-{
-    position:relative;
+.ibImageRight2 {
+    position: relative;
 }
 
-.ibImageRight2 .infoblockImage
-{
-    float:right;
-    width:49%;
+.ibImageRight2 .infoblockImage {
+    float: right;
+    width: 49%;
 }
 
-.ibImageRight2 .infoblockImage img
-{
-    width:100%;
+.ibImageRight2 .infoblockImage img {
+    width: 100%;
 }
 
-.ibImageRight2 .infoblockText
-{
-    position:absolute;
-    left:0%;
-    width:41%;
-    padding:48px 5%;
-    top:50%;
-    transform:translateY(-50%);
-    background-color:#f8f8f8;
+.ibImageRight2 .infoblockText {
+    position: absolute;
+    left: 0%;
+    width: 41%;
+    padding: 48px 5%;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #f8f8f8;
 }
 
-.ibImageRight2 .infoblockButton input
-{
-    background-color:#4fb675;
-    color:#fff;
-    border:2px solid #4fb675;
+.ibImageRight2 .infoblockButton input {
+    background-color: #4fb675;
+    color: #fff;
+    border: 2px solid #4fb675;
 }
 
-.ibImageRight2 .infoblockButton input:hover
-{
-    color:#4fb675;
-    background-color:transparent;
-    border:2px solid #4fb675;
+.ibImageRight2 .infoblockButton input:hover {
+    color: #4fb675;
+    background-color: transparent;
+    border: 2px solid #4fb675;
 }
 
 
 /************************************/
 
-.ibImageRight
-{
-    position:relative;
+.ibImageRight {
+    position: relative;
 }
 
-.ibImageRight .infoblockImage
-{
-    float:right;
-    width:60%;
+.ibImageRight .infoblockImage {
+    float: right;
+    width: 60%;
 }
 
-.ibImageRight .infoblockImage img
-{
-    width:100%;
+.ibImageRight .infoblockImage img {
+    width: 100%;
 }
 
-.ibImageRight .infoblockText
-{
-    position:absolute;
-    left:0;
-    width:39%;
-    padding:48px 5%;
-    top:50%;
-    transform:translateY(-50%);
-    border-top:8px solid #4fb675;
-    background-color:#fff;
-    box-shadow:-2px 2px 8px #888;
+.ibImageRight .infoblockText {
+    position: absolute;
+    left: 0;
+    width: 39%;
+    padding: 48px 5%;
+    top: 50%;
+    transform: translateY(-50%);
+    border-top: 8px solid #4fb675;
+    background-color: #fff;
+    box-shadow: -2px 2px 8px #888;
 }
 
-.ibImageRight .infoblockButton input
-{
-    background-color:transparent;
-    color:#4fb675;
-    border:2px solid #4fb675;
+.ibImageRight .infoblockButton input {
+    background-color: transparent;
+    color: #4fb675;
+    border: 2px solid #4fb675;
 }
 
-.ibImageRight .infoblockButton input:hover
-{
-    color:#fff;
-    background-color:#4fb675;
-    border:2px solid #4fb675;
+.ibImageRight .infoblockButton input:hover {
+    color: #fff;
+    background-color: #4fb675;
+    border: 2px solid #4fb675;
 }
 
 /*********************************/
 
-.ibMain1
-{
-    position:relative;
-    background-color:#4fb675;
+.ibMain1 {
+    position: relative;
+    background-color: #4fb675;
 }
 
-.ibMain1 .infoblockImage
-{
-    float:left;
-    width:66%;
-    position:relative;
-    overflow:hidden;
+.ibMain1 .infoblockImage {
+    float: left;
+    width: 66%;
+    position: relative;
+    overflow: hidden;
 }
 
-.ibMain1 .infoblockImage img
-{
-    width:100%;
+.ibMain1 .infoblockImage img {
+    width: 100%;
 }
 
-.ibMain1 .infoblockText
-{
-    position:absolute;
-    top:50%;
-	transform:translateY(-45%);
-    padding:0 5%;
-    color:#fff;
-    left:33%;
-    width:24%;
+.ibMain1 .infoblockText {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-45%);
+    padding: 0 5%;
+    color: #fff;
+    left: 33%;
+    width: 24%;
 }
 
-.ibMain1 .infoblockTitle
-{
-    color:#fff;
+.ibMain1 .infoblockTitle {
+    color: #fff;
 }
 
-.ibMain1 .infoblockAbstract
-{
-    color:#fff;   
+.ibMain1 .infoblockAbstract {
+    color: #fff;
 }
 
-.ibMain1 .infoblockButton input
-{
-    background-color:transparent;
-    color:#fff;
-    border:2px solid #fff;
+.ibMain1 .infoblockButton input {
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid #fff;
 }
 
-.ibMain1 .infoblockButton input:hover
-{
-    color:#fff;
-    background-color:transparent;
-    border:2px solid #fff;
+.ibMain1 .infoblockButton input:hover {
+    color: #fff;
+    background-color: transparent;
+    border: 2px solid #fff;
 }
 
-.ibMain1 .infoblockCircle
-{
-    display:block;
+.ibMain1 .infoblockCircle {
+    display: block;
 }
 
-.ibMain1 .infoblockText2
-{
-    float:left;
-    background-color:#4fb675;
-    width:26%;
-    padding:48px 4%;
+.ibMain1 .infoblockText2 {
+    float: left;
+    background-color: #4fb675;
+    width: 26%;
+    padding: 48px 4%;
 }
 
-.ibMain1 .infoblockDesc2
-{
-    display:block;
-    color:#fff;
-    font-style:italic;
+.ibMain1 .infoblockDesc2 {
+    display: block;
+    color: #fff;
+    font-style: italic;
 }
 
-.ibMain1 .infoblockSubnote
-{
-    display:block;
-    color:#fff;
+.ibMain1 .infoblockSubnote {
+    display: block;
+    color: #fff;
 }
 
 /**********************/
 
-.ibMapa
-{
-    position:relative;
-    margin-bottom:64px;
+.ibMapa {
+    position: relative;
+    margin-bottom: 64px;
 }
 
-.ibMapa .infoblockImage
-{
-    display:none;
+.ibMapa .infoblockImage {
+    display: none;
 }
 
-.ibMapa .infoblockText
-{
-    position:absolute;
-    top:50%;
-    transform:translateY(-50%);
-    padding:48px 5%;
-    left:50%;
-    width:40%;
+.ibMapa .infoblockText {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 48px 5%;
+    left: 50%;
+    width: 40%;
 }
 
-.ibMapa .infoblockButton input
-{
-    background-color:transparent;
-    color:#4fb675;
-    border:2px solid #4fb675;
+.ibMapa .infoblockButton input {
+    background-color: transparent;
+    color: #4fb675;
+    border: 2px solid #4fb675;
 }
 
-.ibMapa .infoblockButton input:hover
-{
-    color:#fff;
-    background-color:#4fb675;
+.ibMapa .infoblockButton input:hover {
+    color: #fff;
+    background-color: #4fb675;
 }
 
-.ibMapa .infoblockText2
-{
-    float:left;
-    width:50%;
+.ibMapa .infoblockText2 {
+    float: left;
+    width: 50%;
 }
 
-.ibMapa .infoblockDesc2
-{
-    display:block;
+.ibMapa .infoblockDesc2 {
+    display: block;
 }
 
 
 /*************************/
 
-.plainText
-{
-    position:relative;
-    padding:64px 0;
+.plainText {
+    position: relative;
+    padding: 64px 0;
 }
 
-.plainText .infoblockImage
-{
-    display:none;
+.plainText .infoblockImage {
+    display: none;
 }
 
-.plainText .infoblockText
-{
-    width:100%;
-    margin:auto;
+.plainText .infoblockText {
+    width: 100%;
+    margin: auto;
 }
 
-.plainText .infoblockText img
-{
-	max-width:100%;
+.plainText .infoblockText img {
+    max-width: 100%;
 }
 
-.plainText .infoblockTitle
-{
-    text-align:center;
-    padding-bottom:32px;
+.plainText .infoblockTitle {
+    text-align: center;
+    padding-bottom: 32px;
 }
 
-.plainText .infoblockButton input
-{
-    display:none;
+.plainText .infoblockButton input {
+    display: none;
 }
 
 
 /***************************/
 
-.imageOnly
-{
-    position:relative;
+.imageOnly {
+    position: relative;
 }
 
-.imageOnly .infoblockImage
-{
-    margin:auto;
-	text-align:center;
+.imageOnly .infoblockImage {
+    margin: auto;
+    text-align: center;
 }
 
-.imageOnly .infoblockImage img
-{
-    max-width:100%;
+.imageOnly .infoblockImage img {
+    max-width: 100%;
 }
 
-.imageOnly .infoblockTitle
-{
-    display:none;
+.imageOnly .infoblockTitle {
+    display: none;
 }
 
-.imageOnly .infoblockButton
-{
-    display:none;
+.imageOnly .infoblockButton {
+    display: none;
 }
 
 
 /**********************/
 
-.listItem 
-{
-    position:relative;
-    list-style-type:none;
-    margin-bottom:64px;
+.listItem {
+    position: relative;
+    list-style-type: none;
+    margin-bottom: 64px;
 }
 
-.listItem .infoblockImage
-{
-    display:none;
+.listItem .infoblockImage {
+    display: none;
 }
 
-.listItem .infoblockText
-{
-    margin:auto;
+.listItem .infoblockText {
+    margin: auto;
 }
 
-.listItem .infoblockText li
-{
-    padding:16px 0;
-    background-image:url("checkorange.png");
-    list-style:none;
-    background-repeat:no-repeat;
-    padding-left:64px;
-    background-position-y:center;
+.listItem .infoblockText li {
+    padding: 16px 0;
+    display: flex;
+    list-style: none;
+    align-items: center;
 }
 
-.listItem .infoblockTitle
-{
-    text-align:center;
+.listItem .infoblockText li:before {
+    content: "";
+    background-image: url("../images/check.png");
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    flex: 0 0 40px;
+    margin-right: 10px;
+    background-size: contain;
 }
 
-.listItem  .infoblockButton
-{
-    display:none;
+.listItem .infoblockTitle {
+    text-align: center;
+}
+
+.listItem .infoblockButton {
+    display: none;
 }
 
 
 /**********************/
 
-.ibImageCircle
-{
-    position:relative;
-    overflow:hidden;
+.ibImageCircle {
+    position: relative;
+    overflow: hidden;
 }
 
-.ibImageCircle .infoblockImage
-{
-    width:100%;
+.ibImageCircle .infoblockImage {
+    width: 100%;
 }
 
-.ibImageCircle .infoblockImage img
-{
-    width:100%;
+.ibImageCircle .infoblockImage img {
+    width: 100%;
 }
 
-.ibImageCircle .infoblockText
-{
-    position:absolute;
-    border-radius:50%;
-    left:-50%;
-    width:100%;
-    height:100vw;
-    top:50%;
-    transform:translateY(-50%);
-    background-color:rgba(238, 119, 0, 0.6);
+.ibImageCircle .infoblockText {
+    position: absolute;
+    border-radius: 50%;
+    left: -50%;
+    width: 100%;
+    height: 100vw;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(238, 119, 0, 0.6);
 }
 
-.ibImageCircle .infoblockAbstract
-{
-    position:relative;
-    float:right;
-    width:40%;
-    max-width:648px;
-    margin-top:50%;
-    transform:translateY(-50%);
-    color:#fff;
-    padding:0 5%;
-    font-size:20px;
+.ibImageCircle .infoblockAbstract {
+    position: relative;
+    float: right;
+    width: 40%;
+    max-width: 648px;
+    margin-top: 50%;
+    transform: translateY(-50%);
+    color: #fff;
+    padding: 0 5%;
+    font-size: 20px;
 }
 
 /***********************/
 
-.ibLinkList 
-{
-    position:relative;
+.ibLinkList {
+    position: relative;
 }
 
-.ibLinkList .infoblockImage
-{
-    display:none;
+.ibLinkList .infoblockImage {
+    display: none;
 }
 
-.ibLinkList li
-{
-    padding:16px 0;
-    padding-right:32px;
-    background-image:none;
-    list-style:none;
-    background-repeat:no-repeat;
-    padding-left:0;
-    border-bottom:1px solid #343434;
-    cursor:pointer;
-    position:relative;
+.ibLinkList li {
+    padding: 16px 0;
+    padding-right: 32px;
+    background-image: none;
+    list-style: none;
+    background-repeat: no-repeat;
+    padding-left: 0;
+    border-bottom: 1px solid #343434;
+    cursor: pointer;
+    position: relative;
 }
 
-.ibLinkList li div
-{
-    transition:all 0.5s;
-    height:0;
-    overflow:hidden;
+.ibLinkList li div {
+    transition: all 0.5s;
+    height: 0;
+    overflow: hidden;
 }
 
-.ibLinkList li .listArrow
-{
-    position:absolute;
-    top:50%;
-    right:0;
-    transform:translateY(-50%);
-    width:16px;
-    height:16px;
-    background-image:url("/images/listArrow.jpg");
-    background-repeat:no-repeat;
-    background-position:center;
+.ibLinkList li .listArrow {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    width: 16px;
+    height: 16px;
+    background-image: url("/images/listArrow.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 /*************************/
 
-.ibImageDown 
-{
-    position:relative;
+.ibImageDown {
+    position: relative;
 }
 
-.ibImageDown .infoblockText
-{
-    margin:auto;
-    padding:0 4%;
+.ibImageDown .infoblockText {
+    margin: auto;
+    padding: 0 4%;
 }
 
-.ibImageDown .infoblockButton
-{
-    display:none;
+.ibImageDown .infoblockButton {
+    display: none;
 }
 
-.ibImageDown .infoblockImage
-{
-    position:relative;
-    text-align:center;
-    margin:auto;
-    z-index:100;
+.ibImageDown .infoblockImage {
+    position: relative;
+    text-align: center;
+    margin: auto;
+    z-index: 100;
 }
 
-.ibImageDown .infoblockImage img
-{
-    width:100%;
+.ibImageDown .infoblockImage img {
+    width: 100%;
 }
 
 /*************************************************/
 
-.ibVideo
-{
-    position:relative;
+.ibVideo {
+    position: relative;
 }
 
-.ibVideo .infoblockText
-{
-    position:absolute;
-    left:0%;
-    width:41%;
-    padding:48px 5%;
-    top:50%;
-    transform:translateY(-50%);
-    background-color:#f8f8f8;
+.ibVideo .infoblockText {
+    position: absolute;
+    left: 0%;
+    width: 41%;
+    padding: 48px 5%;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #f8f8f8;
 }
 
-.ibVideo .infoblockImage
-{
-	display:none;
+.ibVideo .infoblockImage {
+    display: none;
 }
 
-.ibVideo .infoblockDesc2
-{
-	display:block;
-	float:right;
-    width:49%;
+.ibVideo .infoblockDesc2 {
+    display: block;
+    float: right;
+    width: 49%;
 }
 
-.ibVideo .infoblockDesc2 iframe
-{
-	width:100%;
-	min-height:360px;
+.ibVideo .infoblockDesc2 iframe {
+    width: 100%;
+    min-height: 360px;
 }
 
 /*************************************************/
 
-.ibVideoLeft
-{
-    position:relative;
+.ibVideoLeft {
+    position: relative;
 }
 
-.ibVideoLeft .infoblockText
-{
-    position:absolute;
-    left:49%;
-    width:41%;
-    padding:48px 5%;
-    top:50%;
-    transform:translateY(-50%);
-    background-color:#f8f8f8;
+.ibVideoLeft .infoblockText {
+    position: absolute;
+    left: 49%;
+    width: 41%;
+    padding: 48px 5%;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #f8f8f8;
 }
 
-.ibVideoLeft .infoblockImage
-{
-	display:none;
+.ibVideoLeft .infoblockImage {
+    display: none;
 }
 
-.ibVideoLeft .infoblockDesc2
-{
-	display:block;
-	float:left;
-    width:49%;
+.ibVideoLeft .infoblockDesc2 {
+    display: block;
+    float: left;
+    width: 49%;
 }
 
-.ibVideoLeft .infoblockDesc2 iframe
-{
-	width:100%;
-	min-height:360px;
+.ibVideoLeft .infoblockDesc2 iframe {
+    width: 100%;
+    min-height: 360px;
 }
 
 /*****************************************/
 
-.ibSlider
-{
-	position:relative;
-	margin-bottom:64px;
-}
-.ibSlider .infoblockImage
-{
-	display:none;
+.ibSlider {
+    position: relative;
+    margin-bottom: 64px;
 }
 
-.ibSlider .infoblockText
-{	
-	margin:auto;
+.ibSlider .infoblockImage {
+    display: none;
+}
+
+.ibSlider .infoblockText {
+    margin: auto;
 }
 
 /******************************************/
 
-.ibProductTab
-{
-	text-align:center;
-	margin-top:32px;
+.ibProductTab {
+    text-align: center;
+    margin-top: 32px;
 }
 
-.ibProductTab li
-{
-	background-image:none;
-	display:inline-block;
-	padding:0;
+.ibProductTab li {
+    background-image: none;
+    display: inline-block;
+    padding: 0;
 }
 
-.ibProductTab .infoblockButton, .ibProductTab .infoblockImage
-{
-	display:none;
+.ibProductTab .infoblockButton, .ibProductTab .infoblockImage {
+    display: none;
 }
 
-.ibProductTab .tabItem2
-{
-    text-align:center;
-    width:20.5%;
-    height:64px;
-    overflow:hidden;
-    display:inline-block;
-    background-color:#fff;
-    outline:2px solid #f8f8f8;
-    outline-offset:-2px;
-    vertical-align:middle;
-    position:relative;
-    color:#666;
-    margin:0 6px;
+.ibProductTab .tabItem2 {
+    text-align: center;
+    width: 20.5%;
+    height: 64px;
+    overflow: hidden;
+    display: inline-block;
+    background-color: #fff;
+    outline: 2px solid #f8f8f8;
+    outline-offset: -2px;
+    vertical-align: middle;
+    position: relative;
+    color: #666;
+    margin: 0 6px;
 }
 
-.ibProductTab .tabItem2 span
-{
-    display:block;
-    position:absolute;
-    left:8%;
-    top:50%;
-    transform:translateY(-50%);
-    width:84%;
+.ibProductTab .tabItem2 span {
+    display: block;
+    position: absolute;
+    left: 8%;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 84%;
 }

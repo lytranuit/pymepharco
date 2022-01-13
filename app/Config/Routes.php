@@ -37,6 +37,12 @@ $routes->add('lang/(:any)', 'Language::index/$1');
 
 $routes->add('gioi-thieu', 'Home::about', ['as' => 'about']);
 $routes->add('lien-he', 'Home::contact', ['as' => 'contact']);
+$routes->add('lich-su', 'Home::history', ['as' => 'history']);
+$routes->add('gia-tri-cot-loi', 'Home::value', ['as' => 'value']);
+$routes->add('he-thong-phan-phoi', 'Home::supply', ['as' => 'supply']);
+$routes->add('nghe-nghiep', 'Home::job', ['as' => 'job']);
+$routes->add('hoat-dong-cong-dong', 'Home::activities', ['as' => 'activities']);
+$routes->add('suc-khoe', 'Home::healthly', ['as' => 'healthly']);
 
 $routes->add('dang-nhap.html', 'Home::login', ['as' => 'loginhome']);
 $routes->add('dang-ky.html', 'Home::register', ['as' => 'registerhome']);

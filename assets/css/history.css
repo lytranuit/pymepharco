@@ -1,0 +1,105 @@
+#historyPage {
+    overflow: hidden;
+    color: #343434;
+}
+
+.historyLeftImage, .historyRightImage {
+    position: relative;
+}
+
+.historyYear {
+    font-size: 36px;
+    text-align: center;
+}
+
+.historyImage {
+    width: 40%;
+    padding: 32px 5%;
+    margin-top: 16px;
+}
+
+.historyImage img {
+    width: 94%;
+    padding: 3%;
+    box-shadow: -2px 2px 8px #888;
+}
+
+.historyTitle {
+    font-size: 20px;
+    padding-bottom: 16px;
+}
+
+.historyDesc {
+    width: 40%;
+    padding: 32px 5%;
+}
+
+.historyDesc li {
+    padding: 16px 0;
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.historyDesc li:before {
+    content: "";
+    background-image: url("../images/check.png");
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    flex: 0 0 40px;
+    margin-right: 10px;
+    background-size: contain;
+}
+
+.historyLeftImage .historyImage img {
+    transform: rotate(2deg);
+}
+
+.historyLeftImage .historyImage {
+    float: left;
+}
+
+.historyLeftImage .historyDesc {
+    float: right;
+}
+
+.historyRightImage .historyImage img {
+    transform: rotate(-2deg);
+}
+
+.historyRightImage .historyImage {
+    float: right;
+}
+
+.historyRightImage .historyDesc {
+    float: left;
+}
+
+.historyLine {
+    position: absolute;
+    top: 80px;
+    bottom: 0px;
+    left: 50%;
+    border-left: 1px solid #ccc;
+    z-index: 100;
+}
+
+/***********************************/
+
+@media only screen and (max-width: 800px) {
+    .historyImage {
+        float: none;
+        width: 90%;
+    }
+
+    .historyDesc {
+        float: none;
+        width: 90%;
+    }
+
+    .historyLine {
+        display: none;
+    }
+}

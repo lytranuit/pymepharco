@@ -247,9 +247,18 @@ if (!function_exists('html_nestable')) {
                         $sub_html = "<span class='text-primary mr-1'>[Tin tức='" . $name . "']</span>";
                     }
                 } elseif ($row['type'] == 7) {
-                    $sub_html = "<span class='text-danger mr-1'>[Giới thiệu]</span>";
-                } elseif ($row['type'] == 8) {
-                    $sub_html = "<span class='text-danger mr-1'>[Liên hệ]</span>";
+                    $related_id = $row['related_id'];
+                    switch ($related_id) {
+                        case 1:
+                            $sub_html = "<span class='text-danger mr-1'>[Giới thiệu]</span>";
+                            break;
+                        case 2:
+                            $sub_html = "<span class='text-danger mr-1'>[Liên hệ]</span>";
+                            break;
+                        case 3:
+                            $sub_html = "<span class='text-danger mr-1'>[Lịch sử]</span>";
+                            break;
+                    }
                 }
             }
             $html .= '<li class="dd-item" id="menuItem_' . $row['id'] . '" data-id="' . $row['id'] . '">

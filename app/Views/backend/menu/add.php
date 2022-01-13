@@ -50,8 +50,7 @@
                                         <option value="3">Danh mục tin tức</option>
                                         <option value="4">Sản phẩm</option>
                                         <option value="5">Tin tức</option>
-                                        <option value="7">Giới thiệu</option>
-                                        <option value="8">Liên hệ</option>
+                                        <option value="7">Trang</option>
                                     </select>
                                 </div>
 
@@ -81,6 +80,22 @@
                                         <?php foreach ($tags as $row) : ?>
                                             <option value="<?= $row->id ?>"><?= $row->name_vi ?></option>
                                         <?php endforeach ?>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="form-group row page">
+                                <b class="col-12 col-lg-2 col-form-label">Trang:</b>
+                                <div class="col-12 col-lg-4 pt-1">
+                                    <select class="form-control form-control-sm" name="related_id">
+                                        <option value="1">Giới thiệu</option>
+                                        <option value="2">Liên hệ</option>
+                                        <option value="3">Lịch sử</option>
+                                        <option value="4">Giá trị cốt lõi</option>
+                                        <option value="5">Hệ thống phân phối</option>
+                                        <option value="6">Hoạt động cộng đồng</option>
+                                        <option value="7">Sức khỏe</option>
+                                        <option value="8">Nghề nghiệp</option>
                                     </select>
                                 </div>
                             </div>
@@ -124,8 +139,8 @@
 <script type='text/javascript'>
     $(document).ready(function() {
         $("[name=type]").change(function() {
-            $(".link,.category,.tag,.product,.news").hide();
-            $(".category select,.tag select,.product select,.news select").prop("disabled", true);
+            $(".link,.category,.tag,.page,.product,.news").hide();
+            $(".category select,.tag select,.page select,.product select,.news select").prop("disabled", true);
             let value = $(this).val();
             if (value == 1) {
                 $(".link").show();
@@ -141,6 +156,9 @@
             } else if (value == 5) {
                 $(".news").show();
                 $(".news select").prop("disabled", false);
+            } else if (value == 7) {
+                $(".page").show();
+                $(".page select").prop("disabled", false);
             }
         })
         $("[name=type]").change();

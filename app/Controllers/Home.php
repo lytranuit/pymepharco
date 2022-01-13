@@ -33,6 +33,59 @@ class Home extends BaseController
 
         return view($this->data['content'], $this->data);
     }
+
+    public function history()
+    {
+        $this->data['title'] =  "Lịch sử" . $this->data['title'];
+        //echo $this->data['title'];
+        //die();  
+
+        return view($this->data['content'], $this->data);
+    }
+
+    public function value()
+    {
+        $this->data['title'] =  "Giá trị cốt lõi" . $this->data['title'];
+        //echo $this->data['title'];
+        //die();  
+
+        return view($this->data['content'], $this->data);
+    }
+
+    public function activities()
+    {
+        $this->data['title'] =  "Hoạt động cộng đồng" . $this->data['title'];
+        //echo $this->data['title'];
+        //die();  
+
+        return view($this->data['content'], $this->data);
+    }
+
+    public function healthly()
+    {
+        $this->data['title'] =  "Sức khỏe" . $this->data['title'];
+        //echo $this->data['title'];
+        //die();  
+
+        return view($this->data['content'], $this->data);
+    }
+
+    public function job()
+    {
+        $this->data['title'] =  "Nghề nghiệp" . $this->data['title'];
+        //echo $this->data['title'];
+        //die();  
+
+        return view($this->data['content'], $this->data);
+    }
+    public function supply()
+    {
+        $this->data['title'] =  "Hệ thống phân phối" . $this->data['title'];
+        //echo $this->data['title'];
+        //die();  
+
+        return view($this->data['content'], $this->data);
+    }
     public function set_area($area)
     {
         helper("cookie");

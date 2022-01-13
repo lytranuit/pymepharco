@@ -45,10 +45,32 @@ class Menu extends BaseController
                         $data['link'] = url_news_byid($data['related_id']);
                         break;
                     case 7:
-                        $data['link'] = base_url(route_to("about"));
-                        break;
-                    case 8:
-                        $data['link'] = base_url(route_to("contact"));
+                        switch ($data['related_id']) {
+                            case 1:
+                                $data['link'] = base_url(route_to("about"));
+                                break;
+                            case 2:
+                                $data['link'] = base_url(route_to("contact"));
+                                break;
+                            case 3:
+                                $data['link'] = base_url(route_to("history"));
+                                break;
+                            case 4:
+                                $data['link'] = base_url(route_to("value"));
+                                break;
+                            case 5:
+                                $data['link'] = base_url(route_to("supply"));
+                                break;
+                            case 6:
+                                $data['link'] = base_url(route_to("activities"));
+                                break;
+                            case 7:
+                                $data['link'] = base_url(route_to("healthly"));
+                                break;
+                            case 8:
+                                $data['link'] = base_url(route_to("job"));
+                                break;
+                        }
                         break;
                 }
             }
@@ -96,10 +118,32 @@ class Menu extends BaseController
                         $data['link'] = url_news_byid($data['related_id']);
                         break;
                     case 7:
-                        $data['link'] = base_url(route_to("about"));
-                        break;
-                    case 8:
-                        $data['link'] = base_url(route_to("contact"));
+                        switch ($data['related_id']) {
+                            case 1:
+                                $data['link'] = base_url(route_to("about"));
+                                break;
+                            case 2:
+                                $data['link'] = base_url(route_to("contact"));
+                                break;
+                            case 3:
+                                $data['link'] = base_url(route_to("history"));
+                                break;
+                            case 4:
+                                $data['link'] = base_url(route_to("value"));
+                                break;
+                            case 5:
+                                $data['link'] = base_url(route_to("supply"));
+                                break;
+                            case 6:
+                                $data['link'] = base_url(route_to("activities"));
+                                break;
+                            case 7:
+                                $data['link'] = base_url(route_to("healthly"));
+                                break;
+                            case 8:
+                                $data['link'] = base_url(route_to("job"));
+                                break;
+                        }
                         break;
                 }
             }

@@ -43,9 +43,12 @@ class MenuModel extends Model
     function get_list_parent($menu)
     {
         $list_parent = [];
+
         if (is_numeric($menu))
             $menu = $this->find($menu);
-
+        if (empty($menu)) {
+            return [];
+        }
         $parent_id = $menu->parent_id;
         if ($parent_id != 0) {
             $parent = $this->asObject()->find($parent_id);
