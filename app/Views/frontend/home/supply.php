@@ -22,120 +22,307 @@
     </div>
 
 </div>
-<div id="infoblockInstance_pnlInfoblock" class="infoblock ibImageLeft noButton noTitle">
+<div id="rptInfoblock_ctl03_infoblockInstance1_pnlInfoblock" class="infoblock listItem columns2 fullWidth">
+
+
     <div class="infoblockText">
         <div class="infoblockTitle">
-            <span id="infoblockInstance_lblTitle"></span>
+            <span id="rptInfoblock_ctl03_infoblockInstance1_lblTitle">Kênh phân phối</span>
         </div>
         <div class="infoblockAbstract">
-            <span id="infoblockInstance_lblAbstract">
-                <li style="transition: all 1s ease 0s; opacity: 1; margin-left: 0px;">Hemofarm is a company that has operated in ‘four states’ and in several economy systems.</li>
-                <li style="transition: all 1s ease 0s; opacity: 1; margin-left: 0px;">It has been privatised, yet it has remained ours.</li>
-                <li style="transition: all 1s ease 0s; opacity: 1; margin-left: 0px;">Lots of interesting stories could be told about the previous six decades of successful business operation.</li>
-                <li style="transition: all 1s ease 0s; opacity: 1; margin-left: 0px;">Get acquainted with the Hemofarm Company.</li>
+            <span id="rptInfoblock_ctl03_infoblockInstance1_lblAbstract">
+                <ul>
+                    <li style="opacity: 1; margin-left: 0px; transition: all 1s ease 0s;">
+                        <div>
+                            <h4>TRỤ SỞ CHÍNH</h4>
+                            166 – 170 Nguyễn Huệ, Tuy Hòa, Phú Yên<br>
+                            ĐT: (84 0257) 3 823 228 – 3 829 165<br>
+                            Fax: (84 0257) 3 824 717<br>
+                            Email: hcns@pymepharco.com<br>
+                        </div>
+                    </li>
+                    <li style="opacity: 1; margin-left: 0px; transition: all 1s ease 0s;">
+                        <div>
+                            <h4>NHÀ MÁY</h4>
+                            01 Bà Triệu, Tuy Hòa, Phú Yên<br>
+                            ĐT: (84 0257) 3 810 525 – 3 820 663<br>
+                            Fax: (84 0257) 3 820 663<br>
+                            Email: hcns@pymepharco.com<br>
+                        </div>
+                    </li>
+                    <li style="opacity: 1; margin-left: 0px; transition: all 1s ease 0s;">
+                        <div>
+                            <h4>CHI NHÁNH TP.HCM</h4>
+                            44 Đồng Nai, P.15, Q.10, TP.HCM<br>
+                            ĐT: (84 028) 3 9 703 099 – 3 9 708 789<br>
+                            Fax: (84 028) 3 9 702 208<br>
+                            Email: cnhcm@pymepharco.com<br>
+                            pymepharco@hcm.vnn.vn<br>
+                        </div>
+                    </li>
+                    <li style="opacity: 1; margin-left: 0px; transition: all 1s ease 0s;">
+                        <div>
+                            <h4>CHI NHÁNH HÀ NỘI</h4>
+                            Lô 5 – TT 24 khu Nhà ở Báo Nhân Dân, Phường Xuân Phương, Q.Nam Từ Liêm, Tp.Hà Nội.<br>
+                            ĐT: (84 024) 32011536<br>
+                            Fax: (84 024) 32010182<br>
+                            Email: cnhn@pymepharco.com<br>
+                        </div>
+                    </li>
+                    <li style="opacity: 1; margin-left: 0px; transition: all 1s ease 0s;">
+                        <div>
+                            <h4>CTY CP DƯỢC – VTYT ĐAKNONG</h4>
+                            345 Quốc lộ 141, Xã Tâm Thắng, Huyện Cujut, Tỉnh ĐakNông.<br>
+                            ĐT: (84 02501) 3 683 529<br>
+                            Fax: (84 02501) 3 683 529<br>
+                            Email: daknong@pymepharco.com<br>
+                        </div>
+                    </li>
+                    <li style="opacity: 1; margin-left: 0px; transition: all 1s ease 0s;">
+                        <div>
+                            <h4>CHI NHÁNH QUẢNG NGÃI</h4>
+                            433 Lê Lợi, Tp.Quảng Ngãi, Tỉnh Quảng Ngãi.<br>
+                            ĐT: 0255- 3714303<br>
+                            Fax: 0255- 3714303<br>
+                            Email: cnqn@pymepharco.com<br>
+                        </div>
+                    </li>
+
+                    <li style="opacity: 1; margin-left: 0px; transition: all 1s ease 0s;">
+                        <div>
+                            <h4>CHI NHÁNH NHA TRANG</h4>
+                            117-119 Ngô Gia Tự – Phường Tân Lập -TP.Nha Trang-Tỉnh Khánh Hòa.<br>
+                            ĐT: (84-0258). 3514 668<br>
+                            Fax:(84-0258). 3514 668<br>
+                            Email: cnnt@pymepharco.com<br>
+                        </div>
+                    </li>
+                    <li style="opacity: 1; margin-left: 0px; transition: all 1s ease 0s;">
+                        <div>
+                            <h4>CHI NHÁNH LÂM ĐỒNG</h4>
+                            Lô C49 Phạm Ngọc Thạch, Phường 6, Tp.Đà Lạt, Tỉnh Lâm Đồng.<br>
+                            ĐT: (84 0263) 3 818 364<br>
+                            Fax: (84 0263) 3 818 364<br>
+                            Email: cnld@pymepharco.com<br>
+                        </div>
+                    </li>
+                    <li style="opacity: 1; margin-left: 0px; transition: all 1s ease 0s;">
+                        <div>
+                            <h4>CHI NHÁNH ĐỒNG NAI</h4>
+                            483 Huỳnh Văn Nghệ, Khu Phố 3, Phường Bửu Long, TP. Biên Hòa, Tỉnh Đồng Nai<br>
+                            ĐT: (84 0261) 3952 682<br>
+                            Fax: (84 0261) 3952 682<br>
+                            Email: cndn@pymepharco.com<br>
+                        </div>
+                    </li>
+                    <li style="opacity: 1; margin-left: 0px; transition: all 1s ease 0s;">
+                        <div>
+                            <h4>CHI NHÁNH AN GIANG</h4>
+                            21-23-25 Mai Hắc Đế, Phường Bình Khánh, TP. Long Xuyên, Tỉnh An Giang<br>
+                            ĐT: (84 0276) 3 945 484<br>
+                            Fax: (84 0276) 3 945 484<br>
+                            Email: cnag@pymepharco.com<br>
+                        </div>
+                    </li>
+                    <li style="opacity: 1; margin-left: 0px; transition: all 1s ease 0s;">
+                        <div>
+                            <h4>CHI NHÁNH CẦN THƠ</h4>
+                            E2-08 Đường số 6,Khu Nhà Nam Long,Phường Hưng Thạnh , Quận Cái Răng, Tp.Cần Thơ.<br>
+                            ĐT: (84 02710) 3 760 171<br>
+                            Fax: (84 02710) 3 733 171<br>
+                            Email: cnct@pymepharco.com<br>
+                        </div>
+                    </li>
+
+                    <li style="opacity: 1; margin-left: 0px; transition: all 1s ease 0s;">
+                        <div>
+                            <h4>CHI NHÁNH CÀ MAU</h4>
+                            40 Nguyễn Công Trứ , Phường 8, Tp. Cà Mau , Tỉnh Cà Mau.<br>
+                            ĐT: (84 02780) 3 811 644<br>
+                            Fax: (84 02780) 3 811 644<br>
+                            Email: cncm@pymepharco.com<br>
+                        </div>
+                    </li>
+                    <li style="opacity: 1; margin-left: 0px; transition: all 1s ease 0s;">
+                        <div>
+                            <h4>CHI NHÁNH ĐÀ NẴNG</h4>
+                            88 Nguyễn Hữu Thọ, Phường Thuận Hòa Tây, Quận Hải Châu, Tp.Đà Nẵng.<br>
+                            ĐT: (84 02511) 3 530 986<br>
+                            Fax: (84 02511) 3 530 986<br>
+                            Email: cndng@pymepharco.com<br>
+                        </div>
+                    </li>
+                    <li style="opacity: 1; margin-left: 0px; transition: all 1s ease 0s;">
+                        <div>
+                            <h4>CỬA HÀNG BÀ RỊA VŨNG TÀU</h4>
+                            78 Yên Thế – Phường 4 – Tp. Vũng Tàu, Tỉnh Bà Rịa- Vũng Tàu.<br>
+                            ĐT: (84 0264) 3 542 533<br>
+                            Fax: (84 0264) 3 542 533<br>
+                            Email: chvt@pymepharco.com<br>
+                        </div>
+                    </li>
+                    <li style="opacity: 1; margin-left: 0px; transition: all 1s ease 0s;">
+                        <div>
+                            <h4>CHI NHÁNH BÌNH DƯƠNG</h4>
+                            Số 49 D5 KDC Phú Hòa 1 , P.Phú Hòa ,Tp.Thủ Dầu Một, Tỉnh Bình Dương.<br>
+                            ĐT: (84 0274) 379 6033<br>
+                            Fax: (84 0274) 379 6033<br>
+                            Email: chbinhduong@pymepharco.com<br>
+                        </div>
+                    </li>
+                    <li style="opacity: 1; margin-left: 0px; transition: all 1s ease 0s;">
+                        <div>
+                            <h4>CHI NHÁNH TÂY NINH</h4>
+                            225 Nguyễn Trọng Cát, Phường Hiệp Ninh, Tp.Tây Ninh, Tỉnh Tây Ninh.<br>
+                            ĐT: (84 0266) 3631 741<br>
+                            Fax: (84 0266) 3631 741<br>
+                            Email: cntn@pymepharco.com<br>
+                        </div>
+                    </li>
+                    <li style="opacity: 1; margin-left: 0px; transition: all 1s ease 0s;">
+                        <div>
+                            <h4>CHI NHÁNH VĨNH LONG</h4>
+                            101 Phạm Thái Bường, Phường 4, TP.Vĩnh Long, Tỉnh Vĩnh Long.<br>
+                            Điện Thoại: 0270.3837777<br>
+                            Fax : 0270.3837778<br>
+                            Email: cnvl@pymepharco.com<br>
+                        </div>
+                    </li>
+
+                    <li style="opacity: 1; margin-left: 0px; transition: all 1s ease 0s;">
+                        <div>
+                            <h4>CHI NHÁNH THÁI BÌNH</h4>
+                            Lô 267 Khu Đô Thị Kỳ Bá ,Phường Kỳ Bá ,Tp.Thái Bình , Tỉnh Thái Bình<br>
+                            Điện Thoại: 02363.735266<br>
+                            Fax :<br>
+                            Email:cntb@pymepharco.com<br>
+                        </div>
+                    </li>
+                    <li style="opacity: 1; margin-left: 0px; transition: all 1s ease 0s;">
+                        <div>
+                            <h4>CHI NHÁNH NGHỆ AN</h4>
+                            Lô 01-BT05*, thuộc Dự án khu nhà ở chung cư phía đông Đại lộ Lê Nin, Xóm 20 Nghi Phú, Thành Phố Vinh, tỉnh Nghệ An.<br>
+                            Điện Thoại: 02388.688868<br>
+                            Fax : 0238.3834731<br>
+                            Email: cnna@pymepharco.com<br>
+                        </div>
+                    </li>
+                    <li style="opacity: 1; margin-left: 0px; transition: all 1s ease 0s;">
+                        <div>
+                            <h4>CHI NHÁNH TIỀN GIANG</h4>
+                            11/11 Phan Thanh Giản, Phường 3, TP. Mỹ Tho, Tiền Giang.<br>
+                            Điện Thoại: (0273) 3972 776<br>
+                            Fax :(0273) 3972 776<br>
+                            Email: cntg@pymepharco.com<br>
+                        </div>
+                    </li>
+                    <li style="opacity: 1; margin-left: 0px; transition: all 1s ease 0s;">
+                        <div>
+                            <h4>CỬA HÀNG QUẬN 10</h4>
+                            Quầy D5, 134/01 Tô Hiến Thành, Phường 15, Quận 10, Tp.Hồ Chí Minh.<br>
+                            Điện Thoại: (028) 3866 1467<br>
+                            Fax : (028) 3866 1467<br>
+                            Email: chq10@pymepharco.com<br>
+                        </div>
+                    </li>
+                    <li style="opacity: 1; margin-left: 0px; transition: all 1s ease 0s;">
+                        <div>
+                            <h4>CHI NHÁNH GIA LAI</h4>
+                            138 Lê Lợi, Phường Hoa Lư, Tp.Pleiku, Tỉnh Gia Lai<br>
+                            Điện Thoại: (0259) 3868368<br>
+                            Fax :(0259) 3868368<br>
+                            Email: cngl@pymepharco.com<br>
+                        </div>
+                    </li>
+                    <li style="opacity: 1; margin-left: 0px; transition: all 1s ease 0s;">
+                        <div>
+                            <h4>CHI NHÁNH BÌNH THUẬN</h4>
+                            89 Nguyễn Hội, Phường Phú Tài, Tp.Phan Thiết, Tỉnh Bình Thuận.<br>
+                            Điện Thoại: (02623) 830 310<br>
+                            Fax : (02623) 830 310<br>
+                            Email: cnbt@pymepharco.com<br>
+                        </div>
+                    </li>
+
+                    <li style="opacity: 1; margin-left: 0px; transition: all 1s ease 0s;">
+                        <div>
+                            <h4>CHI NHÁNH BÌNH ĐỊNH</h4>
+                            319 Đống Đa, P.Thị Nại, Tp.Quy Nhơn, Tỉnh Bình Định.<br>
+                            Điện Thoại: 02563.819888<br>
+                            Fax : 02563.819888<br>
+                            Email: cnbd@pymepharco.com<br>
+                        </div>
+                    </li>
+                    <li style="opacity: 1; margin-left: 0px; transition: all 1s ease 0s;">
+                        <div>
+                            <h4>CHI NHÁNH HUẾ</h4>
+                            54 Trường Chinh, Phường Xuân Phú, Tp.Huế, Tỉnh Thừa Thiên Huế.<br>
+                            Điện Thoại: 0234.3686889<br>
+                            Fax : 0234.3686889<br>
+                            Email: cnhue@pymepharco.com<br>
+                        </div>
+                    </li>
+                    <li style="opacity: 1; margin-left: 0px; transition: all 1s ease 0s;">
+                        <div>
+                            <h4>CHI NHÁNH PHÚ THỌ</h4>
+                            Số 622-624 Khu 7, Phố Thanh Bình – Phường Thanh Miếu – Tp.Việt Trì – tỉnh Phú Thọ<br>
+                            Điện Thoại: 0210.3912898<br>
+                            Fax : 0210.3912898<br>
+                            Email: cnpt@pymepharco.com<br>
+                        </div>
+                    </li>
+                    <li style="opacity: 1; margin-left: 0px; transition: all 1s ease 0s;">
+                        <div>
+                            <h4>CHI NHÁNH THÁI NGUYÊN</h4>
+                            Số 3 Tổ 11, Phường Túc Duyên, Thành phố Thái Nguyên, tỉnh Thái Nguyên.<br>
+                            Điện Thoại: (+84 0208) 6562468<br>
+                            Fax : (+84 0208) 6562468<br>
+                            Email: cnthainguyen@pymepharco.com<br>
+                        </div>
+                    </li>
+                    <li style="opacity: 1; margin-left: 0px; transition: all 1s ease 0s;">
+                        <div>
+                            <h4>CHI NHÁNH THANH HÓA</h4>
+                            Lô 03 MBQH530/UBND –QLĐT- P.Đông Vệ- Tp.Thanh Hóa – tỉnh Thanh Hóa.<br>
+                            Điện Thoại: 0237.3995668<br>
+                            Fax : 0237.3995668<br>
+                            Email: cnth@pymepharco.com<br>
+                        </div>
+                    </li>
+                    <li style="opacity: 1; margin-left: 0px; transition: all 1s ease 0s;">
+                        <div>
+                            <h4>CHI NHÁNH HẢI PHÒNG</h4>
+                            Lô 30 No-04 đường Hồng Phúc, Khu đô thị Cựu Viên, phường Bắc Sơn, Quận Kiến An, Tp.Hải Phòng.<br>
+                            Điện Thoại:<br>
+                            Fax :<br>
+                            Email: cnhp@pymepharco.com<br>
+                        </div>
+                    </li>
+                </ul>
             </span>
         </div>
 
-        <!--<a href="/eng/Nasa-istorija">-->
+        <!--<a href="/eng/predstavnistva">-->
         <div class="infoblockButton">
-            <input type="button" value="">
+            <input type="button" value="" onclick="window.location='/eng/predstavnistva'">
         </div>
         <!--</a>-->
     </div>
     <div class="infoblockImage">
-        <img id="infoblockInstance_imgImage" src="/assets/images/py.jpg" style="border-width: 0px; transition: all 1s ease 0s; opacity: 1; margin-left: 0px;">
+        <img id="rptInfoblock_ctl03_infoblockInstance1_imgImage" src="/images/infoblock/" style="border-width: 0px; transition: all 1s ease 0s; opacity: 1; margin-left: 0px;">
         <div class="infoblockCircle" style="opacity: 0.5; bottom: -280px;"></div>
     </div>
     <div class="infoblockText2">
         <div class="infoblockDesc2">
-            <span id="infoblockInstance_lblDesc"></span>
+            <span id="rptInfoblock_ctl03_infoblockInstance1_lblDesc"></span>
         </div>
         <div class="infoblockSubnote">
-            <span id="infoblockInstance_lblSubnote"></span>
+            <span id="rptInfoblock_ctl03_infoblockInstance1_lblSubnote"></span>
         </div>
     </div>
     <div class="cleaner"></div>
 
 
-</div>
-<div class="infoblock historyLeftImage">
-    <div class="historyYear">
-        2019
-    </div>
-    <div class="historyImage">
-        <img src="/images/history/2019-59godina.jpg" style="transition: all 1s ease 0s; opacity: 1; margin-left: 0px;">
-    </div>
-    <div class="historyDesc">
-        <div class="historyTitle"></div>
-        <li>2019 marked by two great anniversaries – Antibiotics Plant in Dubovac, as well as Podgorica-based manufacturing site Hemomont celebrated 25 years of successful operation.</li>
-        <li>Hemofarm received a gold plaque for the best corporate brand in the area of pharmacy awarded by Top Serbian Brands magazine.</li>
-        <li>Hemofarm Day established at the Faculty of Technology in Novi Sad, opening up a way for continuous improvement of education at this higher education institution through the partnership with the leading regional pharmaceutical company.</li>
-    </div>
-    <div class="historyLine"></div>
-    <div class="cleaner"></div>
-</div>
-<div class="infoblock historyRightImage">
-    <div class="historyYear">
-        2018
-    </div>
-    <div class="historyImage">
-        <img src="/images/history/2018-superbrands.jpg" style="transition: all 1s ease 0s; opacity: 1; margin-left: 0px;">
-    </div>
-    <div class="historyDesc">
-        <div class="historyTitle"></div>
-        <li>Hemofarm fondacija obeležila 25 godina brige o zdravlju ljudi i unapređenja kvaliteta života celokupne lokalne zajednice. </li>
-        <li>Hemofarmov Probiotik dobitnik je priznanja „Superbrands Srbija” u kategoriji farmaceutskih proizvoda.</li>
-        <li>Kampanja Hemofarm fondacije „Ne dozvoli da pukne” dobitnik je Silver drum nagrade na 25. Golden drum festivalu u Portorožu. </li>
-        <li>U znak zahvalnosti i u želji da se uspešna saradnja razvija i dalje, Tehnološko metalurški fakultet dodelio je Zahvalnicu Hemofarmu za podršku projektu unapređenja nastave na modulu Farmaceutsko inženjerstvo i formiranju modela Farmaceutske čiste sobe.</li>
-        <li>Sektor ljudskih resursa pokrenuo je program plaćene prakse Chance to advance sa ciljem da diplomcima stručnih fakulteta pruži priliku da svoju karijeru započnu u Hemofarmu. </li>
-
-
-
-
-
-        <li>Hemofarm Foundation marked 25 years of taking care for the health of people and improving the quality of life of entire local community. </li>
-        <li>Hemofarm’s Probiotik won the Superbrands Serbia award in pharmaceutical products category.</li>
-        <li>Hemofarm Foundation’s Don’t Let It Burst campaign won the Silver Drum award at 25th Golden Drum Festival in Portorož. </li>
-        <li>In appreciation of and desiring to further develop the successful cooperation, the Faculty of Technology and Metallurgy presented a Letter of Appreciation to Hemofarm for providing support to education improvement project relating to Pharmaceutical Engineering module and construction of a pharmaceutical clean room model.</li>
-        <li>Human Resources Division initiated the paid internship programme Chance to Advance aimed at giving an opportunity to faculty final-year students to start their career in Hemofarm.</li>
-
-    </div>
-    <div class="historyLine"></div>
-    <div class="cleaner"></div>
-</div>
-<div class="infoblock historyLeftImage">
-    <div class="historyYear">
-        2017
-    </div>
-    <div class="historyImage">
-        <img src="/images/history/2017-glavne-nagrade-VIRTUS.jpg">
-    </div>
-    <div class="historyDesc">
-        <div class="historyTitle">VIRTUS Main Award for National Contribution to the Campaign Supporting the Organ Donation and Transplantation Programme in Serbia.</div>
-        <li>Hemofarm Fondation’s Most Important Call in Life campaign won the Corporate Social Responsibility Campaign of the Year award presented by Serbian Association of Managers</li>
-        <li>Hemofarm Foundation voted the Best Foundation of 2017, according to Diplomacy&amp;Commerce magazine.</li>
-
-    </div>
-    <div class="historyLine"></div>
-    <div class="cleaner"></div>
-</div>
-<div class="infoblock historyRightImage">
-    <div class="historyYear">
-        2016
-    </div>
-    <div class="historyImage">
-        <img src="/images/history/2016-serbian-brends.jpg">
-    </div>
-    <div class="historyDesc">
-        <div class="historyTitle">For the second year in a row, Hemofarm received the TOP SERBIAN BRANDS award, as the best corporate brand in the category of pharmacy, voted by the citizens of Serbia.</div>
-        <li>Dr Ronald Seeliger, Hemofarm CEO, received the Vojvodina Chamber of Commerce Award for extraordinary achievements in economy in the year 2015.</li>
-
-        <li>For the second year in a row, Hemofarm has won the 28th April National Award for the commitment to the values occupational safety and health and promoting the culture of prevention which is awarded by the Ministry of Labour, Employment, Veteran and Social Affairs.</li>
-
-        <li>Hemofarm received the Superbrands Serbia award as the best corporate brand in the category of pharmaceutical industry.</li>
-    </div>
-    <div class="historyLine"></div>
-    <div class="cleaner"></div>
 </div>
 <?= $this->endSection() ?>
 
