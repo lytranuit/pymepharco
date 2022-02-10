@@ -11,9 +11,10 @@
     <meta property="og:url" content="<?= base_url() ?>">
     <meta property="og:title" content="<?= $title ?>">
     <meta property="og:type" content="article">
-    <meta property="og:description" content="">
+    <meta property="og:description" content="Pymepharco">
     <meta property="og:image" content="<?= base_url("assets/images/favicon.png?v=$ver") ?>">
-
+    
+    <meta property="og:image:alt" content="Pymepharco">
     <meta name="robots" content="index,follow" />
     <link rel="canonical" href="<?= base_url() ?>">
 
