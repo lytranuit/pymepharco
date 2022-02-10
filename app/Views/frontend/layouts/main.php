@@ -2,28 +2,29 @@
 <!-- saved from url=(0020)https://hoptacxa.vn/ -->
 <html lang="vi-VN" class="js">
 
+<?php $ver = 2 ?>
+
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <meta name="description" content="">
+    <meta name="description" content="<?= $title ?>">
     <meta name="keywords" content="">
     <meta property="og:url" content="<?= base_url() ?>">
-    <meta property="og:title" content="">
+    <meta property="og:title" content="<?= $title ?>">
     <meta property="og:type" content="article">
     <meta property="og:description" content="">
-    <meta property="og:image" content="<?= base_url("assets/images/favicon.ico?v=1") ?>">
+    <meta property="og:image" content="<?= base_url("assets/images/favicon.png?v=$ver") ?>">
 
     <meta name="robots" content="index,follow" />
     <link rel="canonical" href="<?= base_url() ?>">
 
     <!-- Favicon -->
-    <link rel="shortcut icon" type="image/x-icon" href="<?= base_url("assets/images/favicon.ico?v=1") ?>">
+    <link rel="shortcut icon" type="image/x-icon" href="<?= base_url("assets/images/favicon.png?v=$ver") ?>">
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta name="author" content="daotran">
     <meta name="copyright" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-    <?php $ver = 2 ?>
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
     <link href="<?= base_url("/assets/css/menu.css") ?>" rel="stylesheet" type="text/css">
     <link href="<?= base_url("/assets/css/main.css") ?>" rel="stylesheet" type="text/css">
