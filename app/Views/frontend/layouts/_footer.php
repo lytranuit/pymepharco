@@ -5,17 +5,10 @@
                 <span id="footerInstance_lblGlavniProizvodiTitle">Sản phẩm tiêu biểu</span>
             </div>
             <span id="footerInstance_lblGlavniProizvodi">
-                <a href="https://www.hemofarm.com/eng/proizvodi/1/lekovi-uz-lekarski-recept">Bromazepam</a><br>
-                <a href="https://www.hemofarm.com/eng/proizvodi/1/lekovi-uz-lekarski-recept">Metformin</a><br>
-                <a href="https://www.hemofarm.com/eng/proizvodi/1/lekovi-uz-lekarski-recept">Diclofenac</a><br>
-                <a href="https://www.hemofarm.com/eng/proizvodi/1/lekovi-uz-lekarski-recept">Lorazepam</a><br>
-                <a href="https://www.hemofarm.com/eng/proizvodi/1/lekovi-uz-lekarski-recept">Bisoprolol</a><br>
-                <a href="https://www.hemofarm.com/eng/proizvodi/1/lekovi-uz-lekarski-recept">Amoxicillin</a><br>
-                <a href="https://www.hemofarm.com/eng/proizvodi/1/lekovi-uz-lekarski-recept">Metoprolol</a><br>
-                <a href="https://www.hemofarm.com/eng/proizvodi/1/lekovi-uz-lekarski-recept">Azithromycin</a><br>
-                <a href="https://www.hemofarm.com/eng/proizvodi/1/lekovi-uz-lekarski-recept">Enalapril</a><br>
-                <a href="https://www.hemofarm.com/eng/proizvodi/1/lekovi-uz-lekarski-recept">Propafenone</a>
-            </span>
+                <a href="#">Vivace</a><br>
+                <a href="#">Tatanol</a><br>
+                <a href="#">Pymetphage</a><br>
+                <a href="#">Negacef </a><br>
         </div>
         <div class="footerMidCol">
             <div class="footerTopTitle">
