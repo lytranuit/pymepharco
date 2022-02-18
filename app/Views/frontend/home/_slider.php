@@ -8,7 +8,7 @@
             <div id="sliderOverlay">
                 <div id="sliderOverlayContent">
                     <div id="sliderOverlayText" class="">
-                        <?= $row->text ?>
+                        <?= $row->{pick_language($row, "text_")} ?>
                         <a href="<?= $row->link ?>">
                             <span class="sliderButton ">Read more</span>
                         </a>

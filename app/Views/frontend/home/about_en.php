@@ -16,7 +16,7 @@
 
         <div class="pageTitle" style="opacity: 1; top: 50%; bottom: auto; transform: translateY(-50%);">
             <div class="pageTitleContent">
-                <div><span id="pageImageInstance_lblTitle">Giới thiệu chung</span></div>
+                <div><span id="pageImageInstance_lblTitle">About Us</span></div>
             </div>
         </div>
     </div>
@@ -27,13 +27,11 @@
 
     <div class="infoblockText">
         <div class="infoblockTitle">
-            <span id="rptInfoblock_ctl00_infoblockInstance1_lblTitle">PYMEPHARCO được thành lập vào năm 1989 với nhiệm vụ sản xuất dược phẩm, kinh doanh thuốc & vật tư thiết bị y tế.</span>
+            <span id="rptInfoblock_ctl00_infoblockInstance1_lblTitle">Established in 1989 with the mission of manufacturing pharmaceutical products, trading drugs & medical supplies and equipment
         </div>
         <div class="infoblockAbstract">
             <span id="rptInfoblock_ctl00_infoblockInstance1_lblAbstract">
-                Kể từ năm 2020, Pymepharco trở thành thành viên tập đoàn dược phẩm STADA (Đức), một trong những công ty sản xuất dược phẩm generic lớn nhất thế giới.
-                Với nền tảng đạo đức nghề nghiệp qua bộ Giá trị cốt lõi cùng công nghệ được đánh giá hiện đại bậc nhất, Pymepharco cam kết cung cấp các sản phẩm thuốc chất lượng cao, giá cả hợp lý đến tất cả bệnh nhân trong nước và trên thế giới.
-
+                From 2020, Pymepharco becomes a member of STADA pharmaceutical group (Germany), one of the largest pharmaceutical manufacturing companies in the world. With a foundation of professional ethics through a core set of values and the most advanced technology, Pymepharco is committed to providing high-quality, affordable medicinal products to all patients in the country and around the world.</span>
         </div>
 
         <!--<a href="/eng/misija-i-vizija">-->
@@ -68,7 +66,7 @@
                 <div class="count-box">
                     <i class="fas fa-user"></i>
                     <span><strong data-purecounter-start="0" data-purecounter-end="2000" data-purecounter-duration="2" class="purecounter">0</strong> +</span>
-                    <p>Nhân sự</p>
+                    <p>Employees</p>
                 </div>
             </div>
 
@@ -76,7 +74,7 @@
                 <div class="count-box">
                     <i class="fas fa-industry"></i>
                     <span><strong data-purecounter-start="0" data-purecounter-end="2" data-purecounter-duration="2" class="purecounter">0</strong></span>
-                    <p>Nhà máy</p>
+                    <p>Factories</p>
                 </div>
             </div>
 
@@ -84,7 +82,7 @@
                 <div class="count-box">
                     <i class="fab fa-product-hunt"></i>
                     <span><strong data-purecounter-start="0" data-purecounter-end="350" data-purecounter-duration="2" class="purecounter">0</strong> + </span>
-                    <p>Sản phẩm</p>
+                    <p>Products</p>
                 </div>
             </div>
 
@@ -92,21 +90,12 @@
                 <div class="count-box">
                     <i class="fas fa-code-branch"></i>
                     <span><strong data-purecounter-start="0" data-purecounter-end="24" data-purecounter-duration="2" class="purecounter">0</strong> +</span>
-                    <p>Chi nhánh toàn quốc</p>
+                    <p>Branches</p>
                 </div>
             </div>
 
         </div>
     </div>
-
-
-
-
-
-
-
-
-
 
 </div>
 <div id="rptInfoblock_ctl02_infoblockInstance1_pnlInfoblock" class="infoblock ibImageLeft smallTitle noButton">

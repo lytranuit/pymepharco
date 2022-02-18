@@ -31,7 +31,7 @@
     <div class="infoblockText2">
         <div class="infoblockDesc2">
             <span id="infoblockInstance5_lblDesc">
-                <iframe src="https://www.youtube.com/embed/jyaHPzD2Yks" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/embed/uVBTkBL7Qjk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </span>
         </div>
         <div class="infoblockSubnote">
@@ -66,7 +66,7 @@
     <div class="infoblockText2">
         <div class="infoblockDesc2">
             <span id="infoblockInstance0_lblDesc">
-                <iframe src="https://www.youtube.com/embed/mC1WLNU7Mvs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/embed/uVBTkBL7Qjk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </span>
         </div>
         <div class="infoblockSubnote">
@@ -101,7 +101,7 @@
     <div class="infoblockText2">
         <div class="infoblockDesc2">
             <span id="infoblockInstance4_lblDesc">
-                <iframe src="https://www.youtube.com/embed/vSa26BNPPuI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/embed/uVBTkBL7Qjk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </span>
         </div>
         <div class="infoblockSubnote">
@@ -114,7 +114,7 @@
 </div>
 
 
-<div id="infoblockInstance1_pnlInfoblock" class="infoblock ibImageLeft">
+<!-- <div id="infoblockInstance1_pnlInfoblock" class="infoblock ibImageLeft">
 
 
     <div class="infoblockText">
@@ -146,10 +146,10 @@
     <div class="cleaner"></div>
 
 
-</div>
+</div> -->
 
 
-<div id="infoblockInstance2_pnlInfoblock" class="infoblock ibImageRight">
+<!-- <div id="infoblockInstance2_pnlInfoblock" class="infoblock ibImageRight">
 
 
     <div class="infoblockText">
@@ -163,11 +163,9 @@
                 supported through Hemofarm Foundation activities alone. </span>
         </div>
 
-        <!--<a href="/eng/odgovornost">-->
         <div class="infoblockButton">
             <input type="button" value="Read more" onclick="window.location=&#39;/eng/odgovornost&#39;">
         </div>
-        <!--</a>-->
     </div>
     <div class="infoblockImage">
         <img id="infoblockInstance2_imgImage" src="<?= base_url("/assets/images/Home-Odgovornost.jpg"); ?>" style="border-width:0px;">
@@ -184,26 +182,15 @@
     <div class="cleaner"></div>
 
 
-</div>
+</div> -->
 
 
-<div id="infoblockInstance3_pnlInfoblock" class="infoblock ibMain1">
+<!-- <div id="infoblockInstance3_pnlInfoblock" class="infoblock ibMain1">
 
 
-    <div class="infoblockText">
-        <div class="infoblockTitle">
-            <span id="infoblockInstance3_lblTitle">Our products</span>
-        </div>
-        <div class="infoblockAbstract">
-            <span id="infoblockInstance3_lblAbstract">Top quality and affordability are the recognizable
-                characteristics of Hemofarm's products.</span>
-        </div>
-
-        <!--<a href="/eng/proizvodi">-->
         <div class="infoblockButton">
             <input type="button" value="Read more" onclick="window.location=&#39;/eng/proizvodi&#39;">
         </div>
-        <!--</a>-->
     </div>
     <div class="infoblockImage">
         <img id="infoblockInstance3_imgImage" src="<?= base_url("/assets/images/Home-Proizvodi.jpg"); ?>" style="border-width:0px;">
@@ -225,7 +212,7 @@
     <div class="cleaner"></div>
 
 
-</div>
+</div> -->
 
 
 
