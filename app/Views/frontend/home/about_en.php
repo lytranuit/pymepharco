@@ -114,32 +114,32 @@
 
     <div class="infoblockText">
         <div class="infoblockTitle">
-            <span id="rptInfoblock_ctl02_infoblockInstance1_lblTitle">Toàn bộ cách tiếp cận kinh doanh của chúng tôi dựa trên bốn giá trị quan trọng cũng xác định bản sắc doanh nghiệp của chúng tôi.</span>
+            <span id="rptInfoblock_ctl02_infoblockInstance1_lblTitle">Our entire approach to business is based on four key values which also determine our corporate identity.</span>
         </div>
         <div class="infoblockAbstract">
             <span id="rptInfoblock_ctl02_infoblockInstance1_lblAbstract">
                 <li style="opacity: 1; margin-left: 0px; transition: all 1s ease 0s;">
-                    <div><strong>Nhanh nhạy</strong>
-                        - Mỗi một thành viên dẫn dắt sự thay đổi bằng sự linh hoạt và quyết tâm như là một phần của hành trình phát triển cá nhân không ngừng</div>
+                    <div><strong>AGILITY</strong>
+                        - Each and everyone of us leads change with flexibility and decisiveness as part of our ongoing journey of personal development.</div>
                 </li>
                 <li style="opacity: 1; margin-left: 0px; transition: all 1s ease 0s;">
-                    <div><strong>Chính trực</strong>
-                        - Mỗi một thành viên hành động có đạo đức phù hợp với các chuẩn mực bên trong và bên ngoài của công ty. Hành động được dẫn dắt bởi việc lên tiếng và sự tôn trọng.</div>
+                    <div><strong>ENTREPRENEURSHIP</strong>
+                        - Each and everyone of us drives new ideas and actions, creating future growth and value.</div>
                 </li>
                 <li style="opacity: 1; margin-left: 0px; transition: all 1s ease 0s;">
-                    <div><strong>Tinh thàn kinh doanh</strong>
-                        - Mỗi một thành viên góp phần thúc đẩy những ý tưởng và hành động mới, tạo ra giá trị và sự phát triển trong tương lai.</div>
+                    <div><strong>INTEGRITY</strong>
+                        - Each and everyone of us acts ethically in line with the company’s internal and external standards. Our actions are led by speaking up and respect.</div>
                 </li>
                 <li style="opacity: 1; margin-left: 0px; transition: all 1s ease 0s;">
                     <div><strong>ONE STADA</strong>
-                        - Mỗi một thành viên hành động vì lợi ích chung của tập thể hơn là đơn vị kinh doanh hoặc bộ phân riêng lẻ nhằm xây dựng thành công One STADA. </div>
+                        - Each and everyone of us acts in the best interests of the company as a whole rather than our business unit or function in order to build one successful STADA.</div>
                 </li>
             </span>
         </div>
 
         <!--<a href="/eng/misija-i-vizija">-->
         <div class="infoblockButton">
-           
+            <input type="button" value="" onclick="window.location='/eng/misija-i-vizija'">
         </div>
         <!--</a>-->
     </div>

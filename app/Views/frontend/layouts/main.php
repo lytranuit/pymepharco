@@ -25,6 +25,7 @@
     <meta name="author" content="daotran">
     <meta name="copyright" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" id="font-css" href="https://fonts.googleapis.com/css?family=Arimo%3A400%2C400i%2C700&amp;display=swap&amp;ver=5.7.5" type="text/css" media="all">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
     <link href="<?= base_url("/assets/css/menu.css") ?>" rel="stylesheet" type="text/css">
