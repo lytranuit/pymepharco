@@ -25,10 +25,10 @@ class HeaderWidget
         $current_url = current_url();
         $MenuModel = model("MenuModel");
         $menu = $MenuModel->where("link", $current_url)->asObject()->first();
-        if(!empty($menu)){
+        if (!empty($menu)) {
             $list_parent = $MenuModel->get_list_parent($menu);
             $list_parent[] = $menu;
-        }else{
+        } else {
             $list_parent = [];
         }
         // echo "<pre>";
@@ -43,8 +43,12 @@ class HeaderWidget
         $current_url = current_url();
         $MenuModel = model("MenuModel");
         $menu = $MenuModel->where("link", $current_url)->asObject()->first();
+
         if (!empty($menu)) {
             $list_child =  $MenuModel->where("parent_id", $menu->id)->asObject()->findAll();
+            if (empty($list_child)) {
+                $list_child =  $MenuModel->where("parent_id", $menu->parent_id)->asObject()->findAll();
+            }
             $this->data['list_child'] = $list_child;
             return view("frontend/lib/header/submenu", $this->data);
         }

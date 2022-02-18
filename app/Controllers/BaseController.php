@@ -55,6 +55,18 @@ class BaseController extends Controller
         $explode = explode("\\", $controller);
         $content = "frontend" . "/" . strtolower($explode[count($explode) - 1]) . "/" . $method;
 
+        if (current_language() == "en") {
+            $method_en = $method . "_en";
+            $check = FCPATH . "/app/Views/frontend" . "/" . strtolower($explode[count($explode) - 1]) . "/" . $method_en . ".php";
+            // print_r($check);
+            // die();
+            if (file_exists($check)) {
+                $content = "frontend" . "/" . strtolower($explode[count($explode) - 1]) . "/" . $method_en;
+            }
+        }
+        // print_r($content);
+        // die();
+
         // $language = \Config\Services::language();
         // $short_lang =  $language->getLocale();
         // print_r($short_lang);

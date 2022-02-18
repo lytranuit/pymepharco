@@ -16,13 +16,13 @@
 
         <div class="pageTitle" style="opacity: 1; top: 50%; bottom: auto; transform: translateY(-50%);">
             <div class="pageTitleContent">
-                <div><span id="pageImageInstance_lblTitle">History</span></div>
+                <div><span id="pageImageInstance_lblTitle">Lịch sử</span></div>
             </div>
         </div>
     </div>
 
 </div>
-<div id="infoblockInstance_pnlInfoblock" class="infoblock ibImageLeft noButton noTitle">
+<!-- <div id="infoblockInstance_pnlInfoblock" class="infoblock ibImageLeft noButton noTitle">
     <div class="infoblockText">
         <div class="infoblockTitle">
             <span id="infoblockInstance_lblTitle"></span>
@@ -36,11 +36,9 @@
             </span>
         </div>
 
-        <!--<a href="/eng/Nasa-istorija">-->
         <div class="infoblockButton">
             <input type="button" value="">
         </div>
-        <!--</a>-->
     </div>
     <div class="infoblockImage">
         <img id="infoblockInstance_imgImage" src="/assets/images/py.jpg" style="border-width: 0px; transition: all 1s ease 0s; opacity: 1; margin-left: 0px;">
@@ -57,82 +55,129 @@
     <div class="cleaner"></div>
 
 
-</div>
+</div> -->
 <div class="infoblock historyLeftImage">
+    <div class="historyYear">
+        2020
+    </div>
+    <div class="historyImage">
+        <img src="/assets/images/history/2020-stada.jpg" style="transition: all 1s ease 0s; opacity: 1; margin-left: 0px;">
+    </div>
+    <div class="historyDesc">
+        <div class="historyTitle"></div>
+        Tháng 10/2020 Chính thức trở thành thành viên tập đoàn STADA (Đức).<br>
+        Với kinh nghiệm hơn 30 năm của Pymepharco kết hợp cùng danh mục sản phẩm đa dạng và chất lượng đã được minh chứng trong lịch sử 125 năm của STADA, thông qua việc cung cấp cho người tiêu dùng, bệnh nhân và các chuyên gia chăm sóc sức khỏe tại Việt Nam các sản phẩm được sản xuất bằng công nghệ cao, chất lượng Châu Âu với giá cả phải chăng, tập đoàn STADA sẽ luôn trung thành với sứ mệnh: Chăm sóc sức khỏe mọi người như một người bạn đồng hành đáng tin cậy.
+    </div>
+    <div class="historyLine"></div>
+    <div class="cleaner"></div>
+</div>
+<div class="infoblock historyRightImage">
     <div class="historyYear">
         2019
     </div>
     <div class="historyImage">
-        <img src="/images/history/2019-59godina.jpg" style="transition: all 1s ease 0s; opacity: 1; margin-left: 0px;">
+        <img src="/assets/images/history/2019-stada.jpg" style="transition: all 1s ease 0s; opacity: 1; margin-left: 0px;">
     </div>
     <div class="historyDesc">
-        <div class="historyTitle"></div>
-        <li>2019 marked by two great anniversaries – Antibiotics Plant in Dubovac, as well as Podgorica-based manufacturing site Hemomont celebrated 25 years of successful operation.</li>
-        <li>Hemofarm received a gold plaque for the best corporate brand in the area of pharmacy awarded by Top Serbian Brands magazine.</li>
-        <li>Hemofarm Day established at the Faculty of Technology in Novi Sad, opening up a way for continuous improvement of education at this higher education institution through the partnership with the leading regional pharmaceutical company.</li>
-    </div>
-    <div class="historyLine"></div>
-    <div class="cleaner"></div>
-</div>
-<div class="infoblock historyRightImage">
-    <div class="historyYear">
-        2018
-    </div>
-    <div class="historyImage">
-        <img src="/images/history/2018-superbrands.jpg" style="transition: all 1s ease 0s; opacity: 1; margin-left: 0px;">
-    </div>
-    <div class="historyDesc">
-        <div class="historyTitle"></div>
-        <li>Hemofarm fondacija obeležila 25 godina brige o zdravlju ljudi i unapređenja kvaliteta života celokupne lokalne zajednice. </li>
-        <li>Hemofarmov Probiotik dobitnik je priznanja „Superbrands Srbija” u kategoriji farmaceutskih proizvoda.</li>
-        <li>Kampanja Hemofarm fondacije „Ne dozvoli da pukne” dobitnik je Silver drum nagrade na 25. Golden drum festivalu u Portorožu. </li>
-        <li>U znak zahvalnosti i u želji da se uspešna saradnja razvija i dalje, Tehnološko metalurški fakultet dodelio je Zahvalnicu Hemofarmu za podršku projektu unapređenja nastave na modulu Farmaceutsko inženjerstvo i formiranju modela Farmaceutske čiste sobe.</li>
-        <li>Sektor ljudskih resursa pokrenuo je program plaćene prakse Chance to advance sa ciljem da diplomcima stručnih fakulteta pruži priliku da svoju karijeru započnu u Hemofarmu. </li>
-
-
-
-
-
-        <li>Hemofarm Foundation marked 25 years of taking care for the health of people and improving the quality of life of entire local community. </li>
-        <li>Hemofarm’s Probiotik won the Superbrands Serbia award in pharmaceutical products category.</li>
-        <li>Hemofarm Foundation’s Don’t Let It Burst campaign won the Silver Drum award at 25th Golden Drum Festival in Portorož. </li>
-        <li>In appreciation of and desiring to further develop the successful cooperation, the Faculty of Technology and Metallurgy presented a Letter of Appreciation to Hemofarm for providing support to education improvement project relating to Pharmaceutical Engineering module and construction of a pharmaceutical clean room model.</li>
-        <li>Human Resources Division initiated the paid internship programme Chance to Advance aimed at giving an opportunity to faculty final-year students to start their career in Hemofarm.</li>
-
+        Khánh thành Nhà máy Stada Việt Nam theo tiêu chuẩn EU GMP rộng 30,000 m2, là một trong những nhà máy hiện đại ngang tầm khu vực, đủ khả năng tham gia vào chuỗi cung ứng toàn cầu của tập đoàn STADA (Đức)
     </div>
     <div class="historyLine"></div>
     <div class="cleaner"></div>
 </div>
 <div class="infoblock historyLeftImage">
     <div class="historyYear">
-        2017
+        2018
     </div>
     <div class="historyImage">
-        <img src="/images/history/2017-glavne-nagrade-VIRTUS.jpg">
+        <img src="/assets/images/history/2018-stada.jpg">
     </div>
     <div class="historyDesc">
-        <div class="historyTitle">VIRTUS Main Award for National Contribution to the Campaign Supporting the Organ Donation and Transplantation Programme in Serbia.</div>
-        <li>Hemofarm Fondation’s Most Important Call in Life campaign won the Corporate Social Responsibility Campaign of the Year award presented by Serbian Association of Managers</li>
-        <li>Hemofarm Foundation voted the Best Foundation of 2017, according to Diplomacy&amp;Commerce magazine.</li>
-
+        Pymepharco tiếp tục đầu tư nâng cấp hệ thống thuốc tiêm và đã hoàn thành xuất sắc đợt thanh tra, đạt tiêu chuẩn EU GMP cho xưởng kháng sinh Cephalosporin thuốc tiêm, qua đó khẳng định mạnh mẽ vị thế tiên phong về EU GMP tại Việt Nam đối với dòng kháng sinh Betalactam.
     </div>
     <div class="historyLine"></div>
     <div class="cleaner"></div>
 </div>
 <div class="infoblock historyRightImage">
     <div class="historyYear">
-        2016
+        2013
     </div>
     <div class="historyImage">
-        <img src="/images/history/2016-serbian-brends.jpg">
+        <img src="/assets/images/history/2013-stada.jpg">
     </div>
     <div class="historyDesc">
-        <div class="historyTitle">For the second year in a row, Hemofarm received the TOP SERBIAN BRANDS award, as the best corporate brand in the category of pharmacy, voted by the citizens of Serbia.</div>
-        <li>Dr Ronald Seeliger, Hemofarm CEO, received the Vojvodina Chamber of Commerce Award for extraordinary achievements in economy in the year 2015.</li>
+        Pymepharco trở thành đơn vị đầu tiên tại Việt Nam sản xuất kháng sinh Cephalosporin thuốc viên đạt tiêu chuẩn EU GMP </div>
+    <div class="historyLine"></div>
+    <div class="cleaner"></div>
+</div>
+<div class="infoblock historyLeftImage">
+    <div class="historyYear">
+        2008
+    </div>
+    <div class="historyImage">
+        <img src="/assets/images/history/2008-stada.jpg">
+    </div>
+    <div class="historyDesc">
+        Nhà máy thứ hai được hoàn thành với bốn dây chuyền sản xuất gồm Phân xưởng thuốc vô trùng Non Betalactam: Ampoules, Nhỏ mắt & Đông khô; Phân xưởng thuốc vô trùng Betalactam và Phân xưởng thuốc viên (WHO GMP). Đây là nhà máy sản xuất thuốc tiêm được đánh giá là hiện đại nhất của Việt Nam lúc bấy giờ.
+    </div>
+    <div class="historyLine"></div>
+    <div class="cleaner"></div>
+</div>
+<div class="infoblock historyRightImage">
+    <div class="historyYear">
+        2006
+    </div>
+    <div class="historyImage">
+        <img src="/assets/images/history/2006-stada.png">
+    </div>
+    <div class="historyDesc">
+        <li>Nhà máy được cấp giấy chứng nhận Thực hành tốt sản xuất thuốc của Tổ chức Y tế Thế giới (WHO GMP)</li>
 
-        <li>For the second year in a row, Hemofarm has won the 28th April National Award for the commitment to the values occupational safety and health and promoting the culture of prevention which is awarded by the Ministry of Labour, Employment, Veteran and Social Affairs.</li>
+        <li>Tháng 5/2006 Công ty chính thức chuyển đổi thành Công ty Cổ phần Pymepharco. Việc chuyển đổi hình thức tổ chức doanh nghiệp, đem lại nhiều thuận lợi cho khả năng huy động vốn, mở rộng quy mô sản xuất kinh doanh, tạo tiền đề quan trọng cho việc nâng cấp Nhà máy theo tiêu chuẩn GMP Châu Âu (EU GMP) mà Công ty đặt ra trong năm 2006.</li>
 
-        <li>Hemofarm received the Superbrands Serbia award as the best corporate brand in the category of pharmaceutical industry.</li>
+    </div>
+    <div class="historyLine"></div>
+    <div class="cleaner"></div>
+</div>
+
+<div class="infoblock historyLeftImage">
+    <div class="historyYear">
+        2003
+    </div>
+    <div class="historyImage">
+        <img src="/assets/images/history/Pymepharco.png">
+    </div>
+    <div class="historyDesc">
+        Nhà máy dược phẩm Pymepharco đạt tiêu chuẩn GMP ASEAN chính thức đi vào hoạt động với 3 phân xưởng: Betalactam, Non Betalactam, Viên nang mềm.
+    </div>
+    <div class="historyLine"></div>
+    <div class="cleaner"></div>
+</div>
+<div class="infoblock historyRightImage">
+    <div class="historyYear">
+        1993
+    </div>
+    <div class="historyImage">
+        <img src="/assets/images/history/Pymepharco.png">
+    </div>
+    <div class="historyDesc">
+        <li>Thành lập Chi nhánh tại thành phố Hồ Chí Minh</li>
+
+        <li>Công ty được Bộ thương mại cấp phép xuất nhập khẩu trực tiếp chuyên ngành về y dược. Đây là mốc quan trọng làm cơ sở cho việc phát triển kinh doanh và mở rộng quan hệ quốc tế. Liên kết, liên doanh với các đối tác trong và ngoài nước, mở rộng thị phần trong nước và xuất khẩu</li>
+
+    </div>
+    <div class="historyLine"></div>
+    <div class="cleaner"></div>
+</div>
+
+<div class="infoblock historyLeftImage">
+    <div class="historyYear">
+        1989
+    </div>
+    <div class="historyImage">
+        <img src="/assets/images/history/1989-stada.jpg">
+    </div>
+    <div class="historyDesc">
+        Thành lập vào năm 1989 với nhiệm vụ sản xuất dược phẩm, kinh doanh thuốc & vật tư thiết bị y tế
     </div>
     <div class="historyLine"></div>
     <div class="cleaner"></div>
