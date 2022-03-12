@@ -46,7 +46,7 @@ class HeaderWidget
 
         if (!empty($menu)) {
             $list_child =  $MenuModel->where("parent_id", $menu->id)->asObject()->findAll();
-            if (empty($list_child)) {
+            if (empty($list_child) &&  $menu->parent_id > 0) {
                 $list_child =  $MenuModel->where("parent_id", $menu->parent_id)->asObject()->findAll();
             }
             $this->data['list_child'] = $list_child;

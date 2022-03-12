@@ -32,7 +32,7 @@
 
         <div class="infoblockText">
             <div class="infoblockTitle">
-                <span id="rptInfoblock_ctl03_infoblockInstance1_lblTitle">Kênh phân phối</span>
+                <span id="rptInfoblock_ctl03_infoblockInstance1_lblTitle">Hệ thống phân phối Pymepharco với 24 chi nhánh trải rộng khắp cả nước.</span>
             </div>
             <div class="infoblockAbstract">
                 <span id="rptInfoblock_ctl03_infoblockInstance1_lblAbstract">

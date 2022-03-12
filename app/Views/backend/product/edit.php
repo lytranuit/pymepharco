@@ -38,9 +38,6 @@
                                     <a class="nav-link" data-toggle="tab" href="#menu1">Tiếng Anh</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" data-toggle="tab" href="#menu2">Tiếng Nhật</a>
-                                </li>
-                                <li class="nav-item">
                                     <a class="nav-link" data-toggle="tab" href="#menu4">Hình ảnh khác</a>
                                 </li>
                             </ul>
@@ -60,11 +57,30 @@
                                         </div>
                                     </div>
 
+                                    <div class="form-group row">
+                                        <b class="col-12 col-lg-2 col-form-label">Hướng dẫn sử dụng:</b>
+                                        <div class="col-12">
+                                            <textarea class="edit" name="guide_vi"></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <b class="col-12 col-lg-2 col-form-label">Chống chỉ định:</b>
+                                        <div class="col-12">
+                                            <textarea class="edit" name="ccd_vi"></textarea>
+                                        </div>
+                                    </div>
 
                                     <div class="form-group row">
-                                        <b class="col-12 col-lg-2 col-form-label">Thông tin:<i class="text-danger">*</i></b>
+                                        <b class="col-12 col-lg-2 col-form-label">Phản ứng phụ:</b>
                                         <div class="col-12">
-                                            <textarea class="edit" name="detail_vi"></textarea>
+                                            <textarea class="edit" name="ppp_vi"></textarea>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group row">
+                                        <b class="col-12 col-lg-2 col-form-label">Thận trọng:</b>
+                                        <div class="col-12">
+                                            <textarea class="edit" name="tt_vi"></textarea>
                                         </div>
                                     </div>
 
@@ -84,35 +100,35 @@
                                         </div>
                                     </div>
                                     <div class="form-group row">
-                                        <b class="col-12 col-lg-2 col-form-label">Thông tin:<i class="text-danger">*</i></b>
+                                        <b class="col-12 col-lg-2 col-form-label">Hướng dẫn sử dụng:</b>
                                         <div class="col-12">
-                                            <textarea class="edit" name="detail_en"></textarea>
+                                            <textarea class="edit" name="guide_en"></textarea>
                                         </div>
                                     </div>
+                                    <div class="form-group row">
+                                        <b class="col-12 col-lg-2 col-form-label">Chống chỉ định:</b>
+                                        <div class="col-12">
+                                            <textarea class="edit" name="ccd_en"></textarea>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group row">
+                                        <b class="col-12 col-lg-2 col-form-label">Phản ứng phụ:</b>
+                                        <div class="col-12">
+                                            <textarea class="edit" name="ppp_en"></textarea>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group row">
+                                        <b class="col-12 col-lg-2 col-form-label">Thận trọng:</b>
+                                        <div class="col-12">
+                                            <textarea class="edit" name="tt_en"></textarea>
+                                        </div>
+                                    </div>
+
 
 
                                 </div>
-                                <div id="menu2" class=" tab-pane fade">
-                                    <div class="form-group row">
-                                        <b class="col-12 col-lg-2 col-form-label">Tên:<i class="text-danger">*</i></b>
-                                        <div class="col-12 col-lg-4 pt-1">
-                                            <input class="form-control form-control-sm" type='text' name="name_jp" placeholder="Tiếng nhật" />
-                                        </div>
-                                    </div>
-                                    <div class="form-group row">
-                                        <b class="col-12 col-lg-2 col-form-label">Mô tả:<i class="text-danger">*</i></b>
-                                        <div class="col-12">
-                                            <textarea class="edit" name="description_jp"></textarea>
-                                        </div>
-                                    </div>
-                                    <div class="form-group row">
-                                        <b class="col-12 col-lg-2 col-form-label">Thông tin:<i class="text-danger">*</i></b>
-                                        <div class="col-12">
-                                            <textarea class="edit" name="detail_jp"></textarea>
-                                        </div>
-                                    </div>
-                                </div>
-
                                 <div id="menu4" class=" tab-pane fade">
                                     <div class="row clearfix">
                                         <div class="col-12">
