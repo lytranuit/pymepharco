@@ -10,9 +10,9 @@
         <li><?= lang("Custom.news") ?></li>
     </span>
 </div>
-<div id="pageImage">
+<div id="pageImage" style="background-image: url(<?= base_url($info->image_url) ?>);">
 
-    <img id="pageImageInstance_imgPageImage" src="<?= base_url("/assets/images/Header-Kontakt.png") ?>" style="border-width:0px;">
+    <!-- <img id="pageImageInstance_imgPageImage" src="<?= base_url($info->image_url) ?>" style="border-width:0px;"> -->
 
     <div id="pageImageOverlay">
         <div class="circle circleNo1"></div>

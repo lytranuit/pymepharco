@@ -31,8 +31,7 @@
     <div class="infoblockText2">
         <div class="infoblockDesc2">
             <span id="infoblockInstance5_lblDesc">
-                <iframe src="https://www.youtube.com/embed/uVBTkBL7Qjk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </span>
+            <iframe src="https://www.youtube.com/embed/CPW49B9jHF0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  </span>
         </div>
         <div class="infoblockSubnote">
             <span id="infoblockInstance5_lblSubnote"></span>
@@ -44,7 +43,7 @@
 </div>
 
 
-<div id="infoblockInstance0_pnlInfoblock" class="infoblock ibVideoLeft noButton">
+<!-- <div id="infoblockInstance0_pnlInfoblock" class="infoblock ibVideoLeft noButton">
 
 
     <div class="infoblockText">
@@ -111,7 +110,7 @@
     <div class="cleaner"></div>
 
 
-</div>
+</div> -->
 
 
 <!-- <div id="infoblockInstance1_pnlInfoblock" class="infoblock ibImageLeft">

@@ -65,7 +65,7 @@
         <img src="/assets/images/history/1989-stada.jpg">
     </div>
     <div class="historyDesc">
-        Thành lập vào năm 1989 với nhiệm vụ sản xuất dược phẩm, kinh doanh thuốc & vật tư thiết bị y tế
+        Pymepharco được thành lập vào ngày 23 tháng 7 năm 1989 với nhiệm vụ sản xuất dược phẩm, kinh doanh thuốc & vật tư thiết bị y tế.
     </div>
     <div class="historyLine"></div>
     <div class="cleaner"></div>
