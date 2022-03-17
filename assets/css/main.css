@@ -166,8 +166,7 @@ h5 {
     background-repeat:no-repeat;
     background-position:top center;
     background-size:cover;*/
-    height: 31.25vw;
-    min-height: 400px;
+    /* height: 31.25vw; */
 }
 
 #sliderOverlay {

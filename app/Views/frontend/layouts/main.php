@@ -29,11 +29,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
     <link href="<?= base_url("/assets/css/menu.css") ?>" rel="stylesheet" type="text/css">
-    <link href="<?= base_url("/assets/css/main.css") ?>" rel="stylesheet" type="text/css">
+    <link href="<?= base_url("/assets/css/main.css?v=2") ?>" rel="stylesheet" type="text/css">
     <link href="<?= base_url("/assets/css/resp.cs") ?>s" rel="stylesheet" type="text/css">
     <link href="<?= base_url("/assets/css/infoblock.css") ?>" rel="stylesheet" type="text/css">
     <link href="<?= base_url("/assets/css/infoblockResp.css") ?>" rel="stylesheet" type="text/css">
-    <link href="<?= base_url("/assets/css/slider.css") ?>" rel="stylesheet" type="text/css"><!-- Facebook Pixel Code -->
+    <link href="<?= base_url("/assets/css/slider.css?v=2") ?>" rel="stylesheet" type="text/css"><!-- Facebook Pixel Code -->
 
     <link href="<?= base_url("/assets/css/bootstrap-grid.css") ?>" rel="stylesheet" type="text/css">
     <!-- CSS -->

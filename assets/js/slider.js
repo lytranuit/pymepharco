@@ -28,9 +28,11 @@ function createSlider() {
 
   screenWidth = document.body.clientWidth;
 
-  moveCircle(allImageContainers[0]);
+  showText(currentSlider);
+  showImage(currentSlider);
+  moveCircle(allImageContainers[currentSlider]);
 
-  createTimer();
+  // createTimer();
 }
 
 function addNavigator() {
@@ -70,8 +72,10 @@ function createTimer() {
 }
 
 function startSlider() {
+  // console.log(currentSlider);
   removeImage(currentSlider);
   nextSlider();
+  // console.log(currentSlider);
   showText(currentSlider);
   showImage(currentSlider);
   moveCircle(allImageContainers[currentSlider]);
@@ -80,7 +84,7 @@ function startSlider() {
 function removeImage(cs) {
   allImageContainers[cs].style.transition = "all 2s";
   allImageContainers[cs].style.opacity = 0;
-
+  $(".box-slider:eq(" + cs + ")").hide();
   setTimeout(function () {
     allImageContainers[cs].style.zIndex = "100";
   }, 2000);
@@ -104,6 +108,7 @@ function showImage(cs) {
   allImageContainers[cs].style.transition = "all 2s";
   allImageContainers[cs].style.opacity = 1;
 
+  $(".box-slider:eq(" + cs + ")").show();
   setTimeout(function () {
     allImageContainers[cs].style.zIndex = "200";
   }, 2000);

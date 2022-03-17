@@ -219,4 +219,5 @@
 
 
 <?= $this->section("script") ?>
+<script src="<?= base_url("assets/js/slider.js?v=2") ?>"></script>
 <?= $this->endSection() ?>
