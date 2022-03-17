@@ -28,9 +28,15 @@
                                 </div>
                             </div>
                             <div class="form-group row">
-                                <b class="col-12 col-lg-2 col-form-label">Text:</b>
+                                <b class="col-12 col-lg-2 col-form-label">Text VI:</b>
                                 <div class="col-12 col-lg-12 pt-1">
-                                    <textarea class="edit" type='text' name="text"></textarea>
+                                    <textarea class="edit" type='text' name="text_vi"></textarea>
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <b class="col-12 col-lg-2 col-form-label">Text EN:</b>
+                                <div class="col-12 col-lg-12 pt-1">
+                                    <textarea class="edit" type='text' name="text_en"></textarea>
                                 </div>
                             </div>
                         </div>
