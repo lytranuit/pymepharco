@@ -17,11 +17,10 @@
             <span id="infoblockInstance5_lblTitle"></span>
         </div>
         <div class="infoblockAbstract" data-animate="backInLeft">
-            <span id="infoblockInstance5_lblAbstract">Exactly <a href="https://www.linkedin.com/feed/hashtag/?highlightedUpdateUrns=urn%3Ali%3Aactivity%3A6653982567525568512&amp;keywords=%2360years&amp;originTrackingId=bZAI%2FL2MLZusuG8EEI2veg%3D%3D&amp;lipi=urn%3Ali%3Apage%3Ad_flagship3_company%3B9ZqAFgrJSK2OIe%2F6b5fLoQ%3D%3D&amp;licu=urn%3Ali%3Acontrol%3Ad_flagship3_company-hashtag" target="_blank">#60years</a> ago, we started our journey in Vršac. Taking big and
-                confident steps, in these six decades we have reached a leading position not only in Serbia
-                but also in the region. Along the way, we faced many challenges, built memories and lived
-                beautiful moments. By skillfully defending the health of our patients and keeping their
-                trust on a daily basis, we have shown that <a href="https://www.linkedin.com/feed/hashtag/?highlightedUpdateUrns=urn%3Ali%3Aactivity%3A6653982567525568512&amp;keywords=%23LifeWinsWithUs&amp;originTrackingId=bZAI%2FL2MLZusuG8EEI2veg%3D%3D&amp;lipi=urn%3Ali%3Apage%3Ad_flagship3_company%3B9ZqAFgrJSK2OIe%2F6b5fLoQ%3D%3D&amp;licu=urn%3Ali%3Acontrol%3Ad_flagship3_company-hashtag" target="_blank">#LifeWinsWithUs</a>.</span>
+            <span id="infoblockInstance5_lblAbstract">
+                Thương hiệu <a href="#">PYMEPHARCO</a> đã tạo được thế vững chắc và có uy tín trên thị trường trong và ngoài nước. Phát huy những thành quả đã đạt được, công ty tiếp tục đẩy mạnh dòng sản phẩm Cephalosporin trong hệ thống cơ cấu sản phẩm. 
+                Công ty đang hoạch định những bước đi cần thiết, phát triển thương hiệu <a href="#">PYMEPHARCO</a> cũng như hướng tới việc cung cấp cho cộng đồng những sản phẩm có chất lượng cao và xuất khẩu ra thị trường quốc tế.
+            </span>
         </div>
     </div>
     <div class="infoblockImage">
@@ -31,7 +30,7 @@
     <div class="infoblockText2">
         <div class="infoblockDesc2">
             <span id="infoblockInstance5_lblDesc">
-            <iframe src="https://www.youtube.com/embed/CPW49B9jHF0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  </span>
+                <iframe src="https://www.youtube.com/embed/CPW49B9jHF0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> </span>
         </div>
         <div class="infoblockSubnote">
             <span id="infoblockInstance5_lblSubnote"></span>

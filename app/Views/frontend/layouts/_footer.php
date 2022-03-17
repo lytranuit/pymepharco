@@ -57,7 +57,7 @@
                     <a href="https://www.linkedin.com/company/pymepharco-stada-ag" target="_blank">
                         <img src="<?= base_url("/assets/images/IN-icon.png") ?>">
                     </a>
-                    <a href="#" target="_blank">
+                    <a href="https://www.youtube.com/channel/UCeoGXnxqMO3A5C6LPv8iKIQ" target="_blank">
                         <img src="<?= base_url("/assets/images/YT-icon.png") ?>">
                     </a>
                 </div>

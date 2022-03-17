@@ -56,42 +56,69 @@
 
 
 </div> -->
+
+
 <div class="infoblock historyLeftImage">
     <div class="historyYear">
-        1989
+        2020
     </div>
     <div class="historyImage">
-        <img src="/assets/images/history/1989-stada.jpg">
+        <img src="/assets/images/history/2020-stada.jpg" style="transition: all 1s ease 0s; opacity: 1; margin-left: 0px;">
     </div>
     <div class="historyDesc">
-        Established in 1989 with the mission of manufacturing pharmaceutical products, trading drugs & medical supplies and equipment </div>
+        <div class="historyTitle"></div>
+        October 2020 officially become member of STADA group (Germany).<br>
+        Pymepharco's more than 30 years of experience combine with a diverse product portfolio and the quality of STADA's 125-year history, through providing users, patients and healthcare professionals alike. In Vietnam, with products manufactured with high technology, European quality at affordable prices, STADA Group will always be loyal to the purpose: Caring for people's health as a trusted partner.
+    </div>
     <div class="historyLine"></div>
     <div class="cleaner"></div>
 </div>
 <div class="infoblock historyRightImage">
     <div class="historyYear">
-        1993
+        2019
     </div>
     <div class="historyImage">
-        <img src="/assets/images/history/Pymepharco.png">
+        <img src="/assets/images/history/2019-stada.jpg" style="transition: all 1s ease 0s; opacity: 1; margin-left: 0px;">
     </div>
     <div class="historyDesc">
-        <li>Established a Branch in Ho Chi Minh City</li>
-
-        <li>The company is licensed by the Ministry of Trade to directly import and export specialized in medicine and pharmaceuticals. This is an important milestone as a basis for business development and international relations expansion. Cooperation, joint venture with domestic and foreign partners, expand domestic market share and export</li>
+        Stada Vietnam factory inaugurated according to EU GMP standards with an area of 30,000 m2, is one of the modern factories within the region, capable of participating in the global supply chain of STADA group (Germany). </div>
+    <div class="historyLine"></div>
+    <div class="cleaner"></div>
+</div>
+<div class="infoblock historyLeftImage">
+    <div class="historyYear">
+        2018
+    </div>
+    <div class="historyImage">
+        <img src="/assets/images/history/2018-stada.jpg">
+    </div>
+    <div class="historyDesc">
+        Pymepharco continues to invest in upgrading the injection system and has successfully completed the inspection, meeting EU GMP standards for the Cephalosporin injectable antibiotic factory, thereby strongly affirming its pioneering position in EU GMP in Vietnam for betalactam antibiotics. </div>
+    <div class="historyLine"></div>
+    <div class="cleaner"></div>
+</div>
+<div class="infoblock historyRightImage">
+    <div class="historyYear">
+        2013
+    </div>
+    <div class="historyImage">
+        <img src="/assets/images/history/2013-stada.jpg">
+    </div>
+    <div class="historyDesc">
+        Pymepharco becomes the first unit in Vietnam to produce cephalosporin antibiotic tablets that meet EU GMP standards
     </div>
     <div class="historyLine"></div>
     <div class="cleaner"></div>
 </div>
 <div class="infoblock historyLeftImage">
     <div class="historyYear">
-        2003
+        2008
     </div>
     <div class="historyImage">
-        <img src="/assets/images/history/Pymepharco.png">
+        <img src="/assets/images/history/2008-stada.jpg">
     </div>
     <div class="historyDesc">
-        Pymepharco pharmaceutical factory meeting ASEAN GMP standards officially went into operation with 3 workshops: Betalactam, Non Betalactam, Soft Capsule. </div>
+        The second factory is completed with four production lines including Non-Betalactam Sterile Workshop: Ampoules, Eye Drops & Freeze-drying; Betalactam workshop and tablet workshop (WHO GMP). This was the most modern injection drug factory in Vietnam at that time. </div>
     <div class="historyLine"></div>
     <div class="cleaner"></div>
 </div>
@@ -110,69 +137,44 @@
     <div class="historyLine"></div>
     <div class="cleaner"></div>
 </div>
+
 <div class="infoblock historyLeftImage">
     <div class="historyYear">
-        2008
+        2003
     </div>
     <div class="historyImage">
-        <img src="/assets/images/history/2008-stada.jpg">
+        <img src="/assets/images/history/Pymepharco.png">
     </div>
     <div class="historyDesc">
-        The second factory is completed with four production lines including Non-Betalactam Sterile Workshop: Ampoules, Eye Drops & Freeze-drying; Betalactam workshop and tablet workshop (WHO GMP). This was the most modern injection drug factory in Vietnam at that time. </div>
+        Pymepharco pharmaceutical factory meeting ASEAN GMP standards officially went into operation with 3 workshops: Betalactam, Non Betalactam, Soft Capsule. </div>
     <div class="historyLine"></div>
     <div class="cleaner"></div>
 </div>
 
 <div class="infoblock historyRightImage">
     <div class="historyYear">
-        2013
+        1993
     </div>
     <div class="historyImage">
-        <img src="/assets/images/history/2013-stada.jpg">
+        <img src="/assets/images/history/Pymepharco.png">
     </div>
     <div class="historyDesc">
-        Pymepharco becomes the first unit in Vietnam to produce cephalosporin antibiotic tablets that meet EU GMP standards
-    </div>
-    <div class="historyLine"></div>
-    <div class="cleaner"></div>
-</div>
-<div class="infoblock historyLeftImage">
-    <div class="historyYear">
-        2018
-    </div>
-    <div class="historyImage">
-        <img src="/assets/images/history/2018-stada.jpg">
-    </div>
-    <div class="historyDesc">
-        Pymepharco continues to invest in upgrading the injection system and has successfully completed the inspection, meeting EU GMP standards for the Cephalosporin injectable antibiotic factory, thereby strongly affirming its pioneering position in EU GMP in Vietnam for betalactam antibiotics. </div>
-    <div class="historyLine"></div>
-    <div class="cleaner"></div>
-</div>
-<div class="infoblock historyRightImage">
-    <div class="historyYear">
-        2019
-    </div>
-    <div class="historyImage">
-        <img src="/assets/images/history/2019-stada.jpg" style="transition: all 1s ease 0s; opacity: 1; margin-left: 0px;">
-    </div>
-    <div class="historyDesc">
-        Stada Vietnam factory inaugurated according to EU GMP standards with an area of 30,000 m2, is one of the modern factories within the region, capable of participating in the global supply chain of STADA group (Germany). </div>
-    <div class="historyLine"></div>
-    <div class="cleaner"></div>
-</div>
+        <li>Established a Branch in Ho Chi Minh City</li>
 
+        <li>The company is licensed by the Ministry of Trade to directly import and export specialized in medicine and pharmaceuticals. This is an important milestone as a basis for business development and international relations expansion. Cooperation, joint venture with domestic and foreign partners, expand domestic market share and export</li>
+    </div>
+    <div class="historyLine"></div>
+    <div class="cleaner"></div>
+</div>
 <div class="infoblock historyLeftImage">
     <div class="historyYear">
-        2020
+        1989
     </div>
     <div class="historyImage">
-        <img src="/assets/images/history/2020-stada.jpg" style="transition: all 1s ease 0s; opacity: 1; margin-left: 0px;">
+        <img src="/assets/images/history/1989-stada.jpg">
     </div>
     <div class="historyDesc">
-        <div class="historyTitle"></div>
-        October 2020 officially become member of STADA group (Germany).<br>
-        Pymepharco's more than 30 years of experience combine with a diverse product portfolio and the quality of STADA's 125-year history, through providing users, patients and healthcare professionals alike. In Vietnam, with products manufactured with high technology, European quality at affordable prices, STADA Group will always be loyal to the purpose: Caring for people's health as a trusted partner.
-    </div>
+        Established in 1989 with the mission of manufacturing pharmaceutical products, trading drugs & medical supplies and equipment </div>
     <div class="historyLine"></div>
     <div class="cleaner"></div>
 </div>
