@@ -14,7 +14,7 @@ class ProductModel extends Model
     protected $returnType     = 'App\Entities\Product';
     protected $useSoftDeletes = false;
 
-    protected $allowedFields = ['slug', 'name_vi', 'name_en', 'name_jp', 'description_vi', 'description_en', 'description_jp', 'detail_vi', 'detail_en', 'detail_jp', 'image_url', 'date', 'active', 'order'];
+    protected $allowedFields = ['slug', 'name_vi', 'name_en', 'name_jp', 'description_vi', 'description_en', 'guide_vi', 'guide_en', 'ccd_vi', 'ccd_en', 'ppp_vi', 'ppp_en', 'tt_vi', 'tt_en', 'image_url', 'date', 'active', 'order'];
 
 
     public function relation(&$data, $relation = array())
