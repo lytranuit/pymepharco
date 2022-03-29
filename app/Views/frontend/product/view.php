@@ -31,10 +31,10 @@
         <div class="row">
 
             <div class="col-md-6">
-                <div class="sp_img" style="width: 100%; display: inline-block;    position: relative;
-    min-height: 635px;
-    background: #f1f5f8;
-    border-radius: 20px;
+                <div class="sp_img" style="width: 100%;
+    display: inline-block;
+    position: relative;
+    min-height: 60vh;
     text-align: center;">
                     <img src="<?= $info->image_url ?>" alt="Gallery Image" style="    max-width: 100%;
     width: auto;
@@ -48,7 +48,8 @@
             </div>
             <div class="col-md-6">
                 <div class="product_details ">
-                    <h3 style="font-size:24px;font-weight:bold;"><?= $info->{pick_language($info)} ?></h3>
+                    <h3 style="    font-size: 36px;
+    color: #818181;"><?= $info->{pick_language($info)} ?></h3>
 
                     <div class="pd_excrpt">
                         <?= $info->{pick_language($info, "description_")} ?>
