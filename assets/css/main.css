@@ -940,6 +940,13 @@ input {
     margin-bottom: 30px;
 }
 
+@media (max-width: 1024px) {
+    .section-products__item {
+
+        padding: 0px 20px;
+    }
+}
+
 .section-products__item:before {
     border-top: 1px solid #ededed;
     content: "";

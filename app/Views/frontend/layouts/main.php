@@ -32,7 +32,7 @@
 
 
     <link href="<?= base_url("/assets/css/menu.css") ?>" rel="stylesheet" type="text/css">
-    <link href="<?= base_url("/assets/css/main.css?v=2") ?>" rel="stylesheet" type="text/css">
+    <link href="<?= base_url("/assets/css/main.css?v=3") ?>" rel="stylesheet" type="text/css">
     <link href="<?= base_url("/assets/css/resp.cs") ?>s" rel="stylesheet" type="text/css">
     <link href="<?= base_url("/assets/css/infoblock.css") ?>" rel="stylesheet" type="text/css">
     <link href="<?= base_url("/assets/css/infoblockResp.css") ?>" rel="stylesheet" type="text/css">
