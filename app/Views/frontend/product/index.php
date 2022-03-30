@@ -21,41 +21,34 @@
     </div>
 </div>
 <div class="container plainText">
-    <div class="row">
-        <div class="col-md-3 my-2">
-            <?= view_cell("\App\Libraries\SidebarWidget::sidemenuproduct") ?>
-        </div>
-        <div class="col-md-9">
-            <div class="row justify-center">
-                <?php foreach ($products as $row) : ?>
-                    <div class="col-lg-4 col-md-6">
-                        <div class="card card--banner flex flex-column h-100">
-                            <a class="link" href="<?= url_product($row) ?>" title="<?= $row->{pick_language($row, 'name_')} ?>">
-                                <div style="border: 1px solid lightgray;">
-                                    <img style="width:100%" data-src="<?= $row->image_url ?>" alt="<?= $row->{pick_language($row, 'name_')} ?>" title="<?= $row->{pick_language($row, 'name_')} ?>" src="<?= $row->image_url ?>">
-                                </div>
-                                <div style="margin: 10px;">
-                                    <h4 style="color: black;text-align: center;font-weight:bold;">
-                                        <?= $row->{pick_language($row, 'name_')} ?>
-                                    </h4>
-                                    <!-- <div class="">
-                                        <p style="font-size: 14px;color:gray;">
-                                            <?= split_string($row->{pick_language($row, 'description_')}, 200) ?>
-                                        </p>
-                                    </div> -->
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                <?php endforeach ?>
-            </div>
-            <div class="pv3 mv2">
-                <div class="pagination">
-                    <div class="flex align-center justify-center">
 
-                        <?= $pager->links() ?>
-                    </div>
+    <div class="row justify-center">
+        <?php foreach ($products as $row) : ?>
+            <div class="col-6 col-sm-6 col-lg-4 section-products__item">
+                <div class="thumbnail">
+                    <a class="bg-image " href="<?= url_product($row) ?>">
+                        <img style="width:100%" src="<?= $row->image_url ?>" alt="<?= $row->{pick_language($row, 'name_')} ?>">
+                        <span class="hover-state hover-state--tranparent">
+                            <span><span></span></span>
+                        </span>
+                    </a>
                 </div>
+                <div class="section-products__item__info">
+                    <h2 class="section-products__item__info__title" style="text-align: center;"><a href="<?= url_product($row) ?>"><?= $row->{pick_language($row, 'name_')} ?></a></h2>
+
+                    <!-- <span class="section-products__item__info__type">Rx</span> -->
+
+                    <!-- <span class="section-products__item__info__quantity" style="height: 21px;">Hộp 14 viên, 28 viên, 30 viên, 50 viên.</span> -->
+                </div>
+
+            </div>
+        <?php endforeach ?>
+    </div>
+    <div class="pv3 mv2">
+        <div class="pagination">
+            <div class="flex align-center justify-center">
+
+                <?= $pager->links() ?>
             </div>
         </div>
     </div>
@@ -64,6 +57,7 @@
 
 <?= $this->section("style") ?>
 <link href="<?= base_url("/assets/css/sidebar.css") ?>" rel="stylesheet" type="text/css">
+
 <?= $this->endSection() ?>
 
 

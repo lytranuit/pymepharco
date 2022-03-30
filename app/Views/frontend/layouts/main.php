@@ -13,7 +13,7 @@
     <meta property="og:type" content="article">
     <meta property="og:description" content="Pymepharco">
     <meta property="og:image" content="<?= base_url("assets/images/favicon.png?v=$ver") ?>">
-    
+
     <meta property="og:image:alt" content="Pymepharco">
     <meta name="robots" content="index,follow" />
     <link rel="canonical" href="<?= base_url() ?>">
@@ -28,6 +28,9 @@
     <link rel="stylesheet" id="font-css" href="https://fonts.googleapis.com/css?family=Arimo%3A400%2C400i%2C700&amp;display=swap&amp;ver=5.7.5" type="text/css" media="all">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link href="<?= base_url("/assets/css/bootstrap-grid.css") ?>" rel="stylesheet" type="text/css">
+
+
     <link href="<?= base_url("/assets/css/menu.css") ?>" rel="stylesheet" type="text/css">
     <link href="<?= base_url("/assets/css/main.css?v=2") ?>" rel="stylesheet" type="text/css">
     <link href="<?= base_url("/assets/css/resp.cs") ?>s" rel="stylesheet" type="text/css">
@@ -35,7 +38,6 @@
     <link href="<?= base_url("/assets/css/infoblockResp.css") ?>" rel="stylesheet" type="text/css">
     <link href="<?= base_url("/assets/css/slider.css?v=2") ?>" rel="stylesheet" type="text/css"><!-- Facebook Pixel Code -->
 
-    <link href="<?= base_url("/assets/css/bootstrap-grid.css") ?>" rel="stylesheet" type="text/css">
     <!-- CSS -->
     <?php if (!empty($stylesheet_tag)) : ?>
         <?php foreach ($stylesheet_tag as $url) : ?>

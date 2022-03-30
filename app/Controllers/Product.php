@@ -20,10 +20,19 @@ class Product extends BaseController
     {
         $product_model = model("ProductModel");
         $this->data['info'] = $product_model->asObject()->find($id);
+
+        $product_model->relation($this->data['info'], array('image_other', "ext", "category"));
         // echo "<pre>";
         // print_r($this->data['info']);
         // die();
+        $caterogires = array_map(function ($item) {
+            return $item->category_id;
+        }, $this->data['info']->category);
         $this->data['title'] =   $this->data['info']->{pick_language($this->data['info'])} . $this->data['title'];
+        $this->data['product_related'] = $product_model->get_product_related($id, $caterogires);
+        // echo "<pre>";
+        // print_r($product_related);
+        // die();
         return view($this->data['content'], $this->data);
     }
     public function search()

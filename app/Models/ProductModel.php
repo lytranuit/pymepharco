@@ -38,10 +38,15 @@ class ProductModel extends Model
                 $builder = $this->db->table('pet_product_image');
                 $row_a->image_other = $builder->where('product_id', $product_id)->get()->getResult();
             }
+            if (in_array("ext", $relation)) {
+                $product_id = $row_a->id;
+                $builder = $this->db->table('pet_product_ext');
+                $row_a->ext = $builder->where('product_id', $product_id)->where("deleted_at", NULL)->get()->getResult();
+            }
             if (in_array("category", $relation)) {
                 $product_id = $row_a->id;
-                $builder = $this->db->table('pet_product_category')->join("pet_category", "pet_product_category.cateogry_id = pet_category.id");
-                $row_a->tags = $builder->where('product_id', $product_id)->orderBy("order", "ASC")->get()->getResult();
+                $builder = $this->db->table('pet_product_category')->join("pet_category", "pet_product_category.category_id = pet_category.id");
+                $row_a->category = $builder->where('product_id', $product_id)->get()->getResult();
             }
         } else {
             if (in_array("image_other", $relation)) {
@@ -49,10 +54,15 @@ class ProductModel extends Model
                 $builder = $this->db->table('pet_product_image');
                 $row_a['image_other'] = $builder->where('product_id', $product_id)->get()->getResult("array");
             }
+            if (in_array("ext", $relation)) {
+                $product_id = $row_a['id'];
+                $builder = $this->db->table('pet_product_ext');
+                $row_a['ext'] = $builder->where('product_id', $product_id)->where("deleted_at", NULL)->get()->getResult("array");
+            }
             if (in_array("category", $relation)) {
                 $product_id = $row_a['id'];
-                $builder = $this->db->table('pet_product_category')->join("pet_category", "pet_product_category.cateogry_id = pet_category.id");
-                $row_a['tags'] = $builder->where('product_id', $product_id)->orderBy("order", "ASC")->get()->getResult("array");
+                $builder = $this->db->table('pet_product_category')->join("pet_category", "pet_product_category.category_id = pet_category.id");
+                $row_a['category'] = $builder->where('product_id', $product_id)->get()->getResult("array");
             }
         }
         return $row_a;
@@ -66,7 +76,7 @@ class ProductModel extends Model
         $builder->whereIn('id', function (BaseBuilder $builder) use ($categories) {
             return $builder->select('product_id')->from('pet_product_category')->whereIn('category_id', $categories);
         });
-        return $builder->where("status", 1)->where("is_pet", 1)->where('id !=', $id)->get()->getResult();
+        return $builder->where("deleted_at", NULL)->where('id !=', $id)->get()->getResult();
     }
 
     public function get_product($category_id = 0, $keyword = "", $offset = 0, $limit = 20)

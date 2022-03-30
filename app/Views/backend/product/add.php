@@ -42,34 +42,6 @@
                                         </div>
                                     </div>
 
-                                    <div class="form-group row">
-                                        <b class="col-12 col-lg-2 col-form-label">Hướng dẫn sử dụng:</b>
-                                        <div class="col-12">
-                                            <textarea class="edit" name="guide_vi"></textarea>
-                                        </div>
-                                    </div>
-                                    <div class="form-group row">
-                                        <b class="col-12 col-lg-2 col-form-label">Chống chỉ định:</b>
-                                        <div class="col-12">
-                                            <textarea class="edit" name="ccd_vi"></textarea>
-                                        </div>
-                                    </div>
-
-                                    <div class="form-group row">
-                                        <b class="col-12 col-lg-2 col-form-label">Phản ứng phụ:</b>
-                                        <div class="col-12">
-                                            <textarea class="edit" name="ppp_vi"></textarea>
-                                        </div>
-                                    </div>
-
-                                    <div class="form-group row">
-                                        <b class="col-12 col-lg-2 col-form-label">Thận trọng:</b>
-                                        <div class="col-12">
-                                            <textarea class="edit" name="tt_vi"></textarea>
-                                        </div>
-                                    </div>
-
-
                                 </div>
                                 <div id="menu1" class=" tab-pane fade">
                                     <div class="form-group row">
@@ -84,33 +56,6 @@
                                             <textarea class="edit" name="description_en"></textarea>
                                         </div>
                                     </div>
-                                    <div class="form-group row">
-                                        <b class="col-12 col-lg-2 col-form-label">Hướng dẫn sử dụng:</b>
-                                        <div class="col-12">
-                                            <textarea class="edit" name="guide_en"></textarea>
-                                        </div>
-                                    </div>
-                                    <div class="form-group row">
-                                        <b class="col-12 col-lg-2 col-form-label">Chống chỉ định:</b>
-                                        <div class="col-12">
-                                            <textarea class="edit" name="ccd_en"></textarea>
-                                        </div>
-                                    </div>
-
-                                    <div class="form-group row">
-                                        <b class="col-12 col-lg-2 col-form-label">Phản ứng phụ:</b>
-                                        <div class="col-12">
-                                            <textarea class="edit" name="ppp_en"></textarea>
-                                        </div>
-                                    </div>
-
-                                    <div class="form-group row">
-                                        <b class="col-12 col-lg-2 col-form-label">Thận trọng:</b>
-                                        <div class="col-12">
-                                            <textarea class="edit" name="tt_en"></textarea>
-                                        </div>
-                                    </div>
-
 
 
                                 </div>

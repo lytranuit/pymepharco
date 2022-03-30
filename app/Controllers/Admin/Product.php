@@ -72,15 +72,35 @@ class Product extends BaseController
             $Product_model = model("ProductModel");
             $Product_category_model = model("ProductCategoryModel");
             $Product_image_model = model("ProductImageModel");
+            $ProductextModel = model("ProductextModel");
             $data = $this->request->getPost();
             $related_new = array();
             if (isset($data['category_list'])) {
                 $related_new = array_merge($related_new, $data['category_list']);
                 unset($data['category_list']);
             }
-            //print_r($data);
-            //die();
-
+            // echo "<pre>";
+            // print_r($data);
+            // die();
+            /* HDSD */
+            if (isset($data['hdsd'])) {
+                $data_insert = array();
+                foreach ($data['hdsd'] as $row) {
+                    if (isset($row['id']) && $row['id'] > 0) {
+                        $obj = $ProductextModel->create_object($row);
+                        $ProductextModel->update($row['id'], $obj);
+                    } else {
+                        $data_insert[] = $row;
+                    }
+                }
+                if (count($data_insert) > 0)
+                    $ProductextModel->insertBatch($data_insert);
+            }
+            if (isset($data['hdsd_delete'])) {
+                foreach ($data['hdsd_delete'] as $row) {
+                    $ProductextModel->delete($row);
+                }
+            }
             /* CATEGORY */
             $array = $Product_category_model->where('product_id', $id)->findAll();
             $related_old = array_map(function ($item) {
@@ -128,7 +148,7 @@ class Product extends BaseController
             $category_model = model("CategoryModel");
             $Product_category_model = model("ProductCategoryModel");
             $tin = $Product_model->where(array('id' => $id))->asObject()->first();
-            $Product_model->relation($tin, array('image_other'));
+            $Product_model->relation($tin, array('image_other', "ext"));
             /*category*/
             $category = $Product_category_model->where(array('product_id' => $id))->findAll();
             //print_r($category);
@@ -142,9 +162,9 @@ class Product extends BaseController
                 $tin->category_list = $cate_id;
             }
             $this->data['tin'] = $tin;
-            //echo "<pre>";
-            //print_r($tin);
-            //die();
+            // echo "<pre>";
+            // print_r($tin);
+            // die();
             //load_editor($this->data);
             //            load_chossen($this->data);
 

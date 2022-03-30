@@ -67,38 +67,68 @@
         <div class="row">
             <div class="col-12">
                 <div class="product_d_inner">
-                    <div class="product_info_button">
-                        <ul class="nav" role="tablist" id="nav-tab">
-                            <li>
-                                <a class="active" data-toggle="tab" href="#tab1" role="tab" aria-controls="info" aria-selected="true">Hướng dẫn sử dụng</a>
-                            </li>
-                            <li>
-                                <a data-toggle="tab" href="#tab2" role="tab" aria-controls="sheet" aria-selected="false" class="">Chống chỉ định</a>
-                            </li>
-                            <li>
-                                <a data-toggle="tab" href="#tab3" role="tab" aria-selected="false" class="">Phản ứng phụ</a>
-                            </li>
-                            <li>
-                                <a data-toggle="tab" href="#tab4" role="tab" aria-selected="false" class="">Thận trọng</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="tab-content">
-                        <div class="tab-pane fade active show" id="tab1" role="tabpanel">
-                            <?= $info->{pick_language($info, "guide_")} ?>
+                    <div class="accordion accordion-card js-accordion bg-white m-b-32">
+                        <div class="accordion-heading">
+                            <div class="label label-lg label-is-icon label-icon-left">
+                                <span class="label-text">Hướng dẫn sử dụng</span>
+                            </div>
                         </div>
-                        <div class="tab-pane fade" id="tab2" role="tabpanel">
-                            <?= $info->{pick_language($info, "ccd_")} ?>
-                        </div>
+                        <div class="accordion-list">
+                            <?php foreach ($info->ext as $row) : ?>
 
-                        <div class="tab-pane fade" id="tab3" role="tabpanel">
-                            <?= $info->{pick_language($info, "ppp_")} ?>
-                        </div>
-                        <div class="tab-pane fade" id="tab4" role="tabpanel">
-                            <?= $info->{pick_language($info, "tt_")} ?>
+                                <div class="accordion-item js-acc">
+                                    <div class="accordion-title">
+                                        <div class="label label-md label-is-icon label-icon-left">
+                                            <i class="fas fa-info-circle"></i>
+                                            <span class="label-text"> <?= $row->{pick_language($row, "title_")} ?></span>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-icon">
+                                        <i class="fas fa-chevron-down ac-down"></i>
+                                    </div>
+                                    <div class="accordion-details" style="display: none;">
+                                        <?= $row->{pick_language($row, "content_")} ?>
+                                    </div>
+                                </div>
+                            <?php endforeach ?>
+
                         </div>
                     </div>
                 </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="infoblockInstance_pnlInfoblock" class="infoblock ibMapa">
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h2>Sản phẩm khác</h2>
+            </div>
+            <div class="row">
+
+                <?php foreach ($product_related as $row) : ?>
+                    <div class="col-6 col-sm-6 col-lg-4 section-products__item">
+                        <div class="thumbnail">
+                            <a class="bg-image " href="<?= url_product($row) ?>">
+                                <img style="width:100%" src="<?= $row->image_url ?>" alt="<?= $row->{pick_language($row, 'name_')} ?>">
+                                <span class="hover-state hover-state--tranparent">
+                                    <span><span></span></span>
+                                </span>
+                            </a>
+                        </div>
+                        <div class="section-products__item__info">
+                            <h2 class="section-products__item__info__title" style="text-align: center;"><a href="<?= url_product($row) ?>"><?= $row->{pick_language($row, 'name_')} ?></a></h2>
+
+                            <!-- <span class="section-products__item__info__type">Rx</span> -->
+
+                            <!-- <span class="section-products__item__info__quantity" style="height: 21px;">Hộp 14 viên, 28 viên, 30 viên, 50 viên.</span> -->
+                        </div>
+
+                    </div>
+                <?php endforeach ?>
+
             </div>
         </div>
     </div>
@@ -121,82 +151,47 @@
 
     .product_d_inner {
         background: white;
-        padding: 25px;
-        color: grey;
+        color: #484848;
         border-radius: 5px;
+        font-size: 16px;
     }
 
-    .product_info_button {
-        border-bottom: 1px solid #d5d5d5;
-        padding-bottom: 15px;
-        margin-bottom: 40px
-    }
-
-    .product_info_button ul {
-        justify-content: center;
-        list-style: none;
-        display: flex;
-    }
-
-    .product_info_button li a {
-        display: block;
-        float: left;
+    .accordion-heading {
+        padding: 16px;
         font-size: 20px;
-        color: #a9a9a9;
-        font-weight: 600;
-        margin-right: 35px;
-        line-height: 26px;
+        color: black;
+        border-bottom: 1px solid #dfdfdf;
+    }
+
+    .accordion-item {
+        padding: 12px 40px 12px 16px;
+        border-bottom: 1px solid #dfdfdf;
         position: relative;
-        padding-bottom: 10px;
+        cursor: pointer;
     }
 
-    .product_info_button li a::before {
-        content: "";
-        width: 0;
-        left: 0;
-        bottom: 0;
-        height: 2px;
-        background: #ffd54c;
+    .accordion-title {
+        text-transform: uppercase;
+    }
+
+    .accordion-icon {
+
         position: absolute;
+        right: 16px;
+        top: 0;
+        width: 24px;
+        height: 100%;
+        text-align: center;
+        padding-top: 18px;
     }
 
-    .product_info_button li a.active {
-        color: #333333;
-    }
-
-    .product_info_button li a.active::before {
-        width: 100%;
-    }
-
-
-    .product_info_button li a:hover {
-        color: #333333;
-    }
-
-    .product_info_button li:last-child a {
-        margin-right: 0;
-    }
-
-    .tab-content>.tab-pane {
+    .accordion-icon .ac-down {
         display: block;
-        height: 0;
-        opacity: 0;
-        overflow: hidden;
+        transition: .3s cubic-bezier(.445, .05, .55, .95);
     }
 
-    .tab-content>.tab-pane.active {
-        display: block;
-        height: auto;
-        opacity: 1;
-        overflow: visible;
-    }
-
-    .fade:not(.show) {
-        opacity: 0;
-    }
-
-    .fade {
-        transition: opacity .15s linear;
+    .accordion-item.open .ac-down {
+        transform: rotate(-180deg);
     }
 </style>
 <?= $this->endSection() ?>
@@ -207,14 +202,29 @@
 <script src="<?= base_url("assets/js/circle.js") ?>"></script>
 <script>
     $(document).ready(function() {
-        $(".nav li a").click(function() {
-            let href = $(this).attr("href");
-            $(".nav li a").removeClass("active");
-            $(this).addClass("active");
-            $(".tab-content .tab-pane").removeClass("active show");
-            $(".tab-content " + href).addClass("active show");
-        });
 
+        $('.js-accordion').each(function() {
+            var ac_item = $(this).find('.js-acc');
+            var content = $(this).find('.accordion-details');
+            var link = content.find('a');
+            content.hide();
+            ac_item.click(function() {
+                var $that = $(this),
+                    is_open = $that.is('.open');
+
+                if (is_open) {
+
+                    $that.removeClass('open').find('.accordion-details').slideUp();
+
+                } else {
+
+                    ac_item.removeClass('open').find('.accordion-details').slideUp();
+
+                    $that.addClass('open').find('.accordion-details').slideDown();
+                }
+
+            });
+        });
     })
 </script>
 <?= $this->endSection() ?>

@@ -40,6 +40,9 @@
                                 <li class="nav-item">
                                     <a class="nav-link" data-toggle="tab" href="#menu4">Hình ảnh khác</a>
                                 </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" data-toggle="tab" href="#menu2">Hướng dẫn sử dụng</a>
+                                </li>
                             </ul>
                             <!-- Tab panes -->
                             <div class="tab-content">
@@ -56,35 +59,6 @@
                                             <textarea class="edit" name="description_vi"></textarea>
                                         </div>
                                     </div>
-
-                                    <div class="form-group row">
-                                        <b class="col-12 col-lg-2 col-form-label">Hướng dẫn sử dụng:</b>
-                                        <div class="col-12">
-                                            <textarea class="edit" name="guide_vi"></textarea>
-                                        </div>
-                                    </div>
-                                    <div class="form-group row">
-                                        <b class="col-12 col-lg-2 col-form-label">Chống chỉ định:</b>
-                                        <div class="col-12">
-                                            <textarea class="edit" name="ccd_vi"></textarea>
-                                        </div>
-                                    </div>
-
-                                    <div class="form-group row">
-                                        <b class="col-12 col-lg-2 col-form-label">Phản ứng phụ:</b>
-                                        <div class="col-12">
-                                            <textarea class="edit" name="ppp_vi"></textarea>
-                                        </div>
-                                    </div>
-
-                                    <div class="form-group row">
-                                        <b class="col-12 col-lg-2 col-form-label">Thận trọng:</b>
-                                        <div class="col-12">
-                                            <textarea class="edit" name="tt_vi"></textarea>
-                                        </div>
-                                    </div>
-
-
                                 </div>
                                 <div id="menu1" class=" tab-pane fade">
                                     <div class="form-group row">
@@ -99,35 +73,14 @@
                                             <textarea class="edit" name="description_en"></textarea>
                                         </div>
                                     </div>
-                                    <div class="form-group row">
-                                        <b class="col-12 col-lg-2 col-form-label">Hướng dẫn sử dụng:</b>
-                                        <div class="col-12">
-                                            <textarea class="edit" name="guide_en"></textarea>
-                                        </div>
+                                </div>
+
+                                <div id="menu2" class=" tab-pane fade">
+                                    <button class="btn btn-success add_hdsd">Thêm</button>
+
+                                    <div id="hdsd">
+
                                     </div>
-                                    <div class="form-group row">
-                                        <b class="col-12 col-lg-2 col-form-label">Chống chỉ định:</b>
-                                        <div class="col-12">
-                                            <textarea class="edit" name="ccd_en"></textarea>
-                                        </div>
-                                    </div>
-
-                                    <div class="form-group row">
-                                        <b class="col-12 col-lg-2 col-form-label">Phản ứng phụ:</b>
-                                        <div class="col-12">
-                                            <textarea class="edit" name="ppp_en"></textarea>
-                                        </div>
-                                    </div>
-
-                                    <div class="form-group row">
-                                        <b class="col-12 col-lg-2 col-form-label">Thận trọng:</b>
-                                        <div class="col-12">
-                                            <textarea class="edit" name="tt_en"></textarea>
-                                        </div>
-                                    </div>
-
-
-
                                 </div>
                                 <div id="menu4" class=" tab-pane fade">
                                     <div class="row clearfix">
@@ -155,6 +108,7 @@
                                 </div>
                             </div>
                         </div>
+
                         <div class="col-md-4">
                             <div class="form-group row">
                                 <div class="col-12 pt-1">
@@ -189,17 +143,67 @@
                             </div>
 
                         </div>
-                        <div class="col-md-12">
-
-                        </div>
-
                     </div>
                 </div>
+
             </section>
         </form>
     </div>
 </div>
 
+
+<template class="item">
+    <div class="mt-2 hdsh_box hdsh_box_{{stt}}" style="position: relative;">
+
+        <div class="icon-delete" style="position: absolute;
+    right:0;
+    font-size: 20px; cursor: pointer;">
+            <i class="far fa-times-circle"></i>
+        </div>
+
+        <input class="hdsd_id" name="hdsd[{{stt}}][id]" value="{{id}}" type="hidden" />
+        <input name="hdsd[{{stt}}][product_id]" value="{{product_id}}" type="hidden" />
+        <ul class="nav nav-tabs">
+            <li class="nav-item">
+                <a class="nav-link show active" data-toggle="tab" href="#menu-vi-{{stt}}">Tiếng Việt</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" href="#menu-en-{{stt}}">Tiếng Anh</a>
+            </li>
+        </ul>
+        <div class="tab-content">
+            <div id="menu-vi-{{stt}}" class="tab-pane active">
+                <div class="form-group row">
+                    <b class="col-12 col-lg-2 col-form-label">Tiêu đề:</b>
+                    <div class="col-12 col-lg-4 pt-1">
+                        <input class="form-control form-control-sm" type='text' name="hdsd[{{stt}}][title_vi]" placeholder="" value="{{title_vi}}" />
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <b class="col-12 col-lg-2 col-form-label">Nội dung:</b>
+                    <div class="col-12">
+                        <textarea class="edit" name="hdsd[{{stt}}][content_vi]">{{content_vi}}</textarea>
+                    </div>
+                </div>
+            </div>
+            <div id="menu-en-{{stt}}" class=" tab-pane fade">
+                <div class="form-group row">
+                    <b class="col-12 col-lg-2 col-form-label">Tiêu đề:</b>
+                    <div class="col-12 col-lg-4 pt-1">
+                        <input class="form-control form-control-sm" type='text' name="hdsd[{{stt}}][title_en]" placeholder="" value="{{title_en}}" />
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <b class="col-12 col-lg-2 col-form-label">Nội dung:</b>
+                    <div class="col-12">
+                        <textarea class="edit" name="hdsd[{{stt}}][content_en]">{{content_en}}</textarea>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</template>
 <?= $this->endSection() ?>
 
 <!-- Style --->
@@ -222,13 +226,45 @@
 <script src="<?= base_url("assets/lib/ckfinder/ckfinder.js") ?>"></script>
 <script src="<?= base_url("assets/lib/ckeditor/ckeditor.js") ?>"></script>
 <script type='text/javascript'>
-    var tin = <?= json_encode($tin) ?>;
-    fillForm($("#form-dang-tin"), tin);
-    var allEditors = document.querySelectorAll('.edit');
-    for (var i = 0; i < allEditors.length; ++i) {
-        CKEDITOR.replace(allEditors[i]);
-    }
     $(document).ready(function() {
+        var stt = 0;
+
+        function add_item(i = {}) {
+            var template = $(".item").html();
+            // console.log(template);
+
+            let item = {
+                stt: stt,
+                product_id: tin.id
+            };
+            // console.log(i);
+            if (!$.isEmptyObject(i)) {
+                item["id"] = i.id;
+                item["content_vi"] = i.content_vi;
+                item["content_en"] = i.content_en;
+                item["title_vi"] = i.title_vi;
+                item["title_en"] = i.title_en;
+            }
+            // console.log(item);
+            var rendered = Mustache.render(template, item);
+            $("#hdsd").append(rendered);
+            var allEditors = $("#hdsd .hdsh_box_" + stt + " .edit");
+            for (var i = 0; i < allEditors.length; ++i) {
+                CKEDITOR.replace(allEditors[i]);
+            }
+            stt++;
+        }
+        var tin = <?= json_encode($tin) ?>;
+        fillForm($("#form-dang-tin"), tin);
+        var allEditors = document.querySelectorAll('.edit');
+        for (var i = 0; i < allEditors.length; ++i) {
+            CKEDITOR.replace(allEditors[i]);
+        }
+        if (tin.ext) {
+            for (let hdsd of tin.ext) {
+                add_item(hdsd);
+            }
+        }
         $(".image_ft").imageFeature();
         $(".multiple_image").imageFeature({
             multiple: true,
@@ -305,6 +341,19 @@
                 return false;
             }
         });
+        $(".add_hdsd").click(function(e) {
+            e.preventDefault();
+            add_item();
+        });
+        $(document).on("click", ".icon-delete", function() {
+            let parent = $(this).parents(".hdsh_box");
+            let id = $(".hdsd_id", parent).val();
+            if (id > 0) {
+                $("#hdsd").append("<input type='hidden' name='hdsd_delete[]' value='" + id + "' />");
+            }
+            parent.remove();
+        });
+
     });
 </script>
 
