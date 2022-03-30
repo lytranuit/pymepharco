@@ -30,20 +30,12 @@
     <div class="container">
         <div class="row">
 
-            <div class="col-md-6">
+            <div class="col-md-6 px-lg-5 px-md-3">
                 <div class="sp_img" style="width: 100%;
     display: inline-block;
     position: relative;
-    min-height: 60vh;
     text-align: center;">
-                    <img src="<?= $info->image_url ?>" alt="Gallery Image" style="    max-width: 100%;
-    width: auto;
-    position: absolute;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    margin: auto;">
+                    <img src="<?= $info->image_url ?>" alt="Gallery Image" style="max-width: 100%;">
                 </div>
             </div>
             <div class="col-md-6">
