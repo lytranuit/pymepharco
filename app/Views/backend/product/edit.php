@@ -76,11 +76,12 @@
                                 </div>
 
                                 <div id="menu2" class=" tab-pane fade">
-                                    <button class="btn btn-success add_hdsd">Thêm</button>
 
                                     <div id="hdsd">
 
                                     </div>
+                                    <button class="btn btn-success add_hdsd mt-2">Thêm</button>
+
                                 </div>
                                 <div id="menu4" class=" tab-pane fade">
                                     <div class="row clearfix">
