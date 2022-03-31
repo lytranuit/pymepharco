@@ -22,7 +22,7 @@
 
 </div>
 
-<div class="container plainText">
+<div class="container-fluid plainText">
 
     <div class="row justify-center">
         <?php foreach ($products as $row) : ?>
