@@ -10,7 +10,7 @@ class Product extends BaseController
     {
 
         $product_model = model("ProductModel");
-        $this->data['products'] = $product_model->paginate(9);
+        $this->data['products'] = $product_model->orderBy("date", "DESC")->paginate(9);
         $this->data['pager'] = $product_model->pager;
         $this->data['title'] =  lang("Custom.product") . $this->data['title'];
         return view($this->data['content'], $this->data);
