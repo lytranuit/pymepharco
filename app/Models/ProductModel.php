@@ -112,7 +112,7 @@ class ProductModel extends Model
 
 
         $builder = $this->db->table('pet_product')->join("pet_product_category", "pet_product_category.product_id = pet_product.id")->select("pet_product.*");
-        $products = $builder->where("category_id = $category_id")->limit($perPage, $offset)->get()->getResult();
+        $products = $builder->where("category_id = $category_id")->orderBy("pet_product.date", "desc")->limit($perPage, $offset)->get()->getResult();
 
         $return = array(
             'count_product' => $count,
