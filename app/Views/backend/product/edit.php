@@ -30,6 +30,12 @@
                                     <input class="form-control form-control-sm" type="text" name="slug">
                                 </div>
                             </div>
+                            <div class="form-group row">
+                                <b class="col-12 col-lg-2 col-form-label">Code:</b>
+                                <div class="col-12 col-lg-10 pt-1">
+                                    <input class="form-control form-control-sm" type="text" name="code">
+                                </div>
+                            </div>
                             <ul class="nav nav-tabs">
                                 <li class="nav-item">
                                     <a class="nav-link active" data-toggle="tab" href="#menu0">Tiếng Việt</a>

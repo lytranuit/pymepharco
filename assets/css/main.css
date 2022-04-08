@@ -294,15 +294,16 @@ input {
 .topNewsTitle {
     padding: 12px;
     font-size: 18px;
-    text-transform: uppercase;
     height: 60px;
     overflow: hidden;
-    line-height: 1.4;
+    line-height: 24px;
+    font-weight: 700;
+    margin-bottom: 10px;
 }
 
 .topNewsAbstract {
     padding: 12px;
-    height: 84px;
+    height: 90px;
     overflow: hidden;
 }
 
