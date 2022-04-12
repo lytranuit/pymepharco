@@ -31,12 +31,12 @@
         <div class="row">
 
             <div class="col-md-6 px-lg-5 px-md-3">
-                <div class="sp_img" style="width: 100%;
+                <a class="sp_img fancybox" href="<?= $info->image_url ?>" style="width: 100%;
     display: inline-block;
     position: relative;
     text-align: center;">
                     <img src="<?= $info->image_url ?>" alt="Gallery Image" style="max-width: 100%;">
-                </div>
+                </a>
             </div>
             <div class="col-md-6">
                 <div class="product_details ">
@@ -135,6 +135,7 @@
 <?= $this->endSection() ?>
 
 <?= $this->section("style") ?>
+<link rel="stylesheet" href="<?= base_url("assets/lib/fancybox/jquery.fancybox.css") ?>" type="text/css" media="screen" />
 <style>
     .product_d_info {
         margin-bottom: 50px;
@@ -198,10 +199,11 @@
 
 <?= $this->section("script") ?>
 
+<script src="<?= base_url("assets/lib/fancybox/jquery.fancybox.js") ?>"></script>
 <script src="<?= base_url("assets/js/circle.js") ?>"></script>
 <script>
     $(document).ready(function() {
-
+        $(".fancybox").fancybox();
         $('.js-accordion').each(function() {
             var ac_item = $(this).find('.js-acc');
             var content = $(this).find('.accordion-details');
