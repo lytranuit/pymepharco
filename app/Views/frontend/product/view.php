@@ -25,9 +25,9 @@
     </div>
 
 </div>
-<div id="infoblockInstance_pnlInfoblock" class="infoblock ibMapa">
+<div id="" class="mt-5">
 
-    <div class="container">
+    <div class="container-fluid">
         <div class="row">
 
             <div class="col-md-6 px-lg-5 px-md-3">
@@ -99,9 +99,8 @@
         </div>
     </div>
 </div>
-<div id="infoblockInstance_pnlInfoblock" class="infoblock ibMapa">
-
-    <div class="container">
+<div id="" class="">
+    <div class="container-fluid">
         <div class="row">
             <div class="col-12">
                 <h2>Sản phẩm khác</h2>
