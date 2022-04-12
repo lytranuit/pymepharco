@@ -74,7 +74,7 @@
         <?= $this->renderSection('script') ?>
     </div>
 
-    <style>
+    <!-- <style>
         .hotline-phone-ring-wrap {
             position: fixed;
             bottom: 0;
@@ -293,7 +293,7 @@
                 <span class="text-hotline">0987.654.321</span>
             </a>
         </div>
-    </div>
+    </div> -->
 </body>
 
 </html>
