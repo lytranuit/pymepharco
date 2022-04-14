@@ -161,6 +161,22 @@ class Product extends BaseController
                 }
                 $tin->category_list = $cate_id;
             }
+            $list_fix = ["thành phần", "quy cách", "hạn dùng", "bảo quản"];
+            // $list_ext = [];
+            if (isset($tin->ext)) {
+                foreach ($tin->ext as $row) {
+                    // echo "<pre>";
+                    // print_r($row);
+                    if (in_array(strtolower($row->title_vi), $list_fix)) {
+                        $list_fix = array_diff($list_fix, array(strtolower($row->title_vi)));
+                    }
+                }
+            }
+
+            $this->data['list_fix'] = array_values($list_fix);
+            // echo "<pre>";
+            // print_r($list_fix);
+            // die();
             $this->data['tin'] = $tin;
             // echo "<pre>";
             // print_r($tin);
@@ -195,16 +211,20 @@ class Product extends BaseController
         $Product_model = model("ProductModel");
         $limit = $this->request->getVar('length');
         $start = $this->request->getVar('start');
+        $search = $this->request->getVar('search');
         $page = ($start / $limit) + 1;
         $where = $Product_model;
 
-        $totalData = $where->countAllResults();
+        $totalData = $where->countAllResults(false);
         //echo "<pre>";
         //print_r($totalData);
         //die();
         $totalFiltered = $totalData;
 
-        $where = $Product_model;
+
+        if ($search['value'] != "") {
+            $where->like("name_vi", $search['value'])->orLike("code", $search['value']);
+        }
         $posts = $where->asObject()->orderby("date", "DESC")->paginate($limit, '', $page);
         //echo "<pre>";
         //print_r($posts);

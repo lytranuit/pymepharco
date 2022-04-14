@@ -244,14 +244,18 @@
                 stt: stt,
                 product_id: tin.id
             };
+            item = {
+                ...item,
+                ...i
+            };
             // console.log(i);
-            if (!$.isEmptyObject(i)) {
-                item["id"] = i.id;
-                item["content_vi"] = i.content_vi;
-                item["content_en"] = i.content_en;
-                item["title_vi"] = i.title_vi;
-                item["title_en"] = i.title_en;
-            }
+            // if (!$.isEmptyObject(i)) {
+            //     item["id"] = i.id;
+            //     item["content_vi"] = i.content_vi;
+            //     item["content_en"] = i.content_en;
+            //     item["title_vi"] = i.title_vi;
+            //     item["title_en"] = i.title_en;
+            // }
             // console.log(item);
             var rendered = Mustache.render(template, item);
             $("#hdsd").append(rendered);
@@ -262,11 +266,19 @@
             stt++;
         }
         var tin = <?= json_encode($tin) ?>;
+        var list_fix = <?= json_encode($list_fix) ?>;
         fillForm($("#form-dang-tin"), tin);
         var allEditors = document.querySelectorAll('.edit');
         for (var i = 0; i < allEditors.length; ++i) {
             CKEDITOR.replace(allEditors[i]);
         }
+
+        for (let row of list_fix) {
+            add_item({
+                'title_vi': row
+            });
+        }
+
         if (tin.ext) {
             for (let hdsd of tin.ext) {
                 add_item(hdsd);
