@@ -32,8 +32,18 @@
                             </div>
                             <div class="form-group row">
                                 <b class="col-12 col-lg-2 col-form-label">Code:</b>
-                                <div class="col-12 col-lg-10 pt-1">
+                                <div class="col-12 col-lg-4 pt-1">
                                     <input class="form-control form-control-sm" type="text" name="code">
+                                </div>
+                                <b class="col-12 col-lg-2 col-form-label">RX:</b>
+                                <div class="col-12 col-lg-4 pt-1">
+                                    <div class="switch-button switch-button-success">
+                                        <input type="hidden" name="is_rx" value="0" class="input-tmp">
+                                        <input type="checkbox" checked="" name="is_rx" id="switch19" value="1">
+                                        <span>
+                                            <label for="switch19"></label>
+                                        </span>
+                                    </div>
                                 </div>
                             </div>
                             <ul class="nav nav-tabs">

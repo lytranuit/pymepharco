@@ -45,6 +45,11 @@
     color: gray;
 }
 
+.pagination li.active a {
+    background: green;
+    color: white;
+}
+
 .showhide {
     float: right;
     cursor: pointer;

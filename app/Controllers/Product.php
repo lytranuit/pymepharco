@@ -20,8 +20,20 @@ class Product extends BaseController
     {
         $product_model = model("ProductModel");
         $this->data['info'] = $product_model->asObject()->find($id);
-
+      
         $product_model->relation($this->data['info'], array('image_other', "ext", "category"));
+        $list_fix = ["thành phần", "quy cách", "hạn dùng", "bảo quản"];
+        $fix = [];
+        // $list_ext = [];
+        if (isset($this->data['info']->ext)) {
+            foreach ($this->data['info']->ext as $row) {
+                // echo "<pre>";
+                // print_r($row);
+                if (in_array(strtolower($row->title_vi), $list_fix)) {
+                    // $fix[] = 
+                }
+            }
+        }
         // echo "<pre>";
         // print_r($this->data['info']);
         // die();

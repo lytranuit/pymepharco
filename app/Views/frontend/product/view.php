@@ -50,8 +50,8 @@
 
                     <div class="pro_meta clearfix">
                         <div class="mtItem">
-                            <h5 style="font-weight:bold;">MÃ SẢN PHẨM:</h5>
-                            <span> <?= $info->code ?> </span>
+                            <h5 style="font-weight:bold;display:inline-block;margin-right:10px;">MÃ SẢN PHẨM:</h5>
+                            <span><?= $info->code ?></span>
                         </div>
 
                     </div>
@@ -59,7 +59,6 @@
             </div>
         </div>
     </div>
-
 </div>
 
 <div class="product_d_info">
@@ -75,7 +74,7 @@
                         </div>
                         <div class="accordion-list">
                             <?php foreach ($info->ext as $row) : ?>
-
+                                <?php if ($row->content_vi == "") continue ?>
                                 <div class="accordion-item js-acc">
                                     <div class="accordion-title">
                                         <div class="label label-md label-is-icon label-icon-left">
