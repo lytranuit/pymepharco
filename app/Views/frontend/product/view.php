@@ -234,13 +234,13 @@
                 if (is_open) {
                     $that.removeClass('open').find('.accordion-details').slideUp();
                 } else {
-                    ac_item.removeClass('open').find('.accordion-details').slideUp();
+                    // ac_item.removeClass('open').find('.accordion-details').slideUp();
                     $that.addClass('open').find('.accordion-details').slideDown();
-                    var scrollDiv = $that[0].offsetTop;
-                    window.scrollTo({
-                        top: scrollDiv,
-                        behavior: 'smooth'
-                    });
+                    // var scrollDiv = $that[0].offsetTop;
+                    // window.scrollTo({
+                    //     top: scrollDiv,
+                    //     behavior: 'smooth'
+                    // });
                 }
 
             });
