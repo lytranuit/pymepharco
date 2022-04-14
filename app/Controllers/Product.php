@@ -20,17 +20,31 @@ class Product extends BaseController
     {
         $product_model = model("ProductModel");
         $this->data['info'] = $product_model->asObject()->find($id);
-      
+
         $product_model->relation($this->data['info'], array('image_other', "ext", "category"));
         $list_fix = ["thành phần", "quy cách", "hạn dùng", "bảo quản"];
         $fix = [];
         // $list_ext = [];
         if (isset($this->data['info']->ext)) {
-            foreach ($this->data['info']->ext as $row) {
+            foreach ($this->data['info']->ext as $key => $row) {
                 // echo "<pre>";
                 // print_r($row);
-                if (in_array(strtolower($row->title_vi), $list_fix)) {
-                    // $fix[] = 
+                if (strtolower($row->title_vi) == "thành phần") {
+                    $this->data['info']->tp_vi = $row->content_vi;
+                    $this->data['info']->tp_en = $row->content_en;
+                    unset($this->data['info']->ext[$key]);
+                } elseif (strtolower($row->title_vi) == "quy cách") {
+                    $this->data['info']->qc_vi = $row->content_vi;
+                    $this->data['info']->qc_en = $row->content_en;
+                    unset($this->data['info']->ext[$key]);
+                } elseif (strtolower($row->title_vi) == "hạn dùng") {
+                    $this->data['info']->hd_vi = $row->content_vi;
+                    $this->data['info']->hd_en = $row->content_en;
+                    unset($this->data['info']->ext[$key]);
+                } elseif (strtolower($row->title_vi) == "bảo quản") {
+                    $this->data['info']->bq_vi = $row->content_vi;
+                    $this->data['info']->bq_en = $row->content_en;
+                    unset($this->data['info']->ext[$key]);
                 }
             }
         }
