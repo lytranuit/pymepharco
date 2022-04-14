@@ -69,6 +69,27 @@
                                             <input class="form-control form-control-sm" type='text' name="name_vi" required="" placeholder="Tiếng Việt" />
                                         </div>
                                     </div>
+
+                                    <div class="form-group row">
+                                        <b class="col-12 col-lg-2 col-form-label">Thành phần:</b>
+                                        <div class="col-12 col-lg-10 pt-1">
+                                            <input class="form-control form-control-sm" type="text" name="tp_vi">
+                                        </div>
+                                        <b class="col-12 col-lg-2 col-form-label">Quy cách:</b>
+                                        <div class="col-12 col-lg-10 pt-1">
+                                            <input class="form-control form-control-sm" type="text" name="qc_vi">
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <b class="col-12 col-lg-2 col-form-label">Hạn dùng:</b>
+                                        <div class="col-12 col-lg-10 pt-1">
+                                            <input class="form-control form-control-sm" type="text" name="hd_vi">
+                                        </div>
+                                        <b class="col-12 col-lg-2 col-form-label">Bảo quản:</b>
+                                        <div class="col-12 col-lg-10 pt-1">
+                                            <input class="form-control form-control-sm" type="text" name="bq_vi">
+                                        </div>
+                                    </div>
                                     <div class="form-group row">
                                         <b class="col-12 col-lg-2 col-form-label">Mô tả:<i class="text-danger">*</i></b>
                                         <div class="col-12">
@@ -81,6 +102,27 @@
                                         <b class="col-12 col-lg-2 col-form-label">Tên:<i class="text-danger">*</i></b>
                                         <div class="col-12 col-lg-4 pt-1">
                                             <input class="form-control form-control-sm" type='text' name="name_en" placeholder="Tiếng Anh" />
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group row">
+                                        <b class="col-12 col-lg-2 col-form-label">Thành phần:</b>
+                                        <div class="col-12 col-lg-10 pt-1">
+                                            <input class="form-control form-control-sm" type="text" name="tp_en">
+                                        </div>
+                                        <b class="col-12 col-lg-2 col-form-label">Quy cách:</b>
+                                        <div class="col-12 col-lg-10 pt-1">
+                                            <input class="form-control form-control-sm" type="text" name="qc_en">
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <b class="col-12 col-lg-2 col-form-label">Hạn dùng:</b>
+                                        <div class="col-12 col-lg-10 pt-1">
+                                            <input class="form-control form-control-sm" type="text" name="hd_en">
+                                        </div>
+                                        <b class="col-12 col-lg-2 col-form-label">Bảo quản:</b>
+                                        <div class="col-12 col-lg-10 pt-1">
+                                            <input class="form-control form-control-sm" type="text" name="bq_en">
                                         </div>
                                     </div>
                                     <div class="form-group row">

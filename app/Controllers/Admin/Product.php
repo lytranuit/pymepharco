@@ -161,19 +161,7 @@ class Product extends BaseController
                 }
                 $tin->category_list = $cate_id;
             }
-            $list_fix = ["thành phần", "quy cách", "hạn dùng", "bảo quản"];
-            // $list_ext = [];
-            if (isset($tin->ext)) {
-                foreach ($tin->ext as $row) {
-                    // echo "<pre>";
-                    // print_r($row);
-                    if (in_array(strtolower($row->title_vi), $list_fix)) {
-                        $list_fix = array_diff($list_fix, array(strtolower($row->title_vi)));
-                    }
-                }
-            }
 
-            $this->data['list_fix'] = array_values($list_fix);
             // echo "<pre>";
             // print_r($list_fix);
             // die();
