@@ -318,17 +318,10 @@
             stt++;
         }
         var tin = <?= json_encode($tin) ?>;
-        var list_fix = <?= json_encode($list_fix) ?>;
         fillForm($("#form-dang-tin"), tin);
         var allEditors = document.querySelectorAll('.edit');
         for (var i = 0; i < allEditors.length; ++i) {
             CKEDITOR.replace(allEditors[i]);
-        }
-
-        for (let row of list_fix) {
-            add_item({
-                'title_vi': row
-            });
         }
 
         if (tin.ext) {
