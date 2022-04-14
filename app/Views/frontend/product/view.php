@@ -50,19 +50,19 @@
                     <div>
                         <div class="mtItem">
                             <h5 style="font-weight:bold;display:inline-block;margin-right:10px;">Thành phần:</h5>
-                            <span><?= $info->pick_language($info, "tp_") ?></span>
+                            <span><?= $info->{pick_language($info, "tp_")} ?></span>
                         </div>
                         <div class="mtItem">
                             <h5 style="font-weight:bold;display:inline-block;margin-right:10px;">Quy cách:</h5>
-                            <span><?= $info->pick_language($info, "qc_") ?></span>
+                            <span><?= $info->{pick_language($info, "qc_")} ?></span>
                         </div>
                         <div class="mtItem">
                             <h5 style="font-weight:bold;display:inline-block;margin-right:10px;">Hạn dùng:</h5>
-                            <span><?= $info->pick_language($info, "hd_") ?></span>
+                            <span><?= $info->{pick_language($info, "hd_")} ?></span>
                         </div>
                         <div class="mtItem">
                             <h5 style="font-weight:bold;display:inline-block;margin-right:10px;">Bảo quản:</h5>
-                            <span><?= $info->pick_language($info, "bq_") ?></span>
+                            <span><?= $info->{pick_language($info, "bq_")} ?></span>
                         </div>
                     </div>
                     <hr style="color:gray">
