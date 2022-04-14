@@ -51,6 +51,7 @@
         $('#quanlytin').DataTable({
             "processing": true,
             "serverSide": true,
+            "stateSave": true,
             "ajax": {
                 "url": path + "admin/product/table",
                 "dataType": "json",
@@ -62,13 +63,13 @@
                     "data": "image"
                 }, {
                     "data": "code"
-                },{
+                }, {
                     "data": "name_vi"
                 },
                 {
                     "data": "price"
                 },
-                
+
                 {
                     "data": "date"
                 },
