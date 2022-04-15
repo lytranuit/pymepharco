@@ -70,28 +70,11 @@
 <?= $this->section("style") ?>
 <link href="<?= base_url("/assets/css/sidebar.css") ?>" rel="stylesheet" type="text/css">
 <style>
-    .grid {
-        position: relative;
-        margin: 0 auto;
-        padding: 1em 0 4em;
-        max-width: 1000px;
-        list-style: none;
-        text-align: center;
-    }
-
     /* Common style */
     .grid figure {
         position: relative;
-        float: left;
         overflow: hidden;
-        margin: 10px 1%;
-        min-width: 320px;
-        max-width: 480px;
-        max-height: 360px;
-        width: 48%;
-        background: #3085a3;
-        text-align: center;
-        cursor: pointer;
+        background: #18a367;
     }
 
     .grid figure img {
@@ -99,16 +82,6 @@
         display: block;
         min-height: 100%;
         max-width: 100%;
-        opacity: 0.8;
-    }
-
-    .grid figure figcaption {
-        padding: 2em;
-        color: #fff;
-        text-transform: uppercase;
-        font-size: 1.25em;
-        -webkit-backface-visibility: hidden;
-        backface-visibility: hidden;
     }
 
     .grid figure figcaption::before,
@@ -161,15 +134,6 @@
     figure.effect-layla {
         background: #18a367;
     }
-
-    figure.effect-layla img {
-        height: 390px;
-    }
-
-    figure.effect-layla figcaption {
-        padding: 3em;
-    }
-
     figure.effect-layla figcaption::before,
     figure.effect-layla figcaption::after {
         position: absolute;
@@ -216,13 +180,6 @@
         -webkit-transform: translate3d(0, -10px, 0);
         transform: translate3d(0, -10px, 0);
     }
-
-    figure.effect-layla img,
-    figure.effect-layla h2 {
-        -webkit-transform: translate3d(0, -30px, 0);
-        transform: translate3d(0, -30px, 0);
-    }
-
     figure.effect-layla img,
     figure.effect-layla figcaption::before,
     figure.effect-layla figcaption::after,
