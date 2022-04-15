@@ -77,6 +77,7 @@
         position: relative;
         overflow: hidden;
         background: #18a367;
+        margin: auto;
     }
 
     .grid figure img {
