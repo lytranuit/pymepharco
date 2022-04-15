@@ -53,7 +53,6 @@
                         <a href="<?= url_product($row) ?>">Xem thêm</a>
                     </figcaption>
                 </figure>
-
                 <div class="section-products__item__info">
                     <h2 class="section-products__item__info__title" style="text-align: center;"><a href="<?= url_product($row) ?>"><?= $row->{pick_language($row, 'name_')} ?></a></h2>
                 </div>
@@ -85,6 +84,7 @@
         display: block;
         min-height: 100%;
         max-width: 100%;
+        margin: auto;
     }
 
     .grid figure figcaption::before,
