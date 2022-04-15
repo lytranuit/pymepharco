@@ -46,7 +46,7 @@
                     <div class="pd_excrpt">
                         <?= $info->{pick_language($info, "description_")} ?>
                     </div>
-                    <hr style="color:gray">
+                    <hr style="border: 1px solid #d9d9d9;">
                     <div>
                         <div class="mtItem">
                             <h5 style="font-weight:bold;display:inline-block;margin-right:10px;">Thành phần:</h5>
@@ -65,7 +65,7 @@
                             <span><?= $info->{pick_language($info, "bq_")} ?></span>
                         </div>
                     </div>
-                    <hr style="color:gray">
+                    <hr style="    border: 1px solid #d9d9d9;">
 
                     <div class="pro_meta clearfix">
                         <div class="mtItem">
