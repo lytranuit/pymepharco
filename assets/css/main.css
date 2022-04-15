@@ -40,7 +40,6 @@ h4 {
 
 h5 {
     font-size: 15px;
-    font-family: Noto Sans;
     font-weight: normal;
     padding: 0;
     margin-top: 16px;
@@ -254,7 +253,6 @@ input {
 
 .bigQuote {
     font-size: 128px;
-    font-family: 'Times New Roman';
     font-style: normal;
     line-height: 0.2;
     margin-top: 32px;
@@ -450,12 +448,10 @@ input {
     list-style: none;
     padding: 20px 24px 20px 0;
     color: #7c858c;
-    font-family: NotoSansBold;
 }
 
 #breadcrumb li a {
     color: #7c858c;
-    font-family: Noto Sans;
 }
 
 #pageImage {
@@ -570,14 +566,12 @@ input {
 }
 
 .searchItemTitle {
-    font-family: "RobotoBold";
     font-size: 18px;
     padding-bottom: 8px;
 }
 
 .searchItemTitle a {
     color: #666;
-    font-family: NotoSansBold;
 }
 
 .searchItemAbstract a {
@@ -646,7 +640,6 @@ input {
 
 .chkCookie {
     font-size: 15px;
-    font-family: NotoSansBold;
     color: #4fb675;
 }
 
@@ -779,7 +772,6 @@ input {
 .about .count-box p {
     padding: 5px 0 0 0;
     margin: 0 0 0 60px;
-    font-family: "Raleway", sans-serif;
     font-weight: 600;
     font-size: 20px;
     color: white;
@@ -791,7 +783,6 @@ input {
     margin-top: 20px;
     color: white;
     font-size: 15px;
-    font-family: "Poppins", sans-serif;
     transition: ease-in-out 0.3s;
 }
 
