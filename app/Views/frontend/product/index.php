@@ -49,11 +49,14 @@
                 <figure class="effect-layla">
                     <img src="<?= $row->image_url ?>" alt="<?= $row->{pick_language($row, 'name_')} ?>">
                     <figcaption>
-                        <h2><?= $row->{pick_language($row, 'name_')} ?></h2>
                         <!-- <p>When Layla appears, she brings an eternal summer along.</p> -->
                         <a href="<?= url_product($row) ?>">Xem thêm</a>
                     </figcaption>
                 </figure>
+
+                <div class="section-products__item__info">
+                    <h2 class="section-products__item__info__title" style="text-align: center;"><a href="<?= url_product($row) ?>"><?= $row->{pick_language($row, 'name_')} ?></a></h2>
+                </div>
             </div>
         <?php endforeach ?>
     </div>
@@ -134,6 +137,7 @@
     figure.effect-layla {
         background: #18a367;
     }
+
     figure.effect-layla figcaption::before,
     figure.effect-layla figcaption::after {
         position: absolute;
@@ -180,6 +184,7 @@
         -webkit-transform: translate3d(0, -10px, 0);
         transform: translate3d(0, -10px, 0);
     }
+
     figure.effect-layla img,
     figure.effect-layla figcaption::before,
     figure.effect-layla figcaption::after,
