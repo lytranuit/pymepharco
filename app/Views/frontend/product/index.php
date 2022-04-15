@@ -46,11 +46,13 @@
                 <div class="section-products__item__info">
                     <h2 class="section-products__item__info__title" style="text-align: center;"><a href="<?= url_product($row) ?>"><?= $row->{pick_language($row, 'name_')} ?></a></h2>
                 </div> -->
-                <figure class="snip1104"><img src="<?= $row->image_url ?>" alt="<?= $row->{pick_language($row, 'name_')} ?>" />
+                <figure class="effect-layla">
+                    <img src="<?= $row->image_url ?>" alt="<?= $row->{pick_language($row, 'name_')} ?>">
                     <figcaption>
                         <h2><?= $row->{pick_language($row, 'name_')} ?></h2>
+                        <!-- <p>When Layla appears, she brings an eternal summer along.</p> -->
+                        <a href="<?= url_product($row) ?>">Xem thêm</a>
                     </figcaption>
-                    <a href="<?= url_product($row) ?>"></a>
                 </figure>
             </div>
         <?php endforeach ?>
@@ -68,124 +70,109 @@
 <?= $this->section("style") ?>
 <link href="<?= base_url("/assets/css/sidebar.css") ?>" rel="stylesheet" type="text/css">
 <style>
-    figure.snip1104 {
-        position: relative;
-        overflow: hidden;
-        margin: 0;
-        box-sizing: initial;
-        width: 100%;
-        background: #000000;
-        color: #ffffff;
-        text-align: center;
-        box-shadow: 0 0 5px rgb(0 0 0 / 15%);
+    /*---------------*/
+    /***** Layla *****/
+    /*---------------*/
+
+    figure.effect-layla {
+        background: #18a367;
     }
 
-    figure.snip1104 * {
-        -webkit-box-sizing: border-box;
-        box-sizing: border-box;
-        -webkit-transition: all 0.4s ease-in-out;
-        transition: all 0.4s ease-in-out;
+    figure.effect-layla img {
+        height: 390px;
     }
 
-    figure.snip1104 img {
-        width: 100%;
-        position: relative;
-        opacity: 0.4;
-        height: 100%;
-        display: inherit;
+    figure.effect-layla figcaption {
+        padding: 3em;
     }
 
-    figure.snip1104 figcaption {
+    figure.effect-layla figcaption::before,
+    figure.effect-layla figcaption::after {
         position: absolute;
-        top: 0;
-        left: 0;
-        bottom: 0;
-        right: 0;
-    }
-
-    figure.snip1104 h2 {
-        position: absolute;
-        left: 40px;
-        right: 40px;
-        display: inline-block;
-        background: #000000;
-        -webkit-transform: skew(-10deg) rotate(-10deg) translate(0, -50%);
-        transform: skew(-10deg) rotate(-10deg) translate(0, -50%);
-        padding: 12px 5px;
-        margin: 0;
-        top: 50%;
-        text-transform: uppercase;
-        font-weight: 400;
-    }
-
-    figure.snip1104 h2 span {
-        font-weight: 800;
-    }
-
-    figure.snip1104:before {
-        height: 100%;
-        width: 100%;
-        top: 0;
-        left: 0;
         content: '';
-        background: #ffffff;
-        position: absolute;
-        -webkit-transition: all 0.3s ease-in-out;
-        transition: all 0.3s ease-in-out;
-        -webkit-transform: rotate(110deg) translateY(-50%);
-        transform: rotate(105deg) translateY(-50%);
+        opacity: 0;
     }
 
-    figure.snip1104 a {
-        left: 0;
-        right: 0;
-        top: 0;
-        bottom: 0;
-        position: absolute;
-        z-index: 1;
+    figure.effect-layla figcaption::before {
+        top: 50px;
+        right: 30px;
+        bottom: 50px;
+        left: 30px;
+        border-top: 1px solid #fff;
+        border-bottom: 1px solid #fff;
+        -webkit-transform: scale(0, 1);
+        transform: scale(0, 1);
+        -webkit-transform-origin: 0 0;
+        transform-origin: 0 0;
     }
 
-    figure.snip1104.blue {
-        background: #123851;
+    figure.effect-layla figcaption::after {
+        top: 30px;
+        right: 50px;
+        bottom: 30px;
+        left: 50px;
+        border-right: 1px solid #fff;
+        border-left: 1px solid #fff;
+        -webkit-transform: scale(1, 0);
+        transform: scale(1, 0);
+        -webkit-transform-origin: 100% 0;
+        transform-origin: 100% 0;
     }
 
-    figure.snip1104.blue h2 {
-        background: #0a212f;
+    figure.effect-layla h2 {
+        padding-top: 26%;
+        -webkit-transition: -webkit-transform 0.35s;
+        transition: transform 0.35s;
     }
 
-    figure.snip1104.red {
-        background: #581a14;
+    figure.effect-layla p {
+        padding: 0.5em 2em;
+        text-transform: none;
+        opacity: 0;
+        -webkit-transform: translate3d(0, -10px, 0);
+        transform: translate3d(0, -10px, 0);
     }
 
-    figure.snip1104.red h2 {
-        background: #36100c;
+    figure.effect-layla img,
+    figure.effect-layla h2 {
+        -webkit-transform: translate3d(0, -30px, 0);
+        transform: translate3d(0, -30px, 0);
     }
 
-    figure.snip1104.yellow {
-        background: #7f5006;
+    figure.effect-layla img,
+    figure.effect-layla figcaption::before,
+    figure.effect-layla figcaption::after,
+    figure.effect-layla p {
+        -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+        transition: opacity 0.35s, transform 0.35s;
     }
 
-    figure.snip1104.yellow h2 {
-        background: #583804;
+    figure.effect-layla:hover img {
+        opacity: 0.7;
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
     }
 
-    figure.snip1104:hover img,
-    figure.snip1104.hover img {
+    figure.effect-layla:hover figcaption::before,
+    figure.effect-layla:hover figcaption::after {
         opacity: 1;
-        -webkit-transform: scale(1.1);
-        transform: scale(1.1);
+        -webkit-transform: scale(1);
+        transform: scale(1);
     }
 
-    figure.snip1104:hover h2,
-    figure.snip1104.hover h2 {
-        -webkit-transform: skew(-10deg) rotate(-10deg) translate(-150%, -50%);
-        transform: skew(-10deg) rotate(-10deg) translate(-150%, -50%);
+    figure.effect-layla:hover h2,
+    figure.effect-layla:hover p {
+        opacity: 1;
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
     }
 
-    figure.snip1104:hover:before,
-    figure.snip1104.hover:before {
-        -webkit-transform: rotate(110deg) translateY(-150%);
-        transform: rotate(110deg) translateY(-150%);
+    figure.effect-layla:hover figcaption::after,
+    figure.effect-layla:hover h2,
+    figure.effect-layla:hover p,
+    figure.effect-layla:hover img {
+        -webkit-transition-delay: 0.15s;
+        transition-delay: 0.15s;
     }
 </style>
 <?= $this->endSection() ?>
