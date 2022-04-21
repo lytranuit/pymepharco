@@ -287,7 +287,7 @@
 <script type='text/javascript'>
     $(document).ready(function() {
         var stt = 0;
-
+        var list_fix = <?= json_encode($list_fix) ?>;
         function add_item(i = {}) {
             var template = $(".item").html();
             // console.log(template);
@@ -322,6 +322,11 @@
         var allEditors = document.querySelectorAll('.edit');
         for (var i = 0; i < allEditors.length; ++i) {
             CKEDITOR.replace(allEditors[i]);
+        }
+        for (let row of list_fix) {
+            add_item({
+                'title_vi': row
+            });
         }
 
         if (tin.ext) {
