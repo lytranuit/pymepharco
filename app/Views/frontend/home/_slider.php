@@ -1,7 +1,7 @@
 <div id="slider">
     <?php foreach ($sliders as $row) : ?>
         <div class="box-slider" style="display:none;line-height: 0">
-            <a href="<?= $row->url ?>">
+            <a href="<?= $row->url ?>" target="_blank">
                 <img src="<?= base_url($row->image_url) ?>" alt="" title="" style="width:100%">
             </a>
             <div class="sliderImage" style="display:none">
