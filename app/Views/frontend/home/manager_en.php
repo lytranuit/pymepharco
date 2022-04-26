@@ -90,6 +90,28 @@
         </div>
         <div class="managerItem col-md-4 my-2">
             <div class="managerImage">
+                <img style="width:100%" src="/assets/images/Final/Phạm Văn Tân - Giám đốc Tài Chính.png" alt="Phạm Văn Tân - Giám đốc Tài Chính">
+            </div>
+            <div class="managerName" style="text-align: center; font-weight: bold;">
+                Phạm Văn Tân
+            </div>
+            <div class="managerZvanje" style="text-align: center;">
+                Giám đốc Tài Chính
+            </div>
+        </div>
+        <div class="managerItem col-md-4 my-2">
+            <div class="managerImage">
+                <img style="width:100%" src="/assets/images/Final/Trịnh Thị Phương Lan.png" alt="Trịnh Thị Phương Lan">
+            </div>
+            <div class="managerName" style="text-align: center; font-weight: bold;">
+                Trịnh Thị Phương Lan
+            </div>
+            <div class="managerZvanje" style="text-align: center;">
+                Giám đốc Đăng ký thuốc
+            </div>
+        </div>
+        <div class="managerItem col-md-4 my-2">
+            <div class="managerImage">
                 <img style="width:100%" src="/assets/images/Final/Trần Phúc Yên - GĐ Nhà máy PME I.png" alt="Trần Phúc Yên - GĐ Nhà máy PME I">
             </div>
             <div class="managerName" style="text-align: center; font-weight: bold;">

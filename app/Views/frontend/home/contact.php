@@ -183,7 +183,7 @@
 
 
 </div>
-<div id="contactForm">
+<!-- <div id="contactForm">
     <form id="contactFormContent" action="home/submit" method="POST">
         <?= csrf_field() ?>
         <div class="pageMainTitle">
@@ -208,7 +208,7 @@
             <input type="submit" name="btnSend" value="Send message" id="btnSend">
         </div>
     </form>
-</div>
+</div> -->
 <?= $this->endSection() ?>
 
 <?= $this->section("style") ?>
