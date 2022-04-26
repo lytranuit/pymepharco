@@ -36,7 +36,6 @@
                         <strong>Tổng Giám đốc</strong>
                     </span>
                     <br>
-                    <span id="">Dr. Philippe Malecki đã trở thành giám đốc của Pymepharco vào năm 2022</span>
                 </div>
             </div>
         </div>

@@ -67,7 +67,7 @@
             <div class="col-lg-3 col-md-5 col-6 d-md-flex align-items-md-stretch">
                 <div class="count-box">
                     <i class="fas fa-user"></i>
-                    <span><strong data-purecounter-start="0" data-purecounter-end="1800" data-purecounter-duration="2" class="purecounter">0</strong> +</span>
+                    <span><strong data-purecounter-start="0" data-purecounter-end="1900" data-purecounter-duration="2" class="purecounter">0</strong> +</span>
                     <p>Nhân sự</p>
                 </div>
             </div>
