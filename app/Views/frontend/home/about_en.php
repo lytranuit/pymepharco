@@ -99,120 +99,47 @@
 
 </div>
 
-<section class="grid-section pt2 pt3-md pb0 dark-grey">
-    <div class="container-medium mla mra pv3">
+<div class="container my-5">
+    <div class="row g-0">
+        <div class="col-md-6 align-self-center">
+            <img src="/assets/images/PMP-1.png" style="width:100%" />
+        </div>
+        <div class="col-md-6">
+            <div class="info-box">
+                <div class="info-title" style="padding: 30px;
+    background-color: #f1f1f1;
+    font-size: 14px;">
+                    <span id="" style="font-size:16px">Our entire approach to business is based on four key values which also determine our corporate identity.<br>
 
-        <div>
-            <div class="flexbox">
-                <div class="grid-section-row flex flex-wrap nh4-sm">
-                    <div class="col-24-md ph4-sm mb3">
-                        <div>
-
-                            <div style="text-align: center;font-size: 28px;">
-                                CORE VALUES
+                    </span>
+                    <div class="infoblockAbstract">
+                        <li>
+                            <div>
+                                <strong>Integrity </strong> - Each and everyone of us acts ethically in line with the company’s internal and external standards. Our actions are led by speaking up and respect.
                             </div>
-
-
-                            <div class="g">
-                                <p style="text-align: center;"><span style="font-weight: 400;">Our entire approach to business is based on four key values which also determine our corporate identity.</span></p>
-
+                        </li>
+                        <li>
+                            <div>
+                                <strong>Agility </strong> - Each and everyone of us leads change with flexibility and decisiveness as part of our ongoing journey of personal development.
                             </div>
-
-                        </div>
+                        </li>
+                        <li>
+                            <div>
+                                <strong>Entrepreneurship </strong> - Each and everyone of us drives new ideas and actions, creating future growth and value.
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <strong>ONE STADA </strong> - Each and everyone of us acts in the best interests of the company as a whole rather than our business unit or function in order to build one successful STADA.
+                            </div>
+                        </li>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</section>
-<section class="banner-section-wrapper pt4  pb4" id="banner-block">
-    <div class="banner  banner--text-overlay">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <img data-src="https://stada.vn/wp-content/uploads/2021/05/stada-corporate-website-our-values-icon-integrity7a72-870x520-c-center.jpg" title="Tính liêm chính" src="https://stada.vn/wp-content/uploads/2021/05/stada-corporate-website-our-values-icon-integrity7a72-870x520-c-center.jpg" style="width:100%">
-                </div>
-                <div class="col-md-6">
-                    <div class="banner__box" style="background-color: unset;">
-                        <div data-anim="fadeIn" class="measure-wide dark-grey fadeIn">
-                            <h3 class="text-overlay__title  t-title  f3  f2-md  fw4  lh-title  mb3">Integrity </h3>
-                            <div class="text-overlay__body  f7 fw4  lh-copy  mb4">
-                                <p><span>Each and everyone of us acts ethically in line with the company’s internal and external standards. Our actions are led by speaking up and respect.</span></p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+</div>
 
-<section class="banner-section-wrapper pt4  pb4" id="banner-block">
-    <div class="banner  banner--text-overlay">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 order-1">
-                    <img src="https://stada.vn/wp-content/uploads/2021/05/stada-corporate-website-our-values-icon-agility7a72-870x520-c-center.jpg" style="width:100%">
-
-                </div>
-                <div class="col-md-6">
-                    <div class="banner__box" style="background-color: unset;">
-                        <div data-anim="fadeIn" class="measure-wide dark-grey fadeIn">
-                            <h3 class="text-overlay__title  t-title  f3  f2-md  fw4  lh-title  mb3">Agility </h3>
-                            <div class="text-overlay__body  f7  fw4  lh-copy  mb4">
-                                <p><span>Each and everyone of us leads change with flexibility and decisiveness as part of our ongoing journey of personal development.</span></p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section class="banner-section-wrapper pt4  pb4" id="banner-block">
-    <div class="banner  banner--text-overlay">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <img src="https://stada.vn/wp-content/uploads/2021/05/stada-corporate-website-our-values-icon-entrepreneurship7a72-870x520-c-center.jpg" style="width:100%">
-                </div>
-                <div class="col-md-6">
-                    <div class="banner__box" style="background-color: unset;">
-                        <div data-anim="fadeIn" class="measure-wide dark-grey fadeIn">
-                            <h3 class="text-overlay__title  t-title  f3  f2-md  fw4  lh-title  mb3">Entrepreneurship </h3>
-                            <div class="text-overlay__body  f7 fw4  lh-copy  mb4">
-                                <p><span>Each and everyone of us drives new ideas and actions, creating future growth and value.</span></p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section class="banner-section-wrapper pt4  pb4" id="banner-block">
-    <div class="banner  banner--text-overlay">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 order-1">
-                    <img data-src="https://stada.vn/wp-content/uploads/2021/05/stada-corporate-website-our-values-icon-one-stada7a72-870x520-c-center.jpg" alt="Vì một STADA" title="Vì một STADA" src="https://stada.vn/wp-content/uploads/2021/05/stada-corporate-website-our-values-icon-one-stada7a72-870x520-c-center.jpg" style="width:100%">
-                </div>
-                <div class="col-md-6">
-                    <div class="banner__box" style="background-color: unset;">
-                        <div data-anim="fadeIn" class="measure-wide dark-grey fadeIn">
-                            <h3 class="text-overlay__title  t-title  f3  f2-md  fw4  lh-title  mb3">ONE STADA </h3>
-                            <div class="text-overlay__body  f7  fw4  lh-copy  mb4">
-                                <p><span>Each and everyone of us acts in the best interests of the company as a whole rather than our business unit or function in order to build one successful STADA.</span></p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
 <?= $this->endSection() ?>
 
 <?= $this->section("style") ?>

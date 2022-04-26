@@ -98,179 +98,48 @@
 
         </div>
     </div>
-
-
-
-
-
-
-
-
-
-
 </div>
-<!-- <div id="rptInfoblock_ctl02_infoblockInstance1_pnlInfoblock" class="infoblock ibImageLeft smallTitle noButton">
-    <div class="infoblockText">
-        <div class="infoblockTitle">
-            <span id="rptInfoblock_ctl02_infoblockInstance1_lblTitle">Toàn bộ cách tiếp cận kinh doanh của chúng tôi dựa trên bốn giá trị quan trọng cũng xác định bản sắc doanh nghiệp của chúng tôi.</span>
+
+<div class="container my-5">
+    <div class="row g-0">
+        <div class="col-md-6 align-self-center">
+            <img src="/assets/images/PMP-1.png" style="width:100%" />
         </div>
-        <div class="infoblockAbstract">
-            <span id="rptInfoblock_ctl02_infoblockInstance1_lblAbstract">
-                <li>
-                    <div><strong>Nhanh nhạy</strong>
-                        - Mỗi một thành viên dẫn dắt sự thay đổi bằng sự linh hoạt và quyết tâm như là một phần của hành trình phát triển cá nhân không ngừng</div>
-                </li>
-                <li>
-                    <div><strong>Chính trực</strong>
-                        - Mỗi một thành viên hành động có đạo đức phù hợp với các chuẩn mực bên trong và bên ngoài của công ty. Hành động được dẫn dắt bởi việc lên tiếng và sự tôn trọng.</div>
-                </li>
-                <li>
-                    <div><strong>Tinh thàn kinh doanh</strong>
-                        - Mỗi một thành viên góp phần thúc đẩy những ý tưởng và hành động mới, tạo ra giá trị và sự phát triển trong tương lai.</div>
-                </li>
-                <li>
-                    <div><strong>ONE STADA</strong>
-                        - Mỗi một thành viên hành động vì lợi ích chung của tập thể hơn là đơn vị kinh doanh hoặc bộ phân riêng lẻ nhằm xây dựng thành công One STADA. </div>
-                </li>
-            </span>
-        </div>
+        <div class="col-md-6">
+            <div class="info-box">
+                <div class="info-title" style="padding: 30px;
+    background-color: #f1f1f1;
+    font-size: 14px;">
+                    <span id="" style="font-size:16px">Toàn bộ cách tiếp cận kinh doanh của chúng tôi dựa trên bốn giá trị quan trọng cũng xác định bản sắc doanh nghiệp của chúng tôi.<br>
 
-        <a href="/eng/misija-i-vizija">
-        <div class="infoblockButton">
-
-        </div>
-        </a>
-    </div>
-    <div class="infoblockImage">
-        <img id="rptInfoblock_ctl02_infoblockInstance1_imgImage" src="/assets/images/misija-i-vizija-01.jpg" style="border-width: 0px; opacity: 1; margin-left: 0px; transition: all 1s ease 0s;">
-        <div class="infoblockCircle" style="opacity: 0.5; bottom: -280px;"></div>
-    </div>
-    <div class="infoblockText2">
-        <div class="infoblockDesc2">
-            <span id="rptInfoblock_ctl02_infoblockInstance1_lblDesc"></span>
-        </div>
-        <div class="infoblockSubnote">
-            <span id="rptInfoblock_ctl02_infoblockInstance1_lblSubnote"></span>
-        </div>
-    </div>
-    <div class="cleaner"></div>
-
-
-</div> -->
-<section class="grid-section pt2 pt3-md pb0 dark-grey">
-    <div class="container-medium mla mra pv3">
-
-        <div>
-            <div class="flexbox">
-                <div class="grid-section-row flex flex-wrap nh4-sm">
-                    <div class="col-24-md ph4-sm mb3">
-                        <div>
-
-                            <div style="text-align: center;font-size: 28px;">
-                                CÁC GIÁ TRỊ CỐT LỖI
+                    </span>
+                    <div class="infoblockAbstract">
+                        <li>
+                            <div>
+                                <strong>Chính trực</strong> - Tất cả mọi người cần hành động một cách có đạo đức, phù hợp với tiêu chuẩn nội bộ của công ty và các tiêu chuẩn bên ngoài. Cần để tinh thần lên tiếng và sự tôn trọng dẫn hướng mọi hành động của chúng ta.
                             </div>
-
-
-                            <div class="g">
-                                <p style="text-align: center;"><span style="font-weight: 400;">Toàn bộ cách tiếp cận kinh doanh của chúng tôi dựa trên bốn giá trị quan trọng cũng xác định bản sắc doanh nghiệp của chúng tôi.</span></p>
-
+                        </li>
+                        <li>
+                            <div>
+                                <strong>Nhanh nhạy </strong> - Tất cả mọi người đều nên tiên phong thay đổi theo hướng linh hoạt và quyết đoán trong hành trình liên tục phát triển bản thân.
                             </div>
-
-                        </div>
+                        </li>
+                        <li>
+                            <div>
+                                <strong>Tinh thần kinh doanh </strong> - Tất cả mọi người có thể đóng góp bằng hành động hoặc những ý tưởng mới nhằm tạo ra giá trị và tăng trưởng trong tương lai.
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <strong>ONE STADA </strong> - Tất cả mọi người phải hành động vì lợi ích tốt nhất của toàn thể công ty thay vì chỉ đơn vị kinh doanh hoặc phòng ban của mình nhằm xây dựng One STADA thành công.
+                            </div>
+                        </li>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</section>
-<section class="banner-section-wrapper pt4  pb4" id="banner-block">
-    <div class="banner  banner--text-overlay">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <img data-src="https://stada.vn/wp-content/uploads/2021/05/stada-corporate-website-our-values-icon-integrity7a72-870x520-c-center.jpg" title="Tính liêm chính" src="https://stada.vn/wp-content/uploads/2021/05/stada-corporate-website-our-values-icon-integrity7a72-870x520-c-center.jpg" style="width:100%">
-                </div>
-                <div class="col-md-6">
-                    <div class="banner__box" style="background-color: unset;">
-                        <div data-anim="fadeIn" class="measure-wide dark-grey fadeIn">
-                            <h3 class="text-overlay__title  t-title  f3  f2-md  fw4  lh-title  mb3">Chính trực</h3>
-                            <div class="text-overlay__body  f7 fw4  lh-copy  mb4">
-                                <p><span>Tất cả mọi người cần hành động một cách có đạo đức, phù hợp với tiêu chuẩn nội bộ của công ty và các tiêu chuẩn bên ngoài. Cần để tinh thần lên tiếng và sự tôn trọng dẫn hướng mọi hành động của chúng ta. </span></p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section class="banner-section-wrapper pt4  pb4" id="banner-block">
-    <div class="banner  banner--text-overlay">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 order-1">
-                    <img src="https://stada.vn/wp-content/uploads/2021/05/stada-corporate-website-our-values-icon-agility7a72-870x520-c-center.jpg" style="width:100%">
-
-                </div>
-                <div class="col-md-6">
-                    <div class="banner__box" style="background-color: unset;">
-                        <div data-anim="fadeIn" class="measure-wide dark-grey fadeIn">
-                            <h3 class="text-overlay__title  t-title  f3  f2-md  fw4  lh-title  mb3">Nhanh nhạy</h3>
-                            <div class="text-overlay__body  f7  fw4  lh-copy  mb4">
-                                <p><span>Tất cả mọi người đều nên tiên phong thay đổi theo hướng linh hoạt và quyết đoán trong hành trình liên tục phát triển bản thân. </span></p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section class="banner-section-wrapper pt4  pb4" id="banner-block">
-    <div class="banner  banner--text-overlay">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <img src="https://stada.vn/wp-content/uploads/2021/05/stada-corporate-website-our-values-icon-entrepreneurship7a72-870x520-c-center.jpg" style="width:100%">
-                </div>
-                <div class="col-md-6">
-                    <div class="banner__box" style="background-color: unset;">
-                        <div data-anim="fadeIn" class="measure-wide dark-grey fadeIn">
-                            <h3 class="text-overlay__title  t-title  f3  f2-md  fw4  lh-title  mb3">Tinh thần kinh doanh </h3>
-                            <div class="text-overlay__body  f7 fw4  lh-copy  mb4">
-                                <p><span>Tất cả mọi người có thể đóng góp bằng hành động hoặc những ý tưởng mới nhằm tạo ra giá trị và tăng trưởng trong tương lai.</span></p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section class="banner-section-wrapper pt4  pb4" id="banner-block">
-    <div class="banner  banner--text-overlay">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 order-1">
-                    <img data-src="https://stada.vn/wp-content/uploads/2021/05/stada-corporate-website-our-values-icon-one-stada7a72-870x520-c-center.jpg" alt="Vì một STADA" title="Vì một STADA" src="https://stada.vn/wp-content/uploads/2021/05/stada-corporate-website-our-values-icon-one-stada7a72-870x520-c-center.jpg" style="width:100%">
-                </div>
-                <div class="col-md-6">
-                    <div class="banner__box" style="background-color: unset;">
-                        <div data-anim="fadeIn" class="measure-wide dark-grey fadeIn">
-                            <h3 class="text-overlay__title  t-title  f3  f2-md  fw4  lh-title  mb3">ONE STADA </h3>
-                            <div class="text-overlay__body  f7  fw4  lh-copy  mb4">
-                                <p><span>Tất cả mọi người phải hành động vì lợi ích tốt nhất của toàn thể công ty thay vì chỉ đơn vị kinh doanh hoặc phòng ban của mình nhằm xây dựng One STADA thành công.</span></p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+</div>
 <?= $this->endSection() ?>
 
 <?= $this->section("style") ?>
