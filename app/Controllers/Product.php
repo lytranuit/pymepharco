@@ -39,23 +39,20 @@ class Product extends BaseController
     {
 
         $search = $this->request->getVar("q");
-        $product_model = model("ProductModel");
-        $my_region = area_current();
-        $sql_where = "product.status = 1 and product.is_pet = 1 and FIND_IN_SET('$my_region',product.region)";
+        $ProductModel = model("ProductModel");
+        $where = $ProductModel;
         if ($search != "") {
-            $language = \Config\Services::language();
-            $short_language =  $language->getLocale();
-            $sql_where .= " AND (LOWER(pet_product.search_$short_language) like LOWER('%" . $search . "%') OR LOWER(product.code) LIKE LOWER('%$search%') OR LOWER(pet_product.name_$short_language) like LOWER('%" . $search . "%') OR (pet_product.code IS NULL AND LOWER(product.name_$short_language) like LOWER('%" . $search . "%')))";
+            $where->like("name_vi", $search)->orLike("code", $search);
         }
-        $this->data['products'] = $product_model->join("pet_product", "code", "code")->select("product.*")->where($sql_where)->asObject()->paginate(20);
-        foreach ($this->data['products'] as &$product) {
-            $product_model->format_product($product);
-        }
-        // echo "<pre>";
-        // print_r($this->data['products']);
-        // die();
-        $this->data['pager'] = $product_model->join("pet_product", "code", "code")->where($sql_where)->pager;
+        $pager = service('pager');
+        $perPage =  9;
+        $page = (int)(($this->request->getVar('page') !== null) ? $this->request->getVar('page') : 1);
+        $total = $where->countAllResults(false);
+        $pager->makeLinks($page, $perPage, $total);
+        $this->data['products'] = $where->asObject()->orderby("date", "DESC")->paginate($perPage, '', $page);
 
+
+        $this->data['pager'] = $pager;
         $this->data['search'] = $search;
         $this->data['title'] = "Tìm kiếm : $search" . $this->data['title'];
         return view($this->data['content'], $this->data);
