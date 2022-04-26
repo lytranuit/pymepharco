@@ -1,8 +1,10 @@
 <div id="slider">
     <?php foreach ($sliders as $row) : ?>
         <div class="box-slider" style="display:none;line-height: 0">
-            <img src="<?= base_url($row->image_url) ?>" alt="" title="" style="width:100%">
-            <div class="sliderImage">
+            <a href="<?= $row->link ?>">
+                <img src="<?= base_url($row->image_url) ?>" alt="" title="" style="width:100%">
+            </a>
+            <div class="sliderImage" style="display:none">
 
                 <div class="circle circleNo1"></div>
                 <div class="circle circleNo2"></div>

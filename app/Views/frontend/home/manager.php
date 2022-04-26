@@ -8,9 +8,9 @@
 
 <div id="pageImage">
 
-    <img id="pageImageInstance_imgPageImage" src="<?= base_url("/assets/images/Header-Kontakt.png") ?>" style="border-width:0px;">
+    <img id="pageImageInstance_imgPageImage" src="<?= base_url("/assets/images/Header-Onama-Menadzment.png") ?>" style="border-width:0px;">
 
-    <div id="pageImageOverlay">
+    <!-- <div id="pageImageOverlay">
         <div class="circle circleNo1"></div>
         <div class="circle circleNo2"></div>
 
@@ -19,7 +19,7 @@
                 <div><span id="pageImageInstance_lblTitle">Đội ngũ</span></div>
             </div>
         </div>
-    </div>
+    </div> -->
 
 </div>
 <div class="container my-5">
@@ -52,7 +52,7 @@
                 Trần Thị Như Hoài
             </div>
             <div class="managerZvanje" style="text-align: center;">
-                Giám đốc Vận hành Sản xuất
+                Giám đốc vận hành Sản xuất
             </div>
         </div>
         <div class="managerItem col-md-4 my-2">
@@ -85,7 +85,7 @@
                 Bùi Phùng Nữ Như Nguyện
             </div>
             <div class="managerZvanje" style="text-align: center;">
-                GĐ Hành chính - Nhân sự
+                Giám đốc hành chính - Nhân sự
             </div>
         </div>
         <div class="managerItem col-md-4 my-2">
@@ -96,7 +96,7 @@
                 Trần Phúc Yên
             </div>
             <div class="managerZvanje" style="text-align: center;">
-                GĐ Nhà máy PME I
+                Giám đốc nhà máy PME I
             </div>
         </div>
         <div class="managerItem col-md-4 my-2">
@@ -120,7 +120,7 @@
 
 
 <?= $this->section("script") ?>
-<script src="<?= base_url("assets/js/circle.js") ?>"></script>
+<!-- <script src="<?= base_url("assets/js/circle.js") ?>"></script> -->
 <script>
     new PureCounter();
 </script>
