@@ -5,16 +5,16 @@
                 <span id="footerInstance_lblGlavniProizvodiTitle">Rx</span>
             </div>
             <span id="footerInstance_lblGlavniProizvodi">
-                <a href="#">Menison</a><br>
-                <a href="#">Cephalexin</a><br>
-                <a href="#">Pyzacar</a><br>
-                <a href="#">Doncef </a><br>
-                <a href="#">Ceraapix </a><br>
-                <a href="#">Pyfaclor </a><br>
-                <a href="#">Zoamco-a </a><br>
-                <a href="#">Negacef </a><br>
-                <a href="#">Tenfovix </a><br>
-                <a href="#">Cefatam </a><br>
+                <a href="<?= url_product_byid(71) ?>">Menison</a><br>
+                <a href="<?= url_product_byid(22) ?>">Cephalexin</a><br>
+                <a href="<?= url_product_byid(119) ?>">Pyzacar</a><br>
+                <a href="<?= url_product_byid(40) ?>">Doncef </a><br>
+                <a href="<?= url_product_byid(29) ?>">Ceraapix </a><br>
+                <a href="<?= url_product_byid(103) ?>">Pyfaclor </a><br>
+                <a href="<?= url_product_byid(40) ?>">Zoamco </a><br>
+                <a href="<?= url_product_byid(85) ?>">Negacef </a><br>
+                <a href="<?= url_product_byid(138) ?>">Tenfovix </a><br>
+                <a href="<?= url_product_byid(15) ?>">Cefatam </a><br>
             </span>
         </div>
         <div class="footerMidCol">
@@ -24,14 +24,14 @@
             <span id="footerInstance_lblGenerickiLekovi">
 
                 <a href="#">Liverton</a><br>
-                <a href="#">Tatanol</a><br>
+                <a href="<?= url_product_byid(137) ?>">Tatanol</a><br>
                 <a href="#">Trineulion</a><br>
                 <a href="#">Becoron-C </a><br>
-                <a href="#">Semiflit </a><br>
-                <a href="#">Cetirizine EG </a><br>
-                <a href="#">Fegra </a><br>
+                <a href="<?= url_product_byid(128) ?>">Semiflit </a><br>
+                <a href="<?= url_product_byid(30) ?>">Cetirizine EG </a><br>
+                <a href="<?= url_product_byid(51) ?>">Fegra </a><br>
                 <a href="#">Eumintan </a><br>
-                <a href="#">Daflavon </a><br>
+                <a href="<?= url_product_byid(36) ?>">Daflavon </a><br>
                 <a href="#">Trineuron </a><br>
                 <a href="#">Pyme Ginmacton </a><br>
             </span>
