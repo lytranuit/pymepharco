@@ -413,7 +413,7 @@ if (!function_exists('url_product_byid')) {
     function url_product_byid($id)
     {
         $url = base_url("san-pham.html");
-        if ($id) {
+        if ($id > 0) {
             $model = model("ProductModel");
             $object = $model->find($id);
             $url = !empty($object) ? base_url("san-pham/d$object->id.html") : "";
