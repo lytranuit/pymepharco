@@ -86,6 +86,15 @@ class Home extends BaseController
 
         return view($this->data['content'], $this->data);
     }
+    
+    public function manager()
+    {
+        $this->data['title'] =  "Đội ngũ" . $this->data['title'];
+        //echo $this->data['title'];
+        //die();  
+
+        return view($this->data['content'], $this->data);
+    }
     public function set_area($area)
     {
         helper("cookie");

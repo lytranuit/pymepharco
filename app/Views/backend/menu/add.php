@@ -96,6 +96,7 @@
                                         <option value="6">Hoạt động cộng đồng</option>
                                         <option value="7">Sức khỏe</option>
                                         <option value="8">Nghề nghiệp</option>
+                                        <option value="9">Đội ngũ</option>
                                     </select>
                                 </div>
                             </div>

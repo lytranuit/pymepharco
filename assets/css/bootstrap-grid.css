@@ -5000,4 +5000,12 @@
   }
 }
 
-/*# sourceMappingURL=bootstrap-grid.css.map */
+
+.media {
+  display: flex;
+  align-items: flex-start;
+}
+
+.media-body {
+  flex: 1;
+}

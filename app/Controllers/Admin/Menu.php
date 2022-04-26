@@ -70,6 +70,9 @@ class Menu extends BaseController
                             case 8:
                                 $data['link'] = base_url(route_to("job"));
                                 break;
+                            case 9:
+                                $data['link'] = base_url(route_to("manager"));
+                                break;
                         }
                         break;
                 }
@@ -142,6 +145,9 @@ class Menu extends BaseController
                                 break;
                             case 8:
                                 $data['link'] = base_url(route_to("job"));
+                                break;
+                            case 9:
+                                $data['link'] = base_url(route_to("manager"));
                                 break;
                         }
                         break;

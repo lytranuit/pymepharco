@@ -42,6 +42,7 @@ $routes->add('gia-tri-cot-loi', 'Home::value', ['as' => 'value']);
 $routes->add('he-thong-phan-phoi', 'Home::supply', ['as' => 'supply']);
 $routes->add('nghe-nghiep', 'Home::job', ['as' => 'job']);
 $routes->add('hoat-dong-cong-dong', 'Home::activities', ['as' => 'activities']);
+$routes->add('doi-ngu', 'Home::manager', ['as' => 'manager']);
 $routes->add('suc-khoe', 'Home::healthly', ['as' => 'healthly']);
 
 $routes->add('dang-nhap.html', 'Home::login', ['as' => 'loginhome']);
