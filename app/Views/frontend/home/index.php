@@ -24,7 +24,6 @@
         </div>
     </div>
     <div class="infoblockImage">
-        <img id="infoblockInstance5_imgImage" src="./Hemofarm - Home_files/saved_resource" style="border-width:0px;">
         <div class="infoblockCircle" style="opacity: 0.5; bottom: -280px;"></div>
     </div>
     <div class="infoblockText2">
