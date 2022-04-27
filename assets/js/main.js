@@ -6,4 +6,20 @@ $(document).ready(function () {
     $(this).toggleClass("fa-minus").toggleClass("fa-plus");
     children.toggle();
   });
+  if ($("#hidden-content").length) {
+    $.fancybox.open({
+      src: '#hidden-content',
+      type: 'inline',
+    });
+    $(".buttonCancle").click(function () {
+      $.fancybox.close();
+    });
+    $(".buttonAgree").click(async function () {
+      await $.ajax({
+        url: path + "/home/agreecookies",
+      });
+      $.fancybox.close();
+    });
+  }
+
 });

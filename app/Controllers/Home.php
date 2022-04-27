@@ -86,7 +86,7 @@ class Home extends BaseController
 
         return view($this->data['content'], $this->data);
     }
-    
+
     public function manager()
     {
         $this->data['title'] =  "Đội ngũ" . $this->data['title'];
@@ -109,6 +109,13 @@ class Home extends BaseController
         // print_r($area);
         // header('Location: ' . $_SERVER['HTTP_REFERER']);
         // exit();
+    }
+
+    public function agreecookies()
+    {
+        $_SESSION['agree_cookies'] = true;
+
+        echo 1;
     }
     public function login()
     {

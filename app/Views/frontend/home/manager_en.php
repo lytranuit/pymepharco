@@ -68,6 +68,17 @@
         </div>
         <div class="managerItem col-md-4 my-2">
             <div class="managerImage">
+                <img style="width:100%" src="/assets/images/Final/Phạm Văn Tân - Giám đốc Tài Chính.png" alt="Phạm Văn Tân - Giám đốc Tài Chính">
+            </div>
+            <div class="managerName" style="text-align: center; font-weight: bold;">
+                Phạm Văn Tân
+            </div>
+            <div class="managerZvanje" style="text-align: center;">
+                Giám đốc Tài Chính
+            </div>
+        </div>
+        <div class="managerItem col-md-4 my-2">
+            <div class="managerImage">
                 <img style="width:100%" src="/assets/images/Final/George Nguyễn - Giám đốc Chất lượng.png" alt="George Nguyễn - Giám đốc Chất lượng">
             </div>
             <div class="managerName" style="text-align: center; font-weight: bold;">
@@ -86,17 +97,6 @@
             </div>
             <div class="managerZvanje" style="text-align: center;">
                 Giám đốc hành chính - Nhân sự
-            </div>
-        </div>
-        <div class="managerItem col-md-4 my-2">
-            <div class="managerImage">
-                <img style="width:100%" src="/assets/images/Final/Phạm Văn Tân - Giám đốc Tài Chính.png" alt="Phạm Văn Tân - Giám đốc Tài Chính">
-            </div>
-            <div class="managerName" style="text-align: center; font-weight: bold;">
-                Phạm Văn Tân
-            </div>
-            <div class="managerZvanje" style="text-align: center;">
-                Giám đốc Tài Chính
             </div>
         </div>
         <div class="managerItem col-md-4 my-2">

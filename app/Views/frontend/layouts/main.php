@@ -30,7 +30,7 @@
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
     <link href="<?= base_url("/assets/css/bootstrap-grid.css?v=4") ?>" rel="stylesheet" type="text/css">
 
-
+    <link rel="stylesheet" href="<?= base_url("assets/lib/fancybox/jquery.fancybox.css") ?>" type="text/css" media="screen" />
     <link href="<?= base_url("/assets/css/menu.css") ?>" rel="stylesheet" type="text/css">
     <link href="<?= base_url("/assets/css/main.css?v=4") ?>" rel="stylesheet" type="text/css">
     <link href="<?= base_url("/assets/css/resp.css?v=4") ?>" rel="stylesheet" type="text/css">
@@ -46,6 +46,9 @@
     <?php endif ?>
     <?= $this->renderSection('style') ?>
     <title><?= $title ?></title>
+    <script type="text/javascript">
+        var path = "<?= base_url() ?>";
+    </script>
 </head>
 
 
@@ -64,6 +67,7 @@
 
         <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 
+        <script src="<?= base_url("assets/lib/fancybox/jquery.fancybox.js") ?>"></script>
         <script src="<?= base_url("assets/lib/slick/slick.js?ver=" . $ver) ?>"></script>
         <script src="<?= base_url("assets/js/main.js?ver=" . $ver) ?>"></script>
         <?php if (!empty($javascript_tag)) : ?>
@@ -294,6 +298,21 @@
             </a>
         </div>
     </div> -->
+    <?php if (!session("agree_cookies")) : ?>
+        <div id="hidden-content" style="width:400px;color:gray;">
+            <p>
+                This website uses cookies and similar technologies to provide the best functionality and display content according to your interests on our site and social networks.
+            </p>
+            <p>
+                We respect your privacy and process information only for marketing and functional purposes if you give us your consent by clicking ‘I accept.’
+            </p>
+            <div class="cookieButtons">
+                <input type="submit" name="cookiesInstance$btnPrihvati" value="Agree" id="cookiesInstance_btnPrihvati" class="cookiesButton orangeButton buttonAgree">
+                <input type="submit" name="cookiesInstance$btnOdustani" value="Cancel" id="cookiesInstance_btnOdustani" class="cookiesButton buttonCancle">
+                <div class="cleaner"></div>
+            </div>
+        </div>
+    <?php endif ?>
 </body>
 
 </html>
