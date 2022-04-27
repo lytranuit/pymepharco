@@ -6,7 +6,7 @@
 
 <div id="pageImage">
 
-    <img id="pageImageInstance_imgPageImage" src="<?= base_url("/assets/images/Header-Kontakt.png") ?>" style="border-width:0px;">
+    <img id="pageImageInstance_imgPageImage" src="<?= base_url("/assets/images/about.jpg") ?>" style="border-width:0px;">
 
     <div id="pageImageOverlay">
         <div class="circle circleNo1"></div>

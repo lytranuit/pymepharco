@@ -3,9 +3,9 @@
 <?= $this->section('content') ?>
 
 <?= view_cell("\App\Libraries\HeaderWidget::breadcrumb") ?>
-<div id="pageImage">
 
-    <img id="pageImageInstance_imgPageImage" src="<?= base_url($tag->image_url) ?>" style="border-width:0px;">
+<div id="pageImage" style="background-image: url(<?= base_url($info->image_url) ?>);">
+
 
     <div id="pageImageOverlay">
         <div class="circle circleNo1"></div>

@@ -6,8 +6,11 @@
 <?= view_cell("\App\Libraries\HeaderWidget::breadcrumb") ?>
 
 
+
 <div id="pageImage">
-    <img id="pageImageInstance_imgPageImage" src="<?= base_url("/assets/images/Header-Kontakt.png") ?>" style="border-width:0px;">
+
+    <img id="pageImageInstance_imgPageImage" src="<?= base_url("/assets/images/about.jpg") ?>" style="border-width:0px;">
+
 
     <div id="pageImageOverlay">
         <div class="circle circleNo1"></div>
@@ -35,7 +38,7 @@
         <?php foreach ($products as $row) : ?>
 
             <div class="col-6 col-sm-6 col-lg-4 section-products__item grid">
-            
+
                 <figure class="effect-layla">
                     <img src="<?= $row->image_url ?>" alt="<?= $row->{pick_language($row, 'name_')} ?>">
                     <figcaption>
