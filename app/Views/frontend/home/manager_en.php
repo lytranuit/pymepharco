@@ -132,6 +132,17 @@
                 Giám đốc Nhà máy PME II
             </div>
         </div>
+        <div class="managerItem col-md-4 my-2">
+            <div class="managerImage">
+                <img style="width:100%" src="/assets/images/Final/Nguyễn Thị Nhung - Giám Đốc Kinh Doanh.png" alt="Nguyễn Thị Nhung - Giám Đốc Kinh Doanh">
+            </div>
+            <div class="managerName" style="text-align: center; font-weight: bold;">
+                Nguyễn Thị Nhung
+            </div>
+            <div class="managerZvanje" style="text-align: center;">
+                Giám Đốc Kinh Doanh
+            </div>
+        </div>
     </div>
 </div>
 <?= $this->endSection() ?>
