@@ -122,7 +122,7 @@
             <div class="col-12">
                 <h2>Sản phẩm khác</h2>
             </div>
-            <div class="row other-products">
+            <div class="other-products">
 
                 <?php foreach ($product_related as $row) : ?>
                     <div class="section-products__item">
