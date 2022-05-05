@@ -122,29 +122,31 @@
             <div class="col-12">
                 <h2>Sản phẩm khác</h2>
             </div>
-            <div class="other-products">
+            <div class="row">
+                <div class="other-products">
 
-                <?php foreach ($product_related as $row) : ?>
-                    <div class="section-products__item">
-                        <div class="thumbnail">
-                            <a class="bg-image " href="<?= url_product($row) ?>">
-                                <img style="width:100%" src="<?= $row->image_url ?>" alt="<?= $row->{pick_language($row, 'name_')} ?>">
-                                <span class="hover-state hover-state--tranparent">
-                                    <span><span></span></span>
-                                </span>
-                            </a>
+                    <?php foreach ($product_related as $row) : ?>
+                        <div class="section-products__item">
+                            <div class="thumbnail">
+                                <a class="bg-image " href="<?= url_product($row) ?>">
+                                    <img style="width:100%" src="<?= $row->image_url ?>" alt="<?= $row->{pick_language($row, 'name_')} ?>">
+                                    <span class="hover-state hover-state--tranparent">
+                                        <span><span></span></span>
+                                    </span>
+                                </a>
+                            </div>
+                            <div class="section-products__item__info">
+                                <h2 class="section-products__item__info__title" style="text-align: center;"><a href="<?= url_product($row) ?>"><?= $row->{pick_language($row, 'name_')} ?></a></h2>
+
+                                <!-- <span class="section-products__item__info__type">Rx</span> -->
+
+                                <!-- <span class="section-products__item__info__quantity" style="height: 21px;">Hộp 14 viên, 28 viên, 30 viên, 50 viên.</span> -->
+                            </div>
+
                         </div>
-                        <div class="section-products__item__info">
-                            <h2 class="section-products__item__info__title" style="text-align: center;"><a href="<?= url_product($row) ?>"><?= $row->{pick_language($row, 'name_')} ?></a></h2>
+                    <?php endforeach ?>
 
-                            <!-- <span class="section-products__item__info__type">Rx</span> -->
-
-                            <!-- <span class="section-products__item__info__quantity" style="height: 21px;">Hộp 14 viên, 28 viên, 30 viên, 50 viên.</span> -->
-                        </div>
-
-                    </div>
-                <?php endforeach ?>
-
+                </div>
             </div>
         </div>
     </div>
