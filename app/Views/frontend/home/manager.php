@@ -44,17 +44,7 @@
 <div class="container my-5">
     <div class="row">
 
-        <div class="managerItem col-md-4 my-2">
-            <div class="managerImage">
-                <img style="width:100%" src="/assets/images/Final/Trần Thị Như Hoài - Giám đốc Vận hành Sản xuất.png" alt="Trần Thị Như Hoài - Giám đốc Vận hành Sản xuất">
-            </div>
-            <div class="managerName" style="text-align: center; font-weight: bold;">
-                Trần Thị Như Hoài
-            </div>
-            <div class="managerZvanje" style="text-align: center;">
-                Giám đốc vận hành Sản xuất
-            </div>
-        </div>
+
         <div class="managerItem col-md-4 my-2">
             <div class="managerImage">
                 <img style="width:100%" src="/assets/images/Final/Trương Tấn Lực - Phó Tổng Giám Đốc.png" alt="Trương Tấn Lực - Phó Tổng Giám Đốc">
@@ -63,7 +53,7 @@
                 Trương Tấn Lực
             </div>
             <div class="managerZvanje" style="text-align: center;">
-                Phó Tổng Giám Đốc
+                Phó Tổng Giám đốc phụ trách Kinh doanh & Marketing
             </div>
         </div>
         <div class="managerItem col-md-4 my-2">
@@ -74,29 +64,18 @@
                 Phạm Văn Tân
             </div>
             <div class="managerZvanje" style="text-align: center;">
-                Giám đốc Tài Chính
+                Giám đốc Tài chính
             </div>
         </div>
         <div class="managerItem col-md-4 my-2">
             <div class="managerImage">
-                <img style="width:100%" src="/assets/images/Final/George Nguyễn - Giám đốc Chất lượng.png" alt="George Nguyễn - Giám đốc Chất lượng">
+                <img style="width:100%" src="/assets/images/Final/Trần Thị Như Hoài - Giám đốc Vận hành Sản xuất.png" alt="Trần Thị Như Hoài - Giám đốc Vận hành Sản xuất">
             </div>
             <div class="managerName" style="text-align: center; font-weight: bold;">
-                George Nguyễn
+                Trần Thị Như Hoài
             </div>
             <div class="managerZvanje" style="text-align: center;">
-                Giám đốc Chất lượng
-            </div>
-        </div>
-        <div class="managerItem col-md-4 my-2">
-            <div class="managerImage">
-                <img style="width:100%" src="/assets/images/Final/Bùi Phùng Nữ Như Nguyện - GĐ Hành chính - Nhân sự.png" alt="Bùi Phùng Nữ Như Nguyện - GĐ Hành chính - Nhân sự">
-            </div>
-            <div class="managerName" style="text-align: center; font-weight: bold;">
-                Bùi Phùng Nữ Như Nguyện
-            </div>
-            <div class="managerZvanje" style="text-align: center;">
-                Giám đốc hành chính - Nhân sự
+                Giám đốc Vận hành Sản xuất
             </div>
         </div>
         <div class="managerItem col-md-4 my-2">
@@ -107,7 +86,29 @@
                 Trịnh Thị Phương Lan
             </div>
             <div class="managerZvanje" style="text-align: center;">
-                Giám đốc Đăng ký thuốc
+                Giám đốc Đăng ký thuốc, Phát triển và Ra mắt Sản phẩm
+            </div>
+        </div>
+        <!-- <div class="managerItem col-md-4 my-2">
+            <div class="managerImage">
+                <img style="width:100%" src="/assets/images/Final/George Nguyễn - Giám đốc Chất lượng.png" alt="George Nguyễn - Giám đốc Chất lượng">
+            </div>
+            <div class="managerName" style="text-align: center; font-weight: bold;">
+                George Nguyễn
+            </div>
+            <div class="managerZvanje" style="text-align: center;">
+                Giám đốc Chất lượng
+            </div>
+        </div> -->
+        <div class="managerItem col-md-4 my-2">
+            <div class="managerImage">
+                <img style="width:100%" src="/assets/images/Final/Bùi Phùng Nữ Như Nguyện - GĐ Hành chính - Nhân sự.png" alt="Bùi Phùng Nữ Như Nguyện - GĐ Hành chính - Nhân sự">
+            </div>
+            <div class="managerName" style="text-align: center; font-weight: bold;">
+                Bùi Phùng Nữ Như Nguyện
+            </div>
+            <div class="managerZvanje" style="text-align: center;">
+                Giám đốc Nhân sự
             </div>
         </div>
         <div class="managerItem col-md-4 my-2">
@@ -118,7 +119,7 @@
                 Trần Phúc Yên
             </div>
             <div class="managerZvanje" style="text-align: center;">
-                Giám đốc nhà máy PME I
+                Giám đốc Nhà máy PME I
             </div>
         </div>
         <div class="managerItem col-md-4 my-2">
@@ -129,7 +130,7 @@
                 Trần Quang Mạnh
             </div>
             <div class="managerZvanje" style="text-align: center;">
-                Giám đốc Nhà máy PME II
+                Giám đốc Nhà máy Stada Việt Nam
             </div>
         </div>
         <div class="managerItem col-md-4 my-2">
@@ -140,7 +141,7 @@
                 Nguyễn Thị Nhung
             </div>
             <div class="managerZvanje" style="text-align: center;">
-                Giám Đốc Kinh Doanh
+                Giám đốc Kinh doanh
             </div>
         </div>
 
