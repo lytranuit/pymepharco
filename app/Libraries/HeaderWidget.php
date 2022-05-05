@@ -41,6 +41,7 @@ class HeaderWidget
     public function submenu()
     {
         $current_url = current_url();
+        // echo $current_url;die
         $MenuModel = model("MenuModel");
         $menu = $MenuModel->where("link", $current_url)->asObject()->first();
 

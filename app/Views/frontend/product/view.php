@@ -9,8 +9,8 @@
         <li> <?= $info->{pick_language($info)} ?></li>
     </span>
 </div>
-<div id="pageImage" style="background-image: url(<?= base_url($info->image_url) ?>);">
-
+<div id="pageImage">
+    <img id="pageImageInstance_imgPageImage" src="<?= base_url("/assets/images/about.jpg") ?>" style="border-width:0px;">
 
     <div id="pageImageOverlay">
         <div class="circle circleNo1"></div>
@@ -122,7 +122,7 @@
             <div class="col-12">
                 <h2>Sản phẩm khác</h2>
             </div>
-            <div class="row">
+            <div class="row other-products">
 
                 <?php foreach ($product_related as $row) : ?>
                     <div class="col-6 col-sm-6 col-lg-4 section-products__item">
@@ -153,6 +153,7 @@
 
 <?= $this->section("style") ?>
 <link rel="stylesheet" href="<?= base_url("assets/lib/fancybox/jquery.fancybox.css") ?>" type="text/css" media="screen" />
+<link rel="stylesheet" href="<?= base_url("assets/lib/slick/slick.css") ?>" type="text/css" media="screen" />
 <style>
     .product_d_info {
         margin-bottom: 50px;
@@ -216,6 +217,7 @@
 
 <?= $this->section("script") ?>
 
+<script src="<?= base_url("assets/lib/slick/slick.js") ?>"></script>
 <script src="<?= base_url("assets/lib/fancybox/jquery.fancybox.js") ?>"></script>
 <script src="<?= base_url("assets/js/circle.js") ?>"></script>
 <script>
@@ -243,6 +245,13 @@
                 }
 
             });
+        });
+        $('.other-products').slick({
+            infinite: true,
+            slidesToShow: 3,
+            slidesToScroll: 3,
+            prevArrow: '<div class="slick-prev"><i class="fa fa-angle-left" aria-hidden="true"></i></div>',
+            nextArrow: '<div class="slick-next"><i class="fa fa-angle-right" aria-hidden="true"></i></div>',
         });
     })
 </script>
