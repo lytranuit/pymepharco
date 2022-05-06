@@ -86,10 +86,10 @@
                 Trịnh Thị Phương Lan
             </div>
             <div class="managerZvanje" style="text-align: center;">
-                Giám đốc Đăng ký thuốc, Phát triển và Ra mắt Sản phẩm
+                Giám đốc Phát triển Sản phẩm và Đăng ký thuốc
             </div>
         </div>
-        <!-- <div class="managerItem col-md-4 my-2">
+        <div class="managerItem col-md-4 my-2">
             <div class="managerImage">
                 <img style="width:100%" src="/assets/images/Final/George Nguyễn - Giám đốc Chất lượng.png" alt="George Nguyễn - Giám đốc Chất lượng">
             </div>
@@ -99,7 +99,7 @@
             <div class="managerZvanje" style="text-align: center;">
                 Giám đốc Chất lượng
             </div>
-        </div> -->
+        </div>
         <div class="managerItem col-md-4 my-2">
             <div class="managerImage">
                 <img style="width:100%" src="/assets/images/Final/Bùi Phùng Nữ Như Nguyện - GĐ Hành chính - Nhân sự.png" alt="Bùi Phùng Nữ Như Nguyện - GĐ Hành chính - Nhân sự">
