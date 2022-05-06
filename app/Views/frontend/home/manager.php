@@ -47,6 +47,17 @@
 
         <div class="managerItem col-md-4 my-2">
             <div class="managerImage">
+                <img style="width:100%" src="/assets/images/Final/Trần Thị Như Hoài - Giám đốc Vận hành Sản xuất.png" alt="Trần Thị Như Hoài - Giám đốc Vận hành Sản xuất">
+            </div>
+            <div class="managerName" style="text-align: center; font-weight: bold;">
+                Trần Thị Như Hoài
+            </div>
+            <div class="managerZvanje" style="text-align: center;">
+                Giám đốc Vận hành Sản xuất
+            </div>
+        </div>
+        <div class="managerItem col-md-4 my-2">
+            <div class="managerImage">
                 <img style="width:100%" src="/assets/images/Final/Trương Tấn Lực - Phó Tổng Giám Đốc.png" alt="Trương Tấn Lực - Phó Tổng Giám Đốc">
             </div>
             <div class="managerName" style="text-align: center; font-weight: bold;">
@@ -69,28 +80,6 @@
         </div>
         <div class="managerItem col-md-4 my-2">
             <div class="managerImage">
-                <img style="width:100%" src="/assets/images/Final/Trần Thị Như Hoài - Giám đốc Vận hành Sản xuất.png" alt="Trần Thị Như Hoài - Giám đốc Vận hành Sản xuất">
-            </div>
-            <div class="managerName" style="text-align: center; font-weight: bold;">
-                Trần Thị Như Hoài
-            </div>
-            <div class="managerZvanje" style="text-align: center;">
-                Giám đốc Vận hành Sản xuất
-            </div>
-        </div>
-        <div class="managerItem col-md-4 my-2">
-            <div class="managerImage">
-                <img style="width:100%" src="/assets/images/Final/Trịnh Thị Phương Lan.png" alt="Trịnh Thị Phương Lan">
-            </div>
-            <div class="managerName" style="text-align: center; font-weight: bold;">
-                Trịnh Thị Phương Lan
-            </div>
-            <div class="managerZvanje" style="text-align: center;">
-                Giám đốc Phát triển Sản phẩm và Đăng ký thuốc
-            </div>
-        </div>
-        <div class="managerItem col-md-4 my-2">
-            <div class="managerImage">
                 <img style="width:100%" src="/assets/images/Final/George Nguyễn - Giám đốc Chất lượng.png" alt="George Nguyễn - Giám đốc Chất lượng">
             </div>
             <div class="managerName" style="text-align: center; font-weight: bold;">
@@ -109,6 +98,17 @@
             </div>
             <div class="managerZvanje" style="text-align: center;">
                 Giám đốc Nhân sự
+            </div>
+        </div>
+        <div class="managerItem col-md-4 my-2">
+            <div class="managerImage">
+                <img style="width:100%" src="/assets/images/Final/Trịnh Thị Phương Lan.png" alt="Trình Thị Phương Lan">
+            </div>
+            <div class="managerName" style="text-align: center; font-weight: bold;">
+                Trình Thị Phương Lan
+            </div>
+            <div class="managerZvanje" style="text-align: center;">
+                Giám đốc Phát triển Sản phẩm và Đăng ký thuốc
             </div>
         </div>
         <div class="managerItem col-md-4 my-2">
