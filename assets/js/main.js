@@ -28,9 +28,9 @@ $(document).ready(function () {
       type: 'inline',
     });
   })
-  $("body").on("inview", ".inview", function () {
+  $(".inview").one("inview", function () {
     var $this = $(this);
     var classname = $this.data("animate");
-    $this.addClass("animate__animated").addClass(classname);
+    $this.addClass(classname);
   });
 });

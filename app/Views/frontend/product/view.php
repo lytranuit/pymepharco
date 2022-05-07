@@ -154,7 +154,6 @@
 <?= $this->endSection() ?>
 
 <?= $this->section("style") ?>
-<link rel="stylesheet" href="<?= base_url("assets/lib/fancybox/jquery.fancybox.css") ?>" type="text/css" media="screen" />
 <link rel="stylesheet" href="<?= base_url("assets/lib/slick/slick.css") ?>" type="text/css" media="screen" />
 <style>
     .product_d_info {
@@ -220,7 +219,6 @@
 <?= $this->section("script") ?>
 
 <script src="<?= base_url("assets/lib/slick/slick.js") ?>"></script>
-<script src="<?= base_url("assets/lib/fancybox/jquery.fancybox.js") ?>"></script>
 <script src="<?= base_url("assets/js/circle.js") ?>"></script>
 <script>
     $(document).ready(function() {

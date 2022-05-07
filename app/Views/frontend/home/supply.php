@@ -37,7 +37,7 @@
             <div class="infoblockAbstract">
                 <span id="rptInfoblock_ctl03_infoblockInstance1_lblAbstract">
                     <ul>
-                        <li class="inview" data-animate="animate__backInLeft">
+                        <li class="inview" data-animate="animate__animated animate__backInLeft">
                             <div>
                                 <h4>TRỤ SỞ CHÍNH</h4>
                                 166 – 170 Nguyễn Huệ, Tuy Hòa, Phú Yên<br>
@@ -46,7 +46,7 @@
                                 Email: hcns@pymepharco.com<br>
                             </div>
                         </li>
-                        <li class="inview" data-animate="animate__backInRight">
+                        <li class="inview" data-animate="animate__animated animate__backInRight">
                             <div>
                                 <h4>NHÀ MÁY</h4>
                                 01 Bà Triệu, Tuy Hòa, Phú Yên<br>
@@ -55,7 +55,7 @@
                                 Email: hcns@pymepharco.com<br>
                             </div>
                         </li>
-                        <li class="inview" data-animate="animate__backInLeft">
+                        <li class="inview" data-animate="animate__animated animate__backInLeft">
                             <div>
                                 <h4>CHI NHÁNH TP.HCM</h4>
                                 44 Đồng Nai, P.15, Q.10, TP.HCM<br>
@@ -65,7 +65,7 @@
                                 pymepharco@hcm.vnn.vn<br>
                             </div>
                         </li>
-                        <li class="inview" data-animate="animate__backInRight">
+                        <li class="inview" data-animate="animate__animated animate__backInRight">
                             <div>
                                 <h4>CHI NHÁNH HÀ NỘI</h4>
                                 Lô 5 – TT 24 khu Nhà ở Báo Nhân Dân, Phường Xuân Phương, Q.Nam Từ Liêm, Tp.Hà Nội.<br>
@@ -74,7 +74,7 @@
                                 Email: cnhn@pymepharco.com<br>
                             </div>
                         </li>
-                        <li class="inview" data-animate="animate__backInLeft">
+                        <li class="inview" data-animate="animate__animated animate__backInLeft">
                             <div>
                                 <h4>CTY CP DƯỢC – VTYT ĐAKNONG</h4>
                                 345 Quốc lộ 141, Xã Tâm Thắng, Huyện Cujut, Tỉnh ĐakNông.<br>
@@ -83,7 +83,7 @@
                                 Email: daknong@pymepharco.com<br>
                             </div>
                         </li>
-                        <li class="inview" data-animate="animate__backInRight">
+                        <li class="inview" data-animate="animate__animated animate__backInRight">
                             <div>
                                 <h4>CHI NHÁNH QUẢNG NGÃI</h4>
                                 433 Lê Lợi, Tp.Quảng Ngãi, Tỉnh Quảng Ngãi.<br>
@@ -93,7 +93,7 @@
                             </div>
                         </li>
 
-                        <li class="inview" data-animate="animate__backInLeft">
+                        <li class="inview" data-animate="animate__animated animate__backInLeft">
                             <div>
                                 <h4>CHI NHÁNH NHA TRANG</h4>
                                 117-119 Ngô Gia Tự – Phường Tân Lập -TP.Nha Trang-Tỉnh Khánh Hòa.<br>
@@ -102,7 +102,7 @@
                                 Email: cnnt@pymepharco.com<br>
                             </div>
                         </li>
-                        <li class="inview" data-animate="animate__backInRight">
+                        <li class="inview" data-animate="animate__animated animate__backInRight">
                             <div>
                                 <h4>CHI NHÁNH LÂM ĐỒNG</h4>
                                 Lô C49 Phạm Ngọc Thạch, Phường 6, Tp.Đà Lạt, Tỉnh Lâm Đồng.<br>
@@ -111,7 +111,7 @@
                                 Email: cnld@pymepharco.com<br>
                             </div>
                         </li>
-                        <li class="inview" data-animate="animate__backInLeft">
+                        <li class="inview" data-animate="animate__animated animate__backInLeft">
                             <div>
                                 <h4>CHI NHÁNH ĐỒNG NAI</h4>
                                 483 Huỳnh Văn Nghệ, Khu Phố 3, Phường Bửu Long, TP. Biên Hòa, Tỉnh Đồng Nai<br>
@@ -120,7 +120,7 @@
                                 Email: cndn@pymepharco.com<br>
                             </div>
                         </li>
-                        <li class="inview" data-animate="animate__backInRight">
+                        <li class="inview" data-animate="animate__animated animate__backInRight">
                             <div>
                                 <h4>CHI NHÁNH AN GIANG</h4>
                                 21-23-25 Mai Hắc Đế, Phường Bình Khánh, TP. Long Xuyên, Tỉnh An Giang<br>
@@ -129,7 +129,7 @@
                                 Email: cnag@pymepharco.com<br>
                             </div>
                         </li>
-                        <li class="inview" data-animate="animate__backInLeft">
+                        <li class="inview" data-animate="animate__animated animate__backInLeft">
                             <div>
                                 <h4>CHI NHÁNH CẦN THƠ</h4>
                                 E2-08 Đường số 6,Khu Nhà Nam Long,Phường Hưng Thạnh , Quận Cái Răng, Tp.Cần Thơ.<br>
@@ -139,7 +139,7 @@
                             </div>
                         </li>
 
-                        <li class="inview" data-animate="animate__backInRight">
+                        <li class="inview" data-animate="animate__animated animate__backInRight">
                             <div>
                                 <h4>CHI NHÁNH CÀ MAU</h4>
                                 40 Nguyễn Công Trứ , Phường 8, Tp. Cà Mau , Tỉnh Cà Mau.<br>
@@ -148,7 +148,7 @@
                                 Email: cncm@pymepharco.com<br>
                             </div>
                         </li>
-                        <li class="inview" data-animate="animate__backInLeft">
+                        <li class="inview" data-animate="animate__animated animate__backInLeft">
                             <div>
                                 <h4>CHI NHÁNH ĐÀ NẴNG</h4>
                                 88 Nguyễn Hữu Thọ, Phường Thuận Hòa Tây, Quận Hải Châu, Tp.Đà Nẵng.<br>
@@ -157,7 +157,7 @@
                                 Email: cndng@pymepharco.com<br>
                             </div>
                         </li>
-                        <li class="inview" data-animate="animate__backInRight">
+                        <li class="inview" data-animate="animate__animated animate__backInRight">
                             <div>
                                 <h4>CỬA HÀNG BÀ RỊA VŨNG TÀU</h4>
                                 78 Yên Thế – Phường 4 – Tp. Vũng Tàu, Tỉnh Bà Rịa- Vũng Tàu.<br>
@@ -166,7 +166,7 @@
                                 Email: chvt@pymepharco.com<br>
                             </div>
                         </li>
-                        <li class="inview" data-animate="animate__backInLeft">
+                        <li class="inview" data-animate="animate__animated animate__backInLeft">
                             <div>
                                 <h4>CHI NHÁNH BÌNH DƯƠNG</h4>
                                 Số 49 D5 KDC Phú Hòa 1 , P.Phú Hòa ,Tp.Thủ Dầu Một, Tỉnh Bình Dương.<br>
@@ -175,7 +175,7 @@
                                 Email: chbinhduong@pymepharco.com<br>
                             </div>
                         </li>
-                        <li class="inview" data-animate="animate__backInRight">
+                        <li class="inview" data-animate="animate__animated animate__backInRight">
                             <div>
                                 <h4>CHI NHÁNH TÂY NINH</h4>
                                 225 Nguyễn Trọng Cát, Phường Hiệp Ninh, Tp.Tây Ninh, Tỉnh Tây Ninh.<br>
@@ -184,7 +184,7 @@
                                 Email: cntn@pymepharco.com<br>
                             </div>
                         </li>
-                        <li class="inview" data-animate="animate__backInLeft">
+                        <li class="inview" data-animate="animate__animated animate__backInLeft">
                             <div>
                                 <h4>CHI NHÁNH VĨNH LONG</h4>
                                 101 Phạm Thái Bường, Phường 4, TP.Vĩnh Long, Tỉnh Vĩnh Long.<br>
@@ -194,7 +194,7 @@
                             </div>
                         </li>
 
-                        <li class="inview" data-animate="animate__backInRight">
+                        <li class="inview" data-animate="animate__animated animate__backInRight">
                             <div>
                                 <h4>CHI NHÁNH THÁI BÌNH</h4>
                                 Lô 267 Khu Đô Thị Kỳ Bá ,Phường Kỳ Bá ,Tp.Thái Bình , Tỉnh Thái Bình<br>
@@ -203,7 +203,7 @@
                                 Email:cntb@pymepharco.com<br>
                             </div>
                         </li>
-                        <li class="inview" data-animate="animate__backInLeft">
+                        <li class="inview" data-animate="animate__animated animate__backInLeft">
                             <div>
                                 <h4>CHI NHÁNH NGHỆ AN</h4>
                                 Lô 01-BT05*, thuộc Dự án khu nhà ở chung cư phía đông Đại lộ Lê Nin, Xóm 20 Nghi Phú, Thành Phố Vinh, tỉnh Nghệ An.<br>
@@ -212,7 +212,7 @@
                                 Email: cnna@pymepharco.com<br>
                             </div>
                         </li>
-                        <li class="inview" data-animate="animate__backInRight">
+                        <li class="inview" data-animate="animate__animated animate__backInRight">
                             <div>
                                 <h4>CHI NHÁNH TIỀN GIANG</h4>
                                 11/11 Phan Thanh Giản, Phường 3, TP. Mỹ Tho, Tiền Giang.<br>
@@ -221,7 +221,7 @@
                                 Email: cntg@pymepharco.com<br>
                             </div>
                         </li>
-                        <li class="inview" data-animate="animate__backInLeft">
+                        <li class="inview" data-animate="animate__animated animate__backInLeft">
                             <div>
                                 <h4>CỬA HÀNG QUẬN 10</h4>
                                 Quầy D5, 134/01 Tô Hiến Thành, Phường 15, Quận 10, Tp.Hồ Chí Minh.<br>
@@ -230,7 +230,7 @@
                                 Email: chq10@pymepharco.com<br>
                             </div>
                         </li>
-                        <li class="inview" data-animate="animate__backInRight">
+                        <li class="inview" data-animate="animate__animated animate__backInRight">
                             <div>
                                 <h4>CHI NHÁNH GIA LAI</h4>
                                 138 Lê Lợi, Phường Hoa Lư, Tp.Pleiku, Tỉnh Gia Lai<br>
@@ -239,7 +239,7 @@
                                 Email: cngl@pymepharco.com<br>
                             </div>
                         </li>
-                        <li class="inview" data-animate="animate__backInLeft">
+                        <li class="inview" data-animate="animate__animated animate__backInLeft">
                             <div>
                                 <h4>CHI NHÁNH BÌNH THUẬN</h4>
                                 89 Nguyễn Hội, Phường Phú Tài, Tp.Phan Thiết, Tỉnh Bình Thuận.<br>
@@ -249,7 +249,7 @@
                             </div>
                         </li>
 
-                        <li class="inview" data-animate="animate__backInRight">
+                        <li class="inview" data-animate="animate__animated animate__backInRight">
                             <div>
                                 <h4>CHI NHÁNH BÌNH ĐỊNH</h4>
                                 319 Đống Đa, P.Thị Nại, Tp.Quy Nhơn, Tỉnh Bình Định.<br>
@@ -258,7 +258,7 @@
                                 Email: cnbd@pymepharco.com<br>
                             </div>
                         </li>
-                        <li class="inview" data-animate="animate__backInLeft">
+                        <li class="inview" data-animate="animate__animated animate__backInLeft">
                             <div>
                                 <h4>CHI NHÁNH HUẾ</h4>
                                 54 Trường Chinh, Phường Xuân Phú, Tp.Huế, Tỉnh Thừa Thiên Huế.<br>
@@ -267,7 +267,7 @@
                                 Email: cnhue@pymepharco.com<br>
                             </div>
                         </li>
-                        <li class="inview" data-animate="animate__backInRight">
+                        <li class="inview" data-animate="animate__animated animate__backInRight">
                             <div>
                                 <h4>CHI NHÁNH PHÚ THỌ</h4>
                                 Số 622-624 Khu 7, Phố Thanh Bình – Phường Thanh Miếu – Tp.Việt Trì – tỉnh Phú Thọ<br>
@@ -276,7 +276,7 @@
                                 Email: cnpt@pymepharco.com<br>
                             </div>
                         </li>
-                        <li class="inview" data-animate="animate__backInLeft">
+                        <li class="inview" data-animate="animate__animated animate__backInLeft">
                             <div>
                                 <h4>CHI NHÁNH THÁI NGUYÊN</h4>
                                 Số 3 Tổ 11, Phường Túc Duyên, Thành phố Thái Nguyên, tỉnh Thái Nguyên.<br>
@@ -285,7 +285,7 @@
                                 Email: cnthainguyen@pymepharco.com<br>
                             </div>
                         </li>
-                        <li class="inview" data-animate="animate__backInRight">
+                        <li class="inview" data-animate="animate__animated animate__backInRight">
                             <div>
                                 <h4>CHI NHÁNH THANH HÓA</h4>
                                 Lô 03 MBQH530/UBND –QLĐT- P.Đông Vệ- Tp.Thanh Hóa – tỉnh Thanh Hóa.<br>
@@ -294,7 +294,7 @@
                                 Email: cnth@pymepharco.com<br>
                             </div>
                         </li>
-                        <li class="inview" data-animate="animate__backInLeft">
+                        <li class="inview" data-animate="animate__animated animate__backInLeft">
                             <div>
                                 <h4>CHI NHÁNH HẢI PHÒNG</h4>
                                 Lô 30 No-04 đường Hồng Phúc, Khu đô thị Cựu Viên, phường Bắc Sơn, Quận Kiến An, Tp.Hải Phòng.<br>

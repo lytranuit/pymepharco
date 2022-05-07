@@ -920,12 +920,12 @@ input {
     }
 }
 
-.section-products__item:nth-child(3n+1) {
+/* .section-products__item:nth-child(3n+1) {
     border-left: 0;
-}
+} */
 
 .section-products__item {
-    border-left: 1px solid #ededed;
+    /* border-left: 1px solid #ededed; */
     position: relative;
     padding: 25px 47px;
     margin-top: 25px;
@@ -939,15 +939,6 @@ input {
     }
 }
 
-.section-products__item:before {
-    border-top: 1px solid #ededed;
-    content: "";
-    display: block;
-    position: absolute;
-    left: 47px;
-    right: 46px;
-    top: -25px;
-}
  /* Common style */
  .grid figure {
     position: relative;

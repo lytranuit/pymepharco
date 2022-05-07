@@ -13,8 +13,6 @@
                 <a href="<?= url_product_byid(103) ?>">Pyfaclor </a><br>
                 <a href="<?= url_product_byid(40) ?>">Zoamco </a><br>
                 <a href="<?= url_product_byid(85) ?>">Negacef </a><br>
-                <a href="<?= url_product_byid(138) ?>">Tenfovix </a><br>
-                <a href="<?= url_product_byid(15) ?>">Cefatam </a><br>
             </span>
         </div>
         <div class="footerMidCol">
@@ -31,9 +29,6 @@
                 <a href="<?= url_product_byid(30) ?>">Cetirizine EG </a><br>
                 <a href="<?= url_product_byid(51) ?>">Fegra </a><br>
                 <a href="#">Eumintan </a><br>
-                <a href="<?= url_product_byid(36) ?>">Daflavon </a><br>
-                <a href="#">Trineuron </a><br>
-                <a href="#">Pyme Ginmacton </a><br>
             </span>
         </div>
         <div class="cleaner960"></div>
