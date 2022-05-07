@@ -925,9 +925,7 @@ input {
 } */
 
 .section-products__item {
-    /* border-left: 1px solid #ededed; */
     position: relative;
-    padding: 25px 47px;
     margin-top: 25px;
     margin-bottom: 30px;
 }

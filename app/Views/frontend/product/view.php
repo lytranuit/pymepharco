@@ -126,7 +126,7 @@
                 <div class="other-products">
 
                     <?php foreach ($product_related as $row) : ?>
-                        <div class="section-products__item">
+                        <div class="section-products__item" style="padding:10px">
                             <div class="thumbnail">
                                 <a class="bg-image " href="<?= url_product($row) ?>">
                                     <img style="width:100%" src="<?= $row->image_url ?>" alt="<?= $row->{pick_language($row, 'name_')} ?>">
