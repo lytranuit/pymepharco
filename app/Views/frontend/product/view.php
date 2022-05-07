@@ -64,7 +64,7 @@
                             <span><?= $info->{pick_language($info, "bq_")} ?></span>
                         </div>
                     </div>
-                    <hr style="    border: 1px solid #d9d9d9;">
+                    <!-- <hr style="    border: 1px solid #d9d9d9;">
 
                     <div class="pro_meta clearfix">
                         <div class="mtItem">
@@ -72,7 +72,7 @@
                             <span><?= $info->code ?></span>
                         </div>
 
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
