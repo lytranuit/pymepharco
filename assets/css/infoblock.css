@@ -109,7 +109,8 @@
     font-family: NotoSansBold;
 }
 
-.backOrange .infoblockTitle, .backOrange .infoblockAbstract {
+.backOrange .infoblockTitle,
+.backOrange .infoblockAbstract {
     color: #fff;
     line-height: 1.5;
     padding: 0;
@@ -121,7 +122,8 @@
     padding: 32px 0;
 }
 
-.backPurple .infoblockTitle, .backPurple .infoblockAbstract {
+.backPurple .infoblockTitle,
+.backPurple .infoblockAbstract {
     color: #fff !important;
 }
 
@@ -139,12 +141,14 @@
     border-bottom: 1px solid #4fb675;
 }
 
-.fullWidth .infoblockText, .fullWidth .infoblockImage {
+.fullWidth .infoblockText,
+.fullWidth .infoblockImage {
     max-width: 1140px;
     margin: auto;
 }
 
-.halfWidth .infoblockText, .halfWidth .infoblockImage {
+.halfWidth .infoblockText,
+.halfWidth .infoblockImage {
     max-width: 690px;
     text-align: center;
 }
@@ -154,13 +158,15 @@
 }
 
 .columns2 .infoblockAbstract ul {
-    columns: 2;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
 }
 
 .columns2 .infoblockAbstract ul li {
     break-inside: avoid;
-    /*display:inline-block;
-	width:calc(50% - 56px);*/
+    flex: 0 0 auto;
+    width: 50%;
 }
 
 .smallDesc2 .infoblockDesc2 {
@@ -232,7 +238,10 @@
     background-color: #4fb675 !important;
 }
 
-.orangeBack .infoblockAbstract, .orangeBack .infoblockTitle, .purpleBack .infoblockAbstract, .purpleBack .infoblockTitle {
+.orangeBack .infoblockAbstract,
+.orangeBack .infoblockTitle,
+.purpleBack .infoblockAbstract,
+.purpleBack .infoblockTitle {
     color: #fff !important;
 }
 
@@ -832,7 +841,8 @@
     padding: 0;
 }
 
-.ibProductTab .infoblockButton, .ibProductTab .infoblockImage {
+.ibProductTab .infoblockButton,
+.ibProductTab .infoblockImage {
     display: none;
 }
 

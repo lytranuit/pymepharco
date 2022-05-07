@@ -183,32 +183,6 @@
 
 
 </div>
-<!-- <div id="contactForm">
-    <form id="contactFormContent" action="home/submit" method="POST">
-        <?= csrf_field() ?>
-        <div class="pageMainTitle">
-            <span id="lblFormTitle">Write to us</span>
-        </div>
-        <?= view('Myth\Auth\Views\_message_block') ?>
-
-        <div class="contactInput">
-            <input name="txbName" type="text" id="txbName" placeholder="Name and Surname*">
-        </div>
-        <div class="contactInput">
-            <input name="txbEmail" type="text" id="txbEmail" placeholder="Email address*">
-        </div>
-        <div class="contactInput">
-            <textarea name="txbMessage" rows="2" cols="20" id="txbMessage" placeholder="Your message*"></textarea>
-        </div>
-        <div id="recaptcha">
-            <div class="g-recaptcha" data-sitekey="6LcyUcQdAAAAAIcWcFJiHaYUQEZlkqfV_puYVV9a"></div>
-        </div>
-
-        <div class="contactButton">
-            <input type="submit" name="btnSend" value="Send message" id="btnSend">
-        </div>
-    </form>
-</div> -->
 <?= $this->endSection() ?>
 
 <?= $this->section("style") ?>

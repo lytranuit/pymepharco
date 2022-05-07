@@ -26,7 +26,7 @@ function moveCircle() {
       pt[0].style.top = "50%";
       pt[0].style.bottom = "auto";
       pt[0].style.transform = "translateY(-50%)";
-    } catch (e) {}
+    } catch (e) { }
   }, 100);
 }
 
@@ -72,10 +72,17 @@ function setPage() {
   for (i = 0; i < info.length; i++) {
     if (info[i].getElementsByTagName("li").length > 0) {
       var li = info[i].getElementsByTagName("li");
-
+      var count = 0;
       for (x = 0; x < li.length; x++) {
+        count++;
+
         li[x].style.opacity = "0";
-        li[x].style.marginLeft = "10%";
+        if (count % 2) {
+          li[x].style.marginRight = "10%";
+        } else {
+
+          li[x].style.marginLeft = "10%";
+        }
 
         var rect = li[x].getBoundingClientRect();
 
@@ -149,6 +156,7 @@ function showListItem(li) {
   li.style.transition = "all 1s";
   li.style.opacity = "1";
   li.style.marginLeft = "0";
+  li.style.marginRight = "0";
 }
 
 function setListClick() {
@@ -169,7 +177,7 @@ function setListClick() {
 function showList(l, i) {
   var item = document
     .getElementsByClassName("ibLinkList")
-    [i].getElementsByTagName("li")[l];
+  [i].getElementsByTagName("li")[l];
   var div = item.getElementsByTagName("div")[0];
 
   if (getComputedStyle(div).height == "0px") {
@@ -185,31 +193,3 @@ function showList(l, i) {
   }
 }
 
-function showPrivacySettings() {
-  var s = document.getElementsByClassName("pnlSettings")[0];
-  if (s.style.right == "0px") {
-    s.style.right = "-240px";
-  } else {
-    s.style.right = "0px";
-  }
-}
-
-function showCookieSettings() {
-  document.getElementsByClassName("pnlSettings")[0].style.display = "block";
-  try {
-    document.getElementsByClassName("cookiesPopup")[0].style.display = "none";
-  } catch (e) {}
-}
-
-function showCookieAbout(id) {
-  var desc = document.getElementsByClassName("cookieAbout")[id];
-  var img = document.getElementsByClassName("cookieArrow")[id];
-
-  if (getComputedStyle(desc).height == "0px") {
-    desc.style.height = desc.scrollHeight + 16 + "px";
-    img.style.transform = "rotate(180deg)";
-  } else {
-    desc.style.height = "0px";
-    img.style.transform = "rotate(0deg)";
-  }
-}

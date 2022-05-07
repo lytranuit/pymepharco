@@ -25,7 +25,7 @@
     <meta name="author" content="daotran">
     <meta name="copyright" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="stylesheet" id="font-css" href="https://fonts.googleapis.com/css?family=Arimo%3A400%2C400i%2C700&amp;display=swap&amp;ver=5.7.5" type="text/css" media="all">
+    <link rel="stylesheet" id="font-css" href="https://fonts.googleapis.com/css?family=Arimo%3A400%2C400i%2C700&amp;display=swap&amp;ver=5.7.6" type="text/css" media="all">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
     <link href="<?= base_url("/assets/css/bootstrap-grid.css?v=4") ?>" rel="stylesheet" type="text/css">
@@ -37,7 +37,7 @@
     <link href="<?= base_url("/assets/css/infoblock.css?v=4") ?>" rel="stylesheet" type="text/css">
     <link href="<?= base_url("/assets/css/infoblockResp.css") ?>" rel="stylesheet" type="text/css">
     <link href="<?= base_url("/assets/css/slider.css?v=2") ?>" rel="stylesheet" type="text/css"><!-- Facebook Pixel Code -->
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <!-- CSS -->
     <?php if (!empty($stylesheet_tag)) : ?>
         <?php foreach ($stylesheet_tag as $url) : ?>
@@ -67,6 +67,7 @@
 
         <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 
+        <script src="<?= base_url("assets/js/jquery.inview.min.js?ver=" . $ver) ?>"></script>
         <script src="<?= base_url("assets/lib/fancybox/jquery.fancybox.js") ?>"></script>
         <script src="<?= base_url("assets/lib/slick/slick.js?ver=" . $ver) ?>"></script>
         <script src="<?= base_url("assets/js/main.js?ver=" . $ver) ?>"></script>
@@ -299,20 +300,23 @@
         </div>
     </div> -->
     <?php if (!session("agree_cookies")) : ?>
-        <div id="hidden-content" style="width:400px;color:gray;">
+        <div id="hidden-content" style="width:400px;color:gray;display:none">
             <p>
-                This website uses cookies and similar technologies to provide the best functionality and display content according to your interests on our site and social networks.
+                Trang web này sử dụng cookie và các công nghệ tương tự để cung cấp chức năng tốt nhất và hiển thị nội dung theo sở thích của bạn trên trang web và mạng xã hội của chúng tôi.
             </p>
             <p>
-                We respect your privacy and process information only for marketing and functional purposes if you give us your consent by clicking ‘I accept.’
+                Chúng tôi tôn trọng quyền riêng tư của bạn và chỉ xử lý thông tin cho các mục đích tiếp thị và chức năng nếu bạn đồng ý cho chúng tôi bằng cách nhấp vào "Tôi chấp nhận".
             </p>
             <div class="cookieButtons">
-                <input type="submit" name="cookiesInstance$btnPrihvati" value="Agree" id="cookiesInstance_btnPrihvati" class="cookiesButton orangeButton buttonAgree">
-                <input type="submit" name="cookiesInstance$btnOdustani" value="Cancel" id="cookiesInstance_btnOdustani" class="cookiesButton buttonCancle">
+                <input type="submit" name="cookiesInstance$btnPrihvati" value="Chấp nhận" id="cookiesInstance_btnPrihvati" class="cookiesButton orangeButton buttonAgree">
+                <input type="submit" name="cookiesInstance$btnOdustani" value="Bỏ qua" id="cookiesInstance_btnOdustani" class="cookiesButton buttonCancle">
                 <div class="cleaner"></div>
             </div>
         </div>
     <?php endif ?>
+    <div id="comming-content" style="width:400px;color:gray;display:none">
+        Đang xây dựng cho nội dung này!
+    </div>
 </body>
 
 </html>

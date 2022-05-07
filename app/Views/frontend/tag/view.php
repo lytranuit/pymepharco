@@ -4,7 +4,8 @@
 
 <?= view_cell("\App\Libraries\HeaderWidget::breadcrumb") ?>
 
-<div id="pageImage" style="background-image: url(<?= base_url($tag->image_url) ?>);">
+<div id="pageImage">
+    <img id="pageImageInstance_imgPageImage" src="<?= base_url("/assets/images/about.jpg") ?>" style="border-width:0px;">
 
 
     <div id="pageImageOverlay">

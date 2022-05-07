@@ -87,7 +87,7 @@
                     <div class="accordion accordion-card js-accordion bg-white m-b-32">
                         <div class="accordion-heading">
                             <div class="label label-lg label-is-icon label-icon-left">
-                                <span class="label-text">Hướng dẫn sử dụng</span>
+                                <span class="label-text">HƯỚNG DẪN SỬ DỤNG</span>
                             </div>
                         </div>
                         <div class="accordion-list">
@@ -120,7 +120,7 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-12">
-                <h2>Sản phẩm khác</h2>
+                <h2>SẢN PHẨM TƯƠNG TỰ</h2>
             </div>
             <div class="row">
                 <div class="other-products">

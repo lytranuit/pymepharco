@@ -48,10 +48,10 @@
                 <p><b>Email:</b> <a href="mailto:hcns@pymepharco.com"> hcns@pymepharco.com</a></p>
                 <p><b>Fax:</b> (84-0257) 3824 717</p>
                 <div id="footerSocial">
-                    <a href="#" target="_blank">
+                    <a href="#" target="_blank" class="comming_soon">
                         <img src="<?= base_url("/assets/images/FB-icon.png") ?>">
                     </a>
-                    <a href="#" target="_blank">
+                    <a href="#" target="_blank" class="comming_soon">
                         <img src="<?= base_url("/assets/images/IG-icon.png") ?>">
                     </a>
                     <a href="https://www.linkedin.com/company/pymepharco-stada-ag" target="_blank">

@@ -21,5 +21,16 @@ $(document).ready(function () {
       $.fancybox.close();
     });
   }
-
+  $(".comming_soon").click(function (e) {
+    e.preventDefault();
+    $.fancybox.open({
+      src: '#comming-content',
+      type: 'inline',
+    });
+  })
+  $("body").on("inview", ".inview", function () {
+    var $this = $(this);
+    var classname = $this.data("animate");
+    $this.addClass("animate__animated").addClass(classname);
+  });
 });
