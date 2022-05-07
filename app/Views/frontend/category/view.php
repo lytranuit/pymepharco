@@ -6,7 +6,8 @@
 <?= view_cell("\App\Libraries\HeaderWidget::breadcrumb") ?>
 
 
-<div id="pageImage" style="background-image: url(<?= base_url($category->image_url) ?>);">
+<div id="pageImage">
+    <img id="pageImageInstance_imgPageImage" src="<?= base_url($category->image_url) ?>" style="border-width:0px;">
 
     <div id="pageImageOverlay">
         <div class="circle circleNo1"></div>
