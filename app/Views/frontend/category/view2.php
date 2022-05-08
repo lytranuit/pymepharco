@@ -22,27 +22,39 @@
 
 </div>
 
-<div class="container-fluid plainText">
+<div class="container plainText">
 
     <div class="row justify-center">
         <?php foreach ($products as $row) : ?>
-            <div class="col-6 col-sm-6 col-lg-4 section-products__item">
-                <div class="thumbnail">
-                    <a class="bg-image " href="<?= url_product($row) ?>">
-                        <img style="width:100%" src="<?= $row->image_url ?>" alt="<?= $row->{pick_language($row, 'name_')} ?>">
-                        <span class="hover-state hover-state--tranparent">
-                            <span><span></span></span>
-                        </span>
-                    </a>
+            <div class="col-12" style="min-height: 250px;">
+                <div class="row">
+                    <div class="col-md-8">
+                        <h2 class=""><a href="<?= url_product($row) ?>" style="font-size: 24px;color:black;font-weight: bold;"><?= $row->{pick_language($row, 'name_')} ?></a></h2>
+                        <hr>
+                        <p>
+                            <?= $row->{pick_language($row, "tp_")} ?>
+                        </p>
+                        <p>
+                            <?= $row->{pick_language($row, "qc_")} ?>
+                        </p>
+
+                    </div>
+                    <div class="col-md-4">
+                        <div class="thumbnail" style="margin-top:80px;">
+                            <a class="bg-image " href="<?= url_product($row) ?>">
+                                <img style="width:100%" src="<?= $row->image_url ?>" alt="<?= $row->{pick_language($row, 'name_')} ?>">
+                                <span class="hover-state hover-state--tranparent">
+                                    <span><span></span></span>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="chitiet">
+                            <a href="<?= url_product($row) ?>" target="_blank">Chi tiết</a>
+                        </div>
+                    </div>
                 </div>
-                <div class="section-products__item__info">
-                    <h2 class="section-products__item__info__title" style="text-align: center;"><a href="<?= url_product($row) ?>"><?= $row->{pick_language($row, 'name_')} ?></a></h2>
-
-                    <!-- <span class="section-products__item__info__type">Rx</span> -->
-
-                    <!-- <span class="section-products__item__info__quantity" style="height: 21px;">Hộp 14 viên, 28 viên, 30 viên, 50 viên.</span> -->
-                </div>
-
             </div>
         <?php endforeach ?>
     </div>

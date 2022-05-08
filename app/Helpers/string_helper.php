@@ -365,7 +365,7 @@ if (!function_exists('url_product_list2')) {
         if ($id > 0) {
             $category_model = model("CategoryModel");
             $category = $category_model->find($id);
-            $url = !empty($category) ? base_url("san-pham/c$id-2.html") : "";
+            $url = !empty($category) ? base_url("san-pham/c$id-v2.html") : "";
         }
         return $url;
     }
