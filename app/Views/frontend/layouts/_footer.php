@@ -5,14 +5,14 @@
                 <span id="footerInstance_lblGlavniProizvodiTitle">Rx</span>
             </div>
             <span id="footerInstance_lblGlavniProizvodi">
-                <a href="<?= url_product_byid(71) ?>">Menison</a><br>
-                <a href="<?= url_product_byid(22) ?>">Cephalexin</a><br>
-                <a href="<?= url_product_byid(119) ?>">Pyzacar</a><br>
-                <a href="<?= url_product_byid(40) ?>">Doncef </a><br>
-                <a href="<?= url_product_byid(29) ?>">Ceraapix </a><br>
-                <a href="<?= url_product_byid(103) ?>">Pyfaclor </a><br>
-                <a href="<?= url_product_byid(40) ?>">Zoamco </a><br>
-                <a href="<?= url_product_byid(85) ?>">Negacef </a><br>
+                <a href="<?= url_product_list2(17) ?>">Menison</a><br>
+                <a href="<?= url_product_list2(18) ?>">Cephalexin</a><br>
+                <a href="<?= url_product_list2(19) ?>">Pyzacar</a><br>
+                <a href="<?= url_product_list2(20) ?>">Doncef </a><br>
+                <a href="<?= url_product_list2(21) ?>">Ceraapix </a><br>
+                <a href="<?= url_product_list2(22) ?>">Pyfaclor </a><br>
+                <a href="<?= url_product_list2(23) ?>">Zoamco </a><br>
+                <a href="<?= url_product_list2(24) ?>">Negacef </a><br>
             </span>
         </div>
         <div class="footerMidCol">
@@ -22,12 +22,12 @@
             <span id="footerInstance_lblGenerickiLekovi">
 
                 <a href="#">Liverton</a><br>
-                <a href="<?= url_product_byid(137) ?>">Tatanol</a><br>
+                <a href="<?= url_product_list2(13) ?>">Tatanol</a><br>
                 <a href="#">Trineulion</a><br>
                 <a href="#">Becoron-C </a><br>
-                <a href="<?= url_product_byid(128) ?>">Semiflit </a><br>
-                <a href="<?= url_product_byid(30) ?>">Cetirizine EG </a><br>
-                <a href="<?= url_product_byid(51) ?>">Fegra </a><br>
+                <a href="<?= url_product_list2(14) ?>">Semiflit </a><br>
+                <a href="<?= url_product_list2(15) ?>">Cetirizine EG </a><br>
+                <a href="<?= url_product_list2(16) ?>">Fegra </a><br>
                 <a href="#">Eumintan </a><br>
             </span>
         </div>

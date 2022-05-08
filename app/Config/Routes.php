@@ -51,6 +51,7 @@ $routes->add('dang-ky.html', 'Home::register', ['as' => 'registerhome']);
 
 $routes->add('san-pham.html', 'Product::index'); // Tất cả sản phẩm
 $routes->add('san-pham/c(:num).html', 'Category::view/$1'); // san pham trong danh muc
+$routes->add('san-pham/c(:num)-2.html', 'Category::view/$1'); // san pham trong danh muc
 $routes->add('san-pham/d(:num).html', 'Product::view/$1'); //san phẩm chi tiết
 
 

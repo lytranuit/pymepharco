@@ -356,6 +356,20 @@ if (!function_exists('url_product_list')) {
     }
 }
 
+
+if (!function_exists('url_product_list2')) {
+
+    function url_product_list2($id)
+    {
+        $url = base_url("san-pham");
+        if ($id > 0) {
+            $category_model = model("CategoryModel");
+            $category = $category_model->find($id);
+            $url = !empty($category) ? base_url("san-pham/c$id-2.html") : "";
+        }
+        return $url;
+    }
+}
 if (!function_exists('url_news_list')) {
 
     function url_news_list($id)

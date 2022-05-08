@@ -154,7 +154,5 @@
 
 <?= $this->section("script") ?>
 <!-- <script src="<?= base_url("assets/js/circle.js") ?>"></script> -->
-<script>
-    new PureCounter();
-</script>
+
 <?= $this->endSection() ?>
