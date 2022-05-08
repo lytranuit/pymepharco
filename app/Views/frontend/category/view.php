@@ -50,7 +50,9 @@
         <div class="pagination">
             <div class="flex align-center justify-center">
 
-                <?= $pager->links() ?>
+                <?php if ($pager->getPageCount() > 1) : ?>
+                    <?= $pager->links() ?>
+                <?php endif ?>
             </div>
         </div>
     </div>

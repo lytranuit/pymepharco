@@ -73,7 +73,9 @@
 
             <div class="text-center paginate_center col-lg-12 col-sm-12 col-xs-12 col-md-12" wfd-id="79">
                 <?php if ($pager) : ?>
-                    <?= $pager->links() ?>
+                    <?php if ($pager->getPageCount() > 1) : ?>
+                        <?= $pager->links() ?>
+                    <?php endif ?>
                 <?php endif ?>
             </div>
         </div>
