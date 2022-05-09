@@ -64,7 +64,7 @@
     <div class="container">
         <div class="row justify-content-end">
 
-            <div class="col-lg-3 col-md-5 col-6 d-md-flex align-items-md-stretch">
+            <div class="col-lg-3 col-md-5 col-6 d-md-flex align-items-md-stretch my-2">
                 <div class="count-box">
                     <i class="fas fa-user"></i>
                     <span><strong data-purecounter-start="0" data-purecounter-end="1900" data-purecounter-duration="2" class="purecounter">1900</strong> +</span>
@@ -72,7 +72,7 @@
                 </div>
             </div>
 
-            <div class="col-lg-3 col-md-5 col-6 d-md-flex align-items-md-stretch">
+            <div class="col-lg-3 col-md-5 col-6 d-md-flex align-items-md-stretch my-2">
                 <div class="count-box">
                     <i class="fas fa-industry"></i>
                     <span><strong data-purecounter-start="0" data-purecounter-end="2" data-purecounter-duration="2" class="purecounter">2</strong> +</span>
@@ -80,7 +80,7 @@
                 </div>
             </div>
 
-            <div class="col-lg-3 col-md-5 col-6 d-md-flex align-items-md-stretch">
+            <div class="col-lg-3 col-md-5 col-6 d-md-flex align-items-md-stretch my-2">
                 <div class="count-box">
                     <i class="fab fa-product-hunt"></i>
                     <span><strong data-purecounter-start="0" data-purecounter-end="350" data-purecounter-duration="2" class="purecounter">350</strong> + </span>
@@ -88,7 +88,7 @@
                 </div>
             </div>
 
-            <div class="col-lg-3 col-md-5 col-6 d-md-flex align-items-md-stretch">
+            <div class="col-lg-3 col-md-5 col-6 d-md-flex align-items-md-stretch my-2">
                 <div class="count-box">
                     <i class="fas fa-code-branch"></i>
                     <span><strong data-purecounter-start="0" data-purecounter-end="24" data-purecounter-duration="2" class="purecounter">24</strong> +</span>
@@ -99,7 +99,9 @@
         </div>
     </div>
 </div>
-
+<div class="container-fluid my-5">
+    <img src="/assets/images/Pyme 32y.jpg" width="100%"/>
+</div>
 <?= $this->endSection() ?>
 
 <?= $this->section("style") ?>
