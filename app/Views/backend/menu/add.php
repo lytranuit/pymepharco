@@ -97,6 +97,7 @@
                                         <option value="7">Sức khỏe</option>
                                         <option value="8">Nghề nghiệp</option>
                                         <option value="9">Đội ngũ</option>
+                                        <option value="10">Chính sách chất lượng</option>
                                     </select>
                                 </div>
                             </div>
