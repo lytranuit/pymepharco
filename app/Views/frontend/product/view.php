@@ -87,7 +87,7 @@
                     <div class="accordion accordion-card js-accordion bg-white m-b-32">
                         <div class="accordion-heading">
                             <div class="label label-lg label-is-icon label-icon-left">
-                                <span class="label-text">HƯỚNG DẪN SỬ DỤNG</span>
+                                <span class="label-text" style="font-weight:bold;">HƯỚNG DẪN SỬ DỤNG</span>
                             </div>
                         </div>
                         <div class="accordion-list">
