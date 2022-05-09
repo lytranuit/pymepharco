@@ -48,7 +48,7 @@ class HeaderWidget
         if (!empty($menu)) {
             $list_child =  $MenuModel->where("parent_id", $menu->id)->orderBy("order", "ASC")->asObject()->findAll();
             if (empty($list_child) &&  $menu->parent_id > 0) {
-                $list_child =  $MenuModel->where("parent_id", $menu->parent_id)->asObject()->findAll();
+                $list_child =  $MenuModel->where("parent_id", $menu->parent_id)->orderBy("order", "ASC")->asObject()->findAll();
             }
             $this->data['list_child'] = $list_child;
             return view("frontend/lib/header/submenu", $this->data);
