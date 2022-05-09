@@ -41,8 +41,8 @@
                             <div>
                                 <h4>TRỤ SỞ CHÍNH</h4>
                                 166 – 170 Nguyễn Huệ, Tuy Hòa, Phú Yên<br>
-                                ĐT: (84 0257) 3 823 228 – 3 829 165<br>
-                                Fax: (84 0257) 3 824 717<br>
+                                ĐT: 0257 3 823 228 – 3 829 165<br>
+                                Fax: 0257 3 824 717<br>
                                 Email: hcns@pymepharco.com<br>
                             </div>
                         </li>
@@ -50,17 +50,17 @@
                             <div>
                                 <h4>NHÀ MÁY</h4>
                                 01 Bà Triệu, Tuy Hòa, Phú Yên<br>
-                                ĐT: (84 0257) 3 810 525 – 3 820 663<br>
-                                Fax: (84 0257) 3 820 663<br>
+                                ĐT: 0257 3 810 525 – 3 820 663<br>
+                                Fax: 0257 3 820 663<br>
                                 Email: hcns@pymepharco.com<br>
                             </div>
                         </li>
                         <li class="inview" data-animate="animate__animated animate__fadeInLeft">
                             <div>
                                 <h4>CHI NHÁNH TP.HCM</h4>
-                                44 Đồng Nai, P.15, Q.10, TP.HCM<br>
-                                ĐT: (84 028) 3 9 703 099 – 3 9 708 789<br>
-                                Fax: (84 028) 3 9 702 208<br>
+                                44 Đồng Nai, Phường 15, Quận 10, Tp.Hồ Chí Minh<br>
+                                ĐT: 028 3970 3099 – 028 3970 8789<br>
+                                Fax: 028 3 9 702 208<br>
                                 Email: cnhcm@pymepharco.com<br>
                                 pymepharco@hcm.vnn.vn<br>
                             </div>
@@ -68,9 +68,9 @@
                         <li class="inview" data-animate="animate__animated animate__fadeInRight">
                             <div>
                                 <h4>CHI NHÁNH HÀ NỘI</h4>
-                                Lô 5 – TT 24 khu Nhà ở Báo Nhân Dân, Phường Xuân Phương, Q.Nam Từ Liêm, Tp.Hà Nội.<br>
-                                ĐT: (84 024) 32011536<br>
-                                Fax: (84 024) 32010182<br>
+                                Lô 5 -TT 24 khu Nhà ở Báo Nhân Dân , Phường Xuân Phương, Q.Nam Từ Liêm, Tp.Hà Nội<br>
+                                ĐT: 024 3201 1536<br>
+                                Fax: 024 32010182<br>
                                 Email: cnhn@pymepharco.com<br>
                             </div>
                         </li>

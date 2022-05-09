@@ -111,9 +111,9 @@
 
 
 <?= $this->section("script") ?>
-<!-- <script src="<?= base_url("assets/lib/purecounter/purecounter.js") ?>"></script> -->
+<script src="<?= base_url("assets/lib/purecounter/purecounter.js") ?>"></script>
 <script src="<?= base_url("assets/js/circle.js") ?>"></script>
-<!-- <script>
+<script>
     new PureCounter();
-</script> -->
+</script>
 <?= $this->endSection() ?>

@@ -127,7 +127,7 @@
         2006
     </div>
     <div class="historyImage">
-        <img src="/assets/images/history/2006-stada.png">
+        <img src="/assets/images/history/Pymepharco.png">
     </div>
     <div class="historyDesc">
         <li>The factory is granted the certificate of Good Manufacturing Practice of the World Health Organization (WHO GMP)</li>

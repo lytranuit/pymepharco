@@ -37,11 +37,11 @@
 
                 <strong>CHI NHÁNH TP.HCM</strong><br>
                 44 Đồng Nai, Phường 15, Quận 10, Tp.Hồ Chí Minh<br>
-                Tel: (84-028) 39703 099 – 39708789<br><br>
+                Tel: 028 3970 3099 – 028 3970 8789<br><br>
 
                 <strong>CHI NHÁNH HÀ NỘI</strong><br>
                 Lô 5 -TT 24 khu Nhà ở Báo Nhân Dân , Phường Xuân Phương, Q.Nam Từ Liêm, Tp.Hà Nội<br>
-                Tel: (84 024) 32011536</span>
+                Tel: 024 3201 1536</span>
         </div>
 
         <!--<a href="/eng/predstavnistva">-->

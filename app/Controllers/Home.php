@@ -51,6 +51,15 @@ class Home extends BaseController
 
         return view($this->data['content'], $this->data);
     }
+    public function policy()
+    {
+        $this->data['title'] =  "Chính sách chất lượng" . $this->data['title'];
+        //echo $this->data['title'];
+        //die();  
+
+        return view($this->data['content'], $this->data);
+    }
+
 
     public function activities()
     {

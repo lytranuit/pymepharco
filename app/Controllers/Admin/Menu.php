@@ -73,6 +73,9 @@ class Menu extends BaseController
                             case 9:
                                 $data['link'] = base_url(route_to("manager"));
                                 break;
+                            case 10:
+                                $data['link'] = base_url(route_to("policy"));
+                                break;
                         }
                         break;
                 }
@@ -148,6 +151,9 @@ class Menu extends BaseController
                                 break;
                             case 9:
                                 $data['link'] = base_url(route_to("manager"));
+                                break;
+                            case 10:
+                                $data['link'] = base_url(route_to("policy"));
                                 break;
                         }
                         break;

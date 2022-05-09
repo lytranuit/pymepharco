@@ -133,7 +133,7 @@
         2006
     </div>
     <div class="historyImage">
-        <img src="/assets/images/history/2006-stada.png">
+        <img src="/assets/images/history/Pymepharco.png">
     </div>
     <div class="historyDesc">
         <li>Nhà máy được cấp giấy chứng nhận Thực hành tốt sản xuất thuốc của Tổ chức Y tế Thế giới (WHO GMP)</li>
