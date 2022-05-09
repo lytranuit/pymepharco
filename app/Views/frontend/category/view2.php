@@ -68,6 +68,9 @@
         </div>
     </div>
 </div>
+
+<!-- popup -->
+<?= $this->include('frontend/layouts/_popup') ?>
 <?= $this->endSection() ?>
 
 <?= $this->section("style") ?>

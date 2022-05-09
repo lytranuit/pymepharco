@@ -117,6 +117,13 @@ class Home extends BaseController
 
         echo 1;
     }
+
+    public function agreeproduct()
+    {
+        $_SESSION['agree_product'] = true;
+
+        echo 1;
+    }
     public function login()
     {
         // No need to show a login form if the user

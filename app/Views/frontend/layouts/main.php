@@ -2,7 +2,7 @@
 <!-- saved from url=(0020)https://hoptacxa.vn/ -->
 <html lang="vi-VN" class="js">
 
-<?php $ver = 2 ?>
+<?php $ver = 3 ?>
 
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -27,17 +27,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <!-- <link rel="stylesheet" id="font-css" href="https://fonts.googleapis.com/css?family=Arimo%3A400%2C400i%2C700&amp;display=swap&amp;ver=5.7.6" type="text/css" media="all"> -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira+Sans:400,500,700" media="all">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
-    <link href="<?= base_url("/assets/css/bootstrap-grid.css?v=4") ?>" rel="stylesheet" type="text/css">
+    <link href="<?= base_url("/assets/css/bootstrap-grid.css?v=$ver") ?>" rel="stylesheet" type="text/css">
 
     <link rel="stylesheet" href="<?= base_url("assets/lib/fancybox/jquery.fancybox.css") ?>" type="text/css" media="screen" />
-    <link href="<?= base_url("/assets/css/menu.css") ?>" rel="stylesheet" type="text/css">
-    <link href="<?= base_url("/assets/css/main.css?v=4") ?>" rel="stylesheet" type="text/css">
-    <link href="<?= base_url("/assets/css/resp.css?v=4") ?>" rel="stylesheet" type="text/css">
-    <link href="<?= base_url("/assets/css/infoblock.css?v=4") ?>" rel="stylesheet" type="text/css">
-    <link href="<?= base_url("/assets/css/infoblockResp.css") ?>" rel="stylesheet" type="text/css">
-    <link href="<?= base_url("/assets/css/slider.css?v=2") ?>" rel="stylesheet" type="text/css"><!-- Facebook Pixel Code -->
+    <link href="<?= base_url("/assets/css/menu.css?v=$ver") ?>" rel="stylesheet" type="text/css">
+    <link href="<?= base_url("/assets/css/main.css?v=$ver") ?>" rel="stylesheet" type="text/css">
+    <link href="<?= base_url("/assets/css/resp.css?v=$ver") ?>" rel="stylesheet" type="text/css">
+    <link href="<?= base_url("/assets/css/infoblock.css?v=$ver") ?>" rel="stylesheet" type="text/css">
+    <link href="<?= base_url("/assets/css/infoblockResp.css?v=$ver") ?>" rel="stylesheet" type="text/css">
+    <link href="<?= base_url("/assets/css/slider.css?v=$ver") ?>" rel="stylesheet" type="text/css"><!-- Facebook Pixel Code -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <!-- CSS -->
     <?php if (!empty($stylesheet_tag)) : ?>
@@ -62,6 +61,7 @@
         <?= $this->renderSection("breadcrumb"); ?>
 
         <?= $this->renderSection("content"); ?>
+
 
         <!-- Site Header -->
         <?= $this->include('frontend/layouts/_footer') ?>
@@ -309,12 +309,13 @@
                 Chúng tôi tôn trọng quyền riêng tư của bạn và chỉ xử lý thông tin cho các mục đích tiếp thị và chức năng nếu bạn đồng ý cho chúng tôi bằng cách nhấp vào "Tôi chấp nhận".
             </p>
             <div class="cookieButtons">
-                <input type="submit" name="cookiesInstance$btnPrihvati" value="Chấp nhận" id="cookiesInstance_btnPrihvati" class="cookiesButton orangeButton buttonAgree">
+                <input type="submit" name="cookiesInstance$btnPrihvati" value="Đồng ý" id="cookiesInstance_btnPrihvati" class="cookiesButton orangeButton buttonAgree">
                 <input type="submit" name="cookiesInstance$btnOdustani" value="Bỏ qua" id="cookiesInstance_btnOdustani" class="cookiesButton buttonCancle">
                 <div class="cleaner"></div>
             </div>
         </div>
     <?php endif ?>
+
     <div id="comming-content" style="width:400px;color:gray;display:none">
         Đang xây dựng cho nội dung này!
     </div>
