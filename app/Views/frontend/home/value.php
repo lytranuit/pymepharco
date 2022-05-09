@@ -24,10 +24,10 @@
 </div>
 <div class="container my-5">
     <div class="row g-0">
-        <div class="col-md-6 align-self-center">
+        <div class="col-md-6 align-self-center inview" data-animate="animate__animated animate__fadeInLeft">
             <img src="/assets/images/PMP-1.png" style="width:100%" />
         </div>
-        <div class="col-md-6">
+        <div class="col-md-6 inview" data-animate="animate__animated animate__fadeInRight">
             <div class="info-box">
                 <div class="info-title" style="padding: 30px;
     background-color: #f1f1f1;
