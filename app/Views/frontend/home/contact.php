@@ -32,7 +32,7 @@
         <div class="infoblockAbstract">
             <span id="rptInfoblock_ctl02_infoblockInstance1_lblAbstract"><strong>PYMEPHARCO:</strong><br>
                 166-170 Nguyễn Huệ – Tp. Tuy Hòa – Phú Yên<br>
-                Tel: (84-0257) 3829 165 – 3823 228<br>
+                Tel: 0257 3829 165 – 0257 3823 228<br>
                 Email: <a href="mailto:hcns@pymepharco.com">hcns@pymepharco.com</a><br><br>
 
                 <strong>CHI NHÁNH TP.HCM</strong><br>

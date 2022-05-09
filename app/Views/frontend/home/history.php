@@ -150,7 +150,7 @@
         2003
     </div>
     <div class="historyImage">
-        <img src="/assets/images/history/Pymepharco.png">
+        <img src="/assets/images/history/2006-stada.png">
     </div>
     <div class="historyDesc">
         Nhà máy dược phẩm Pymepharco đạt tiêu chuẩn GMP ASEAN chính thức đi vào hoạt động với 3 phân xưởng: Betalactam, Non Betalactam, Viên nang mềm.

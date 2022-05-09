@@ -143,7 +143,7 @@
         2003
     </div>
     <div class="historyImage">
-        <img src="/assets/images/history/Pymepharco.png">
+        <img src="/assets/images/history/2006-stada.png">
     </div>
     <div class="historyDesc">
         Pymepharco pharmaceutical factory meeting ASEAN GMP standards officially went into operation with 3 workshops: Betalactam, Non Betalactam, Soft Capsule. </div>

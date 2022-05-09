@@ -16,12 +16,13 @@
 
         <div class="pageTitle" style="opacity: 1; top: 50%; bottom: auto; transform: translateY(-50%);">
             <div class="pageTitleContent">
-                <div><span id="pageImageInstance_lblTitle">Giá trị cốt lõi</span></div>
+                <div><span id="pageImageInstance_lblTitle">Core Values</span></div>
             </div>
         </div>
     </div>
 
 </div>
+
 <div class="container my-5">
     <div class="row g-0">
         <div class="col-md-6 align-self-center">
@@ -32,28 +33,28 @@
                 <div class="info-title" style="padding: 30px;
     background-color: #f1f1f1;
     font-size: 14px;">
-                    <span id="" style="font-size:16px">Toàn bộ cách tiếp cận kinh doanh của chúng tôi dựa trên bốn giá trị quan trọng cũng xác định bản sắc doanh nghiệp của chúng tôi.<br>
+                    <span id="" style="font-size:16px">Our entire approach to business is based on four key values which also determine our corporate identity.<br>
 
                     </span>
                     <div class="infoblockAbstract">
                         <li>
                             <div>
-                                <strong>Chính trực</strong> - Mỗi người trong chúng tôi đều hành động có đạo đức, phù hợp với các tiêu chuẩn bên trong và bên ngoài của công ty. Hành động của chúng tôi được dẫn dắt bởi tinh thần lên tiếng chia sẻ và sự tôn trọng.
+                                <strong>Integrity </strong> - Each and everyone of us acts ethically in line with the company’s internal and external standards. Our actions are led by speaking up and respect.
                             </div>
                         </li>
                         <li>
                             <div>
-                                <strong>Nhanh nhạy </strong> - Mỗi người trong chúng tôi đều dẫn đầu sự thay đổi bằng sự linh hoạt và quyết đoán như một phần của hành trình phát triển cá nhân.
+                                <strong>Agility </strong> - Each and everyone of us leads change with flexibility and decisiveness as part of our ongoing journey of personal development.
                             </div>
                         </li>
                         <li>
                             <div>
-                                <strong>Tinh thần kinh doanh </strong> - Mỗi người trong chúng tôi đều cố gắng đem lại những ý tưởng và hành động mới, tạo ra giá trị và sự tăng trưởng trong tương lai.
+                                <strong>Entrepreneurship </strong> - Each and everyone of us drives new ideas and actions, creating future growth and value.
                             </div>
                         </li>
                         <li>
                             <div>
-                                <strong>ONE STADA </strong> - Mỗi người trong chúng tôi hành động vì lợi ích tốt nhất của cả công ty chứ không chỉ một bộ phận hay lĩnh vực công việc của mình nhằm mang lại thành công chung cho STADA.
+                                <strong>ONE STADA </strong> - Each and everyone of us acts in the best interests of the company as a whole rather than our business unit or function in order to build one successful STADA.
                             </div>
                         </li>
                     </div>
