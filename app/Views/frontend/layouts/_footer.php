@@ -25,7 +25,6 @@
                 <a href="<?= url_product_list2(13) ?>">Tatanol</a><br>
                 <a href="#">Trineulion</a><br>
                 <a href="#">Becoron-C </a><br>
-                <a href="<?= url_product_list2(14) ?>">Semiflit </a><br>
                 <a href="<?= url_product_list2(15) ?>">Cetirizine EG </a><br>
                 <a href="<?= url_product_list2(16) ?>">Fegra </a><br>
                 <a href="#">Eumintan </a><br>
@@ -41,7 +40,6 @@
                 <p><b>Trụ sở chính:</b> 166-170 Nguyễn Huệ – Tp. Tuy Hòa – Phú Yên</p>
                 <p><b>Số điện thoại:</b> (84-0257) 3829 165 – 3823 228</p>
                 <p><b>Email:</b> <a href="mailto:hcns@pymepharco.com"> hcns@pymepharco.com</a></p>
-                <p><b>Fax:</b> (84-0257) 3824 717</p>
                 <div id="footerSocial">
                     <a href="#" target="_blank" class="comming_soon">
                         <img src="<?= base_url("/assets/images/FB-icon.png") ?>">

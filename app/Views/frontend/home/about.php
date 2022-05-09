@@ -67,7 +67,7 @@
             <div class="col-lg-3 col-md-5 col-6 d-md-flex align-items-md-stretch">
                 <div class="count-box">
                     <i class="fas fa-user"></i>
-                    <span><strong data-purecounter-start="0" data-purecounter-end="1900" data-purecounter-duration="2" class="purecounter">0</strong> +</span>
+                    <span><strong data-purecounter-start="0" data-purecounter-end="1900" data-purecounter-duration="2" class="purecounter">1900</strong> +</span>
                     <p>Nhân sự</p>
                 </div>
             </div>
@@ -75,7 +75,7 @@
             <div class="col-lg-3 col-md-5 col-6 d-md-flex align-items-md-stretch">
                 <div class="count-box">
                     <i class="fas fa-industry"></i>
-                    <span><strong data-purecounter-start="0" data-purecounter-end="2" data-purecounter-duration="2" class="purecounter">0</strong> +</span>
+                    <span><strong data-purecounter-start="0" data-purecounter-end="2" data-purecounter-duration="2" class="purecounter">2</strong> +</span>
                     <p>Nhà máy</p>
                 </div>
             </div>
@@ -83,7 +83,7 @@
             <div class="col-lg-3 col-md-5 col-6 d-md-flex align-items-md-stretch">
                 <div class="count-box">
                     <i class="fab fa-product-hunt"></i>
-                    <span><strong data-purecounter-start="0" data-purecounter-end="350" data-purecounter-duration="2" class="purecounter">0</strong> + </span>
+                    <span><strong data-purecounter-start="0" data-purecounter-end="350" data-purecounter-duration="2" class="purecounter">350</strong> + </span>
                     <p>Sản phẩm</p>
                 </div>
             </div>
@@ -91,7 +91,7 @@
             <div class="col-lg-3 col-md-5 col-6 d-md-flex align-items-md-stretch">
                 <div class="count-box">
                     <i class="fas fa-code-branch"></i>
-                    <span><strong data-purecounter-start="0" data-purecounter-end="24" data-purecounter-duration="2" class="purecounter">0</strong> +</span>
+                    <span><strong data-purecounter-start="0" data-purecounter-end="24" data-purecounter-duration="2" class="purecounter">24</strong> +</span>
                     <p>Chi nhánh toàn quốc</p>
                 </div>
             </div>
@@ -116,22 +116,22 @@
                     <div class="infoblockAbstract">
                         <li>
                             <div>
-                                <strong>Chính trực</strong> - Tất cả mọi người cần hành động một cách có đạo đức, phù hợp với tiêu chuẩn nội bộ của công ty và các tiêu chuẩn bên ngoài. Cần để tinh thần lên tiếng và sự tôn trọng dẫn hướng mọi hành động của chúng ta.
+                                <strong>Chính trực</strong> - Mỗi người trong chúng tôi đều hành động có đạo đức, phù hợp với các tiêu chuẩn bên trong và bên ngoài của công ty. Hành động của chúng tôi được dẫn dắt bởi tinh thần lên tiếng chia sẻ và sự tôn trọng.
                             </div>
                         </li>
                         <li>
                             <div>
-                                <strong>Nhanh nhạy </strong> - Tất cả mọi người đều nên tiên phong thay đổi theo hướng linh hoạt và quyết đoán trong hành trình liên tục phát triển bản thân.
+                                <strong>Nhanh nhạy </strong> - Mỗi người trong chúng tôi đều dẫn đầu sự thay đổi bằng sự linh hoạt và quyết đoán như một phần của hành trình phát triển cá nhân.
                             </div>
                         </li>
                         <li>
                             <div>
-                                <strong>Tinh thần kinh doanh </strong> - Tất cả mọi người có thể đóng góp bằng hành động hoặc những ý tưởng mới nhằm tạo ra giá trị và tăng trưởng trong tương lai.
+                                <strong>Tinh thần kinh doanh </strong> - Mỗi người trong chúng tôi đều cố gắng đem lại những ý tưởng và hành động mới, tạo ra giá trị và sự tăng trưởng trong tương lai.
                             </div>
                         </li>
                         <li>
                             <div>
-                                <strong>ONE STADA </strong> - Tất cả mọi người phải hành động vì lợi ích tốt nhất của toàn thể công ty thay vì chỉ đơn vị kinh doanh hoặc phòng ban của mình nhằm xây dựng One STADA thành công.
+                                <strong>ONE STADA </strong> - Mỗi người trong chúng tôi hành động vì lợi ích tốt nhất của cả công ty chứ không chỉ một bộ phận hay lĩnh vực công việc của mình nhằm mang lại thành công chung cho STADA.
                             </div>
                         </li>
                     </div>
@@ -149,9 +149,9 @@
 
 
 <?= $this->section("script") ?>
-<script src="<?= base_url("assets/lib/purecounter/purecounter.js") ?>"></script>
+<!-- <script src="<?= base_url("assets/lib/purecounter/purecounter.js") ?>"></script> -->
 <script src="<?= base_url("assets/js/circle.js") ?>"></script>
-<script>
+<!-- <script>
     new PureCounter();
-</script>
+</script> -->
 <?= $this->endSection() ?>

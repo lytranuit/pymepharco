@@ -77,12 +77,8 @@ function setPage() {
         count++;
 
         li[x].style.opacity = "0";
-        if (count % 2) {
-          li[x].style.marginRight = "10%";
-        } else {
+        li[x].style.marginLeft = "10%";
 
-          li[x].style.marginLeft = "10%";
-        }
 
         var rect = li[x].getBoundingClientRect();
 
@@ -156,7 +152,6 @@ function showListItem(li) {
   li.style.transition = "all 1s";
   li.style.opacity = "1";
   li.style.marginLeft = "0";
-  li.style.marginRight = "0";
 }
 
 function setListClick() {
