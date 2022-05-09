@@ -32,7 +32,7 @@
                 <div class="info-title" style="padding: 30px;
     background-color: #f1f1f1;
     font-size: 14px;">
-                    <span id="" style="font-size:16px">Toàn bộ cách tiếp cận kinh doanh của chúng tôi dựa trên bốn giá trị quan trọng cũng xác định bản sắc doanh nghiệp của chúng tôi.<br>
+                    <span id="" style="font-size:16px">Toàn bộ cách tiếp cận kinh doanh của chúng tôi dựa trên bốn giá trị cốt lõi cũng như xác định văn hóa doanh nghiệp của chúng tôi.<br>
 
                     </span>
                     <div class="infoblockAbstract">
@@ -53,7 +53,7 @@
                         </li>
                         <li>
                             <div>
-                                <strong>ONE STADA </strong> - Mỗi người trong chúng tôi hành động vì lợi ích tốt nhất của cả công ty chứ không chỉ một bộ phận hay lĩnh vực công việc của mình nhằm mang lại thành công chung cho STADA.
+                                <strong>One STADA </strong> - Mỗi người trong chúng tôi hành động vì lợi ích tốt nhất của cả công ty chứ không chỉ một bộ phận hay lĩnh vực công việc của mình nhằm mang lại thành công chung cho STADA.
                             </div>
                         </li>
                     </div>

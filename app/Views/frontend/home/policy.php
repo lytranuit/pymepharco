@@ -25,12 +25,18 @@
 <div class="container my-5">
     <div class="row g-0">
         <div class="col-12">
+            <h2 style="text-align: center;">
+                GIẤY CHỨNG NHẬN PYMEPHARCO ĐẠT TIÊU CHUẨN CHÂU ÂU EU-GMP
+            </h2>
             <img src="/assets/images/policy/Pages-1-from_GMP_Certificate_RPD_Pymepharco.jpg" style="width:100%" />
             <div style="text-align: center;">
-                <a href="/assets/images/policy/GMP_Certificate_RPD_Pymepharco.pdf">Xem tiếp giấy chứng nhận EU-GMP</a>
+                <a href="/assets/images/policy/GMP_Certificate_RPD_Pymepharco.pdf" style="font-size:20px;font-weight:bold;">Xem tiếp Giấy chứng nhận EU-GMP</a>
             </div>
         </div>
         <div class="col-12">
+            <h2 style="text-align: center;">
+                CHÍNH SÁCH CHẤT LƯỢNG PYMEPHARCO CAM KẾT
+            </h2>
             <img src="/assets/images/policy/cscl_tv1.jpg" style="width:100%" />
         </div>
     </div>

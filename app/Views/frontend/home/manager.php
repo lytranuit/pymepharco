@@ -113,17 +113,6 @@
         </div>
         <div class="managerItem col-md-4 my-2">
             <div class="managerImage">
-                <img style="width:100%" src="/assets/images/Final/Trần Phúc Yên - GĐ Nhà máy PME I.jpg" alt="Trần Phúc Yên - GĐ Nhà máy PME I">
-            </div>
-            <div class="managerName" style="text-align: center; font-weight: bold;">
-                Trần Phúc Yên
-            </div>
-            <div class="managerZvanje" style="text-align: center;">
-                Giám đốc Nhà máy PME I
-            </div>
-        </div>
-        <div class="managerItem col-md-4 my-2">
-            <div class="managerImage">
                 <img style="width:100%" src="/assets/images/Final/Trần Quang Mạnh - Giám đốc Nhà máy PME II.jpg" alt="Trần Quang Mạnh - Giám đốc Nhà máy PME II">
             </div>
             <div class="managerName" style="text-align: center; font-weight: bold;">
@@ -131,6 +120,17 @@
             </div>
             <div class="managerZvanje" style="text-align: center;">
                 Giám đốc Nhà máy Stada Việt Nam
+            </div>
+        </div>
+        <div class="managerItem col-md-4 my-2">
+            <div class="managerImage">
+                <img style="width:100%" src="/assets/images/Final/Trần Phúc Yên - GĐ Nhà máy PME I.jpg" alt="Trần Phúc Yên - GĐ Nhà máy PME I">
+            </div>
+            <div class="managerName" style="text-align: center; font-weight: bold;">
+                Trần Phúc Yên
+            </div>
+            <div class="managerZvanje" style="text-align: center;">
+                Giám đốc Nhà máy PME I
             </div>
         </div>
         <div class="managerItem col-md-4 my-2">
