@@ -97,7 +97,7 @@
 
         <div id="headerStadaLogo">
             <a href="https://www.stada.com/" target="_blank">
-                <img src="<?= base_url("/assets/images/Stada-logo.jpg") ?>">
+                <img src="<?= base_url("/assets/images/stada_logo_global.png") ?>">
             </a>
         </div>
 
