@@ -1,9 +1,11 @@
-﻿#headerContent, #sliderOverlay {
+﻿#headerContent,
+#sliderOverlay {
     width: auto;
-    padding: 0 9%
+    padding: 0 13% 0 0;
 }
+
 @media only screen and (max-width: 1472px) {
-   
+
     .pageTitle div {
         width: auto;
         padding: 0 4%;
@@ -16,7 +18,10 @@
 }
 
 @media only screen and (max-width: 1080px) {
-    #menu, #headerSearch, #headerLang {
+
+    #menu,
+    #headerSearch,
+    #headerLang {
         display: none;
     }
 
@@ -35,7 +40,8 @@
         padding-right: 10%;
     }
 
-    #slider, #pageImage {
+    #slider,
+    #pageImage {
         margin-top: 125px;
     }
 
