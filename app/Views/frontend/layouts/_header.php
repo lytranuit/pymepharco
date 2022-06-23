@@ -97,12 +97,12 @@
         </div>
 
         <div id="headerStadaLogo">
-            <a href="https://www.stada.com/" target="_blank" class="stada">
+            <a href="#" class="stada">
                 <img src="<?= base_url("/assets/images/stada_logo_global.png") ?>">
             </a>
             <ul style="">
-                <li style="border-bottom:1px solid white"><a href="https://www.stada.com/">stada.com</a></li>
-                <li><a href="https://stada.vn/">stada.vn</a></li>
+                <li style="border-bottom:1px solid white"><a href="https://www.stada.com/" target="_blank">stada.com</a></li>
+                <li><a href="https://stada.vn/" target="_blank">stada.vn</a></li>
             </ul>
         </div>
 
