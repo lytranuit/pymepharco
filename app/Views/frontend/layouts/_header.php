@@ -93,12 +93,17 @@
 
         <div id="headerLogo">
             <a id="headerInstance_hlLogo" href="<?= base_url() ?>"><img src="<?= base_url("/assets/images/logo.png") ?>" alt="" style="border-width:0px;"></a>
+            
         </div>
 
         <div id="headerStadaLogo">
-            <a href="https://www.stada.com/" target="_blank">
+            <a href="https://www.stada.com/" target="_blank" class="stada">
                 <img src="<?= base_url("/assets/images/stada_logo_global.png") ?>">
             </a>
+            <ul style="">
+                <li style="border-bottom:1px solid white"><a href="https://www.stada.com/">stada.com</a></li>
+                <li><a href="https://stada.vn/">stada.vn</a></li>
+            </ul>
         </div>
 
         <div id="headerLang">
