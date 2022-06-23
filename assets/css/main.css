@@ -132,7 +132,7 @@ h5 {
 #headerLang {
     position: absolute;
     top: 50%;
-    left: 73%;
+    left: 70%;
     transform: translate(-50%, -50%);
     cursor: pointer;
 }
