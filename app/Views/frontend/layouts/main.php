@@ -2,7 +2,7 @@
 <!-- saved from url=(0020)https://hoptacxa.vn/ -->
 <html lang="vi-VN" class="js">
 
-<?php $ver = 3 ?>
+<?php $ver = 4 ?>
 
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">

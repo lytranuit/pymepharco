@@ -1,9 +1,9 @@
-﻿@media only screen and (max-width: 1472px) {
-    #headerContent, #sliderOverlay {
-        width: auto;
-        padding: 0 4%;
-    }
-
+﻿#headerContent, #sliderOverlay {
+    width: auto;
+    padding: 0 9%
+}
+@media only screen and (max-width: 1472px) {
+   
     .pageTitle div {
         width: auto;
         padding: 0 4%;
