@@ -302,22 +302,17 @@
     </div> -->
     <?php if (!session("agree_cookies")) : ?>
         <div id="hidden-content" style="width:400px;color:gray;display:none">
-            <p>
-                Trang web này sử dụng cookie và các công nghệ tương tự để cung cấp chức năng tốt nhất và hiển thị nội dung theo sở thích của bạn trên trang web và mạng xã hội của chúng tôi.
-            </p>
-            <p>
-                Chúng tôi tôn trọng quyền riêng tư của bạn và chỉ xử lý thông tin cho các mục đích tiếp thị và chức năng nếu bạn đồng ý cho chúng tôi bằng cách nhấp vào "Tôi chấp nhận".
-            </p>
+            <?= lang("Custom.agree_cookies") ?>
             <div class="cookieButtons">
-                <input type="submit" name="cookiesInstance$btnPrihvati" value="Đồng ý" id="cookiesInstance_btnPrihvati" class="cookiesButton orangeButton buttonAgree">
-                <input type="submit" name="cookiesInstance$btnOdustani" value="Bỏ qua" id="cookiesInstance_btnOdustani" class="cookiesButton buttonCancle">
+                <input type="submit" name="cookiesInstance$btnPrihvati" value="<?= lang("Custom.yes_area") ?>" id="cookiesInstance_btnPrihvati" class="cookiesButton orangeButton buttonAgree">
+                <input type="submit" name="cookiesInstance$btnOdustani" value="<?= lang("Custom.cancle") ?>" id="cookiesInstance_btnOdustani" class="cookiesButton buttonCancle">
                 <div class="cleaner"></div>
             </div>
         </div>
     <?php endif ?>
 
     <div id="comming-content" style="width:400px;color:gray;display:none">
-        Đang xây dựng cho nội dung này!
+        <?= lang("Custom.comming_text") ?>
     </div>
 </body>
 

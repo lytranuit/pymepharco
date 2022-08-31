@@ -69,7 +69,7 @@
         $('#quanlytin').DataTable({
             columnDefs: [{
                 "type": "html-input",
-                "targets": [2, 3, 4]
+                // "targets": [2, 3, 4]
             }],
             "lengthMenu": [
                 [-1],

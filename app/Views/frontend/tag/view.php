@@ -58,7 +58,7 @@
 
                             <div class="topNewsDetail">
                                 <a href="<?= url_news($row) ?>">
-                                    <div class="detail">Read more</div>
+                                    <div class="detail"><?= lang("Custom.more") ?></div>
                                     <div class="arrow">›</div>
                                     <div class="cleaner"></div>
                                 </a>

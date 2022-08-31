@@ -43,7 +43,7 @@
                     <img src="<?= $row->image_url ?>" alt="<?= $row->{pick_language($row, 'name_')} ?>">
                     <figcaption>
                         <!-- <p>When Layla appears, she brings an eternal summer along.</p> -->
-                        <a href="<?= url_product($row) ?>">Xem thêm</a>
+                        <a href="<?= url_product($row) ?>"><?= lang("Custom.more") ?></a>
                     </figcaption>
                 </figure>
                 <div class="section-products__item__info">
@@ -55,7 +55,7 @@
     <div class="pv3 mv2">
         <div class="pagination">
             <div class="flex align-center justify-center">
-            <?php if ($pager->getPageCount() > 1) : ?>
+                <?php if ($pager->getPageCount() > 1) : ?>
                     <?= $pager->links() ?>
                 <?php endif ?>
             </div>

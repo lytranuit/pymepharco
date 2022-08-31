@@ -93,7 +93,7 @@
 
         <div id="headerLogo">
             <a id="headerInstance_hlLogo" href="<?= base_url() ?>"><img src="<?= base_url("/assets/images/logo.png") ?>" alt="" style="border-width:0px;"></a>
-            
+
         </div>
 
         <div id="headerStadaLogo">
@@ -144,7 +144,7 @@
 
         <div id="headerSearch">
             <form class="search  flex  align-center" action="/product/search" method="get">
-                <input class="search__input  f6  fw4  ph4  mr3  bg-white  ba  bc-light-silver  br-pill" type="search" name="q" placeholder="Search" style="min-width: 300px; min-height: 50px;outline: none;border-radius: 100px;padding: 0px 30px;vertical-align: middle;display: inline-block;border: 1px solid gray;">
+                <input class="search__input  f6  fw4  ph4  mr3  bg-white  ba  bc-light-silver  br-pill" type="search" name="q" placeholder="<?= lang("Custom.search_text") ?>" style="min-width: 300px; min-height: 50px;outline: none;border-radius: 100px;padding: 0px 30px;vertical-align: middle;display: inline-block;border: 1px solid gray;">
                 <button class="btn  btn-search  pa0  bg-transparent  bn" type="button" style="background: transparent;border: 0;vertical-align: middle;">
                     <img src="<?= base_url("/assets/images/ui-search.svg") ?>" alt="Search">
                 </button>

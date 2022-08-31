@@ -16,7 +16,7 @@
 
         <div class="pageTitle" style="opacity: 1; top: 50%; bottom: auto; transform: translateY(-50%);">
             <div class="pageTitleContent">
-                <div><span id="pageImageInstance_lblTitle">Hệ thống phân phối</span></div>
+                <div><span id="pageImageInstance_lblTitle">Distribution system</span></div>
             </div>
         </div>
     </div>
@@ -32,7 +32,7 @@
 
         <div class="">
             <div class="infoblockTitle">
-                <span id="rptInfoblock_ctl03_infoblockInstance1_lblTitle">Hệ thống phân phối Pymepharco với 24 chi nhánh trải rộng khắp cả nước.</span>
+                <span id="rptInfoblock_ctl03_infoblockInstance1_lblTitle">Pymepharco distribution system with 24 branches spread across the country.</span>
             </div>
             <div class="infoblockAbstract">
                 <span id="rptInfoblock_ctl03_infoblockInstance1_lblAbstract">

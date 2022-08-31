@@ -37,9 +37,9 @@
             </div>
             <span id="footerInstance_lblGenerickiLekovi">
 
-                <p><b>Trụ sở chính:</b> 166-170 Nguyễn Huệ, Phường 7, Tp Tuy Hòa, Phú Yên</p>
-                <p><b>Số điện thoại:</b> 0257 3829 165 – 0257 3823 228</p>
-                <p><b>Email:</b> <a href="mailto:hcns@pymepharco.com"> hcns@pymepharco.com</a></p>
+                <p><b><?= lang("Custom.footer_tru_so") ?>:</b> 166-170 Nguyễn Huệ, Phường 7, Tp Tuy Hòa, Phú Yên</p>
+                <p><b><?= lang("Custom.footer_phone") ?>:</b> 0257 3829 165 – 0257 3823 228</p>
+                <p><b><?= lang("Custom.footer_email") ?>:</b> <a href="mailto:hcns@pymepharco.com"> hcns@pymepharco.com</a></p>
                 <div id="footerSocial">
                     <a href="https://www.linkedin.com/company/pymepharco-stada-ag" target="_blank">
                         <img src="<?= base_url("/assets/images/IN-icon.png") ?>">

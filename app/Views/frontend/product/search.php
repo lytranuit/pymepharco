@@ -9,7 +9,7 @@
 <div class="container-fluid plainText">
 
     <div class="row justify-center">
-        <h2 style="font-size:33px;" class="text-center txt_violet space10px hr">Tìm kiếm : <b><?= $search ?></b></h2>
+        <h2 style="font-size:33px;" class="text-center txt_violet space10px hr"><?= lang("Custom.search_text") ?> : <b><?= $search ?></b></h2>
 
         <?php foreach ($products as $row) : ?>
             <div class="col-6 col-sm-6 col-lg-4 section-products__item">
