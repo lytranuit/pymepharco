@@ -224,14 +224,14 @@
         <input name="hdsd[{{stt}}][product_id]" value="{{product_id}}" type="hidden" />
         <ul class="nav nav-tabs">
             <li class="nav-item">
-                <a class="nav-link show active" data-toggle="tab" href="#menu-vi-{{stt}}">Tiếng Việt</a>
+                <a class="nav-link show active" data-toggle="all" href=".menu-vi">Tiếng Việt</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" data-toggle="tab" href="#menu-en-{{stt}}">Tiếng Anh</a>
+                <a class="nav-link" data-toggle="all" href=".menu-en">Tiếng Anh</a>
             </li>
         </ul>
         <div class="tab-content">
-            <div id="menu-vi-{{stt}}" class="tab-pane active">
+            <div id="menu-vi-{{stt}}" class="tab-pane active menu-vi">
                 <div class="form-group row">
                     <b class="col-12 col-lg-2 col-form-label">Tiêu đề:</b>
                     <div class="col-12 col-lg-4 pt-1">
@@ -245,7 +245,7 @@
                     </div>
                 </div>
             </div>
-            <div id="menu-en-{{stt}}" class=" tab-pane fade">
+            <div id="menu-en-{{stt}}" class="tab-pane fade menu-en">
                 <div class="form-group row">
                     <b class="col-12 col-lg-2 col-form-label">Tiêu đề:</b>
                     <div class="col-12 col-lg-4 pt-1">
@@ -288,6 +288,7 @@
     $(document).ready(function() {
         var stt = 0;
         var list_fix = <?= json_encode($list_fix) ?>;
+
         function add_item(i = {}) {
             var template = $(".item").html();
             // console.log(template);
@@ -422,7 +423,15 @@
             }
             parent.remove();
         });
+        $(document).on("click", "[data-toggle='all']", function(e) {
+            e.preventDefault();
+            var href = $(this).attr("href");
+            $(".tab-pane", $("#hdsd")).removeClass("active show");
+            $(href, $("#hdsd")).addClass("active show");
 
+            $(".nav-link", $("#hdsd")).removeClass("active show");
+            $("[href='" + href + "']", $("#hdsd")).addClass("active show");
+        })
     });
 </script>
 
