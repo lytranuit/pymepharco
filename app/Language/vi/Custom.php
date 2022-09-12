@@ -188,6 +188,11 @@ $lang['hot_news'] = "Bài viết mới";
 $lang['agree_product'] = "<p>Vui lòng xác nhận bạn là dược sĩ, bác sĩ, chuyên viên y khoa... có nhu cầu tìm hiểu về sản phẩm</p><p>Thông tin mô tả tại đây chỉ mang tính chất tham khảo. Vui lòng xem chi tiết thông tin trong toa thuốc đính kèm.</p>";
 $lang['comming_text'] = "Đang xây dựng cho nội dung này!";
 $lang['agree_cookies'] = "<p>Trang web này sử dụng cookie và các công nghệ tương tự để cung cấp chức năng tốt nhất và hiển thị nội dung theo sở thích của bạn trên trang web và mạng xã hội của chúng tôi.</p><p>Chúng tôi tôn trọng quyền riêng tư của bạn và chỉ xử lý thông tin cho các mục đích tiếp thị và chức năng nếu bạn đồng ý cho chúng tôi bằng cách nhấp vào Đồng ý.</p>";
+
+$lang['details_tp'] = "Thành phần";
+$lang['details_qc'] = "Quy cách";
+$lang['details_hd'] = "Hạn dùng";
+$lang['details_bq'] = "Bảo quản";
 return $lang;
 
 

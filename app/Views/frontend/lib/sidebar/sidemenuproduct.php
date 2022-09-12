@@ -26,7 +26,7 @@ function child($menu)
 ?>
 <aside class="sidebar border-box ">
     <div class="sidebar__header">
-        Danh mục sản phẩm
+        <?= lang("Custom.product_category") ?>
     </div>
     <?= child($list_child) ?>
 </aside>

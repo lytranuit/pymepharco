@@ -51,7 +51,7 @@
                     </div>
                     <div class="col-12">
                         <div class="chitiet">
-                            <a href="<?= url_product($row) ?>" target="_blank">Chi tiết</a>
+                            <a href="<?= url_product($row) ?>" target="_blank"><?= lang("Custom.more") ?></a>
                         </div>
                     </div>
                 </div>

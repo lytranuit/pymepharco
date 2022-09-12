@@ -48,19 +48,19 @@
                     <hr style="border: 1px solid #d9d9d9;">
                     <div>
                         <div class="mtItem">
-                            <h5 style="font-weight:bold;display:inline-block;margin-right:10px;">Thành phần:</h5>
+                            <h5 style="font-weight:bold;display:inline-block;margin-right:10px;"><?= lang("Custom.details_tp") ?>:</h5>
                             <span><?= $info->{pick_language($info, "tp_")} ?></span>
                         </div>
                         <div class="mtItem">
-                            <h5 style="font-weight:bold;display:inline-block;margin-right:10px;">Quy cách:</h5>
+                            <h5 style="font-weight:bold;display:inline-block;margin-right:10px;"><?= lang("Custom.details_qc") ?>:</h5>
                             <span><?= $info->{pick_language($info, "qc_")} ?></span>
                         </div>
                         <div class="mtItem">
-                            <h5 style="font-weight:bold;display:inline-block;margin-right:10px;">Hạn dùng:</h5>
+                            <h5 style="font-weight:bold;display:inline-block;margin-right:10px;"><?= lang("Custom.details_hd") ?>:</h5>
                             <span><?= $info->{pick_language($info, "hd_")} ?></span>
                         </div>
                         <div class="mtItem">
-                            <h5 style="font-weight:bold;display:inline-block;margin-right:10px;">Bảo quản:</h5>
+                            <h5 style="font-weight:bold;display:inline-block;margin-right:10px;"><?= lang("Custom.details_bq") ?>:</h5>
                             <span><?= $info->{pick_language($info, "bq_")} ?></span>
                         </div>
                     </div>
@@ -87,7 +87,7 @@
                     <div class="accordion accordion-card js-accordion bg-white m-b-32">
                         <div class="accordion-heading">
                             <div class="label label-lg label-is-icon label-icon-left">
-                                <span class="label-text" style="font-weight:bold;">HƯỚNG DẪN SỬ DỤNG</span>
+                                <span class="label-text" style="font-weight:bold;text-transform: uppercase;"><?= lang("Custom.details_huong_dan") ?></span>
                             </div>
                         </div>
                         <div class="accordion-list">
@@ -120,7 +120,7 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-12">
-                <h2>SẢN PHẨM TƯƠNG TỰ</h2>
+                <h2><?= lang("Custom.details_sp_lien_quan") ?></h2>
             </div>
             <div class="row">
                 <div class="other-products">

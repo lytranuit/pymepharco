@@ -26,7 +26,7 @@ function child($menu)
 ?>
 <aside class="sidebar border-box ">
     <div class="sidebar__header">
-        Danh mục tin tức
+        <?= lang("Custom.news_category") ?>
     </div>
     <?= child($list_child) ?>
 </aside>

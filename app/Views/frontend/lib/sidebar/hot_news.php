@@ -1,4 +1,4 @@
-<aside id="flatsome_recent_posts-4" class="widget flatsome_recent_posts"> <span class="widget-title "><span>Bài viết mới</span></span>
+<aside id="flatsome_recent_posts-4" class="widget flatsome_recent_posts"> <span class="widget-title "><span><?= lang("Custom.hot_news") ?></span></span>
     <div class="is-divider small"></div>
     <ul>
         <?php foreach ($list_news as $news) : ?>
