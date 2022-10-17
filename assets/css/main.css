@@ -1129,3 +1129,7 @@ figure.effect-layla:hover img {
     -webkit-transition-delay: 0.15s;
     transition-delay: 0.15s;
 }
+.img-fluid{
+    max-width: 100%;
+    height: auto;
+}
