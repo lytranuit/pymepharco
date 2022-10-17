@@ -78,14 +78,14 @@
                 <ul>
                     <li style="opacity: 1; margin-left: 0px; transition: all 1s ease 0s;">
                         <div>
-                            <h4>Nhà máy 1</h4>
+                            <h4>Nhà máy PME I</h4>
                             01 Bà Triệu, Phường 7, Tp Tuy Hòa, Phú Yên<br>
                             Tel: 0257 3810 525 – 0257 3820 663
                         </div>
                     </li>
                     <li style="opacity: 1; margin-left: 0px; transition: all 1s ease 0s;">
                         <div>
-                            <h4>Nhà máy 2</h4>
+                            <h4>Nhà máy STADA VIETNAM</h4>
                             189 Hoàng Văn Thụ, Phường 9, Tp Tuy Hòa, Phú Yên<br>
                             Tel: 0257 3579 666
                         </div>
