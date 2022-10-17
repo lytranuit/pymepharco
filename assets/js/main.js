@@ -52,4 +52,7 @@ $(document).ready(function () {
     var classname = $this.data("animate");
     $this.addClass(classname);
   });
+  $(".entry-content img").each(function () {
+    $(this).addClass("img-fluid");
+  });
 });
