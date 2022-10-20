@@ -299,8 +299,8 @@ if (!function_exists('pick_language')) {
     {
         $language = \Config\Services::language();
         $short_lang =  $language->getLocale();
-        print_r($data[$struct . $short_lang]);
         $data = (array) $data;
+        print_r($data[$struct . $short_lang]);
         if (isset($data[$struct . $short_lang]) && $data[$struct . $short_lang] != "") {
             return $struct . $short_lang;
         } else {
