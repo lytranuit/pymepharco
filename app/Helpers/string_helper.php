@@ -299,7 +299,7 @@ if (!function_exists('pick_language')) {
     {
         $language = \Config\Services::language();
         $short_lang =  $language->getLocale();
-        echo $short_lang;
+        print_r($data);
         $data = (array) $data;
         if (isset($data[$struct . $short_lang]) && $data[$struct . $short_lang] != "") {
             return $struct . $short_lang;
