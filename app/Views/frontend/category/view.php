@@ -15,7 +15,7 @@
 
         <div class="pageTitle" style="opacity: 1; top: 50%; bottom: auto; transform: translateY(-50%);">
             <div class="pageTitleContent">
-                <div><span id="pageImageInstance_lblTitle"><?= $category->{pick_language($category)} ?></span></div>
+                <div><span id="pageImageInstance_lblTitle"><?= $category->{pick_language($category, 'name_')} ?></span></div>
             </div>
         </div>
     </div>
