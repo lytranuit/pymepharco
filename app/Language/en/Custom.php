@@ -188,11 +188,8 @@ $lang['hot_news'] = "Hot News";
 $lang['agree_product'] = "<p>Please confirm that you are a pharmacist, doctor, medical professional... wishing to learn about the product</p><p>The information described here is for reference only. Please refer to the attached prescription for details.</p>";
 $lang['comming_text'] = "Comming soon!";
 $lang['agree_cookies'] = "<p>This website uses cookies and similar technologies to provide the best functionality and display content tailored to your interests on our website and social networks.</p>             <p>We respect respect your privacy and only process information for marketing and functional purposes if you give us your consent by clicking Accept</p>";
-$lang['details_tp'] = "";
-$lang['details_qc'] = "";
-$lang['details_hd'] = "";
-$lang['details_bq'] = "";
+$lang['details_tp'] = "Compositions";
+$lang['details_qc'] = "Specifications";
+$lang['details_hd'] = "Expiry date";
+$lang['details_bq'] = "Storage";
 return $lang;
-
-
-?>
