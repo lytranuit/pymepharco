@@ -1,4 +1,4 @@
-<?= $this->extend('frontend/layouts/main') ?>
+﻿<?= $this->extend('frontend/layouts/main') ?>
 
 
 <?= $this->section('content') ?>
@@ -9,7 +9,7 @@
 <?= view_cell("\App\Libraries\HomeWidget::tag") ?>
 
 
-<div id="infoblockInstance5_pnlInfoblock" class="infoblock ibVideo noButton noTitle">
+<!-- <div id="infoblockInstance5_pnlInfoblock" class="infoblock ibVideo noButton noTitle">
 
 
     <div class="infoblockText">
@@ -41,7 +41,7 @@
 </div>
 
 
-<!-- <div id="infoblockInstance0_pnlInfoblock" class="infoblock ibVideoLeft noButton">
+<div id="infoblockInstance0_pnlInfoblock" class="infoblock ibVideoLeft noButton">
 
 
     <div class="infoblockText">
